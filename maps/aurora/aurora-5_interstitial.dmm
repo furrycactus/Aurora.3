@@ -140,6 +140,8 @@
 /obj/machinery/requests_console{
 	announceAuth = 1;
 	announcementConsole = 1;
+	department = "Pearl's Bathroom";
+	departmentType = 5;
 	name = "Pearl's Bathroom Requests Console";
 	pixel_y = -31
 	},
@@ -569,6 +571,8 @@
 /obj/machinery/requests_console{
 	announceAuth = 1;
 	announcementConsole = 1;
+	department = "Pearl's Bedroom";
+	departmentType = 5;
 	name = "Pearl's Room Requests Console";
 	pixel_y = 33
 	},

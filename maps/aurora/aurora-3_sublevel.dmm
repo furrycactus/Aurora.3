@@ -48,6 +48,8 @@
 "bcE" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
 /obj/machinery/requests_console{
+	department = "Atmospherics";
+	departmentType = 1;
 	name = "Atmospherics Requests Console";
 	pixel_x = 32;
 	pixel_y = 1
@@ -349,6 +351,8 @@
 /area/space)
 "dEo" = (
 /obj/machinery/requests_console{
+	department = "Custodial Bay";
+	departmentType = 1;
 	name = "Custodial Bay Requests Console";
 	pixel_x = -32;
 	pixel_y = 1
@@ -415,6 +419,12 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/drip,
 /turf/simulated/floor/plating,
+/area/space)
+"emN" = (
+/obj/structure/sign/securearea{
+	name = "\improper CAUTION: TRASH COMPACTOR"
+	},
+/turf/simulated/wall,
 /area/space)
 "enD" = (
 /obj/machinery/computer/atmoscontrol,
@@ -714,8 +724,15 @@
 /turf/simulated/floor/lino,
 /area/space)
 "hBk" = (
-/obj/machinery/door/airlock/glass_centcom,
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/maintenance_hatch{
+	id_tag = "crusher";
+	name = "Compactor Access";
+	req_access = list(12)
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
 "hBX" = (
@@ -837,17 +854,19 @@
 /obj/machinery/requests_console{
 	announceAuth = 1;
 	announcementConsole = 1;
+	department = "Entertainment Bunker";
+	departmentType = 5;
 	name = "Entertainment Bunker Requests Console";
 	pixel_y = 33
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
 "jhg" = (
-/obj/item/modular_computer/telescreen/preset/trashcompactor{
-	pixel_y = 28
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
+	},
+/obj/item/modular_computer/telescreen/preset/trashcompactor{
+	pixel_y = 28
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
@@ -860,6 +879,12 @@
 /area/space)
 "jls" = (
 /turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"jol" = (
+/obj/effect/landmark/start{
+	name = "AI"
+	},
+/turf/simulated/floor/bluegrid,
 /area/space)
 "joz" = (
 /obj/structure/disposalpipe/segment,
@@ -961,7 +986,9 @@
 /turf/simulated/floor/plating,
 /area/space)
 "kki" = (
-/obj/machinery/crusher_piston,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
 /turf/simulated/floor/holofloor/reinforced,
 /area/space)
 "klZ" = (
@@ -1112,6 +1139,8 @@
 	dir = 8
 	},
 /obj/machinery/requests_console{
+	department = "Waste Disposal";
+	departmentType = 1;
 	name = "Waste Disposal Requests Console";
 	pixel_y = 33
 	},
@@ -1191,6 +1220,13 @@
 "mat" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance_hatch,
+/turf/simulated/floor/plating,
+/area/space)
+"mcj" = (
+/obj/structure/window/full,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
 /turf/simulated/floor/plating,
 /area/space)
 "mft" = (
@@ -1697,10 +1733,12 @@
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
 "qNY" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/segment{
 	dir = 4;
 	icon_state = "pipe-c"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
@@ -2333,6 +2371,16 @@
 	pixel_y = 33
 	},
 /turf/simulated/floor/lino,
+/area/space)
+"wvh" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4;
+	external_pressure_bound = 102;
+	external_pressure_bound_default = 102;
+	icon_state = "map_vent_in";
+	pump_direction = 0
+	},
+/turf/simulated/floor/holofloor/reinforced,
 /area/space)
 "wwC" = (
 /obj/structure/barricade,
@@ -9985,10 +10033,10 @@ fny
 yfN
 abJ
 jES
+vYT
 kki
-vYT
-vYT
-abJ
+wvh
+emN
 jls
 kKN
 jls
@@ -10244,7 +10292,7 @@ abJ
 abJ
 ygO
 hBk
-ygO
+mcj
 abJ
 jls
 kKN
@@ -21812,7 +21860,7 @@ abJ
 abJ
 gGC
 abJ
-pMm
+jol
 abJ
 gGC
 abJ

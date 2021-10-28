@@ -32,11 +32,10 @@
 /turf/simulated/floor/grass/alt,
 /area/space)
 "aEW" = (
-/obj/machinery/vending/hydroseeds{
-	emagged = 1;
-	prices = null
-	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/vending/hydroseeds{
+	prices = list()
+	},
 /turf/simulated/floor/tiled/dark/airless,
 /area/space)
 "aFg" = (
@@ -107,6 +106,10 @@
 /area/space)
 "bQn" = (
 /obj/machinery/requests_console{
+	announceAuth = 1;
+	announcementConsole = 1;
+	department = "Parlour";
+	departmentType = 5;
 	name = "Parlour Requests Console";
 	pixel_x = 32;
 	pixel_y = 1
@@ -655,6 +658,8 @@
 	pixel_x = 26
 	},
 /obj/machinery/requests_console{
+	department = "Garage";
+	departmentType = 1;
 	name = "Garage Requests Console";
 	pixel_y = 33
 	},
@@ -1140,6 +1145,7 @@
 /obj/machinery/requests_console{
 	announceAuth = 1;
 	announcementConsole = 1;
+	departmentType = 1;
 	name = "Kitchen Requests Console";
 	pixel_x = -32;
 	pixel_y = 1
@@ -1805,6 +1811,8 @@
 /area/space)
 "tLL" = (
 /obj/machinery/requests_console{
+	department = "Living Room";
+	departmentType = 1;
 	name = "Living Room Requests Console";
 	pixel_x = 32;
 	pixel_y = 1
@@ -2009,6 +2017,8 @@
 /area/space)
 "vFl" = (
 /obj/machinery/requests_console{
+	department = "Greenhouse";
+	departmentType = 1;
 	name = "Greenhouse Requests Console";
 	pixel_x = 32;
 	pixel_y = -31
