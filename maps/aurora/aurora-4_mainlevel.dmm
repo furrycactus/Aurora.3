@@ -1,21 +1,57 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aah" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "abv" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
 	},
 /turf/simulated/floor/marble,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "amR" = (
 /obj/machinery/firealarm/east,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"aqZ" = (
+/obj/structure/railing/mapped{
+	pixel_x = 5
+	},
+/obj/effect/floor_decal/spline/plain,
+/obj/structure/railing/mapped{
+	icon_state = "mcorneroverlay1";
+	pixel_x = -24
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "aux" = (
 /obj/machinery/alarm{
 	dir = 4;
 	pixel_x = -32
 	},
+/obj/machinery/power/apc/super{
+	dir = 1;
+	name = "north bump";
+	pixel_y = 24
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "avx" = (
 /obj/structure/coatrack,
 /obj/machinery/ringer{
@@ -23,51 +59,110 @@
 	pixel_y = -28
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "ayb" = (
 /obj/structure/railing/mapped,
 /obj/effect/floor_decal/spline/plain/corner{
 	dir = 1
 	},
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"aCp" = (
+/turf/simulated/floor/carpet,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "aEW" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/vending/hydroseeds{
 	prices = list()
 	},
 /turf/simulated/floor/tiled/dark/airless,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "aFg" = (
 /obj/machinery/firealarm/west,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "aFl" = (
 /obj/machinery/disposal/small/east,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "aHy" = (
 /obj/structure/disposalpipe/segment{
 	dir = 1;
 	icon_state = "pipe-c"
 	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
 /turf/simulated/floor/holofloor/carpet,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"aMG" = (
+/obj/effect/map_effect/wingrille_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "pearlhouselockdown";
+	name = "Mansion Lockdown Blast Doors"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "aQc" = (
 /obj/machinery/disposal/small/north,
-/obj/structure/disposalpipe/trunk,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark/airless,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "aRE" = (
 /obj/machinery/disposal/small/north{
 	layer = 5
 	},
 /obj/structure/disposalpipe/trunk,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"aYC" = (
+/obj/structure/closet,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/holofloor/wood,
+/area/crew_quarters/fitness/changing{
+	name = "Costume Shed"
+	})
 "bcO" = (
 /obj/machinery/door/blast/shutters{
 	dir = 4;
@@ -75,35 +170,89 @@
 	name = "Garage Shutters"
 	},
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
+"bmz" = (
+/obj/machinery/light/small,
+/turf/simulated/floor/tiled/white,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "bpH" = (
 /obj/machinery/alarm{
 	dir = 1;
 	pixel_y = -32
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"bpN" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/airless,
+/area/hydroponics{
+	name = "Greenhouse"
+	})
+"bqp" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "bvq" = (
 /obj/item/storage/laundry_basket{
 	pixel_y = -8
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "bMQ" = (
 /obj/machinery/disposal/small/west,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "bPU" = (
 /obj/effect/floor_decal/industrial/warning/dust/corner,
 /obj/structure/railing/mapped{
 	icon_state = "mcorneroverlay1"
 	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/holofloor/desert,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "bQn" = (
 /obj/machinery/requests_console{
 	announceAuth = 1;
@@ -114,58 +263,147 @@
 	pixel_x = 32;
 	pixel_y = 1
 	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/simulated/floor/carpet,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"bVO" = (
+/obj/effect/decal/cleanable/cobweb2,
+/obj/effect/decal/cleanable/cobweb2{
+	icon_state = "spiderling";
+	layer = 9.1;
+	name = "dead greimorian"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "bWG" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/vending/hydronutrients{
 	emagged = 1
 	},
 /turf/simulated/floor/tiled/dark/airless,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
+"bWX" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "bYO" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
 	},
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "cbr" = (
 /obj/machinery/firealarm/west,
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "cjb" = (
 /obj/structure/bed/chair/comfy/purp{
 	dir = 8
 	},
 /turf/simulated/floor/carpet,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"cjU" = (
+/obj/machinery/firealarm/east,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "cnE" = (
 /obj/item/stool/bar/padded,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/simulated/floor/holofloor/carpet,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"coy" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "cpF" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/flour,
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/crew_quarters/kitchen/freezer{
+	name = "Ground Floor - Kitchen Freezer"
+	})
 "cxL" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
+"cyO" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "cyS" = (
 /turf/simulated/floor/tiled/ramp/bottom{
 	dir = 1
 	},
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "cAC" = (
 /obj/machinery/appliance/cooker/oven,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "cAY" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/blast/regular/open{
@@ -176,7 +414,9 @@
 /obj/machinery/door/airlock/centcom,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "cID" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
@@ -185,7 +425,9 @@
 	dir = 9
 	},
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "cIK" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/kitchenspike{
@@ -201,7 +443,9 @@
 /obj/effect/decal/cleanable/generic,
 /obj/effect/decal/cleanable/flour,
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/crew_quarters/kitchen/freezer{
+	name = "Ground Floor - Kitchen Freezer"
+	})
 "cKD" = (
 /obj/structure/closet/secure_closet/hydroponics{
 	req_access = null
@@ -209,29 +453,70 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark/airless,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "cMB" = (
 /obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "cSt" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "cTi" = (
 /obj/structure/disposalpipe/junction{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/power/apc/high{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
+	},
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "daI" = (
 /obj/machinery/smartfridge/drinks,
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "daM" = (
 /obj/structure/railing/mapped{
 	dir = 8;
@@ -241,7 +526,18 @@
 	dir = 1
 	},
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"dhY" = (
+/obj/item/stool/bar/padded,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "djh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/floor_decal/industrial/warning/dust/corner{
@@ -252,36 +548,125 @@
 	icon_state = "mcorneroverlay1"
 	},
 /turf/simulated/floor/holofloor/desert,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "dmi" = (
 /obj/machinery/firealarm/north,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
+"dnU" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "dtQ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
 	icon_state = "pipe-c"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"dvt" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"dwE" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"dyW" = (
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"dzM" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/turf/simulated/floor/carpet,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
+"dzW" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/machinery/portable_atmospherics/hydroponics,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "dGX" = (
 /obj/machinery/ringer{
 	id = "pearldoorbell";
 	pixel_x = 28
 	},
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "dKu" = (
 /obj/machinery/alarm{
 	pixel_y = 32
 	},
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"dLR" = (
+/obj/effect/decal/remains/xeno,
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "dOo" = (
 /obj/item/stool/hover,
 /obj/effect/floor_decal/spline/plain,
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "dVR" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
@@ -289,15 +674,54 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/machinery/portable_atmospherics/hydroponics,
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
+"ect" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
+"efZ" = (
+/obj/structure/simple_door/wood{
+	name = "OOC Costume Shed"
+	},
+/obj/item/tape/engineering{
+	icon_state = "engineering_door";
+	layer = 4;
+	name = "OOC tape"
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/crew_quarters/fitness/changing{
+	name = "Costume Shed"
+	})
 "egT" = (
 /turf/simulated/wall,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"ehQ" = (
+/obj/structure/railing/mapped{
+	dir = 8;
+	pixel_x = -8
+	},
+/turf/simulated/floor/tiled/ramp/bottom,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "eis" = (
 /obj/effect/decal/cleanable/blood/oil,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "ekl" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -305,14 +729,24 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/machinery/portable_atmospherics/hydroponics,
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "emq" = (
 /obj/item/storage/secure/safe{
 	code = "7569";
 	pixel_x = -26
 	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/simulated/floor/carpet,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "enW" = (
 /obj/structure/table/reinforced/wood,
 /obj/effect/spider/cocoon{
@@ -327,20 +761,35 @@
 	},
 /obj/item/storage/box/partypopper,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "eui" = (
 /obj/machinery/door/airlock/glass{
 	name = "Kitchen"
 	},
 /obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "ezo" = (
 /obj/structure/window/reinforced{
 	dir = 4
 	},
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "eAs" = (
 /obj/machinery/door/airlock{
 	frequency = 1379;
@@ -359,8 +808,24 @@
 	req_access = null
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/plasticflaps/airtight{
+	layer = 2.5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/dark/airless,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "eCM" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -369,14 +834,79 @@
 	dir = 8
 	},
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"eDn" = (
+/obj/effect/decal/cleanable/cobweb2{
+	icon_state = "cobweb1"
+	},
+/obj/effect/decal/cleanable/cobweb2,
+/obj/effect/decal/cleanable/cobweb2{
+	icon_state = "spiderling";
+	layer = 9.1;
+	name = "dead greimorian"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"eEV" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"eHT" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/carpet,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"eHX" = (
+/obj/effect/floor_decal/spline/plain,
+/obj/effect/decal/fake_object/light_source{
+	icon_state = "lantern-on";
+	light_color = "#FAA019";
+	light_range = 6;
+	name = "lantern";
+	pixel_x = 5;
+	pixel_y = 16
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"eIX" = (
+/obj/structure/table/glass{
+	name = "reinforced glass table";
+	table_reinf = "glass"
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "eKx" = (
 /obj/item/stool/hover,
 /obj/effect/floor_decal/spline/plain{
 	dir = 6
 	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "eQJ" = (
 /obj/structure/table/stone/marble,
 /obj/machinery/chemical_dispenser/coffeemaster/full{
@@ -384,7 +914,9 @@
 	},
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "eTP" = (
 /obj/structure/bed/chair/comfy/sofa/corner/comfy{
 	dir = 1
@@ -393,7 +925,9 @@
 	dir = 1
 	},
 /turf/simulated/floor/carpet/art,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "eUE" = (
 /obj/item/towel_flat{
 	color = "#e0b0ff";
@@ -402,26 +936,68 @@
 	pixel_y = 12
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
+"eUT" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/reinforced,
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "eWc" = (
 /obj/structure/window/reinforced{
 	dir = 8
 	},
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "eWo" = (
 /obj/structure/railing/mapped{
 	dir = 1;
 	icon_state = "mcorneroverlay1"
 	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/light/small/emergency,
 /turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
+"eWX" = (
+/turf/simulated/wall/wood,
+/area/crew_quarters/fitness/changing{
+	name = "Costume Shed"
+	})
 "eYa" = (
 /obj/structure/railing/mapped{
 	icon_state = "mcorneroverlay1"
 	},
+/obj/effect/decal/fake_object/light_source{
+	icon_state = "lantern-on";
+	light_color = "#FAA019";
+	light_range = 6;
+	name = "lantern";
+	pixel_x = 5;
+	pixel_y = 16
+	},
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "eYT" = (
 /obj/structure/table/reinforced/wood,
 /obj/structure/flora/pottedplant{
@@ -432,42 +1008,113 @@
 	icon_state = "cobweb1"
 	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "fcs" = (
 /obj/structure/bookcase/manuals/medical,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "fdF" = (
 /obj/structure/toilet{
 	dir = 4;
 	pixel_y = 5
 	},
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"fey" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "north bump";
+	pixel_y = 24
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/crew_quarters/fitness/changing{
+	name = "Costume Shed"
+	})
 "flW" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 8
 	},
 /turf/simulated/floor/marble,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "fpU" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/machinery/portable_atmospherics/hydroponics,
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
+"fqW" = (
+/obj/effect/map_effect/wingrille_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/hydroponics{
+	name = "Greenhouse"
+	})
+"fsq" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "ftx" = (
 /obj/structure/disposalpipe/junction{
 	dir = 2;
 	icon_state = "pipe-j2"
 	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
 /turf/simulated/floor/carpet,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "fwi" = (
 /obj/structure/table/reinforced/wood,
 /obj/item/reagent_containers/glass/bottle/coughsyrup,
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"fyI" = (
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "fCw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/floor_decal/industrial/warning/dust{
@@ -477,21 +1124,27 @@
 	dir = 4
 	},
 /turf/simulated/floor/holofloor/desert,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "fCA" = (
 /obj/structure/table/reinforced/wood,
 /obj/machinery/chemical_dispenser/bar_soft/full{
 	pixel_y = 7
 	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "fDp" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/vehicle/bike/speeder{
 	dir = 4
 	},
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "fGK" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/structure/disposalpipe/segment{
@@ -499,12 +1152,33 @@
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"fIG" = (
+/obj/structure/cable/green,
+/obj/machinery/power/rtg/advanced,
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/structure/window/phoronreinforced,
+/turf/simulated/floor/tiled/dark/airless,
+/area/crew_quarters/fitness/changing{
+	name = "Costume Shed"
+	})
 "fJh" = (
 /obj/machinery/door/airlock/glass_centcom,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "fMj" = (
 /obj/machinery/gibber,
 /obj/machinery/door/window/holowindoor{
@@ -514,23 +1188,98 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/crew_quarters/kitchen/freezer{
+	name = "Ground Floor - Kitchen Freezer"
+	})
 "fNT" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
+"fOG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/remains/human,
+/turf/simulated/floor/holofloor/desert,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "fPi" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
+"fPk" = (
+/obj/effect/map_effect/wingrille_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"fRR" = (
+/obj/structure/flora/tree/jungle{
+	icon_state = "tree5"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"fVl" = (
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "fWR" = (
 /obj/effect/floor_decal/spline/plain/corner{
 	dir = 1
 	},
 /turf/simulated/floor/marble,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "fXU" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -540,12 +1289,16 @@
 	pixel_x = 28
 	},
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "fZc" = (
 /obj/machinery/smartfridge/foodheater,
 /obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "gaA" = (
 /obj/item/stool/hover,
 /obj/effect/floor_decal/spline/plain{
@@ -556,49 +1309,128 @@
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "gbI" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
 	},
 /obj/item/stool/hover,
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"gbV" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"gha" = (
+/obj/effect/decal/cleanable/blood/splatter{
+	dryname = "dried fake blood";
+	name = "fake blood"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "git" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/holofloor/desert,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "giy" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/carpet,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "gju" = (
-/obj/item/stool/wood,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/fake_object/light_source{
+	density = 1;
+	icon_state = "bonfire_on_fire";
+	light_color = "#FA644B";
+	light_range = 6;
+	name = "bonfire"
+	},
 /turf/simulated/floor/holofloor/desert,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"gkO" = (
+/obj/effect/decal/cleanable/cobweb2{
+	icon_state = "cobweb1"
+	},
+/obj/effect/decal/cleanable/cobweb2{
+	icon_state = "spiderling";
+	layer = 9.1;
+	name = "dead greimorian"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "glY" = (
-/obj/machinery/power/radial_floodlight,
 /obj/structure/lattice/catwalk/indoor/grate,
+/obj/item/stack/flag/red/planted,
 /turf/simulated/floor/plating,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"gnH" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "gxG" = (
 /obj/structure/bed/chair/comfy/sofa/right/comfy{
 	dir = 4
 	},
+/obj/machinery/light/small,
 /turf/simulated/floor/carpet/art,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "gDW" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
 	},
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "gKf" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Lounge"
@@ -607,8 +1439,27 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"gKs" = (
+/obj/effect/decal/remains/human,
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "gQd" = (
 /obj/structure/table/reinforced/wood,
 /obj/item/storage/box/fancy/cigarettes/cigar,
@@ -617,7 +1468,9 @@
 	pixel_y = 32
 	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "gTF" = (
 /obj/machinery/button/remote/airlock{
 	dir = 4;
@@ -633,15 +1486,30 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"gTO" = (
+/turf/simulated/floor/tiled/dark/airless,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "gUS" = (
 /obj/structure/table/stone/marble,
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
 	},
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "gUT" = (
 /obj/structure/table/glass{
 	name = "reinforced glass table";
@@ -649,7 +1517,9 @@
 	},
 /obj/item/newspaper,
 /turf/simulated/floor/carpet/art,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "gWk" = (
 /obj/machinery/button/remote/blast_door{
 	dir = 8;
@@ -664,14 +1534,45 @@
 	pixel_y = 33
 	},
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
+"gXe" = (
+/obj/structure/flora/grass/jungle,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"gYL" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "hbc" = (
 /obj/structure/curtain/open/bed{
 	name = "curtain"
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "hbn" = (
 /obj/structure/table/stone/marble,
 /obj/effect/floor_decal/spline/plain{
@@ -681,30 +1582,146 @@
 	dir = 4
 	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"hdV" = (
+/obj/structure/flora/tree/jungle{
+	icon_state = "tree2"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "hiz" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"hmW" = (
+/obj/machinery/disposal/small/east,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "hnp" = (
 /obj/structure/bookcase/libraryspawn/nonfiction,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"hoa" = (
+/obj/effect/decal/fake_object/light_source{
+	icon_state = "lantern-on";
+	light_color = "#FAA019";
+	light_range = 6;
+	name = "lantern";
+	pixel_x = 5;
+	pixel_y = 16
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"hok" = (
+/obj/structure/flora/tree/jungle{
+	icon_state = "tree4"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"hrs" = (
+/obj/effect/spider/cocoon{
+	icon_state = "cocoon3"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"htT" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"hug" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/art,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "hvu" = (
 /obj/structure/railing/mapped,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/holofloor/desert,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"hxB" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/carpet,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "hCM" = (
 /obj/structure/railing/mapped{
 	dir = 4;
 	icon_state = "mcorneroverlay1"
 	},
+/obj/machinery/power/apc{
+	name = "south bump";
+	pixel_y = -24
+	},
+/obj/structure/cable/green{
+	d2 = 4;
+	icon_state = "0-4"
+	},
 /turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "hCX" = (
 /turf/simulated/floor/carpet/art,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"hJa" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stool/wood,
+/turf/simulated/floor/holofloor/desert,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"hJp" = (
+/obj/effect/map_effect/wingrille_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "pearlhouselockdown";
+	name = "Mansion Lockdown Blast Doors"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
+"hOJ" = (
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/holofloor/wood,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "hPW" = (
 /obj/structure/table/reinforced/wood,
 /obj/item/device/flashlight/lamp/green{
@@ -713,12 +1730,16 @@
 	},
 /obj/item/newspaper,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "hSE" = (
 /obj/structure/table/stone/marble,
 /obj/machinery/appliance/mixer/candy,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "hWY" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
@@ -727,7 +1748,20 @@
 	dir = 5
 	},
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"hXv" = (
+/obj/effect/decal/remains/robot,
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"ifu" = (
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "igl" = (
 /obj/machinery/door/airlock/glass{
 	name = "Living Room"
@@ -736,42 +1770,109 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "igU" = (
 /obj/effect/decal/cleanable/greenglow,
 /obj/machinery/disposal/small/north,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/crew_quarters/kitchen/freezer{
+	name = "Ground Floor - Kitchen Freezer"
+	})
 "igV" = (
 /obj/structure/bed/chair/comfy/sofa/left/comfy,
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/carpet/art,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "ikC" = (
 /obj/machinery/door/airlock/glass_centcom,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
+"ith" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "ivB" = (
 /obj/structure/bed/chair/office/dark,
 /turf/simulated/floor/carpet,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"iwl" = (
+/obj/machinery/light/small,
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"ixI" = (
+/obj/effect/map_effect/wingrille_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	id = "pearlhouselockdown";
+	name = "Mansion Lockdown Blast Doors"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "iAJ" = (
 /obj/item/stool/hover,
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
 	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"iCZ" = (
+/obj/effect/spider/cocoon{
+	icon_state = "cocoon_large3"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "iDi" = (
 /obj/structure/lattice,
 /obj/structure/disposalpipe/down{
@@ -783,90 +1884,202 @@
 /obj/machinery/atmospherics/pipe/zpipe/down/supply{
 	dir = 8
 	},
+/obj/structure/cable/green{
+	d1 = 8;
+	icon_state = "11-8"
+	},
 /turf/simulated/open,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "iIW" = (
 /obj/structure/coatrack,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "iKi" = (
 /obj/structure/bed/chair/comfy/sofa/comfy{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/art,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"iKy" = (
+/obj/item/clothing/head/pumpkin/lantern{
+	anchored = 1
+	},
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#C48A18";
+	light_power = 2;
+	light_range = 3;
+	name = "fire light"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "iNd" = (
 /obj/machinery/door/airlock/silver{
 	name = "Showers"
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "iQG" = (
 /obj/structure/bookcase/libraryspawn/fiction,
 /turf/simulated/floor/carpet,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "iRi" = (
 /obj/effect/decal/cleanable/cobweb,
 /turf/simulated/open,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "iRV" = (
 /obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/crew_quarters/kitchen/freezer{
+	name = "Ground Floor - Kitchen Freezer"
+	})
+"iSF" = (
+/turf/simulated/wall,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "iXu" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /obj/machinery/alarm{
 	dir = 4;
 	pixel_x = -32
 	},
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "iYs" = (
 /obj/machinery/door/window/holowindoor{
 	dir = 8
 	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/light/small/emergency,
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/crew_quarters/kitchen/freezer{
+	name = "Ground Floor - Kitchen Freezer"
+	})
 "jbq" = (
 /obj/machinery/alarm{
 	dir = 4;
-	pixel_x = -32
+	pixel_x = -32;
+	target_temperature = 300.15
 	},
 /turf/simulated/floor/tiled/dark/airless,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
+"jcU" = (
+/turf/simulated/floor/reinforced,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "jiz" = (
 /obj/effect/floor_decal/spline/plain,
 /turf/simulated/floor/marble,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"jkA" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/turf/simulated/floor/holofloor/wood,
+/area/crew_quarters/fitness/changing{
+	name = "Costume Shed"
+	})
 "jmx" = (
 /obj/structure/disposalpipe/junction{
 	dir = 1
 	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/carpet,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "jny" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
 	icon_state = "pipe-c"
 	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/carpet,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"jpQ" = (
+/obj/machinery/firealarm/west,
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "jqq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "jtc" = (
 /obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/item/storage/box/lights/bulbs,
-/obj/structure/closet,
+/obj/item/storage/box/lights/bulbs,
+/obj/structure/closet/jcloset,
 /obj/item/storage/box/lights/bulbs,
 /turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "jwJ" = (
 /obj/structure/railing/mapped{
 	dir = 4
@@ -875,21 +2088,50 @@
 	dir = 6
 	},
 /obj/structure/railing/mapped,
-/obj/structure/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c"
-	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/holofloor/desert,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"jBS" = (
+/obj/effect/decal/cleanable/cobweb2{
+	icon_state = "cobweb1"
+	},
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"jDD" = (
+/turf/simulated/floor/holofloor/wood,
+/area/crew_quarters/fitness/changing{
+	name = "Costume Shed"
+	})
 "jGQ" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Basedment"
 	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/firedoor,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "jIE" = (
 /obj/item/towel_flat{
 	color = "#e0b0ff";
@@ -897,23 +2139,106 @@
 	pixel_y = 12
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space{
-	color = "#e0b0ff"
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"jKc" = (
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/dark/airless,
+/area/hydroponics{
+	name = "Greenhouse"
 	})
 "jKA" = (
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
 /turf/simulated/floor/carpet,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"jOe" = (
+/obj/structure/bed/chair/wood{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
+"jOf" = (
+/obj/machinery/door/airlock/glass{
+	name = "Kitchen"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/white,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "jPv" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
-"jWU" = (
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"jRV" = (
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/grass/alt,
-/area/space)
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/carpet,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
+"jUe" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/crew_quarters/fitness/changing{
+	name = "Costume Shed"
+	})
+"jVx" = (
+/obj/item/stool/bar/padded,
+/turf/simulated/floor/holofloor/carpet,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"jWU" = (
+/obj/structure/grille,
+/turf/simulated/floor/plating,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"jXq" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/carpet,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "kbE" = (
 /obj/item/storage/backpack/rucksack/tan,
 /obj/item/storage/box/fancy/matches,
@@ -922,12 +2247,31 @@
 /obj/item/storage/box/fancy/cigarettes/dpra,
 /obj/item/stack/material/wood/full,
 /turf/simulated/floor/holofloor/desert,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"kfj" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/turf/simulated/floor/carpet,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "kgf" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/biogenerator,
 /turf/simulated/floor/tiled/dark/airless,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "khI" = (
 /obj/effect/floor_decal/industrial/loading/yellow{
 	dir = 8
@@ -940,19 +2284,30 @@
 	dir = 8;
 	icon_state = "pipe-j2"
 	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/crew_quarters/kitchen/freezer{
+	name = "Ground Floor - Kitchen Freezer"
+	})
 "kiG" = (
 /obj/machinery/computer/security/wooden_tv{
 	desc = "A television with a decidedly vintage aesthetic; ancient by human standards.";
 	name = "vintage television"
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
-"kuG" = (
-/obj/structure/grille,
-/turf/simulated/floor/grass/alt,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "kxA" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 4
@@ -962,26 +2317,62 @@
 	dir = 4
 	},
 /turf/simulated/floor/holofloor/desert,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "kyg" = (
 /obj/machinery/appliance/cooker/fryer,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"kBw" = (
+/turf/simulated/wall,
+/area/crew_quarters/kitchen/freezer{
+	name = "Ground Floor - Kitchen Freezer"
+	})
 "kCx" = (
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"kDo" = (
+/obj/effect/spider/cocoon{
+	icon_state = "cocoon_large2"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "kEq" = (
 /obj/machinery/appliance/cooker/stove,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "kFs" = (
 /obj/machinery/disposal/small/west,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"kTX" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "kXt" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/effect/decal/cleanable/cobweb,
@@ -989,22 +2380,58 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/crew_quarters/kitchen/freezer{
+	name = "Ground Floor - Kitchen Freezer"
+	})
 "lfB" = (
 /obj/effect/floor_decal/spline/plain/corner{
 	dir = 8
 	},
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"lhV" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/holofloor/desert,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "lii" = (
 /obj/effect/shuttle_landmark/arrival/dock,
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "liJ" = (
 /obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"lki" = (
+/obj/structure/flora/grass/jungle,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "llU" = (
 /obj/effect/map_effect/wingrille_spawn/reinforced,
 /obj/machinery/door/blast/regular/open{
@@ -1014,27 +2441,51 @@
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "lmc" = (
+/obj/structure/flora/grass/jungle,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/railing/mapped{
 	dir = 4;
 	layer = 6;
 	name = "adjusted railing"
 	},
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "lmn" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/wall,
-/area/space)
+/area/crew_quarters/kitchen/freezer{
+	name = "Ground Floor - Kitchen Freezer"
+	})
 "lvl" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/art,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "lvv" = (
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
@@ -1047,7 +2498,17 @@
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
+"lBd" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "lBu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/floor_decal/industrial/warning/dust/corner{
@@ -1058,7 +2519,15 @@
 	icon_state = "mcorneroverlay1"
 	},
 /turf/simulated/floor/holofloor/desert,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"lCQ" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/tiled/dark/airless,
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "lGZ" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/vehicle/bike/speeder{
@@ -1066,27 +2535,78 @@
 	name = "backup retrofitted speeder"
 	},
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "lHG" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Parlor"
 	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "lIa" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"lLN" = (
+/obj/effect/decal/cleanable/cobweb2{
+	icon_state = "cobweb1"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "lRr" = (
 /obj/item/reagent_containers/glass/bucket/wood,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/holofloor/desert,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"lSa" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
+"lSO" = (
+/obj/structure/table/glass{
+	name = "reinforced glass table";
+	table_reinf = "glass"
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"lTk" = (
+/turf/simulated/wall,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "lYn" = (
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
@@ -1099,20 +2619,40 @@
 	locked = 1
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "lZB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "lZV" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
 	icon_state = "pipe-c"
 	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
 /turf/simulated/floor/carpet,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "lZW" = (
 /obj/structure/disposalpipe/segment{
 	dir = 1;
@@ -1124,20 +2664,45 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "maa" = (
 /obj/structure/closet/secure_closet/freezer/meat/super_meat{
 	pixel_x = -9
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"mfy" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/white,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "mlR" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 9
 	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "mmz" = (
 /obj/structure/closet/secure_closet/freezer/kitchen{
 	req_access = null
@@ -1151,21 +2716,27 @@
 	pixel_y = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "mnU" = (
 /obj/structure/disposalpipe/segment{
 	dir = 1;
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "mqA" = (
 /obj/structure/bed/chair/comfy/sofa/comfy,
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
 	},
 /turf/simulated/floor/carpet/art,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "mrx" = (
 /obj/machinery/door/airlock/freezer{
 	id_tag = "toilet_1";
@@ -1173,7 +2744,9 @@
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "mtU" = (
 /obj/structure/table/reinforced/steel,
 /obj/item/storage/toolbox/electrical{
@@ -1183,51 +2756,112 @@
 /obj/item/storage/toolbox/mechanical,
 /obj/random/tech_supply,
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
+"muo" = (
+/obj/structure/table/reinforced/wood,
+/obj/effect/floor_decal/spline/plain{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/lino,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "mvA" = (
 /obj/structure/bookcase/libraryspawn/fiction,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "myq" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 10
 	},
 /obj/item/stool/hover,
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"mzc" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "mCE" = (
 /obj/structure/table/glass{
 	name = "reinforced glass table";
 	table_reinf = "glass"
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "mDq" = (
 /obj/structure/sink/kitchen{
 	layer = 3.5;
 	name = "sink";
 	pixel_y = 26
 	},
-/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark/airless,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "mFn" = (
 /obj/structure/disposalpipe/junction{
 	dir = 8
 	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /turf/simulated/floor/carpet,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "mHA" = (
 /obj/structure/railing/mapped,
+/obj/effect/floor_decal/spline/plain,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
+"mIF" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "mLj" = (
 /obj/structure/table/stone/marble,
 /obj/structure/disposalpipe/junction/yjunction{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "mNn" = (
 /obj/item/towel_flat{
 	color = "#e0b0ff";
@@ -1236,7 +2870,9 @@
 	pixel_y = 12
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "mQL" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/structure/table/reinforced/wood,
@@ -1253,61 +2889,208 @@
 	},
 /obj/item/storage/box/googly,
 /turf/simulated/floor/carpet,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"mTw" = (
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"mWI" = (
+/obj/effect/spider/cocoon{
+	icon_state = "cocoon_large3"
+	},
+/obj/effect/decal/cleanable/cobweb2{
+	icon_state = "spiderling";
+	layer = 9.1;
+	name = "dead greimorian"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"mXd" = (
+/obj/structure/disposalpipe/junction/yjunction{
+	dir = 8
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"nbl" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "nbt" = (
 /obj/machinery/alarm{
 	dir = 8;
 	pixel_x = 32
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"ndK" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "ngk" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/wall,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"njc" = (
+/obj/effect/spider/cocoon{
+	icon_state = "cocoon_large1"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"nko" = (
+/obj/machinery/acting/changer,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/holofloor/wood,
+/area/crew_quarters/fitness/changing{
+	name = "Costume Shed"
+	})
 "nlO" = (
 /obj/effect/floor_decal/spline/plain/corner{
 	dir = 8
 	},
 /turf/simulated/floor/marble,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "nmu" = (
 /turf/simulated/floor/beach/water/pool,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"nmC" = (
+/turf/simulated/wall,
+/area/hydroponics{
+	name = "Greenhouse"
+	})
+"nor" = (
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
+	},
+/obj/structure/cable/green,
+/turf/simulated/floor/tiled/dark/airless,
+/area/hydroponics{
+	name = "Greenhouse"
+	})
+"nrw" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "nth" = (
 /obj/effect/floor_decal/spline/plain/corner,
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"nwP" = (
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "nBb" = (
 /obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "nBp" = (
 /obj/machinery/seed_extractor,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/airless,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "nEG" = (
 /obj/effect/floor_decal/spline/plain,
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "nHK" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/machinery/portable_atmospherics/hydroponics,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "nKj" = (
 /obj/structure/table/reinforced/steel,
 /obj/item/hoist_kit,
 /obj/item/ladder_mobile,
 /obj/item/inductive_charger/handheld,
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "nKw" = (
 /obj/machinery/door/airlock{
 	frequency = 1379;
@@ -1326,35 +3109,106 @@
 	req_access = null
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/plasticflaps/airtight{
+	layer = 2.5
+	},
 /turf/simulated/floor/tiled/dark/airless,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "nNN" = (
 /obj/structure/table/stone/marble,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "nOd" = (
 /obj/structure/table/stone/marble,
 /obj/machinery/firealarm/north,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"nVW" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"nXV" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "obW" = (
 /obj/machinery/vending/boozeomat{
 	req_access = null
 	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "oeO" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"ofR" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "ohm" = (
 /obj/structure/table/stone/marble,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"oiB" = (
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "ojl" = (
 /turf/simulated/open,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "olK" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
@@ -1363,13 +3217,17 @@
 	dir = 6
 	},
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "opp" = (
 /obj/structure/bed/chair/comfy/purp{
 	dir = 4
 	},
 /turf/simulated/floor/carpet,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "osI" = (
 /obj/structure/table/reinforced/steel,
 /obj/item/storage/bag/inflatable{
@@ -1378,22 +3236,47 @@
 	},
 /obj/item/storage/bag/inflatable,
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "owG" = (
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "owW" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/machinery/chem_master/condimaster,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"oxM" = (
+/obj/item/clothing/head/pumpkin/lantern{
+	anchored = 1;
+	pixel_x = -6;
+	pixel_y = 10
+	},
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#C48A18";
+	light_power = 2;
+	light_range = 3;
+	name = "fire light"
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "oAB" = (
 /obj/structure/table/reinforced/steel,
 /obj/machinery/cell_charger{
 	pixel_y = 3
 	},
+/obj/machinery/light/small,
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "oEq" = (
 /obj/machinery/vending/cigarette/hacked{
 	emagged = 1;
@@ -1401,7 +3284,45 @@
 	prices = null
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"oGL" = (
+/obj/structure/railing/mapped{
+	pixel_x = -5
+	},
+/obj/effect/floor_decal/spline/plain,
+/obj/structure/railing/mapped{
+	dir = 8;
+	icon_state = "mcorneroverlay1";
+	pixel_x = 24
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
+"oMD" = (
+/obj/effect/spider/cocoon{
+	icon_state = "cocoon2"
+	},
+/obj/effect/decal/cleanable/cobweb2{
+	icon_state = "spiderling";
+	layer = 9.1;
+	name = "dead greimorian"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"oOV" = (
+/obj/effect/decal/cleanable/cobweb2,
+/obj/structure/bed/chair/wood{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "oTd" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
@@ -1409,38 +3330,53 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/machinery/portable_atmospherics/hydroponics,
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "oXH" = (
 /obj/structure/table/reinforced/steel,
 /obj/item/storage/toolbox/emergency,
 /obj/item/device/floor_painter,
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "pay" = (
 /obj/machinery/appliance/cooker/grill,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "pht" = (
 /obj/structure/table/reinforced/wood,
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
 	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "pku" = (
 /obj/structure/table/stone/marble,
 /obj/machinery/reagentgrinder{
 	pixel_y = 12
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "pmc" = (
 /obj/structure/table/stone/marble,
 /obj/machinery/alarm{
 	pixel_y = 32
 	},
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "pmm" = (
 /obj/machinery/shower{
 	pixel_y = 15
@@ -1450,11 +3386,15 @@
 	name = "drain"
 	},
 /turf/simulated/floor/marble,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "pnq" = (
 /obj/item/stool/bar/padded,
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "pqm" = (
 /obj/structure/table/reinforced/wood,
 /obj/effect/floor_decal/spline/plain{
@@ -1467,26 +3407,51 @@
 	pixel_y = 33
 	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "psU" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 9
 	},
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"ptq" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"ptx" = (
+/obj/structure/flora/tree/jungle,
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "pxb" = (
 /obj/machinery/disposal/small/south,
 /obj/structure/disposalpipe/trunk,
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "pxc" = (
 /obj/structure/closet/secure_closet/hydroponics{
 	req_access = null
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/airless,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "pEj" = (
 /obj/structure/table/glass{
 	name = "reinforced glass table";
@@ -1498,7 +3463,9 @@
 	},
 /obj/item/book/manual/supermatter_engine,
 /turf/simulated/floor/carpet/art,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "pGa" = (
 /obj/structure/plasticflaps/airtight{
 	layer = 2.5
@@ -1508,31 +3475,71 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/firedoor,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/crew_quarters/kitchen/freezer{
+	name = "Ground Floor - Kitchen Freezer"
+	})
 "pGq" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 5
 	},
 /obj/item/stool/hover,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "pJT" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/vehicle/train/cargo/trolley,
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "pKy" = (
 /obj/machinery/disposal/small/west,
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "pOO" = (
 /obj/structure/stairs/north,
 /turf/simulated/floor/carpet,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
+"pUN" = (
+/obj/machinery/ringer{
+	id = "pearldoorbell";
+	pixel_x = 28
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"pWO" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/airless,
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "pXf" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
@@ -1541,40 +3548,86 @@
 	dir = 10
 	},
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"qgM" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "qhU" = (
 /obj/structure/disposalpipe/up,
 /obj/machinery/atmospherics/pipe/zpipe/up/supply,
 /obj/machinery/atmospherics/pipe/zpipe/up/scrubbers,
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/structure/cable/green{
+	d1 = 16;
+	d2 = 0;
+	icon_state = "12-0"
+	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "qjR" = (
 /obj/structure/bed/chair/comfy/purp{
 	dir = 4
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "qtt" = (
 /obj/structure/bookcase/manuals/engineering,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "qxG" = (
 /obj/structure/table/glass{
 	name = "reinforced glass table";
 	table_reinf = "glass"
 	},
 /obj/item/modular_computer/laptop/preset,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "qET" = (
 /obj/structure/table/reinforced/steel,
 /obj/item/key/cargo_train,
+/obj/machinery/light/small,
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
+"qJM" = (
+/obj/machinery/light/small,
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "qNW" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"qOh" = (
+/turf/simulated/floor/reinforced,
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "qOC" = (
 /obj/effect/floor_decal/spline/plain/corner{
 	dir = 1
@@ -1584,19 +3637,55 @@
 	dir = 4
 	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "qSi" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 5
 	},
 /turf/simulated/floor/carpet/art,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "qWF" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/turf/simulated/floor/tiled/dark/airless,
+/area/hydroponics{
+	name = "Greenhouse"
+	})
+"rbQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/remains/rat,
+/turf/simulated/floor/holofloor/desert,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"rgA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/splatter{
+	dryname = "dried fake blood";
+	name = "fake blood"
+	},
+/turf/simulated/floor/holofloor/desert,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"rkS" = (
+/turf/simulated/floor/carpet,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"rmL" = (
+/obj/effect/spider/cocoon{
+	icon_state = "cocoon2"
+	},
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "rne" = (
 /obj/structure/table/glass{
 	name = "reinforced glass table";
@@ -1604,7 +3693,9 @@
 	},
 /obj/machinery/librarycomp,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "rnr" = (
 /obj/structure/urinal{
 	dir = 4;
@@ -1624,7 +3715,17 @@
 	name = "drain"
 	},
 /turf/simulated/floor/marble,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"rpH" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark/airless,
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "rqh" = (
 /obj/structure/table/glass{
 	name = "reinforced glass table";
@@ -1639,41 +3740,107 @@
 	pixel_y = -28
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"rqo" = (
+/obj/machinery/ringer{
+	id = "pearldoorbell";
+	pixel_x = -28
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"rAH" = (
+/obj/machinery/light/small,
+/turf/simulated/floor/holofloor/wood,
+/area/crew_quarters/fitness/changing{
+	name = "Costume Shed"
+	})
+"rAP" = (
+/obj/effect/spider/cocoon{
+	icon_state = "cocoon_large2"
+	},
+/obj/effect/decal/cleanable/cobweb2{
+	icon_state = "spiderling";
+	layer = 9.1;
+	name = "dead greimorian"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "rCc" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "rRZ" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
+/obj/structure/flora/ausbushes/fullgrass,
 /obj/machinery/portable_atmospherics/hydroponics,
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "rWp" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/machinery/portable_atmospherics/hydroponics,
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "rXn" = (
 /obj/structure/table/stone/marble,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "rZc" = (
 /obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/holofloor/carpet,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "saG" = (
 /obj/effect/floor_decal/spline/plain/corner{
 	dir = 4
 	},
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"sbV" = (
+/obj/machinery/alarm{
+	pixel_y = 32
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
+"sgn" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "sgT" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Garage"
@@ -1682,50 +3849,126 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "she" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/decal/cleanable/cobweb2,
 /obj/structure/closet/secure_closet/freezer/meat{
 	pixel_y = 20
 	},
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
+	},
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/crew_quarters/kitchen/freezer{
+	name = "Ground Floor - Kitchen Freezer"
+	})
 "sje" = (
 /obj/machinery/ringer{
 	id = "pearldoorbell";
 	pixel_x = 28
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "soc" = (
 /obj/structure/closet/fluff/muhawir_tent,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/holofloor/desert,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"sqh" = (
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "sqk" = (
 /obj/effect/floor_decal/spline/plain/corner{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "srP" = (
 /obj/machinery/door/airlock/silver{
 	name = "Ground Floor Bathroom"
 	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "sty" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/machinery/portable_atmospherics/hydroponics,
+/obj/machinery/light/small,
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
+"stY" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/carpet,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"szv" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/turf/simulated/floor/carpet,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "sBG" = (
 /obj/structure/table/glass{
 	name = "reinforced glass table";
@@ -1733,27 +3976,88 @@
 	},
 /obj/item/storage/box/cups,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"sCt" = (
+/obj/structure/disposalpipe/junction{
+	dir = 2;
+	icon_state = "pipe-j2"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/turf/simulated/floor/carpet,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"sDq" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "sEM" = (
 /turf/simulated/floor/tiled/ramp/bottom,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "sHk" = (
 /obj/effect/floor_decal/industrial/warning/dust,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/railing/mapped,
 /turf/simulated/floor/holofloor/desert,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "sNr" = (
 /obj/machinery/disposal/small/west,
 /obj/structure/disposalpipe/trunk,
 /turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "sQI" = (
 /obj/structure/disposalpipe/junction/yjunction{
 	dir = 8
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"sVw" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "sVN" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -1762,53 +4066,138 @@
 	dir = 1
 	},
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"taC" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/turf/simulated/floor/carpet,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "taG" = (
 /obj/structure/table/stone/marble,
 /obj/effect/decal/cleanable/cobweb2{
 	icon_state = "cobweb1"
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "tcx" = (
 /obj/machinery/media/jukebox,
 /obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"tfo" = (
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "tlI" = (
 /obj/structure/disposalpipe/junction{
 	dir = 8;
 	icon_state = "pipe-j2"
 	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "tmA" = (
 /obj/effect/map_effect/wingrille_spawn/reinforced,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "tvK" = (
 /obj/machinery/alarm{
 	dir = 4;
 	pixel_x = -32
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"twx" = (
+/obj/machinery/light/small/emergency{
+	dir = 8
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"txv" = (
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "tyE" = (
 /obj/machinery/firealarm/south,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"tAM" = (
+/turf/simulated/floor/tiled/white,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "tCZ" = (
-/obj/structure/disposalpipe/segment{
-	dir = 1;
-	icon_state = "pipe-c"
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/machinery/light/small{
+	dir = 8
 	},
-/turf/simulated/floor/grass/alt,
-/area/space)
+/turf/simulated/floor/tiled/dark/airless,
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "tIc" = (
 /obj/structure/closet,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "tLL" = (
 /obj/machinery/requests_console{
 	department = "Living Room";
@@ -1818,17 +4207,42 @@
 	pixel_y = 1
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "tNh" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"tOb" = (
+/obj/effect/spider/cocoon{
+	icon_state = "cocoon3"
+	},
+/obj/effect/decal/cleanable/cobweb2{
+	icon_state = "spiderling";
+	layer = 9.1;
+	name = "dead greimorian"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "tPA" = (
 /turf/simulated/floor/tiled/dark/airless,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
+"tQp" = (
+/obj/effect/decal/remains/lizard,
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "tRN" = (
 /obj/machinery/embedded_controller/radio/airlock/access_controller{
 	id_tag = "pearlgarden_airlock_control";
@@ -1838,8 +4252,19 @@
 	tag_exterior_door = "pearlgarden_airlock_exterior";
 	tag_interior_door = "pearlgarden_airlock_interior"
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/tiled/dark/airless,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
+"tTc" = (
+/turf/simulated/wall,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "tTh" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -1848,12 +4273,24 @@
 	dir = 4
 	},
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "tTN" = (
 /obj/structure/table/stone/marble,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"tWg" = (
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "tZE" = (
 /obj/structure/sink/kitchen{
 	layer = 3.3;
@@ -1861,21 +4298,43 @@
 	},
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "ugb" = (
 /obj/machinery/ringer_button{
 	id = "pearldoorbell";
 	pixel_x = 1;
-	pixel_y = 24
+	pixel_y = 26
+	},
+/obj/item/clothing/head/pumpkin/lantern{
+	anchored = 1;
+	pixel_x = 6;
+	pixel_y = 10
+	},
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#C48A18";
+	light_power = 2;
+	light_range = 3;
+	name = "fire light"
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "ugE" = (
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "uhq" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
 /turf/simulated/floor/carpet,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "upd" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 5
@@ -1883,17 +4342,35 @@
 /obj/structure/disposalpipe/junction{
 	dir = 4
 	},
+/obj/machinery/light/small,
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "utf" = (
 /obj/effect/decal/cleanable/blood/oil,
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
+"uue" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark/airless,
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "uBZ" = (
 /obj/effect/floor_decal/spline/plain,
 /obj/item/stool/hover,
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "uDo" = (
 /obj/structure/sink{
 	pixel_y = 16
@@ -1902,36 +4379,107 @@
 	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"uDp" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
+"uDH" = (
+/obj/machinery/vending/cigarette/hacked{
+	emagged = 1;
+	name = "Pearl's Smoke Shop";
+	prices = null
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"uFE" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"uHb" = (
+/obj/effect/decal/cleanable/cobweb,
+/obj/structure/bed/chair/wood,
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "uJM" = (
 /obj/machinery/disposal,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "uLA" = (
 /obj/structure/railing/mapped{
 	dir = 8
 	},
+/obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "uMH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/shower{
 	dir = 8
 	},
 /turf/simulated/floor/holofloor/desert,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "uOq" = (
 /obj/machinery/chem_heater,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "uQJ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/holofloor/desert,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "uRY" = (
 /obj/effect/decal/remains/rat,
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "uYA" = (
 /obj/structure/table/reinforced/wood,
 /obj/item/storage/box/zipties{
@@ -1947,7 +4495,17 @@
 	},
 /obj/item/storage/box/yarn,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"vaf" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "vbq" = (
 /obj/machinery/alarm/freezer{
 	pixel_y = 30
@@ -1960,8 +4518,23 @@
 	dir = 2;
 	icon_state = "pipe-c"
 	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/freezer,
-/area/space)
+/area/crew_quarters/kitchen/freezer{
+	name = "Ground Floor - Kitchen Freezer"
+	})
 "veJ" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
@@ -1969,52 +4542,105 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/machinery/portable_atmospherics/hydroponics,
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "vmd" = (
-/obj/effect/floor_decal/spline/fancy/wood,
-/obj/machinery/portable_atmospherics/hydroponics,
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/tiled/dark/airless,
+/area/hydroponics{
+	name = "Greenhouse"
+	})
+"vsw" = (
+/obj/effect/decal/cleanable/cobweb2,
+/obj/effect/decal/cleanable/cobweb2{
+	icon_state = "cobweb1"
+	},
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "vtM" = (
 /obj/structure/simple_door/wood,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "vtT" = (
-/obj/effect/map_effect/wingrille_spawn/reinforced,
 /obj/structure/disposalpipe/segment,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
-/area/space)
-"vxz" = (
-/obj/structure/disposalpipe/junction{
-	dir = 2;
-	icon_state = "pipe-j2"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled/dark/airless,
+/area/hydroponics{
+	name = "Greenhouse"
+	})
+"vvv" = (
+/obj/item/material/ashtray/glass,
+/obj/structure/table/reinforced/wood,
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
+"vxz" = (
+/obj/structure/disposalpipe/junction{
+	dir = 2;
+	icon_state = "pipe-j2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "vAE" = (
 /obj/structure/table/reinforced/wood,
 /obj/item/reagent_containers/glass/rag,
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "vEz" = (
 /obj/structure/table/stone/marble,
 /obj/machinery/chemical_dispenser/bar_soft/full,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "vEO" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
 	},
 /turf/simulated/floor/marble,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "vFl" = (
 /obj/machinery/requests_console{
 	department = "Greenhouse";
@@ -2024,13 +4650,29 @@
 	pixel_y = -31
 	},
 /obj/machinery/firealarm/east,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/dark/airless,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "vGj" = (
 /obj/structure/table/stone/marble,
 /obj/item/bikehorn/rubberducky,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "vKp" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
@@ -2038,38 +4680,119 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/machinery/portable_atmospherics/hydroponics,
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "vLo" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/vehicle/train/cargo/engine,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "vLQ" = (
 /obj/structure/reagent_dispensers/lube,
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "vLX" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"vOu" = (
+/turf/simulated/floor/carpet,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
+"vOz" = (
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"vRy" = (
+/obj/structure/bed/chair/wood,
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "vWi" = (
 /obj/machinery/disposal/small/east,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"vZe" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/lino,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"wmz" = (
+/obj/structure/flora/pottedplant/random,
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "wpe" = (
 /obj/machinery/vending/dinnerware,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"wpp" = (
+/obj/structure/railing/mapped{
+	dir = 4;
+	pixel_x = 8
+	},
+/turf/simulated/floor/tiled/ramp/bottom,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"wrC" = (
+/obj/effect/spider/cocoon{
+	icon_state = "cocoon_large1"
+	},
+/obj/effect/decal/cleanable/cobweb2{
+	icon_state = "spiderling";
+	layer = 9.1;
+	name = "dead greimorian"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "wuD" = (
 /obj/structure/table/reinforced/wood,
 /obj/item/book/manual/nuclear,
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/carpet,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"wuH" = (
+/turf/simulated/wall,
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "wvb" = (
 /obj/structure/table/reinforced/wood{
 	desc_fluff = "Something is scratched into the side... 7569.";
@@ -2089,13 +4812,17 @@
 	pixel_y = -28
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "wwt" = (
 /obj/effect/floor_decal/spline/plain/corner{
 	dir = 4
 	},
 /turf/simulated/floor/marble,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "wwA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/embedded_controller/radio/airlock/access_controller{
@@ -2107,29 +4834,68 @@
 	tag_interior_door = "pearlgarden_airlock_interior"
 	},
 /turf/simulated/floor/holofloor/desert,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"wzm" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "wAv" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "wCA" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "wEw" = (
-/obj/item/clothing/head/pumpkin/lantern,
-/turf/simulated/floor/holofloor/wood,
-/area/space)
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark/airless,
+/area/hydroponics{
+	name = "Greenhouse"
+	})
 "wKb" = (
 /obj/structure/disposalpipe/junction,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
 /turf/simulated/floor/carpet,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "wNQ" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/spline/plain,
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "wRT" = (
 /obj/effect/map_effect/wingrille_spawn/reinforced,
 /obj/machinery/door/blast/regular/open{
@@ -2138,18 +4904,48 @@
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"wUq" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "wZC" = (
 /obj/effect/floor_decal/industrial/warning/dust/corner,
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/railing/mapped{
 	icon_state = "mcorneroverlay1"
 	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/holofloor/desert,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"xba" = (
+/obj/effect/decal/cleanable/cobweb2{
+	icon_state = "spiderling";
+	layer = 9.1;
+	name = "dead greimorian"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"xeB" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/desert,
-/area/space)
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "xfV" = (
 /obj/structure/table/stone/marble,
 /obj/effect/floor_decal/spline/plain/corner,
@@ -2158,34 +4954,60 @@
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/holofloor/lino,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"xjD" = (
+/obj/structure/flora/tree/jungle{
+	icon_state = "tree3"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "xjV" = (
 /obj/structure/bed/chair/wood{
 	dir = 1
 	},
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "xjY" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 8
 	},
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "xnd" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/vehicle/bike/speeder{
 	dir = 4;
 	name = "weekend retrofitted speeder"
 	},
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/engineering/storage_sublevel{
+	name = "Ground Floor - Garage"
+	})
 "xzM" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "xAD" = (
 /obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "xCF" = (
 /obj/structure/table/stone/marble,
 /obj/item/towel/random{
@@ -2202,18 +5024,56 @@
 	color = "#ff0000"
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "xEX" = (
 /obj/structure/disposalpipe/segment{
 	dir = 1;
 	icon_state = "pipe-c"
 	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
 /turf/simulated/floor/carpet,
-/area/space)
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
+"xHs" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"xLi" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
 "xLr" = (
 /obj/structure/flora/pottedplant/random,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "xPb" = (
 /obj/effect/decal/cleanable/cobweb2,
 /obj/structure/table/reinforced/steel,
@@ -2236,21 +5096,56 @@
 	pixel_y = 2
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
+	})
 "xSi" = (
 /obj/machinery/firealarm/south,
 /turf/simulated/floor/holofloor/wood,
-/area/space)
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
+	})
+"yaJ" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/grass/alt,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "ybW" = (
 /obj/effect/floor_decal/spline/plain/corner,
 /turf/simulated/floor/marble,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "yfI" = (
 /turf/simulated/floor/grass/alt,
-/area/space)
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"yjB" = (
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc/high{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
+	})
 "ymb" = (
-/turf/space,
-/area/space)
+/turf/unsimulated/mineral,
+/area/mine/explored)
 
 (1,1,1) = {"
 yfI
@@ -2346,9 +5241,9 @@ yfI
 yfI
 yfI
 yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -2603,8 +5498,8 @@ yfI
 yfI
 yfI
 yfI
-yfI
-yfI
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -2770,98 +5665,98 @@ ymb
 yfI
 yfI
 egT
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
 egT
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
 egT
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
 egT
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
 egT
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
 egT
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
-kuG
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+egT
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+egT
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+egT
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+egT
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+egT
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+egT
+yfI
+yfI
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -3026,7 +5921,7 @@ ymb
 (4,1,1) = {"
 yfI
 uRY
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -3114,11 +6009,11 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -3283,7 +6178,7 @@ ymb
 (5,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -3371,11 +6266,11 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -3540,7 +6435,7 @@ ymb
 (6,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 kbE
 uQJ
@@ -3594,6 +6489,7 @@ yfI
 yfI
 yfI
 yfI
+ptx
 yfI
 yfI
 yfI
@@ -3627,12 +6523,11 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -3797,13 +6692,13 @@ ymb
 (7,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 soc
 uQJ
+gju
 uQJ
 uQJ
-uQJ
 yfI
 yfI
 yfI
@@ -3837,6 +6732,7 @@ yfI
 yfI
 yfI
 yfI
+hok
 yfI
 yfI
 yfI
@@ -3884,12 +6780,11 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -4054,11 +6949,11 @@ ymb
 (8,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 uMH
 uQJ
-gju
+uQJ
 uQJ
 yfI
 yfI
@@ -4086,7 +6981,7 @@ yfI
 yfI
 yfI
 yfI
-yfI
+hdV
 yfI
 yfI
 yfI
@@ -4114,15 +7009,15 @@ yfI
 yfI
 yfI
 glY
-tPA
-tPA
-tPA
-tPA
-tPA
-tPA
-tPA
-tPA
-tPA
+gTO
+gTO
+gTO
+gTO
+gTO
+gTO
+gTO
+gTO
+gTO
 glY
 yfI
 yfI
@@ -4142,11 +7037,11 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -4311,12 +7206,28 @@ ymb
 (9,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 egT
 qNW
+hJa
 uQJ
-uQJ
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+hok
 yfI
 yfI
 yfI
@@ -4354,23 +7265,7 @@ yfI
 yfI
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-tPA
+gTO
 cID
 eCM
 eCM
@@ -4380,7 +7275,17 @@ eCM
 eCM
 eCM
 pXf
-tPA
+gTO
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+bVO
+fyI
+njc
 yfI
 yfI
 yfI
@@ -4389,21 +7294,11 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -4568,7 +7463,7 @@ ymb
 (10,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -4627,17 +7522,27 @@ yfI
 yfI
 yfI
 yfI
-tPA
+gTO
 sVN
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
 wNQ
-tPA
+gTO
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+xba
+jBS
+eDn
+ptx
 yfI
 yfI
 yfI
@@ -4646,21 +7551,11 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -4884,19 +7779,27 @@ yfI
 yfI
 yfI
 yfI
-tPA
+gTO
 sVN
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
 wNQ
 sEM
 uQJ
-uQJ
+rbQ
+iKy
+yfI
+yfI
+yfI
+yfI
+gkO
+lLN
+mWI
 yfI
 yfI
 yfI
@@ -4905,19 +7808,11 @@ yfI
 yfI
 yfI
 yfI
+egT
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -5082,7 +7977,20 @@ ymb
 (12,1,1) = {"
 yfI
 yfI
-kuG
+jWU
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+ptx
 yfI
 yfI
 yfI
@@ -5115,6 +8023,7 @@ yfI
 yfI
 yfI
 yfI
+hok
 yfI
 yfI
 yfI
@@ -5127,29 +8036,15 @@ yfI
 yfI
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-tPA
+gTO
 sVN
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
 wNQ
 sEM
 uQJ
@@ -5163,18 +8058,18 @@ yfI
 yfI
 yfI
 yfI
+eWX
+eWX
+eWX
+eWX
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -5339,7 +8234,7 @@ ymb
 (13,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -5398,40 +8293,40 @@ yfI
 yfI
 yfI
 yfI
-tPA
+gTO
 sVN
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
 wNQ
 sEM
 uQJ
 uQJ
 uQJ
+gha
 yfI
 yfI
 yfI
+eWX
+eWX
+eWX
+eWX
+eWX
+aYC
+aYC
+eWX
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -5596,7 +8491,7 @@ ymb
 (14,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -5655,40 +8550,40 @@ yfI
 yfI
 yfI
 yfI
-tPA
+gTO
 sVN
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
 wNQ
 sEM
 uQJ
 uQJ
 uQJ
+uQJ
 yfI
 yfI
 yfI
+eWX
+fey
+fIG
+jDD
+jDD
+jDD
+jDD
+eWX
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -5853,7 +8748,7 @@ ymb
 (15,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -5912,40 +8807,40 @@ yfI
 yfI
 yfI
 yfI
-tPA
+gTO
 sVN
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
 wNQ
 sEM
 uQJ
 uQJ
 uQJ
+uQJ
+lhV
+uQJ
+uQJ
+efZ
+jDD
+jDD
+jDD
+jUe
+jDD
+jDD
+eWX
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -6110,7 +9005,7 @@ ymb
 (16,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -6126,13 +9021,13 @@ yfI
 yfI
 yfI
 yfI
-egT
+nmC
 tmA
 tmA
-egT
+nmC
 tmA
 tmA
-egT
+nmC
 yfI
 yfI
 yfI
@@ -6169,40 +9064,40 @@ yfI
 yfI
 yfI
 yfI
-tPA
+gTO
 sVN
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
 wNQ
-tPA
+gTO
 uQJ
 uQJ
 uQJ
+uQJ
+uQJ
+gKs
+yfI
+eWX
+jDD
+jDD
+rAH
+eWX
+jkA
+jkA
+eWX
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -6367,7 +9262,7 @@ ymb
 (17,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -6376,7 +9271,7 @@ yfI
 yfI
 yfI
 yfI
-yfI
+fRR
 yfI
 yfI
 yfI
@@ -6404,6 +9299,7 @@ yfI
 yfI
 yfI
 yfI
+xjD
 yfI
 yfI
 yfI
@@ -6420,46 +9316,45 @@ yfI
 yfI
 yfI
 yfI
+hdV
 yfI
 yfI
 yfI
 yfI
-yfI
-yfI
-tPA
+gTO
 sVN
-fPi
-fPi
-fPi
+jcU
+jcU
+jcU
 lii
-fPi
-fPi
-fPi
+jcU
+jcU
+jcU
 wNQ
-tPA
+gTO
+uQJ
+uQJ
+uQJ
 uQJ
 uQJ
 uQJ
 yfI
+eWX
+nko
+jDD
+jDD
+eWX
+eWX
+eWX
+eWX
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -6624,7 +9519,7 @@ ymb
 (18,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -6643,8 +9538,8 @@ yfI
 tmA
 rWp
 tPA
-tPA
-tPA
+vmd
+rpH
 ekl
 tmA
 yfI
@@ -6683,41 +9578,41 @@ yfI
 yfI
 yfI
 yfI
-tPA
+gTO
 sVN
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
 wNQ
 sEM
 uQJ
 uQJ
 uQJ
+uQJ
+uQJ
+lhV
+yfI
+eWX
+eWX
+aYC
+aYC
+eWX
 yfI
 yfI
 yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -6898,10 +9793,10 @@ yfI
 yfI
 yfI
 tmA
-vmd
+dzW
 tPA
 aEW
-tPA
+pWO
 sty
 tmA
 yfI
@@ -6940,41 +9835,41 @@ yfI
 yfI
 yfI
 yfI
-tPA
+gTO
 sVN
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
 wNQ
 sEM
 uQJ
 uQJ
 uQJ
+uQJ
+uQJ
+uQJ
+yfI
+yfI
+eWX
+eWX
+eWX
+eWX
 yfI
 yfI
 yfI
+hok
 yfI
 yfI
+egT
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -7138,7 +10033,7 @@ ymb
 (20,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -7158,7 +10053,7 @@ tmA
 vKp
 tPA
 bWG
-tPA
+pWO
 dVR
 tmA
 yfI
@@ -7197,19 +10092,23 @@ yfI
 yfI
 yfI
 yfI
-tPA
+gTO
 sVN
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
 wNQ
 sEM
 uQJ
 uQJ
+rgA
+iKy
+uQJ
+uQJ
 uQJ
 yfI
 yfI
@@ -7222,16 +10121,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -7395,7 +10290,7 @@ ymb
 (21,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -7414,18 +10309,15 @@ yfI
 tmA
 pxc
 aQc
-ngk
+nmC
 mDq
 cKD
-vtT
-jWU
-jWU
-jWU
-jWU
-jWU
-jWU
-jWU
-tCZ
+tmA
+yfI
+yfI
+yfI
+yfI
+xjD
 yfI
 yfI
 yfI
@@ -7446,6 +10338,7 @@ yfI
 yfI
 yfI
 yfI
+hdV
 yfI
 yfI
 yfI
@@ -7454,21 +10347,26 @@ yfI
 yfI
 yfI
 yfI
-tPA
+yfI
+yfI
+gTO
 sVN
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
 wNQ
 sEM
 uQJ
 uQJ
 uQJ
 yfI
+uQJ
+uQJ
+uQJ
 yfI
 yfI
 yfI
@@ -7480,15 +10378,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -7652,13 +10547,13 @@ ymb
 (22,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
 yfI
 yfI
-yfI
+hdV
 yfI
 yfI
 yfI
@@ -7670,9 +10565,9 @@ yfI
 yfI
 tmA
 veJ
-tPA
+qWF
 kgf
-tPA
+pWO
 oTd
 tmA
 yfI
@@ -7682,7 +10577,6 @@ yfI
 yfI
 yfI
 yfI
-qWF
 yfI
 yfI
 yfI
@@ -7711,20 +10605,26 @@ yfI
 yfI
 yfI
 yfI
-tPA
+yfI
+gTO
 sVN
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
 wNQ
 sEM
 uQJ
 uQJ
 yfI
+hXv
+lhV
+uQJ
+uQJ
+rgA
 yfI
 yfI
 yfI
@@ -7735,17 +10635,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -7909,7 +10804,7 @@ ymb
 (23,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -7926,10 +10821,10 @@ yfI
 yfI
 yfI
 tmA
-vmd
-tPA
+dzW
+qWF
 nBp
-tPA
+pWO
 sty
 tmA
 yfI
@@ -7939,7 +10834,6 @@ yfI
 yfI
 yfI
 yfI
-qWF
 yfI
 yfI
 yfI
@@ -7968,17 +10862,26 @@ yfI
 yfI
 yfI
 yfI
-tPA
+yfI
+gTO
 sVN
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
-fPi
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
+jcU
 wNQ
-tPA
+gTO
+yfI
+yfI
+yfI
+yfI
+yfI
+uQJ
+uQJ
+uQJ
 yfI
 yfI
 yfI
@@ -7989,20 +10892,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -8166,7 +11061,7 @@ ymb
 (24,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -8184,9 +11079,9 @@ yfI
 yfI
 tmA
 rWp
-tPA
-tPA
-tPA
+qWF
+lCQ
+uue
 rRZ
 tmA
 yfI
@@ -8196,7 +11091,6 @@ yfI
 yfI
 yfI
 yfI
-qWF
 yfI
 yfI
 yfI
@@ -8225,7 +11119,8 @@ yfI
 yfI
 yfI
 yfI
-tPA
+yfI
+gTO
 hWY
 tTh
 tTh
@@ -8235,7 +11130,15 @@ tTh
 tTh
 tTh
 olK
-tPA
+gTO
+yfI
+yfI
+yfI
+yfI
+yfI
+uQJ
+uQJ
+uQJ
 yfI
 yfI
 yfI
@@ -8246,20 +11149,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -8423,7 +11318,7 @@ ymb
 (25,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -8442,11 +11337,11 @@ yfI
 tmA
 fXU
 tRN
-tPA
+vtT
 vFl
 nHK
-tmA
-yfI
+fqW
+fVl
 yfI
 yfI
 yfI
@@ -8457,20 +11352,20 @@ wZC
 fCw
 kxA
 lBu
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+lki
+lki
+lki
+lki
+lki
+lki
+lki
+lki
+lki
+lki
+lki
+lki
+lki
+lki
 yfI
 yfI
 yfI
@@ -8483,40 +11378,40 @@ yfI
 yfI
 yfI
 glY
-tPA
-tPA
-tPA
-tPA
-tPA
-tPA
-tPA
-tPA
-tPA
+gTO
+gTO
+gTO
+gTO
+gTO
+gTO
+gTO
+gTO
+gTO
 glY
 yfI
 yfI
 yfI
 yfI
+tQp
+yfI
+uQJ
+uQJ
+iKy
+yfI
+yfI
+xba
+fyI
+rmL
 yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -8680,7 +11575,7 @@ ymb
 (26,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -8696,39 +11591,39 @@ yfI
 yfI
 yfI
 yfI
-egT
-egT
-egT
+nmC
+nmC
+nmC
 eAs
-egT
-egT
-egT
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+nmC
+nmC
+nmC
+tfo
+yaJ
+yaJ
+yaJ
+yaJ
+yaJ
 bPU
 jwJ
 vxz
 lZW
-egT
-egT
-egT
-egT
-egT
-egT
-egT
+iSF
+iSF
+iSF
+iSF
+iSF
+iSF
+iSF
 wRT
 wRT
 wRT
-egT
-egT
+iSF
+iSF
 wRT
 wRT
 wRT
-egT
+iSF
 yfI
 yfI
 yfI
@@ -8755,25 +11650,25 @@ yfI
 yfI
 yfI
 yfI
+gKs
+uQJ
+uQJ
+uQJ
+yfI
+xba
+fyI
+jBS
+ptx
 yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -8949,15 +11844,15 @@ yfI
 yfI
 yfI
 yfI
-yfI
+fRR
 yfI
 yfI
 yfI
 yfI
 tmA
-tPA
-tPA
-tPA
+tCZ
+wEw
+bpN
 tmA
 yfI
 yfI
@@ -8970,13 +11865,13 @@ sHk
 qhU
 cTi
 iDi
-egT
+iSF
 eYT
 obW
 vAE
 fwi
 daI
-tmA
+fPk
 taG
 nNN
 pku
@@ -8985,52 +11880,52 @@ iXu
 hSE
 uOq
 uJM
+iSF
+lki
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+uQJ
+lhV
+uQJ
+yfI
+yfI
+lLN
+gkO
+rAP
+yfI
+yfI
+yfI
+yfI
 egT
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -9194,7 +12089,7 @@ ymb
 (28,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -9213,8 +12108,8 @@ yfI
 yfI
 tmA
 tPA
-tPA
-tPA
+jKc
+nor
 tmA
 yfI
 yfI
@@ -9224,25 +12119,26 @@ yfI
 yfI
 yfI
 djh
-egT
+kBw
 lmn
-egT
-egT
+kBw
+kBw
 fCA
 owG
 owG
 owG
 owG
-tmA
+fPk
 kEq
 hiz
 hiz
 hiz
 hiz
 kFs
-xzM
+tAM
 tyE
-egT
+iSF
+lki
 yfI
 yfI
 yfI
@@ -9261,6 +12157,16 @@ yfI
 yfI
 yfI
 yfI
+xba
+fyI
+fyI
+mWI
+yfI
+yfI
+yfI
+yfI
+uQJ
+uQJ
 yfI
 yfI
 yfI
@@ -9271,23 +12177,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -9451,7 +12346,7 @@ ymb
 (29,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -9468,11 +12363,11 @@ yfI
 yfI
 yfI
 yfI
-egT
-egT
+nmC
+nmC
 nKw
-egT
-egT
+nmC
+nmC
 yfI
 yfI
 yfI
@@ -9480,17 +12375,17 @@ yfI
 yfI
 yfI
 yfI
-uQJ
-egT
+lki
+kBw
 kXt
 cpF
-egT
+kBw
 gQd
 owG
 pnq
+vZe
 owG
-owG
-tmA
+fPk
 cAC
 hiz
 ohm
@@ -9498,8 +12393,9 @@ owW
 mlR
 hbn
 myq
-xzM
-llU
+tAM
+aMG
+lki
 yfI
 yfI
 yfI
@@ -9520,6 +12416,14 @@ yfI
 yfI
 yfI
 yfI
+eDn
+fRR
+yfI
+yfI
+yfI
+yfI
+rgA
+uQJ
 yfI
 yfI
 yfI
@@ -9530,21 +12434,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -9708,7 +12603,7 @@ ymb
 (30,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -9737,17 +12632,17 @@ yfI
 yfI
 yfI
 yfI
-yfI
-egT
+lki
+kBw
 fMj
 iYs
-egT
+kBw
 pqm
 pht
 pht
-pht
+muo
 qOC
-tmA
+fPk
 kyg
 hiz
 vEz
@@ -9755,8 +12650,9 @@ eQJ
 cSt
 rXn
 dOo
-xzM
-egT
+tAM
+iSF
+lki
 yfI
 yfI
 yfI
@@ -9776,6 +12672,16 @@ yfI
 yfI
 yfI
 yfI
+gkO
+lLN
+kDo
+yfI
+yfI
+yfI
+uQJ
+uQJ
+uQJ
+uQJ
 yfI
 yfI
 yfI
@@ -9785,23 +12691,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -9965,7 +12860,7 @@ ymb
 (31,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -9988,21 +12883,21 @@ uQJ
 uQJ
 uQJ
 yfI
+hoa
 yfI
 yfI
 yfI
 yfI
 yfI
-yfI
-yfI
-egT
+lki
+kBw
 khI
 igU
-egT
+kBw
 cnE
-cnE
-cnE
-cnE
+jVx
+jVx
+dhY
 upd
 ngk
 tZE
@@ -10012,8 +12907,19 @@ gaA
 sqk
 rXn
 uBZ
-xzM
-egT
+bmz
+iSF
+lki
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+ptx
 yfI
 yfI
 yfI
@@ -10030,6 +12936,9 @@ yfI
 yfI
 yfI
 yfI
+uQJ
+uQJ
+fOG
 yfI
 yfI
 yfI
@@ -10039,26 +12948,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -10222,7 +13117,7 @@ ymb
 (32,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -10239,7 +13134,7 @@ yfI
 yfI
 yfI
 yfI
-yfI
+hoa
 uQJ
 uQJ
 uQJ
@@ -10251,26 +13146,27 @@ yfI
 yfI
 yfI
 yfI
-yfI
-egT
+lki
+kBw
 vbq
 iRV
 pGa
 rZc
 rZc
-rZc
+gnH
 aHy
-jPv
+htT
 hbc
-xzM
+tAM
 aRE
 gUS
 mLj
 tTN
 xfV
 eKx
-xzM
-llU
+tAM
+aMG
+lki
 yfI
 yfI
 yfI
@@ -10296,6 +13192,9 @@ yfI
 yfI
 yfI
 yfI
+uQJ
+uQJ
+uQJ
 yfI
 yfI
 yfI
@@ -10306,16 +13205,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -10479,7 +13374,7 @@ ymb
 (33,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -10508,26 +13403,27 @@ yfI
 yfI
 yfI
 yfI
-yfI
-egT
+lki
+kBw
 she
 cIK
-egT
-oEq
-ugE
-ugE
+kBw
+uDH
+ifu
+wUq
 tlI
 lIa
 hbc
-xzM
-xzM
+tAM
+tAM
 pGq
 iAJ
 gbI
 eKx
-xzM
-xzM
-egT
+tAM
+tAM
+iSF
+lki
 yfI
 yfI
 yfI
@@ -10552,6 +13448,9 @@ yfI
 yfI
 yfI
 yfI
+iKy
+uQJ
+uQJ
 yfI
 yfI
 yfI
@@ -10563,16 +13462,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -10736,7 +13631,7 @@ ymb
 (34,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -10766,25 +13661,26 @@ yfI
 yfI
 eYa
 lmc
-egT
-egT
-egT
-egT
+kBw
+kBw
+kBw
+kBw
 tcx
 amR
 dGX
-jPv
-ugE
-egT
+sVw
+ifu
+iSF
 fZc
 sje
-xzM
-xzM
-xzM
-xzM
-xzM
+ofR
+gbV
+tAM
+tAM
+tAM
 wpe
-egT
+iSF
+lki
 yfI
 yfI
 yfI
@@ -10797,6 +13693,9 @@ yfI
 yfI
 yfI
 yfI
+xba
+fyI
+oMD
 yfI
 yfI
 yfI
@@ -10806,30 +13705,26 @@ yfI
 yfI
 yfI
 yfI
+uQJ
+uQJ
+uQJ
+gha
+yfI
+yfI
+gkO
+yfI
+mWI
 yfI
 yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -11026,67 +13921,67 @@ xLr
 pay
 jIE
 maa
-egT
-egT
-egT
-egT
+iSF
+iSF
+iSF
+iSF
 gKf
-egT
-egT
-egT
-egT
+iSF
+iSF
+iSF
+iSF
 eui
+iSF
+iSF
+jOf
+iSF
+iSF
+iSF
+lki
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+xba
+fyI
+fyI
+hdV
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+dLR
+uQJ
+lhV
+uQJ
+yfI
+yfI
+yfI
+yfI
+fyI
+xjD
+yfI
+yfI
+yfI
+yfI
+yfI
 egT
-egT
-eui
-egT
-egT
-egT
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -11250,7 +14145,7 @@ ymb
 (36,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -11273,7 +14168,7 @@ yfI
 yfI
 yfI
 yfI
-yfI
+hoa
 uQJ
 uQJ
 uQJ
@@ -11285,20 +14180,21 @@ ugE
 ugE
 aFl
 xLr
-egT
+iSF
 fGK
-sQI
+mXd
 mnU
 aFg
-ugE
-ugE
-ugE
-ugE
-ugE
-ugE
-ugE
-ugE
-llU
+qgM
+ifu
+dwE
+ifu
+ifu
+ifu
+qgM
+ifu
+aMG
+lki
 yfI
 yfI
 yfI
@@ -11311,6 +14207,9 @@ yfI
 yfI
 yfI
 yfI
+lLN
+gkO
+njc
 yfI
 yfI
 yfI
@@ -11319,31 +14218,27 @@ yfI
 yfI
 yfI
 yfI
+uQJ
+uQJ
+uQJ
+yfI
+yfI
+yfI
+xba
+vsw
+gkO
+rmL
 yfI
 yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -11507,7 +14402,7 @@ ymb
 (37,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -11517,7 +14412,7 @@ yfI
 yfI
 yfI
 yfI
-yfI
+xjD
 yfI
 yfI
 yfI
@@ -11541,21 +14436,28 @@ xjV
 ugE
 ugE
 tNh
-kCx
+hOJ
 cAY
 sQI
 xEX
 jny
 jmx
-jKA
-jKA
-jKA
-jKA
-xEX
-uhq
-uhq
-ugE
-llU
+eHT
+eHT
+kfj
+eHT
+oiB
+aCp
+aCp
+ifu
+aMG
+lki
+yfI
+yfI
+yfI
+bVO
+fyI
+rAP
 yfI
 yfI
 yfI
@@ -11573,6 +14475,11 @@ yfI
 yfI
 yfI
 yfI
+lhV
+uQJ
+uQJ
+yfI
+tQp
 yfI
 yfI
 yfI
@@ -11583,24 +14490,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -11764,7 +14659,7 @@ ymb
 (38,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -11796,23 +14691,30 @@ rCc
 mCE
 xjV
 ugE
-mCE
+eIX
 ugE
 xLr
-egT
-ugE
+iSF
+ifu
 giy
-ugE
+ifu
 pKy
-ugE
-ugE
-ugE
-ugE
-jPv
-ugE
+pUN
+ifu
+ith
+ifu
+sVw
+ifu
 nbt
-ugE
-llU
+ifu
+aMG
+lki
+yfI
+yfI
+yfI
+jBS
+jBS
+hdV
 yfI
 yfI
 yfI
@@ -11829,6 +14731,9 @@ yfI
 yfI
 yfI
 yfI
+uQJ
+uQJ
+uQJ
 yfI
 yfI
 yfI
@@ -11842,22 +14747,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -12021,7 +14916,7 @@ ymb
 (39,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -12052,25 +14947,51 @@ gDW
 ayb
 mCE
 xjV
-egT
-egT
-egT
-egT
-egT
-ugE
-giy
-ugE
-egT
-egT
+iSF
+iSF
+iSF
+iSF
+iSF
+nVW
+taC
+ifu
+tTc
+tTc
 fJh
-egT
-egT
+tTc
+tTc
 ikC
-egT
-egT
-egT
-egT
-egT
+tTc
+tTc
+tTc
+tTc
+tTc
+yfI
+yfI
+xba
+lLN
+gkO
+hrs
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+tQp
+yfI
+yfI
+gha
+uQJ
+lhV
+uQJ
+uQJ
+iKy
 yfI
 yfI
 yfI
@@ -12083,38 +15004,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -12278,7 +15173,7 @@ ymb
 (40,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -12308,26 +15203,27 @@ abv
 fWR
 daM
 nBb
-nBb
-egT
+gXe
+iSF
 rnr
 gTF
 fdF
-egT
+iSF
 dKu
 giy
-ugE
-egT
+ifu
+tTc
 xAD
-ugE
-ugE
-ugE
-jPv
-ugE
-egT
-xAD
-ugE
+nwP
+nwP
+sgn
+nbl
+nwP
+tTc
+uHb
+sgn
 mHA
+lki
 yfI
 yfI
 yfI
@@ -12345,6 +15241,11 @@ yfI
 yfI
 yfI
 yfI
+iKy
+uQJ
+uQJ
+uQJ
+uQJ
 yfI
 yfI
 yfI
@@ -12360,18 +15261,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -12535,7 +15430,7 @@ ymb
 (41,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -12564,27 +15459,28 @@ nmu
 nmu
 vEO
 bYO
-yfI
-yfI
-egT
-egT
+hoa
+lki
+iSF
+iSF
 mrx
-egT
-egT
-ugE
+iSF
+iSF
+ifu
 giy
-ugE
+ifu
 fJh
-ugE
-uhq
-uhq
-uhq
-giy
-ugE
-llU
-ugE
-ugE
+nwP
+vOu
+vOu
+vOu
+lSa
+nwP
+hJp
+vvv
+nwP
 mHA
+lki
 yfI
 yfI
 yfI
@@ -12601,6 +15497,11 @@ yfI
 yfI
 yfI
 yfI
+uQJ
+uQJ
+uQJ
+uQJ
+uQJ
 yfI
 yfI
 yfI
@@ -12617,18 +15518,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -12792,7 +15687,7 @@ ymb
 (42,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -12808,7 +15703,7 @@ yfI
 yfI
 yfI
 yfI
-yfI
+fRR
 yfI
 yfI
 yfI
@@ -12822,26 +15717,48 @@ nmu
 vEO
 bYO
 yfI
-yfI
-egT
+lki
+iSF
 pmc
 xzM
 vWi
-egT
-ugE
-giy
-ugE
-egT
+iSF
+ifu
+bWX
+vaf
+tTc
 dmi
-uhq
-uhq
-uhq
-giy
-ugE
-llU
-ugE
-ugE
+vOu
+vOu
+jXq
+szv
+nwP
+hJp
+vRy
+nwP
 mHA
+lki
+yfI
+yfI
+yfI
+yfI
+yfI
+gKs
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+uQJ
+yfI
+uQJ
+uQJ
+uQJ
+lhV
+uQJ
+hXv
 yfI
 yfI
 yfI
@@ -12858,34 +15775,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -13079,26 +15974,45 @@ nmu
 vEO
 bYO
 yfI
-yfI
-egT
+lki
+iSF
 uDo
-xzM
+mfy
 dtQ
 srP
-kCx
+eEV
 lZV
-ugE
-egT
+iwl
+tTc
 ezo
-ezo
-uhq
-uhq
-giy
+kTX
+vOu
+vOu
+lSa
 iIW
-egT
+tTc
 ugb
-ugE
-mHA
+nwP
+oGL
+lki
+yfI
+yfI
+yfI
+rgA
+yfI
+uQJ
+uQJ
+uQJ
+iKy
+yfI
+yfI
+rgA
+uQJ
+uQJ
+lhV
+uQJ
+uQJ
+uQJ
 yfI
 yfI
 yfI
@@ -13118,31 +16032,12 @@ yfI
 yfI
 yfI
 yfI
+egT
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -13306,7 +16201,7 @@ ymb
 (44,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -13336,26 +16231,55 @@ nmu
 vEO
 bYO
 yfI
-yfI
-egT
+lki
+iSF
 nOd
-xzM
+dvt
 bvq
-egT
+iSF
 liJ
-ugE
-ugE
-egT
+yjB
+ifu
+tTc
 pOO
-uhq
-uhq
-uhq
-giy
-ugE
+vOu
+vOu
+vOu
+lSa
+nwP
 lYn
 eUE
-ugE
-ugE
+nwP
+nwP
+ehQ
+uQJ
+lhV
+uQJ
+uQJ
+uQJ
+uQJ
+uQJ
+lhV
+uQJ
+uQJ
+uQJ
+uQJ
+uQJ
+uQJ
+uQJ
+uQJ
+uQJ
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+fyI
+bVO
+hrs
 yfI
 yfI
 yfI
@@ -13365,41 +16289,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -13563,7 +16458,7 @@ ymb
 (45,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -13583,7 +16478,7 @@ yfI
 yfI
 yfI
 yfI
-nEG
+eHX
 jiz
 nmu
 nmu
@@ -13593,26 +16488,55 @@ nmu
 vEO
 bYO
 yfI
-yfI
-egT
-egT
+lki
+iSF
+iSF
 iNd
-egT
-egT
-egT
-egT
-egT
-egT
+iSF
+tTc
+tTc
+tTc
+tTc
+tTc
 pOO
-uhq
-uhq
-uhq
-giy
-ugE
+vOu
+vOu
+vOu
+lSa
+nwP
 lvv
 mNn
-ugE
-wEw
+nwP
+nwP
+wpp
+uQJ
+uQJ
+uQJ
+lhV
+uQJ
+uQJ
+uQJ
+uQJ
+uQJ
+uQJ
+lhV
+uQJ
+uQJ
+yfI
+iKy
+dLR
+gha
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+bVO
+jBS
+jBS
+fRR
 yfI
 yfI
 yfI
@@ -13622,41 +16546,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -13820,7 +16715,7 @@ ymb
 (46,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -13850,26 +16745,38 @@ nmu
 vEO
 bYO
 yfI
-yfI
-egT
+lki
+iSF
 pmm
 jqq
 xCF
-egT
+tTc
 iRi
 ojl
 hCM
-egT
+tTc
 eWc
-eWc
-uhq
-uhq
-giy
+nrw
+vOu
+vOu
+lSa
 avx
-egT
-ugE
-ugE
-mHA
+tTc
+oxM
+nwP
+aqZ
+lki
+yfI
+yfI
+yfI
+iKy
+uQJ
+uQJ
+gha
+yfI
+yfI
+uQJ
+uQJ
 yfI
 yfI
 yfI
@@ -13883,6 +16790,10 @@ yfI
 yfI
 yfI
 yfI
+lLN
+gkO
+lLN
+oMD
 yfI
 yfI
 yfI
@@ -13892,28 +16803,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -14077,7 +16972,7 @@ ymb
 (47,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -14107,26 +17002,39 @@ nmu
 vEO
 bYO
 yfI
-yfI
-egT
+lki
+iSF
 pmm
 oeO
 vGj
-egT
+tTc
 jtc
 uLA
 eWo
-egT
-dKu
-uhq
-uhq
-uhq
-giy
-ugE
-llU
-ugE
-ugE
+tTc
+sbV
+vOu
+vOu
+hxB
+dzM
+nwP
+hJp
+jOe
+nwP
 mHA
+lki
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+tQp
 yfI
 yfI
 yfI
@@ -14152,25 +17060,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -14334,7 +17229,7 @@ ymb
 (48,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -14364,26 +17259,27 @@ flW
 wwt
 bYO
 yfI
-yfI
-egT
+lki
+iSF
 pmm
 lZB
 tIc
-egT
+tTc
 xPb
 sNr
 cMB
 jGQ
-kCx
-jKA
-jKA
-jKA
+cyO
+jRV
+jRV
+jRV
 mFn
-ugE
-llU
-ugE
-ugE
+nwP
+hJp
+vvv
+nwP
 mHA
+lki
 yfI
 yfI
 yfI
@@ -14403,6 +17299,9 @@ yfI
 yfI
 yfI
 yfI
+bVO
+fyI
+iCZ
 yfI
 yfI
 yfI
@@ -14418,16 +17317,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -14591,7 +17486,7 @@ ymb
 (49,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -14621,26 +17516,27 @@ xjY
 xjY
 saG
 yfI
-egT
-egT
-egT
-egT
-egT
-egT
-egT
-egT
-egT
-egT
-liJ
-ugE
-ugE
-ugE
-jPv
-ugE
-egT
-liJ
-ugE
+lTk
+lTk
+lTk
+lTk
+lTk
+tTc
+tTc
+tTc
+tTc
+tTc
+sqh
+nwP
+nwP
+ndK
+nbl
+nwP
+tTc
+oOV
+ndK
 mHA
+lki
 yfI
 yfI
 yfI
@@ -14659,6 +17555,10 @@ yfI
 yfI
 yfI
 yfI
+xba
+jBS
+jBS
+hok
 yfI
 yfI
 yfI
@@ -14674,17 +17574,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -14848,7 +17743,19 @@ ymb
 (50,1,1) = {"
 yfI
 yfI
-kuG
+jWU
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+hdV
 yfI
 yfI
 yfI
@@ -14862,19 +17769,7 @@ yfI
 yfI
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+hoa
 yfI
 yfI
 llU
@@ -14882,22 +17777,22 @@ llU
 iQG
 emq
 wvb
-egT
+lTk
 mvA
 tvK
 qjR
 hPW
-egT
-egT
+tTc
+tTc
 fJh
-egT
-egT
+tTc
+tTc
 ikC
-egT
-egT
-egT
-egT
-egT
+tTc
+tTc
+tTc
+tTc
+tTc
 yfI
 yfI
 yfI
@@ -14918,6 +17813,9 @@ yfI
 yfI
 yfI
 yfI
+lLN
+gkO
+wrC
 yfI
 yfI
 yfI
@@ -14933,15 +17831,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -15135,25 +18030,34 @@ yfI
 yfI
 yfI
 llU
-xLr
+wmz
 opp
 uhq
 xSi
-egT
-ugE
-ugE
-ugE
-ugE
-aFl
-ugE
-ugE
-ugE
-ugE
-jPv
-ugE
+lTk
+mzc
+tWg
+tWg
+tWg
+hmW
+rqo
+tWg
+aah
+tWg
+bqp
+tWg
 tvK
-ugE
+tWg
 llU
+lki
+yfI
+yfI
+yfI
+yfI
+yfI
+bVO
+fyI
+mWI
 yfI
 yfI
 yfI
@@ -15184,21 +18088,12 @@ yfI
 yfI
 yfI
 yfI
+egT
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -15362,7 +18257,7 @@ ymb
 (52,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -15399,18 +18294,27 @@ kCx
 lHG
 kCx
 ftx
-jKA
-jKA
+stY
+stY
 wKb
-jKA
-jKA
-ftx
-jKA
-lZV
-uhq
-uhq
-ugE
+stY
+stY
+sCt
+stY
+uFE
+xHs
+rkS
+tWg
 llU
+lki
+yfI
+yfI
+yfI
+yfI
+xba
+jBS
+jBS
+fRR
 yfI
 yfI
 yfI
@@ -15441,21 +18345,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -15619,7 +18514,7 @@ ymb
 (53,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -15649,25 +18544,43 @@ yfI
 yfI
 yfI
 llU
-xLr
+wmz
 cjb
-uhq
+dnU
 bpH
-egT
-ugE
+lTk
+tWg
 jPv
-ugE
-ugE
-amR
-ugE
-ugE
-jPv
-ugE
-ugE
-ugE
-ugE
-ugE
+tWg
+tWg
+cjU
+coy
+tWg
+nXV
+tWg
+tWg
+mTw
+coy
+tWg
 llU
+lki
+yfI
+yfI
+yfI
+yfI
+yfI
+lLN
+gkO
+njc
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+bVO
+fyI
+kDo
 yfI
 yfI
 yfI
@@ -15689,30 +18602,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -15876,7 +18771,7 @@ ymb
 (54,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -15910,21 +18805,39 @@ llU
 iQG
 bQn
 oEq
-egT
-egT
+wuH
+wuH
 sgT
-egT
-egT
-egT
-egT
-egT
+wuH
+wuH
+lTk
+lTk
+lTk
 igl
-egT
-egT
-egT
-egT
-egT
-egT
+lTk
+lTk
+lTk
+lTk
+lTk
+lTk
+lki
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+fyI
+eDn
+hdV
 yfI
 yfI
 yfI
@@ -15946,30 +18859,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -16133,7 +19028,7 @@ ymb
 (55,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -16154,6 +19049,7 @@ yfI
 yfI
 yfI
 yfI
+xjD
 yfI
 yfI
 yfI
@@ -16162,26 +19058,43 @@ yfI
 yfI
 yfI
 yfI
-yfI
-egT
-egT
-egT
-egT
-egT
+lTk
+lTk
+lTk
+lTk
+wuH
 aux
 fNT
 cbr
 mtU
-egT
+lTk
 mvA
-aFg
-jPv
+jpQ
+nXV
 tvK
 eTP
 iKi
 iKi
 gxG
-egT
+lTk
+lki
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+xba
+lLN
+lLN
+tOb
 yfI
 yfI
 yfI
@@ -16203,30 +19116,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -16390,7 +19285,13 @@ ymb
 (56,1,1) = {"
 yfI
 yfI
-kuG
+jWU
+yfI
+yfI
+yfI
+yfI
+yfI
+fRR
 yfI
 yfI
 yfI
@@ -16415,30 +19316,25 @@ yfI
 yfI
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-egT
+lki
+lki
+wuH
 pJT
 fPi
-fNT
-utf
+uDp
+mIF
 oXH
-egT
+lTk
 mvA
-uhq
-giy
-ugE
+rkS
+gYL
+tWg
 mqA
 hCX
 hCX
 hCX
 llU
+lki
 yfI
 yfI
 yfI
@@ -16470,20 +19366,19 @@ yfI
 yfI
 yfI
 yfI
+hdV
 yfI
 yfI
 yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -16647,7 +19542,7 @@ ymb
 (57,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -16679,23 +19574,24 @@ yfI
 yfI
 yfI
 yfI
-yfI
-egT
+lki
+wuH
 vLo
-fPi
-fNT
-fPi
+ect
+eUT
+wzm
 qET
-egT
+lTk
 hnp
-uhq
-giy
-ugE
+rkS
+sDq
+xLi
 igV
-hCX
+hug
 pEj
 gUT
 llU
+lki
 yfI
 yfI
 yfI
@@ -16734,13 +19630,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -16904,7 +19799,7 @@ ymb
 (58,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -16936,23 +19831,24 @@ yfI
 yfI
 yfI
 yfI
-yfI
-egT
+lki
+wuH
 pxb
 eis
 cxL
-fPi
+qOh
 wAv
-egT
+lTk
 fcs
-uhq
-giy
-ugE
+rkS
+xeB
+tWg
 qSi
 lvl
 lvl
 lvl
 llU
+lki
 yfI
 yfI
 yfI
@@ -16991,13 +19887,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -17193,68 +20088,68 @@ yfI
 yfI
 yfI
 yfI
-yfI
-egT
+lki
+wuH
 lGZ
-fPi
-fPi
-fPi
+ect
+qOh
+qOh
 vLQ
-egT
+lTk
 qtt
-uhq
-jny
-kCx
+rkS
+vOz
+txv
 bMQ
 tLL
 kiG
-ugE
+qJM
+lTk
+lki
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
 egT
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -17418,7 +20313,7 @@ ymb
 (60,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -17450,23 +20345,39 @@ yfI
 yfI
 yfI
 yfI
-yfI
-egT
+lki
+wuH
 xnd
-fPi
-fPi
-fPi
+lBd
+fsq
+qOh
 oAB
-egT
+lTk
 rne
-uhq
-uhq
+rkS
+ptq
 rqh
-egT
-egT
-egT
-egT
-egT
+lTk
+lTk
+lTk
+lTk
+lTk
+lki
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+xjD
 yfI
 yfI
 yfI
@@ -17490,28 +20401,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -17675,7 +20570,7 @@ ymb
 (61,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -17707,23 +20602,24 @@ yfI
 yfI
 yfI
 yfI
-yfI
-egT
+lki
+wuH
 fDp
-fPi
+qOh
 utf
-fPi
+qOh
 nKj
-egT
-mCE
+lTk
+lSO
 ivB
-uhq
+rkS
 sBG
-egT
+lTk
 mQL
 uYA
 enW
-egT
+lTk
+lki
 yfI
 yfI
 yfI
@@ -17762,13 +20658,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -17932,7 +20827,7 @@ ymb
 (62,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -17964,23 +20859,24 @@ yfI
 yfI
 yfI
 yfI
-yfI
-egT
+lki
+wuH
 gWk
-fPi
-fPi
-fPi
+qOh
+qOh
+qOh
 osI
-egT
+lTk
 qxG
-ugE
-ugE
-ugE
+tWg
+tWg
+coy
 vtM
-uhq
-ugE
-ugE
-egT
+rkS
+dyW
+tWg
+lTk
+lki
 yfI
 yfI
 yfI
@@ -18019,13 +20915,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -18189,7 +21084,15 @@ ymb
 (63,1,1) = {"
 yfI
 yfI
-kuG
+jWU
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+yfI
+hok
 yfI
 yfI
 yfI
@@ -18214,30 +21117,22 @@ yfI
 yfI
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-egT
-egT
+wuH
+wuH
 bcO
 bcO
 bcO
-egT
-egT
-egT
-wRT
-wRT
-egT
-egT
-egT
-egT
-egT
-egT
+wuH
+lTk
+lTk
+ixI
+ixI
+lTk
+lTk
+lTk
+lTk
+lTk
+lTk
 yfI
 yfI
 yfI
@@ -18263,6 +21158,7 @@ yfI
 yfI
 yfI
 yfI
+fRR
 yfI
 yfI
 yfI
@@ -18276,13 +21172,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -18446,7 +21341,7 @@ ymb
 (64,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -18480,10 +21375,20 @@ yfI
 yfI
 yfI
 yfI
+twx
 yfI
 yfI
 yfI
+twx
 yfI
+lki
+lki
+lki
+lki
+lki
+lki
+lki
+lki
 yfI
 yfI
 yfI
@@ -18524,22 +21429,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -18703,7 +21598,7 @@ ymb
 (65,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -18791,12 +21686,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -18960,7 +21855,7 @@ ymb
 (66,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -18983,6 +21878,7 @@ yfI
 yfI
 yfI
 yfI
+ptx
 yfI
 yfI
 yfI
@@ -19014,6 +21910,7 @@ yfI
 yfI
 yfI
 yfI
+fRR
 yfI
 yfI
 yfI
@@ -19046,14 +21943,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -19217,7 +22112,7 @@ ymb
 (67,1,1) = {"
 yfI
 yfI
-kuG
+egT
 yfI
 yfI
 yfI
@@ -19305,12 +22200,12 @@ yfI
 yfI
 yfI
 yfI
+egT
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -19474,7 +22369,7 @@ ymb
 (68,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -19488,6 +22383,7 @@ yfI
 yfI
 yfI
 yfI
+fRR
 yfI
 yfI
 yfI
@@ -19505,6 +22401,7 @@ yfI
 yfI
 yfI
 yfI
+ptx
 yfI
 yfI
 yfI
@@ -19556,18 +22453,16 @@ yfI
 yfI
 yfI
 yfI
+hok
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -19731,7 +22626,7 @@ ymb
 (69,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -19797,6 +22692,7 @@ yfI
 yfI
 yfI
 yfI
+ptx
 yfI
 yfI
 yfI
@@ -19818,13 +22714,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -19988,7 +22883,7 @@ ymb
 (70,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -20031,6 +22926,7 @@ yfI
 yfI
 yfI
 yfI
+fRR
 yfI
 yfI
 yfI
@@ -20075,13 +22971,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -20245,7 +23140,7 @@ ymb
 (71,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -20333,12 +23228,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -20502,7 +23397,7 @@ ymb
 (72,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -20527,6 +23422,7 @@ yfI
 yfI
 yfI
 yfI
+hok
 yfI
 yfI
 yfI
@@ -20589,13 +23485,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -20759,7 +23654,7 @@ ymb
 (73,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -20833,6 +23728,7 @@ yfI
 yfI
 yfI
 yfI
+ptx
 yfI
 yfI
 yfI
@@ -20846,13 +23742,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -21016,7 +23911,7 @@ ymb
 (74,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -21104,12 +23999,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -21273,7 +24168,7 @@ ymb
 (75,1,1) = {"
 yfI
 yfI
-kuG
+egT
 yfI
 yfI
 yfI
@@ -21307,6 +24202,7 @@ yfI
 yfI
 yfI
 yfI
+hok
 yfI
 yfI
 yfI
@@ -21329,6 +24225,7 @@ yfI
 yfI
 yfI
 yfI
+hdV
 yfI
 yfI
 yfI
@@ -21359,14 +24256,12 @@ yfI
 yfI
 yfI
 yfI
+egT
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -21530,7 +24425,7 @@ ymb
 (76,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -21543,6 +24438,7 @@ yfI
 yfI
 yfI
 yfI
+hdV
 yfI
 yfI
 yfI
@@ -21617,13 +24513,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -21787,7 +24682,7 @@ ymb
 (77,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -21875,12 +24770,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -22044,7 +24939,7 @@ ymb
 (78,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -22066,6 +24961,7 @@ yfI
 yfI
 yfI
 yfI
+fRR
 yfI
 yfI
 yfI
@@ -22110,6 +25006,7 @@ yfI
 yfI
 yfI
 yfI
+fRR
 yfI
 yfI
 yfI
@@ -22130,14 +25027,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -22301,7 +25196,7 @@ ymb
 (79,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -22389,12 +25284,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -22558,7 +25453,7 @@ ymb
 (80,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -22646,12 +25541,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -22815,7 +25710,7 @@ ymb
 (81,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -22903,12 +25798,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -23072,7 +25967,7 @@ ymb
 (82,1,1) = {"
 yfI
 yfI
-kuG
+jWU
 yfI
 yfI
 yfI
@@ -23160,12 +26055,12 @@ yfI
 yfI
 yfI
 yfI
+jWU
 yfI
 yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -23329,100 +26224,100 @@ ymb
 (83,1,1) = {"
 yfI
 yfI
-kuG
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+egT
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+egT
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+egT
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+egT
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+egT
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+egT
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+egT
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+egT
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+egT
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+egT
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+egT
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+jWU
+egT
+yfI
+yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -23586,7 +26481,6 @@ ymb
 (84,1,1) = {"
 yfI
 yfI
-kuG
 yfI
 yfI
 yfI
@@ -23678,8 +26572,9 @@ yfI
 yfI
 yfI
 yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -23843,7 +26738,6 @@ ymb
 (85,1,1) = {"
 yfI
 yfI
-kuG
 yfI
 yfI
 yfI
@@ -23935,8 +26829,9 @@ yfI
 yfI
 yfI
 yfI
-yfI
-yfI
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -24098,102 +26993,102 @@ ymb
 ymb
 "}
 (86,1,1) = {"
-yfI
-yfI
-kuG
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -24355,102 +27250,102 @@ ymb
 ymb
 "}
 (87,1,1) = {"
-yfI
-yfI
-kuG
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -24612,102 +27507,102 @@ ymb
 ymb
 "}
 (88,1,1) = {"
-yfI
-yfI
-kuG
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -24869,102 +27764,102 @@ ymb
 ymb
 "}
 (89,1,1) = {"
-yfI
-yfI
-kuG
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -25126,102 +28021,102 @@ ymb
 ymb
 "}
 (90,1,1) = {"
-yfI
-yfI
-kuG
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -25383,102 +28278,102 @@ ymb
 ymb
 "}
 (91,1,1) = {"
-yfI
-yfI
-kuG
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -25640,102 +28535,102 @@ ymb
 ymb
 "}
 (92,1,1) = {"
-yfI
-yfI
-kuG
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -25897,102 +28792,102 @@ ymb
 ymb
 "}
 (93,1,1) = {"
-yfI
-yfI
-kuG
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -26154,102 +29049,102 @@ ymb
 ymb
 "}
 (94,1,1) = {"
-yfI
-yfI
-kuG
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -26411,102 +29306,102 @@ ymb
 ymb
 "}
 (95,1,1) = {"
-yfI
-yfI
-kuG
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -26668,102 +29563,102 @@ ymb
 ymb
 "}
 (96,1,1) = {"
-yfI
-yfI
-kuG
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -26925,102 +29820,102 @@ ymb
 ymb
 "}
 (97,1,1) = {"
-yfI
-yfI
-kuG
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb
@@ -27182,102 +30077,102 @@ ymb
 ymb
 "}
 (98,1,1) = {"
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
-yfI
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
+ymb
 ymb
 ymb
 ymb

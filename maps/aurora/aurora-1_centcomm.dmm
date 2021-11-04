@@ -6453,7 +6453,12 @@
 /area/antag/mercenary)
 "aPM" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Unisex Restroom"
+	name = "OOC Event Changerooms"
+	},
+/obj/item/tape/engineering{
+	icon_state = "engineering_door";
+	layer = 4;
+	name = "OOC tape"
 	},
 /turf/unsimulated/floor,
 /area/centcom/spawning)
@@ -28787,6 +28792,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/merchant)
+"onX" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/machinery/acting/changer,
+/turf/unsimulated/floor,
+/area/centcom/spawning)
 "ool" = (
 /turf/simulated/wall/shuttle/unique/hapt{
 	desc = "A scary armed military corvette. Carries no branding or emblem of any sort. This thing looks mean.";
@@ -36259,6 +36269,35 @@
 	icon_state = "new_white"
 	},
 /area/centcom/legion)
+"tFG" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/structure/closet/crate/trashcart{
+	name = "costume bin"
+	},
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/storage/box/syndie_kit/chameleon,
+/turf/unsimulated/floor,
+/area/centcom/spawning)
 "tFU" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced,
@@ -77336,9 +77375,9 @@ vWo
 vWo
 rme
 nfY
-aaM
-aaM
-aaM
+nfY
+nfY
+nfY
 aaM
 aaM
 aaM
@@ -77593,8 +77632,8 @@ tjM
 tjM
 sxq
 nfY
-nfY
-nfY
+onX
+tFG
 nfY
 nfY
 nfY
