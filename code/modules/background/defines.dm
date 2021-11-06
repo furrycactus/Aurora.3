@@ -15,6 +15,8 @@
 #define CITIZENSHIP_NKA "New Kingdom of Adhomai"
 
 #define CITIZENSHIP_ZORA "Zo'ra Hive"
+#define CITIZENSHIP_KLAX "K'lax Hive"
+#define CITIZENSHIP_CTHUR "C'thur Hive"
 
 #define CITIZENSHIP_NONE "None"
 #define CITIZENSHIP_GOLDEN "Golden Deep"
@@ -85,6 +87,8 @@
 #define ACCENT_PLUTO "Plutonian"
 #define ACCENT_ASSUNZIONE "Assunzionii"
 #define ACCENT_VISEGRAD "Visegradi"
+#define ACCENT_VALKYRIE "Valkyrian"
+#define ACCENT_MICTLAN "Mictlanian"
 
 #define ACCENT_REPUBICLANSIIK "Republican Siik'maas"
 #define ACCENT_NAZIRASIIK "Nazira Siik'maas"
