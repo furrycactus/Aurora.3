@@ -241,6 +241,11 @@
 	icon_state = "asteroidplating"
 	},
 /area/mine/unexplored)
+"aC" = (
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "aE" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -260,7 +265,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
 "aF" = (
 /obj/machinery/light{
 	dir = 4;
@@ -918,6 +923,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_main)
+"bW" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/machinery/light/small,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "bX" = (
 /turf/simulated/open,
 /area/turbolift/command_mid)
@@ -1066,6 +1080,29 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/bridge_elevator)
+"cm" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
+"cn" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/carpet/rubber{
+	color = "#33ff88"
+	},
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "co" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -1123,9 +1160,23 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/interstitial_cargo)
+"cx" = (
+/obj/machinery/space_heater,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "cy" = (
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_cargo)
+"cz" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "cE" = (
 /obj/machinery/power/apc{
 	dir = 4;
@@ -1141,6 +1192,18 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_cargo)
+"cJ" = (
+/obj/machinery/ringer{
+	id = "pearldoorbell";
+	pixel_x = 28
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "cL" = (
 /obj/effect/landmark{
 	name = "cavernspawn"
@@ -1205,14 +1268,17 @@
 /turf/simulated/wall/r_wall,
 /area/bridge/selfdestruct)
 "cX" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/turf/unsimulated/mineral,
+/area/mine/explored)
+"cY" = (
+/obj/structure/closet/crate,
+/obj/machinery/alarm{
+	pixel_y = 32
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "cZ" = (
 /obj/machinery/door/firedoor,
 /obj/structure/grille,
@@ -2287,6 +2353,13 @@
 "fd" = (
 /turf/simulated/floor/tiled,
 /area/security/break_room)
+"fe" = (
+/obj/structure/railing/mapped,
+/obj/effect/floor_decal/spline/plain,
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "ff" = (
 /obj/machinery/door/firedoor,
 /obj/structure/window/reinforced,
@@ -2488,6 +2561,36 @@
 /obj/machinery/computer/arcade,
 /turf/simulated/floor/wood,
 /area/security/break_room)
+"fN" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/light/small,
+/turf/simulated/floor/wood,
+/area/library)
+"fO" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"fS" = (
+/obj/structure/table/reinforced/wood,
+/obj/effect/decal/cleanable/cobweb,
+/turf/simulated/floor/carpet,
+/area/library)
 "fV" = (
 /obj/machinery/door/firedoor,
 /obj/structure/grille,
@@ -2571,6 +2674,26 @@
 /obj/machinery/vending/snack,
 /turf/simulated/floor/wood,
 /area/security/break_room)
+"gm" = (
+/obj/structure/disposalpipe/up{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/zpipe/up/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/zpipe/up/scrubbers{
+	dir = 1
+	},
+/obj/structure/cable/green,
+/obj/structure/cable/green{
+	d1 = 16;
+	d2 = 0;
+	icon_state = "12-0"
+	},
+/turf/simulated/floor/plating,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "gp" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/structure/sign/nosmoking_2{
@@ -2614,6 +2737,32 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled,
 /area/security/training)
+"gA" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"gB" = (
+/obj/effect/map_effect/wingrille_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "pearlhouselockdown";
+	name = "Mansion Lockdown Blast Doors"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "gC" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -2740,6 +2889,19 @@
 /obj/random/loot,
 /turf/simulated/floor/plating,
 /area/maintenance/security_interstitial)
+"gS" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "gY" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 9
@@ -3058,6 +3220,21 @@
 /obj/effect/shuttle_landmark/skipjack/interstitial,
 /turf/unsimulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
+"hE" = (
+/obj/item/storage/secure/safe{
+	code = "7569";
+	pixel_x = -26
+	},
+/obj/item/storage/pill_bottle/zoom,
+/obj/item/storage/pill_bottle/happy,
+/obj/item/storage/pill_bottle/emoxanyl,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "hG" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 9
@@ -3136,6 +3313,28 @@
 	},
 /turf/simulated/floor/tiled,
 /area/security/training)
+"hU" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
+"hV" = (
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "north bump";
+	pixel_y = 24
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "hZ" = (
 /turf/simulated/wall,
 /area/medical/psych)
@@ -3153,6 +3352,29 @@
 /obj/effect/decal/remains,
 /turf/simulated/floor/plating,
 /area/maintenance/security_interstitial)
+"ic" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 4
+	},
+/turf/simulated/floor/carpet,
+/area/library)
+"if" = (
+/obj/machinery/light_switch{
+	pixel_x = 25;
+	pixel_y = -4
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
+"ig" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "ii" = (
 /turf/simulated/open,
 /area/security/training)
@@ -3901,6 +4123,61 @@
 	},
 /turf/simulated/floor/plating,
 /area/medical/psych)
+"jX" = (
+/obj/structure/mech_wreckage/powerloader{
+	name = "mysterious machine"
+	},
+/obj/machinery/alarm{
+	pixel_y = 32
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
+"jY" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"jZ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/carpet/blue,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
+"ka" = (
+/obj/item/flame/candle,
+/turf/simulated/floor/silver,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
+"kc" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "ke" = (
 /obj/structure/grille,
 /obj/machinery/door/firedoor,
@@ -4006,6 +4283,29 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/medbay_interstitial)
+"kl" = (
+/obj/structure/bed/psych{
+	layer = 2.30
+	},
+/obj/structure/curtain{
+	color = "#ff008a";
+	layer = 2
+	},
+/obj/item/bedsheet/purple{
+	layer = 2.32
+	},
+/obj/structure/bed/psych{
+	layer = 2.31;
+	pixel_y = -9
+	},
+/obj/item/bedsheet/purple{
+	layer = 2.33;
+	pixel_y = -9
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "ko" = (
 /obj/effect/floor_decal/corner_wide/green{
 	dir = 6
@@ -4070,7 +4370,19 @@
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled/ramp/bottom,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
+"ky" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "kA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -4781,6 +5093,22 @@
 /obj/effect/floor_decal/corner/green/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/medical/psych)
+"lT" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "lU" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -4847,6 +5175,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge/selfdestruct)
+"mc" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/library)
 "md" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 9
@@ -4966,6 +5300,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
 /area/medical/psych)
+"mu" = (
+/turf/simulated/floor/carpet/rubber{
+	color = "#33ff88"
+	},
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "mv" = (
 /obj/machinery/alarm{
 	dir = 1;
@@ -5027,6 +5368,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/janitor/stairs)
+"mE" = (
+/obj/structure/flora/pottedplant/random{
+	pixel_y = 4
+	},
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "mG" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -5086,9 +5436,48 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_cargo)
+"mN" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/open,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"mQ" = (
+/obj/machinery/atmospherics/pipe/cap/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/alarm{
+	dir = 4;
+	pixel_x = -32
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "mT" = (
 /turf/simulated/wall/r_wall,
 /area/medical/upperlevel)
+"mW" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "mX" = (
 /obj/structure/lattice,
 /turf/unsimulated/floor/asteroid/ash/rocky,
@@ -5120,6 +5509,25 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/medbay_interstitial)
+"nf" = (
+/obj/structure/bed/psych{
+	layer = 2.30
+	},
+/obj/item/bedsheet/green{
+	layer = 2.32
+	},
+/obj/structure/bed/psych{
+	layer = 2.31;
+	pixel_y = -9
+	},
+/obj/item/bedsheet/green{
+	layer = 2.33;
+	pixel_y = -9
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "nk" = (
 /obj/structure/table/standard,
 /obj/machinery/reagentgrinder{
@@ -5180,6 +5588,23 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/interstitial_cargo)
+"nv" = (
+/obj/effect/floor_decal/spline/plain/corner,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "nx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/storage/box/lights/coloredmixed,
@@ -5188,7 +5613,7 @@
 /obj/item/device/floor_painter,
 /obj/structure/closet/crate,
 /turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
 "nz" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -5215,6 +5640,22 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/elevator)
+"nC" = (
+/obj/structure/bed/psych{
+	layer = 2.32;
+	pixel_y = 11
+	},
+/obj/structure/bed/psych{
+	layer = 2.33
+	},
+/obj/item/bedsheet/blue{
+	pixel_y = 11
+	},
+/obj/item/bedsheet/blue,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "nD" = (
 /obj/structure/track{
 	icon_state = "track3"
@@ -5239,7 +5680,7 @@
 	icon_state = "medium"
 	},
 /turf/unsimulated/floor/asteroid/ash/rocky,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
 "nJ" = (
 /obj/machinery/door/firedoor,
 /obj/structure/window/reinforced,
@@ -5289,16 +5730,33 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/medbay_virology)
+"nV" = (
+/obj/structure/bed/psych{
+	layer = 2.32;
+	pixel_y = 11
+	},
+/obj/structure/bed/psych{
+	layer = 2.33
+	},
+/obj/structure/curtain/open/bed,
+/obj/item/bedsheet/rainbow{
+	pixel_y = 11
+	},
+/obj/item/bedsheet/rainbow,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "nX" = (
 /turf/simulated/floor/tiled/ramp/bottom,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "oc" = (
 /obj/structure/grille,
 /obj/item/material/shard{
 	icon_state = "small"
 	},
 /turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
 "of" = (
 /obj/structure/table/steel,
 /obj/item/reagent_containers/glass/beaker{
@@ -5313,6 +5771,25 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/maintenance/medbay_virology)
+"og" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/open,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"oh" = (
+/obj/structure/closet,
+/obj/item/cell/hyper,
+/obj/item/screwdriver,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "ok" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -5342,6 +5819,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/maintenance/medbay_virology)
+"os" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "ot" = (
 /obj/structure/ladder/up{
 	pixel_y = 16
@@ -5356,6 +5839,18 @@
 	},
 /turf/unsimulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
+"ow" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "oB" = (
 /obj/item/device/radio/intercom{
 	layer = 4;
@@ -5367,7 +5862,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "oD" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
@@ -5388,7 +5883,13 @@
 /obj/machinery/hologram/holopad,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
+"oE" = (
+/obj/structure/flora/pottedplant/random{
+	pixel_y = 4
+	},
+/turf/simulated/floor/wood,
+/area/library)
 "oF" = (
 /turf/simulated/open,
 /area/maintenance/medbay_interstitial)
@@ -5401,6 +5902,21 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/upperlevel)
+"oL" = (
+/turf/simulated/wall,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
+"oN" = (
+/obj/structure/bedsheetbin,
+/obj/machinery/light_switch{
+	pixel_x = -25;
+	pixel_y = -4
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "oO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -5411,7 +5927,26 @@
 	},
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
+"oV" = (
+/obj/structure/railing/mapped,
+/obj/effect/floor_decal/spline/plain,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "oX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -5428,6 +5963,11 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/maintenance/medbay_virology)
+"oZ" = (
+/turf/simulated/floor/carpet/blue,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "pa" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -5469,6 +6009,18 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
 /area/maintenance/medbay_virology)
+"ph" = (
+/obj/structure/bookcase/manuals/medical,
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
+"pi" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/carpet,
+/area/library)
 "pl" = (
 /obj/structure/ladder{
 	pixel_y = 16
@@ -5519,6 +6071,18 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_main)
+"ps" = (
+/obj/structure/table/reinforced/wood,
+/obj/item/device/flashlight/lamp/green,
+/obj/item/storage/pill_bottle/mortaphenyl{
+	name = "Ruby's trammies";
+	pixel_x = 6;
+	pixel_y = 2
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "pw" = (
 /turf/simulated/wall/r_wall,
 /area/maintenance/medbay_interstitial)
@@ -5539,7 +6103,7 @@
 	},
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "pC" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -5563,7 +6127,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
 "pF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -5578,7 +6142,7 @@
 	},
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "pH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -5601,9 +6165,30 @@
 "pT" = (
 /turf/simulated/wall,
 /area/medical/upperlevel)
+"pU" = (
+/obj/structure/undies_wardrobe,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
+"pX" = (
+/obj/structure/chemkit,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "pZ" = (
 /turf/simulated/open/airless,
 /area/mine/unexplored)
+"qa" = (
+/obj/effect/map_effect/wingrille_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	id = "pearlhouselockdown";
+	name = "Mansion Lockdown Blast Doors"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/library)
 "qc" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -5621,11 +6206,19 @@
 	},
 /area/mine/unexplored)
 "qe" = (
-/turf/unsimulated/floor/asteroid/ash/rocky,
-/area/maintenance/interstitial_construction_site)
+/turf/simulated/open,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"qh" = (
+/obj/machinery/firealarm/west,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "qi" = (
 /turf/simulated/wall,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "qk" = (
 /obj/machinery/door/firedoor,
 /obj/structure/grille,
@@ -5638,6 +6231,26 @@
 	},
 /turf/simulated/floor/airless,
 /area/maintenance/interstitial_construction_site/office)
+"qn" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Guest Bedroom"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "qo" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -5659,6 +6272,21 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
 /area/maintenance/medbay_virology)
+"qt" = (
+/obj/effect/floor_decal/spline/fancy/wood/cee{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/carpet/art,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "qu" = (
 /obj/effect/floor_decal/corner/pink{
 	dir = 9
@@ -5679,6 +6307,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_cargo)
+"qC" = (
+/obj/machinery/disposal,
+/obj/effect/decal/cleanable/cobweb,
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "qF" = (
 /obj/structure/cable/green{
 	d2 = 8;
@@ -5797,6 +6433,14 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/interstitial_cargo)
+"ra" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "re" = (
 /obj/machinery/atmospherics/pipe/zpipe/up/scrubbers{
 	dir = 4
@@ -5824,6 +6468,15 @@
 	roof_type = null
 	},
 /area/maintenance/bridge_elevator)
+"rg" = (
+/obj/machinery/light_switch{
+	pixel_x = 25;
+	pixel_y = -4
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "rh" = (
 /turf/simulated/wall/r_wall,
 /area/quartermaster/storage)
@@ -5831,6 +6484,19 @@
 /obj/structure/lattice/catwalk/indoor,
 /turf/simulated/open,
 /area/quartermaster/storage)
+"ro" = (
+/obj/structure/table/reinforced/wood,
+/obj/item/device/flashlight/lamp/green,
+/obj/machinery/requests_console{
+	department = "Sapphire's Room";
+	departmentType = 1;
+	name = "Sapphire's Room Requests Console";
+	pixel_y = 33
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "rp" = (
 /turf/simulated/wall,
 /area/security/training_theoretical)
@@ -5871,7 +6537,7 @@
 	name = "Construction Floodlight"
 	},
 /turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
 "rH" = (
 /obj/structure/table/standard,
 /obj/machinery/requests_console{
@@ -5933,11 +6599,38 @@
 	icon_state = "asteroidplating"
 	},
 /area/mine/unexplored)
+"rT" = (
+/obj/structure/table/reinforced/wood,
+/obj/item/book/manual/gravitygenerator,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
+"rZ" = (
+/obj/structure/bed/psych{
+	layer = 2.32;
+	pixel_y = 11
+	},
+/obj/structure/bed/psych{
+	layer = 2.33
+	},
+/obj/structure/curtain{
+	color = "#ff008a";
+	layer = 6
+	},
+/obj/item/bedsheet/purple{
+	pixel_y = 11
+	},
+/obj/item/bedsheet/purple,
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "sd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/pipedispenser/disposal,
 /turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
 "sg" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
@@ -5968,6 +6661,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/storage)
+"sj" = (
+/obj/structure/closet,
+/obj/item/cell/hyper,
+/obj/item/screwdriver,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "sk" = (
 /obj/structure/track{
 	icon_state = "track5"
@@ -6028,6 +6729,20 @@
 	},
 /turf/simulated/floor/airless,
 /area/maintenance/interstitial_construction_site/zone_2)
+"su" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/open,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"sw" = (
+/obj/structure/undies_wardrobe,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "sx" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 6
@@ -6059,6 +6774,18 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/engineering_ladder)
+"sB" = (
+/obj/effect/map_effect/wingrille_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "pearlhouselockdown";
+	name = "Mansion Lockdown Blast Doors"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "sC" = (
 /obj/machinery/light/small/emergency,
 /turf/simulated/floor/plating,
@@ -6082,6 +6809,19 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_cargo)
+"sG" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/carpet/blue,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "sK" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -6113,6 +6853,23 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/telecoms_ladder)
+"sM" = (
+/obj/machinery/light_switch{
+	pixel_x = -25;
+	pixel_y = -4
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"sP" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "sQ" = (
 /obj/item/stack/material/steel{
 	amount = 20
@@ -6128,7 +6885,7 @@
 	},
 /obj/structure/closet/crate,
 /turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
 "sR" = (
 /obj/effect/floor_decal/corner/red/full,
 /obj/structure/closet/crate/freezer,
@@ -6137,6 +6894,19 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/maintenance/medbay_virology)
+"sS" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/railing/mapped,
+/obj/structure/flora/pottedplant/random{
+	pixel_y = 4
+	},
+/turf/simulated/floor/marble/dark,
+/area/library)
+"sT" = (
+/turf/simulated/wall,
+/area/library)
 "sU" = (
 /obj/machinery/light{
 	icon_state = "tube1"
@@ -6172,8 +6942,20 @@
 /turf/simulated/floor/airless,
 /area/maintenance/interstitial_construction_site/zone_2)
 "ta" = (
-/turf/simulated/wall,
-/area/maintenance/interstitial_construction_site)
+/obj/structure/railing/mapped{
+	dir = 8;
+	icon_state = "mcorneroverlay1"
+	},
+/turf/simulated/open,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"td" = (
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "tk" = (
 /obj/structure/table/steel,
 /obj/item/ladder_mobile{
@@ -6181,6 +6963,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/elevator)
+"tl" = (
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "tm" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 10;
@@ -6196,6 +6983,13 @@
 "tt" = (
 /turf/simulated/open,
 /area/quartermaster/storage)
+"tv" = (
+/obj/structure/distillery,
+/obj/machinery/light/small,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "ty" = (
 /obj/machinery/access_button{
 	command = "cycle_interior";
@@ -6241,6 +7035,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/medbay_virology)
+"tA" = (
+/obj/machinery/light_switch{
+	pixel_x = 25;
+	pixel_y = -4
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "tB" = (
 /obj/structure/grille,
 /obj/machinery/door/firedoor,
@@ -6306,6 +7109,43 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/medbay_virology)
+"tU" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"tV" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "tW" = (
 /obj/machinery/door/firedoor,
 /obj/structure/grille,
@@ -6319,13 +7159,21 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "ua" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/steel,
 /obj/item/storage/toolbox/mechanical,
 /turf/simulated/floor/airless,
 /area/maintenance/interstitial_construction_site/zone_2)
+"ug" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/art,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "um" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
@@ -6373,6 +7221,25 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/telecoms_ladder)
+"uM" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
+"uT" = (
+/turf/simulated/wall,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
+"uV" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "uW" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -6473,13 +7340,27 @@
 /obj/machinery/vending/coffee,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "vi" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/interstitial_cargo)
+"vj" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "vk" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/freezer{
@@ -6504,6 +7385,22 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/medbay_interstitial)
+"vp" = (
+/obj/structure/bed/psych{
+	layer = 2.32;
+	pixel_y = 11
+	},
+/obj/structure/bed/psych{
+	layer = 2.33
+	},
+/obj/item/bedsheet/green{
+	pixel_y = 11
+	},
+/obj/item/bedsheet/green,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "vs" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -6518,6 +7415,17 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_main)
+"vz" = (
+/obj/effect/map_effect/wingrille_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	id = "pearlhouselockdown";
+	name = "Mansion Lockdown Blast Doors"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "vC" = (
 /obj/structure/track{
 	icon_state = "track10"
@@ -6546,6 +7454,28 @@
 /obj/structure/lattice/catwalk,
 /turf/simulated/open,
 /area/maintenance/medbay_interstitial)
+"vI" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"vJ" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/turf/simulated/floor/carpet/art,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
+"vO" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/library)
 "vP" = (
 /obj/structure/track{
 	icon_state = "track12"
@@ -6555,6 +7485,11 @@
 	icon_state = "asteroidplating"
 	},
 /area/mine/unexplored)
+"vV" = (
+/turf/simulated/open,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "vX" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
@@ -6562,6 +7497,14 @@
 	},
 /turf/simulated/open,
 /area/quartermaster/storage)
+"wb" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/simulated/open,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "wc" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
@@ -6576,6 +7519,50 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_construction_site/office)
+"we" = (
+/obj/effect/floor_decal/spline/plain/corner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"wi" = (
+/obj/machinery/atmospherics/unary/vent_scrubber{
+	name = "drain"
+	},
+/obj/machinery/shower{
+	pixel_y = 15
+	},
+/obj/structure/curtain{
+	color = "#ff008a"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/marble,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "wl" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -6592,7 +7579,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/grille/broken,
 /turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
 "wn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -6616,12 +7603,40 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/maintenance/medbay_virology)
+"wo" = (
+/obj/structure/flora/pottedplant/random{
+	pixel_y = 4
+	},
+/obj/machinery/firealarm/north,
+/obj/effect/decal/cleanable/cobweb,
+/turf/simulated/floor/wood,
+/area/library)
 "wr" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 9
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/storage)
+"ws" = (
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
+"wu" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "wy" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -6691,6 +7706,48 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_main)
+"wO" = (
+/obj/structure/bed/psych{
+	layer = 2.30
+	},
+/obj/structure/curtain/open/bed,
+/obj/item/bedsheet/rainbow{
+	layer = 2.32
+	},
+/obj/structure/bed/psych{
+	layer = 2.31;
+	pixel_y = -9
+	},
+/obj/item/bedsheet/rainbow{
+	layer = 2.33;
+	pixel_y = -9
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
+"wP" = (
+/obj/machinery/door/airlock/diamond{
+	color = "#0077ff";
+	desc = "It opens and closes. Images of SoCal girls come to mind, even though you don't know what that is.";
+	name = "Sapphire Airlock"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "wT" = (
 /obj/machinery/light,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -6739,6 +7796,9 @@
 /obj/machinery/light/spot/weak,
 /turf/unsimulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
+"xh" = (
+/turf/simulated/floor/carpet,
+/area/library)
 "xi" = (
 /obj/machinery/alarm{
 	dir = 1;
@@ -6751,6 +7811,38 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled,
 /area/quartermaster/storage)
+"xn" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
+"xo" = (
+/obj/structure/bed/psych{
+	layer = 2.32;
+	pixel_y = 11
+	},
+/obj/structure/bed/psych{
+	layer = 2.33
+	},
+/obj/item/bedsheet/red{
+	pixel_y = 11
+	},
+/obj/item/bedsheet/red,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "xr" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -6765,12 +7857,29 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_cargo)
+"xt" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "xv" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/plating,
 /area/maintenance/medbay_interstitial)
+"xx" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/plain{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "xy" = (
 /obj/structure/lattice,
 /turf/simulated/open,
@@ -6786,7 +7895,7 @@
 /obj/item/material/ashtray/bronze,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "xH" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 1;
@@ -6809,6 +7918,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/janitor/stairs)
+"xL" = (
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "xP" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
@@ -6821,6 +7935,47 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
 /area/maintenance/medbay_virology)
+"xS" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/turf/simulated/floor/carpet/art,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
+"xU" = (
+/obj/machinery/door/airlock/palepurple{
+	name = "Pearl's Bedroom"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
+"xV" = (
+/obj/machinery/firealarm/west,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
+"xX" = (
+/obj/effect/decal/cleanable/blood/gibs/robot,
+/obj/effect/decal/cleanable/cobweb,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "yb" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
@@ -6895,6 +8050,29 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/interstitial_cargo)
+"yt" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/alarm{
+	pixel_y = 32
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
+"yA" = (
+/obj/effect/map_effect/wingrille_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "pearlhouselockdown";
+	name = "Mansion Lockdown Blast Doors"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "yD" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -6986,7 +8164,27 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
+"yV" = (
+/obj/structure/table/stone/marble,
+/obj/item/towel/random{
+	color = "#ff008a"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/white,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "yW" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -7023,7 +8221,7 @@
 	},
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "zd" = (
 /obj/effect/floor_decal/corner/pink{
 	dir = 10
@@ -7062,6 +8260,30 @@
 	icon_state = "asteroidplating"
 	},
 /area/mine/unexplored)
+"zo" = (
+/obj/structure/table/reinforced/wood,
+/obj/item/device/flashlight/lamp/green,
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
+"zr" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
+"zt" = (
+/obj/machinery/light_switch{
+	pixel_x = 4;
+	pixel_y = -25
+	},
+/turf/simulated/floor/wood,
+/area/library)
 "zw" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -7116,6 +8338,35 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/interstitial_cargo)
+"zK" = (
+/obj/effect/map_effect/wingrille_spawn/reinforced/polarized{
+	id = "pearlshitter"
+	},
+/obj/machinery/door/blast/regular/open{
+	id = "pearlhouselockdown";
+	name = "Mansion Lockdown Blast Doors"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
+"zP" = (
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "zQ" = (
 /obj/structure/flora/pottedplant/random,
 /obj/structure/extinguisher_cabinet{
@@ -7124,6 +8375,11 @@
 /obj/effect/floor_decal/corner_wide/green/full,
 /turf/simulated/floor/tiled/white,
 /area/medical/upperlevel)
+"zU" = (
+/obj/structure/railing/mapped,
+/obj/structure/stairs/east,
+/turf/simulated/floor/wood,
+/area/library)
 "zW" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -7131,6 +8387,13 @@
 /obj/structure/bed/chair/office/light,
 /turf/simulated/floor/tiled/white,
 /area/maintenance/medbay_virology)
+"zX" = (
+/obj/structure/table/reinforced/wood,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/carpet,
+/area/library)
 "Ab" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -7160,7 +8423,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
 "Al" = (
 /obj/machinery/door/firedoor,
 /obj/structure/grille,
@@ -7172,6 +8435,22 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/substation/interstitial)
+"Am" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
+"An" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/turf/simulated/floor/carpet/art,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "As" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -7223,12 +8502,30 @@
 	},
 /turf/simulated/floor/tiled,
 /area/security/break_room)
+"AA" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "AB" = (
 /obj/structure/ladder{
 	pixel_y = 16
 	},
 /turf/simulated/open,
 /area/maintenance/interstitial_cargo)
+"AC" = (
+/obj/machinery/requests_console{
+	department = "Ruby's Room";
+	departmentType = 1;
+	name = "Ruby's Room Requests Console";
+	pixel_y = 33
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "AG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -7238,6 +8535,20 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/storage)
+"AH" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"AI" = (
+/obj/effect/decal/cleanable/cobweb,
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "AL" = (
 /obj/machinery/door/firedoor,
 /obj/structure/window/reinforced,
@@ -7281,6 +8592,28 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/telecoms_ladder)
+"AU" = (
+/obj/structure/table/reinforced/wood,
+/obj/item/newspaper,
+/obj/machinery/requests_console{
+	department = "Library";
+	departmentType = 1;
+	name = "Library Requests Console";
+	pixel_y = 33
+	},
+/turf/simulated/floor/wood,
+/area/library)
+"AV" = (
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc{
+	name = "south bump";
+	pixel_y = -24
+	},
+/turf/simulated/floor/wood,
+/area/library)
 "AW" = (
 /obj/structure/closet/crate/plastic,
 /obj/effect/floor_decal/corner/brown{
@@ -7289,6 +8622,12 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled,
 /area/quartermaster/storage)
+"Bd" = (
+/obj/effect/decal/cleanable/cobweb,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "Be" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -7305,7 +8644,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "Bg" = (
 /turf/simulated/floor/tiled/white,
 /area/maintenance/medbay_interstitial)
@@ -7313,21 +8652,45 @@
 /obj/item/stack/material/cardboard,
 /turf/simulated/floor/tiled/dark,
 /area/maintenance/medbay_virology)
+"Bk" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/carpet/rubber{
+	color = "#33ff88"
+	},
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "Bl" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_main)
+"Bm" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/open,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "Br" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
 /obj/structure/cable/green,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "Bu" = (
 /turf/simulated/floor/tiled/white,
 /area/medical/upperlevel)
@@ -7376,6 +8739,19 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/telecoms_ladder)
+"BN" = (
+/obj/machinery/alarm{
+	pixel_y = 32
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"BO" = (
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "BP" = (
 /obj/machinery/light{
 	dir = 8
@@ -7492,6 +8868,34 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/open,
 /area/maintenance/medbay_virology)
+"Ct" = (
+/obj/structure/cable/green,
+/obj/machinery/power/apc{
+	name = "south bump";
+	pixel_y = -24
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
+"Cv" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/carpet/rubber{
+	color = "#33ff88"
+	},
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "CC" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -7504,6 +8908,37 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled,
 /area/quartermaster/storage)
+"CG" = (
+/turf/simulated/floor/tiled/ramp{
+	dir = 4
+	},
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"CJ" = (
+/obj/effect/floor_decal/spline/plain,
+/obj/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"CK" = (
+/obj/machinery/space_heater,
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "CL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
@@ -7612,6 +9047,23 @@
 	},
 /turf/simulated/open,
 /area/maintenance/interstitial_cargo)
+"Dg" = (
+/obj/structure/table/stone/marble,
+/obj/machinery/button/switch/windowtint{
+	id = "pearlshitter";
+	pixel_y = 26;
+	req_access = null
+	},
+/turf/simulated/floor/tiled/white,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
+"Dh" = (
+/obj/machinery/alarm{
+	pixel_y = 32
+	},
+/turf/simulated/floor/wood,
+/area/library)
 "Dj" = (
 /obj/machinery/camera/network/supply{
 	c_tag = "Cargo - Upper Warehouse";
@@ -7623,6 +9075,21 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/storage)
+"Do" = (
+/turf/simulated/wall,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
+"Ds" = (
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "Dt" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass_medical{
@@ -7662,6 +9129,16 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/maintenance/medbay_interstitial)
+"DB" = (
+/obj/structure/bedsheetbin,
+/obj/machinery/light_switch{
+	pixel_x = -25;
+	pixel_y = -4
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "DC" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -7681,6 +9158,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_cargo)
+"DE" = (
+/obj/structure/flora/pottedplant/random{
+	pixel_y = 4
+	},
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "DJ" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1379;
@@ -7712,6 +9198,55 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_cargo)
+"DN" = (
+/obj/structure/sink{
+	pixel_y = 16
+	},
+/obj/structure/mirror{
+	pixel_y = 32
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/white,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
+"DP" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 4
+	},
+/turf/simulated/floor/marble/dark,
+/area/library)
+"DR" = (
+/obj/machinery/requests_console{
+	announceAuth = 1;
+	announcementConsole = 1;
+	department = "Pearl's Shitter";
+	departmentType = 5;
+	name = "Pearl's Bathroom Requests Console";
+	pixel_y = -31
+	},
+/turf/simulated/floor/tiled/white,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
+"DY" = (
+/obj/machinery/alarm{
+	pixel_y = 32
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "Ed" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -7873,12 +9408,39 @@
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/white,
 /area/maintenance/medbay_interstitial)
+"EA" = (
+/obj/machinery/space_heater,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "EI" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/engineering_ladder)
+"EJ" = (
+/obj/structure/table/reinforced/wood,
+/obj/item/storage/pill_bottle/cetahydramine{
+	pixel_y = 8
+	},
+/obj/item/storage/pill_bottle/inaprovaline{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/item/storage/pill_bottle/perconol{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/storage/pill_bottle/mortaphenyl,
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "EK" = (
 /obj/structure/lattice/catwalk/indoor{
 	layer = 2.5;
@@ -7940,6 +9502,22 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/upperlevel)
+"Fb" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "Fc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -8015,6 +9593,13 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/maintenance/medbay_virology)
+"Fq" = (
+/obj/machinery/space_heater,
+/obj/machinery/light/small,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "Fs" = (
 /turf/simulated/floor/tiled,
 /area/quartermaster/storage)
@@ -8024,7 +9609,7 @@
 	},
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "Fz" = (
 /obj/machinery/atmospherics/binary/pump{
 	icon_state = "map_on";
@@ -8033,6 +9618,18 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/engineering_ladder)
+"FC" = (
+/obj/effect/map_effect/wingrille_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "pearlhouselockdown";
+	name = "Mansion Lockdown Blast Doors"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "FD" = (
 /obj/machinery/newscaster{
 	pixel_x = 2;
@@ -8043,7 +9640,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "FF" = (
 /obj/machinery/alarm{
 	pixel_y = 28
@@ -8052,6 +9649,19 @@
 /obj/item/stack/material/cardboard,
 /turf/simulated/floor/tiled/white,
 /area/maintenance/medbay_virology)
+"FG" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "FI" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
@@ -8067,6 +9677,17 @@
 /obj/effect/landmark/dungeon_spawn,
 /turf/unsimulated/chasm_mask,
 /area/mine/unexplored)
+"FL" = (
+/obj/effect/decal/cleanable/cobweb,
+/turf/simulated/floor/carpet,
+/area/library)
+"FM" = (
+/obj/structure/table/reinforced/wood,
+/obj/item/book/manual/anomaly_testing,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "FP" = (
 /obj/machinery/light{
 	dir = 8;
@@ -8077,6 +9698,14 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/upperlevel)
+"FY" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "Ga" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -8086,7 +9715,15 @@
 /obj/structure/girder/displaced,
 /obj/structure/grille/broken,
 /turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
+"Gc" = (
+/obj/structure/table/reinforced/wood,
+/obj/item/screwdriver,
+/obj/item/cell/hyper,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "Ge" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -8149,6 +9786,15 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/psych)
+"Gp" = (
+/obj/structure/table/reinforced/wood,
+/obj/machinery/computer/atmoscontrol/laptop{
+	req_access = null
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "Gr" = (
 /obj/structure/track{
 	icon_state = "track12"
@@ -8177,6 +9823,11 @@
 "Gw" = (
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_construction_site/office)
+"Gy" = (
+/turf/simulated/floor/tiled/ramp/bottom{
+	dir = 4
+	},
+/area/library)
 "Gz" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 10;
@@ -8214,6 +9865,21 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/medbay_interstitial)
+"GG" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "north bump";
+	pixel_y = 24
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/effect/decal/cleanable/cobweb,
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "GI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -8260,6 +9926,17 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_construction_site/office)
+"GR" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/art,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "GT" = (
 /turf/simulated/open,
 /area/medical/psych)
@@ -8278,7 +9955,7 @@
 	},
 /obj/structure/window/reinforced,
 /turf/simulated/floor/plating,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "Hc" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -8333,6 +10010,25 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
 /area/maintenance/medbay_virology)
+"Ho" = (
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 32
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"Hv" = (
+/obj/structure/toilet,
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/tiled/white,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "Hx" = (
 /obj/structure/cable/green{
 	icon_state = "1-8"
@@ -8416,6 +10112,22 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/substation/interstitial)
+"HQ" = (
+/obj/machinery/firealarm/east,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"HS" = (
+/obj/item/flame/candle,
+/obj/effect/decal/cleanable/cobweb,
+/turf/simulated/floor/silver,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "HV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -8434,6 +10146,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/medbay_interstitial)
+"HW" = (
+/obj/structure/bookcase/manuals/research_and_development,
+/turf/simulated/floor/wood,
+/area/library)
 "HX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -8451,11 +10167,38 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/medbay_interstitial)
+"HZ" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "Ic" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plating,
 /area/maintenance/interstitial_cargo)
+"Ik" = (
+/obj/structure/undies_wardrobe,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "Im" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -8539,6 +10282,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/medbay_interstitial)
+"IA" = (
+/turf/simulated/floor/tiled/ramp/bottom{
+	dir = 4
+	},
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "IC" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
@@ -8606,6 +10356,15 @@
 /obj/item/hoist_kit,
 /turf/simulated/open,
 /area/quartermaster/storage)
+"IN" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "IP" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 9;
@@ -8743,6 +10502,11 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_main)
+"Jc" = (
+/obj/effect/decal/cleanable/cobweb,
+/obj/structure/bookcase/manuals/engineering,
+/turf/simulated/floor/wood,
+/area/library)
 "Jd" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -8812,6 +10576,26 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_main)
+"Jk" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/art,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
+"Jl" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/carpet/art,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "Jm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable{
@@ -9029,6 +10813,41 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/medbay_interstitial)
+"JR" = (
+/obj/machinery/light/small,
+/turf/simulated/floor/carpet,
+/area/library)
+"JS" = (
+/obj/machinery/door/airlock/multi_tile/glass{
+	name = "Library"
+	},
+/obj/machinery/door/firedoor/multi_tile,
+/turf/simulated/floor/wood,
+/area/library)
+"JT" = (
+/obj/structure/disposalpipe/junction{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "JU" = (
 /obj/effect/floor_decal/industrial/warning/dust/corner{
 	dir = 4
@@ -9051,7 +10870,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "JX" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
@@ -9143,12 +10962,16 @@
 	},
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "Kk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/pipedispenser,
 /turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
+"Kn" = (
+/obj/structure/railing/mapped,
+/turf/simulated/floor/wood,
+/area/library)
 "Kq" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -9199,6 +11022,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/medbay_interstitial)
+"Ky" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 4
+	},
+/turf/simulated/wall,
+/area/library)
 "Kz" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -9217,7 +11046,7 @@
 /obj/structure/grille/broken,
 /obj/item/frame/air_alarm,
 /turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
 "KD" = (
 /obj/machinery/door/firedoor,
 /obj/structure/grille,
@@ -9236,7 +11065,16 @@
 /obj/item/material/shard,
 /obj/structure/grille,
 /turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
+"KG" = (
+/obj/machinery/firealarm/west,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "KI" = (
 /obj/structure/janitorialcart{
 	dir = 8
@@ -9249,6 +11087,35 @@
 "KJ" = (
 /turf/simulated/wall/r_wall,
 /area/maintenance/interstitial_cargo)
+"KK" = (
+/obj/effect/map_effect/wingrille_spawn/reinforced/polarized{
+	id = "pearlshitter"
+	},
+/obj/machinery/door/blast/regular/open{
+	id = "pearlhouselockdown";
+	name = "Mansion Lockdown Blast Doors"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
+"KL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "KR" = (
 /turf/simulated/wall,
 /area/janitor/stairs)
@@ -9312,6 +11179,21 @@
 	},
 /turf/simulated/open,
 /area/maintenance/interstitial_cargo)
+"Lm" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/carpet/rubber{
+	color = "#33ff88"
+	},
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "Lo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -9322,7 +11204,7 @@
 	},
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "Lp" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/medical{
@@ -9503,6 +11385,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/elevator)
+"LJ" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner,
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/art,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "LK" = (
 /obj/structure/cable/green,
 /obj/machinery/power/apc{
@@ -9513,6 +11404,26 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/airless,
 /area/maintenance/interstitial_construction_site/zone_2)
+"LL" = (
+/obj/structure/boulder,
+/obj/machinery/alarm{
+	pixel_y = 32
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
+"LS" = (
+/obj/structure/crystal{
+	pixel_y = 6
+	},
+/turf/simulated/floor/gold,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "LT" = (
 /obj/effect/floor_decal/industrial/warning/dust/corner{
 	dir = 1
@@ -9526,6 +11437,22 @@
 	icon_state = "asteroidplating"
 	},
 /area/mine/unexplored)
+"LU" = (
+/obj/structure/undies_wardrobe,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
+"LW" = (
+/obj/structure/cable/green,
+/obj/machinery/power/apc{
+	name = "south bump";
+	pixel_y = -24
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "LY" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -9556,7 +11483,7 @@
 "Me" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "Mf" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -9574,6 +11501,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/maintenance/medbay_interstitial)
+"Mg" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/carpet/blue,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "Mi" = (
 /obj/structure/track{
 	icon_state = "track3"
@@ -9585,6 +11518,43 @@
 	icon_state = "asteroidplating"
 	},
 /area/mine/unexplored)
+"Mj" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"Mo" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "Mq" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/access_button{
@@ -9688,20 +11658,45 @@
 	},
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
+"ME" = (
+/obj/structure/table/reinforced/wood,
+/obj/machinery/firealarm/east,
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
+"MF" = (
+/obj/structure/cable/green,
+/obj/machinery/power/apc{
+	name = "south bump";
+	pixel_y = -24
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "MH" = (
 /obj/machinery/light{
 	dir = 4;
 	icon_state = "tube1"
 	},
 /turf/simulated/open,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "MI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/storage)
+"MJ" = (
+/obj/structure/table/reinforced/wood,
+/obj/machinery/media/jukebox/phonograph,
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "MK" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -9805,6 +11800,11 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/maintenance/medbay_virology)
+"Np" = (
+/turf/simulated/wall,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "Ns" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
@@ -9820,6 +11820,14 @@
 /obj/machinery/door/window/northright,
 /turf/simulated/floor/plating,
 /area/maintenance/interstitial_cargo)
+"Nv" = (
+/obj/structure/flora/pottedplant/random{
+	pixel_y = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "Nx" = (
 /obj/machinery/light/small/emergency{
 	dir = 1
@@ -9839,6 +11847,27 @@
 "NB" = (
 /turf/simulated/wall,
 /area/maintenance/interstitial_construction_site/zone_2)
+"NC" = (
+/obj/structure/table/reinforced/wood,
+/obj/item/storage/box/cups,
+/turf/simulated/floor/carpet,
+/area/library)
+"NF" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "NH" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/effect/decal/cleanable/dirt,
@@ -9856,6 +11885,51 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_main)
+"NK" = (
+/obj/structure/railing/mapped,
+/obj/effect/floor_decal/spline/plain,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"NL" = (
+/obj/machinery/power/smes/batteryrack/makeshift{
+	name = "confusing machine"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
+"NM" = (
+/obj/structure/table/reinforced/wood,
+/obj/machinery/button/remote/blast_door{
+	id = "pearlhouselockdown";
+	name = "Mansion Lockdown";
+	pixel_y = 8
+	},
+/obj/machinery/requests_console{
+	announceAuth = 1;
+	announcementConsole = 1;
+	department = "Pearl's Bedroom";
+	departmentType = 5;
+	name = "Pearl's Room Requests Console";
+	pixel_y = 33
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "NQ" = (
 /obj/structure/lattice,
 /obj/structure/closet/crate,
@@ -9863,7 +11937,45 @@
 /obj/random/tech_supply,
 /obj/random/tech_supply,
 /turf/unsimulated/floor/asteroid/ash/rocky,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
+"NS" = (
+/obj/structure/closet/secure_closet/personal/patient{
+	name = "personal closet";
+	req_access = null
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
+"Oj" = (
+/obj/structure/undies_wardrobe{
+	name = "pearl's wardrobe"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
+"Ok" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/open,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"Ol" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "Om" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/grille,
@@ -9871,7 +11983,7 @@
 	icon_state = "medium"
 	},
 /turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
 "Op" = (
 /obj/effect/floor_decal/sign/p,
 /turf/simulated/floor/tiled/white,
@@ -9923,6 +12035,51 @@
 /obj/structure/grille,
 /turf/simulated/floor/airless,
 /area/maintenance/interstitial_construction_site/zone_2)
+"OH" = (
+/obj/machinery/door/airlock/diamond{
+	color = "#2dff86";
+	desc = "It opens and closes. Somehow this crystal is throwing all the vibes off. Even this inanimate object is suffering from the realities of alternative medicine.";
+	name = "Sickly Emerald Airlock"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
+"OI" = (
+/obj/structure/table/reinforced/wood,
+/obj/item/device/flashlight/lamp/green,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
+"OJ" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
+"OK" = (
+/obj/machinery/firealarm/west,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "ON" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -9961,6 +12118,22 @@
 	},
 /turf/simulated/floor/airless,
 /area/maintenance/interstitial_construction_site/zone_2)
+"OT" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "OU" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
@@ -9977,9 +12150,35 @@
 /turf/simulated/floor/plating,
 /area/maintenance/interstitial_cargo)
 "OX" = (
-/obj/structure/lattice,
-/turf/unsimulated/floor/asteroid/ash/rocky,
-/area/maintenance/interstitial_construction_site)
+/turf/simulated/floor/reinforced,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"Pb" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"Pc" = (
+/obj/machinery/requests_console{
+	department = "Guest Bedroom 1";
+	departmentType = 1;
+	name = "Guest Room 1 Requests Console";
+	pixel_y = 33
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "Pd" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -9988,6 +12187,20 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_cargo)
+"Pe" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "Pf" = (
 /obj/structure/track{
 	icon_state = "track0"
@@ -10021,6 +12234,14 @@
 	icon_state = "asteroidplating"
 	},
 /area/mine/unexplored)
+"Pk" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "Pm" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -10038,6 +12259,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_main)
+"Po" = (
+/obj/machinery/light/small,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "Pp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -10075,6 +12302,20 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_main)
+"Ps" = (
+/obj/item/device/powersink{
+	name = "dubious machine"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
+"Pt" = (
+/obj/machinery/firealarm/east,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "Pu" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -10176,6 +12417,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_cargo)
+"PU" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "PX" = (
 /obj/structure/table/standard,
 /obj/item/paper_bin,
@@ -10208,6 +12457,69 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled,
 /area/quartermaster/storage)
+"Qe" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"Qg" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"Qk" = (
+/obj/machinery/requests_console{
+	department = "Esmerelda's Room";
+	departmentType = 1;
+	name = "Esmerelda's Room Requests Console";
+	pixel_y = 33
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
+"Qn" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/carpet/art,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "Qp" = (
 /obj/machinery/door/firedoor,
 /obj/structure/window/reinforced,
@@ -10266,6 +12578,14 @@
 "Qz" = (
 /turf/simulated/wall,
 /area/maintenance/elevator)
+"QA" = (
+/obj/structure/flora/pottedplant/random{
+	pixel_y = 4
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "QB" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
@@ -10317,6 +12637,22 @@
 	},
 /turf/simulated/open,
 /area/maintenance/medbay_virology)
+"QF" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "QJ" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 8;
@@ -10343,6 +12679,22 @@
 	roof_type = null
 	},
 /area/maintenance/telecoms_ladder)
+"QL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/carpet/art,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "QM" = (
 /obj/effect/floor_decal/corner_wide/green{
 	dir = 5
@@ -10369,19 +12721,39 @@
 "QP" = (
 /obj/structure/stairs/north,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "QS" = (
 /obj/effect/floor_decal/corner_wide/green{
 	dir = 6
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/upperlevel)
+"QV" = (
+/obj/structure/bedsheetbin,
+/obj/machinery/light_switch{
+	pixel_x = -25;
+	pixel_y = -4
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "QW" = (
 /obj/effect/landmark{
 	name = "carpspawn"
 	},
 /turf/unsimulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
+"Ra" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/wood,
+/area/library)
 "Rb" = (
 /obj/structure/closet/crate/medical,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -10409,6 +12781,26 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge/selfdestruct)
+"Rg" = (
+/obj/structure/cable/green,
+/obj/machinery/power/apc{
+	name = "south bump";
+	pixel_y = -24
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
+"Ri" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/wood,
+/area/library)
 "Rl" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -10435,6 +12827,74 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/upperlevel)
+"Rp" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/art,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
+"Ru" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"Rz" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 8
+	},
+/turf/simulated/floor/carpet,
+/area/library)
+"RC" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
+"RD" = (
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"RE" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/carpet/art,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "RH" = (
 /obj/structure/track{
 	icon_state = "track9"
@@ -10556,10 +13016,26 @@
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled,
 /area/quartermaster/storage)
+"RW" = (
+/obj/structure/table/reinforced/wood,
+/obj/item/cane/concealed,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "RX" = (
 /obj/structure/bed/chair,
 /turf/simulated/floor/plating,
 /area/maintenance/elevator)
+"RY" = (
+/obj/effect/floor_decal/spline/plain/corner,
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "Sb" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance{
@@ -10614,6 +13090,22 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/medbay_interstitial)
+"Sl" = (
+/obj/effect/floor_decal/spline/plain/corner{
+	dir = 8
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"Sn" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/carpet/rubber{
+	color = "#33ff88"
+	},
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "So" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/effect/floor_decal/corner/red/full{
@@ -10654,6 +13146,23 @@
 	icon_state = "asteroidplating"
 	},
 /area/mine/unexplored)
+"St" = (
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 32
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"Sv" = (
+/obj/structure/flora/pottedplant/random{
+	pixel_y = 4
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "Sw" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/structure/disposalpipe/segment,
@@ -10687,13 +13196,30 @@
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
+"SB" = (
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
+"SD" = (
+/obj/structure/table/reinforced/wood,
+/obj/item/book/manual/medical_diagnostics_manual,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "SE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/grille/broken,
 /obj/item/material/shard,
 /turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
 "SF" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/bed/chair/wheelchair{
@@ -10701,6 +13227,22 @@
 	},
 /turf/simulated/floor/tiled,
 /area/medical/upperlevel)
+"SK" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "SN" = (
 /obj/item/device/radio/intercom{
 	pixel_y = 28
@@ -10710,6 +13252,34 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/upperlevel)
+"SO" = (
+/obj/structure/bed/psych{
+	layer = 2.30
+	},
+/obj/item/bedsheet/blue{
+	layer = 2.32
+	},
+/obj/structure/bed/psych{
+	layer = 2.31;
+	pixel_y = -9
+	},
+/obj/item/bedsheet/blue{
+	layer = 2.33;
+	pixel_y = -9
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
+"SP" = (
+/obj/item/bikehorn/rubberducky,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "SQ" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -10765,9 +13335,11 @@
 /turf/simulated/floor/plating,
 /area/maintenance/medbay_virology)
 "SZ" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/obj/structure/railing/mapped,
+/turf/simulated/open,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "Ti" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -10783,7 +13355,25 @@
 	},
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
+"Tm" = (
+/obj/structure/window/reinforced,
+/obj/item/storage/box/monkeycubes{
+	desc_fluff = "Sometimes it rattles, and monkey sounds can be heard from within."
+	},
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/effect/decal/cleanable/cobweb,
+/turf/simulated/floor/marble,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
+"Tr" = (
+/turf/simulated/floor/tiled/ramp{
+	dir = 8
+	},
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "Ts" = (
 /obj/machinery/light{
 	dir = 8;
@@ -10821,7 +13411,7 @@
 /obj/machinery/door/firedoor/multi_tile,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "Tx" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -10855,13 +13445,61 @@
 /obj/machinery/firealarm/west,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
+"TI" = (
+/obj/structure/flora/pottedplant/random{
+	pixel_y = 4
+	},
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
+"TK" = (
+/obj/structure/closet/secure_closet/personal/patient{
+	name = "personal closet";
+	req_access = null
+	},
+/obj/item/screwdriver,
+/obj/item/cell/hyper,
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "TL" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/storage)
+"TM" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/disposalpipe/down,
+/obj/machinery/atmospherics/pipe/zpipe/down/supply,
+/obj/machinery/atmospherics/pipe/zpipe/down/scrubbers,
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/machinery/power/fractal_reactor{
+	desc = "Complex electrical machinery responsible for connecting this residence to the city's power grid.";
+	name = "Power Grid Transformer"
+	},
+/turf/simulated/open,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
+"TO" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "TP" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -10870,7 +13508,30 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
+"TQ" = (
+/obj/structure/table/reinforced/wood,
+/obj/random/lavalamp,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
+"TS" = (
+/obj/structure/bedsheetbin,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
+"TV" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "TY" = (
 /turf/simulated/wall,
 /area/maintenance/interstitial_construction_site/office)
@@ -10959,7 +13620,23 @@
 /area/maintenance/interstitial_cargo)
 "Ul" = (
 /turf/simulated/open,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
+"Un" = (
+/obj/effect/map_effect/wingrille_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	id = "pearlhouselockdown";
+	name = "Mansion Lockdown Blast Doors"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
+"Up" = (
+/turf/simulated/wall,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "Uq" = (
 /obj/structure/table/reinforced/steel,
 /obj/item/folder/yellow,
@@ -10976,6 +13653,25 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/maintenance/medbay_virology)
+"Ut" = (
+/obj/structure/bed/psych{
+	layer = 2.30
+	},
+/obj/item/bedsheet/red{
+	layer = 2.32
+	},
+/obj/structure/bed/psych{
+	layer = 2.31;
+	pixel_y = -9
+	},
+/obj/item/bedsheet/red{
+	layer = 2.33;
+	pixel_y = -9
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "Uy" = (
 /obj/structure/closet/crate,
 /obj/effect/floor_decal/corner/brown{
@@ -11076,7 +13772,13 @@
 	},
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
+"UJ" = (
+/obj/effect/decal/cleanable/blood/gibs/robot/limb,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "UK" = (
 /turf/simulated/wall/r_wall,
 /area/maintenance/medbay_virology)
@@ -11112,6 +13814,12 @@
 /obj/effect/decal/cleanable/mucus,
 /turf/simulated/floor/tiled/white,
 /area/maintenance/medbay_virology)
+"UV" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/library)
 "UW" = (
 /obj/item/storage/secure/safe{
 	pixel_x = 32
@@ -11124,6 +13832,21 @@
 /obj/effect/decal/cleanable/spiderling_remains,
 /turf/simulated/floor/tiled/white,
 /area/maintenance/medbay_virology)
+"UX" = (
+/obj/structure/table/reinforced/wood,
+/obj/machinery/ringer{
+	id = "pearldoorbell";
+	pixel_x = 28
+	},
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/carpet,
+/area/library)
+"Vd" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "Vi" = (
 /obj/structure/grille,
 /obj/machinery/door/firedoor,
@@ -11141,6 +13864,18 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/psych)
+"Vn" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "Vp" = (
 /obj/machinery/ringer{
 	department = "Cargo";
@@ -11194,6 +13929,32 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plating,
 /area/maintenance/medbay_interstitial)
+"VD" = (
+/obj/structure/bed/chair/comfy/brown,
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/carpet,
+/area/library)
+"VE" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"VG" = (
+/turf/simulated/floor/tiled/white,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "VH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -11219,6 +13980,10 @@
 /obj/effect/decal/cleanable/mucus,
 /turf/simulated/floor/tiled/white,
 /area/maintenance/medbay_virology)
+"VM" = (
+/obj/structure/bookcase/manuals/xenoarchaeology,
+/turf/simulated/floor/wood,
+/area/library)
 "VO" = (
 /obj/machinery/light{
 	dir = 4;
@@ -11251,6 +14016,14 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled,
 /area/quartermaster/storage)
+"VS" = (
+/obj/structure/closet,
+/obj/item/cell/hyper,
+/obj/item/screwdriver,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "VV" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -11259,7 +14032,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
 "Wa" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -11338,7 +14111,7 @@
 	},
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
-/area/hallway/secondary/entry/stairs)
+/area/hallway/secondary/entry/aft)
 "WG" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -11364,6 +14137,21 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/upperlevel)
+"WI" = (
+/obj/structure/curtain{
+	color = "#ff008a"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "WJ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -11408,11 +14196,34 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/security_interstitial)
+"WP" = (
+/turf/simulated/floor/tiled/ramp/bottom{
+	dir = 8
+	},
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"WQ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "WR" = (
 /obj/structure/girder,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
 "WS" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance_hatch{
@@ -11428,11 +14239,25 @@
 /turf/simulated/wall,
 /area/maintenance/security_interstitial)
 "WZ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/steel,
-/obj/random/loot,
-/turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/obj/effect/map_effect/wingrille_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "pearlhouselockdown";
+	name = "Mansion Lockdown Blast Doors"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/library)
+"Xb" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "Xn" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -11450,6 +14275,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_main)
+"Xq" = (
+/obj/structure/bookcase/manuals/medical,
+/turf/simulated/floor/wood,
+/area/library)
 "Xu" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
@@ -11499,21 +14328,80 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/medbay_interstitial)
+"Xz" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/carpet/blue,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "XA" = (
 /obj/structure/trash_pile,
 /turf/simulated/floor/plating,
 /area/maintenance/elevator)
+"XB" = (
+/obj/structure/flora/pottedplant/random{
+	pixel_y = 4
+	},
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
+"XD" = (
+/obj/machinery/door/airlock/diamond{
+	color = "#ff0000";
+	desc = "It opens and closes. Yes sis queen slay honey you really snapped that wig tea.";
+	name = "Ruby Airlock"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "XG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/frame/fire_alarm,
 /turf/simulated/floor/airless,
 /area/maintenance/interstitial_construction_site/zone_2)
+"XI" = (
+/turf/simulated/floor/wood,
+/area/library)
 "XJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_main)
+"XK" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/wood,
+/area/library)
 "XQ" = (
 /obj/machinery/camera/network/medbay{
 	c_tag = "Medical - Upper-Level Elevator Entrance";
@@ -11524,6 +14412,26 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/upperlevel)
+"XS" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/carpet/art,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "XV" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -11580,6 +14488,19 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/upperlevel)
+"Yj" = (
+/obj/structure/bed/chair/office/light{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
+"Yl" = (
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "Yo" = (
 /obj/machinery/power/sensor{
 	long_range = 1;
@@ -11596,6 +14517,14 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/substation/interstitial)
+"Yp" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "Ys" = (
 /obj/effect/large_stock_marker,
 /obj/effect/floor_decal/corner/brown{
@@ -11650,6 +14579,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/medical/upperlevel)
+"YH" = (
+/obj/machinery/space_heater,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "YN" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/disposalpipe/down{
@@ -11661,6 +14599,18 @@
 	},
 /turf/simulated/open,
 /area/maintenance/medbay_interstitial)
+"YP" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "YQ" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -11714,6 +14664,20 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/maintenance/medbay_virology)
+"YY" = (
+/obj/item/storage/laundry_basket{
+	pixel_y = -8
+	},
+/turf/simulated/floor/tiled/white,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
+"Za" = (
+/obj/effect/floor_decal/spline/fancy/wood/cee,
+/turf/simulated/floor/carpet/art,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "Zk" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 9
@@ -11745,7 +14709,12 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/airless,
-/area/maintenance/interstitial_construction_site)
+/area/maintenance/interstitial_construction_site/zone_2)
+"Zt" = (
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/engineering{
+	name = "First Floor - Sapphire's Room"
+	})
 "Zu" = (
 /obj/item/device/radio/intercom{
 	dir = 8;
@@ -11760,6 +14729,18 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/interstitial_cargo)
+"Zv" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "Zz" = (
 /turf/simulated/open,
 /area/turbolift/medical_interstitial)
@@ -11767,6 +14748,21 @@
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/tiled,
 /area/security/break_room)
+"ZB" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/library)
+"ZC" = (
+/obj/structure/table/reinforced/wood,
+/obj/machinery/chemical_dispenser/coffeemaster/full{
+	pixel_y = 7
+	},
+/turf/simulated/floor/carpet,
+/area/library)
 "ZE" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -11795,6 +14791,29 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/upperlevel)
+"ZH" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"ZL" = (
+/obj/machinery/door/window/southleft{
+	desc = "A strong door. An angry note is taped to the front.";
+	name = "MONKE ONLY, We shouldn't have to say it, but here we are"
+	},
+/turf/simulated/floor/marble,
+/area/crew_quarters/sleep/medical{
+	name = "First Floor - Ruby's Room"
+	})
 "ZM" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/structure/cable/green{
@@ -11845,6 +14864,19 @@
 	icon_state = "asteroidplating"
 	},
 /area/mine/unexplored)
+"ZT" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/carpet/art,
+/area/crew_quarters/captain{
+	name = "First Floor - Pearl's Bedroom"
+	})
 "ZU" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
 /obj/machinery/alarm{
@@ -11853,6 +14885,16 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/engineering_ladder)
+"ZW" = (
+/turf/simulated/floor/carpet,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"ZX" = (
+/turf/simulated/wall,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "ZY" = (
 /obj/structure/grille,
 /obj/machinery/door/firedoor,
@@ -11865,6 +14907,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/medical/upperlevel)
+"ZZ" = (
+/obj/structure/bed/chair/comfy/brown,
+/obj/effect/decal/cleanable/cobweb,
+/turf/simulated/floor/carpet,
+/area/library)
 
 (1,1,1) = {"
 aa
@@ -36148,19 +39195,19 @@ aa
 aa
 aa
 aa
-ta
-ta
-qe
-SZ
-SZ
-ta
+NB
+NB
+wY
+AO
+AO
+NB
 wl
-ta
-SZ
-SZ
+NB
+AO
+AO
 oc
-ta
-ta
+NB
+NB
 NB
 GU
 wY
@@ -36406,18 +39453,18 @@ aa
 aa
 aa
 WR
-WZ
-SZ
+XW
+AO
 WR
-OX
-OX
+mX
+mX
 Zs
-SZ
-qe
-OX
+AO
+wY
+mX
 rA
 Kk
-ta
+NB
 Nd
 AO
 wY
@@ -36662,19 +39709,19 @@ aa
 aa
 aa
 ab
-SZ
-qe
-SZ
-SZ
-OX
-qe
+AO
+wY
+AO
+AO
+mX
+wY
 Zs
-SZ
-OX
-SZ
+AO
+mX
+AO
 NQ
 sd
-ta
+NB
 OR
 AO
 wY
@@ -36920,18 +39967,18 @@ aa
 aa
 ab
 KC
-SZ
-qe
-OX
-qe
-qe
+AO
+wY
+mX
+wY
+wY
 Zs
-SZ
-qe
-qe
-qe
-qe
-SZ
+AO
+wY
+wY
+wY
+wY
+AO
 st
 mX
 wY
@@ -37177,18 +40224,18 @@ aa
 aa
 ab
 KF
-qe
-qe
-OX
-qe
-SZ
+wY
+wY
+mX
+wY
+AO
 Zs
-OX
-SZ
-qe
-SZ
-qe
-ta
+mX
+AO
+wY
+AO
+wY
+NB
 sY
 wY
 wY
@@ -37433,19 +40480,19 @@ aa
 aa
 ab
 ab
-ta
+NB
 nH
-OX
-qe
-SZ
-SZ
+mX
+wY
+AO
+AO
 Zs
-SZ
-OX
-qe
-qe
-SZ
-SZ
+AO
+mX
+wY
+wY
+AO
+AO
 AO
 wY
 wY
@@ -37690,19 +40737,19 @@ aa
 aa
 ab
 ab
-SZ
-qe
-qe
-qe
-SZ
-qe
+AO
+wY
+wY
+wY
+AO
+wY
 Zs
-SZ
-qe
-qe
-SZ
-SZ
-ta
+AO
+wY
+wY
+AO
+AO
+NB
 mX
 AO
 wY
@@ -37949,17 +40996,17 @@ ab
 ab
 Om
 nx
-SZ
-OX
-SZ
-OX
+AO
+mX
+AO
+mX
 Zs
-qe
-SZ
-SZ
-OX
-SZ
-ta
+wY
+AO
+AO
+mX
+AO
+NB
 mX
 AO
 mX
@@ -38206,15 +41253,15 @@ ab
 ab
 SE
 sQ
-SZ
-SZ
-SZ
-SZ
+AO
+AO
+AO
+AO
 Zs
-SZ
-qe
-SZ
-OX
+AO
+wY
+AO
+mX
 TP
 Ga
 WK
@@ -38463,17 +41510,17 @@ ab
 ab
 WR
 pE
-OX
-OX
+mX
+mX
 Ak
-cX
+WK
 aE
-cX
-cX
-cX
-cX
+WK
+WK
+WK
+WK
 VV
-ta
+NB
 NB
 yj
 NB
@@ -45834,7 +48881,7 @@ aa
 aa
 aa
 aa
-FK
+aa
 aa
 aa
 aa
@@ -55043,101 +58090,101 @@ aa
 aa
 "}
 (169,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
 mo
 ab
 ab
@@ -55300,101 +58347,101 @@ aa
 aa
 "}
 (170,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 mo
 mo
 ab
@@ -55557,101 +58604,101 @@ aa
 aa
 "}
 (171,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 mo
 ab
@@ -55814,101 +58861,101 @@ aa
 aa
 "}
 (172,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 mo
 mo
@@ -56071,101 +59118,101 @@ aa
 aa
 "}
 (173,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 mo
@@ -56328,101 +59375,101 @@ aa
 aa
 "}
 (174,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 mo
@@ -56585,101 +59632,101 @@ aa
 aa
 "}
 (175,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 mo
@@ -56842,101 +59889,101 @@ aa
 aa
 "}
 (176,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -57099,101 +60146,101 @@ aa
 aa
 "}
 (177,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -57356,101 +60403,101 @@ aa
 aa
 "}
 (178,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -57613,101 +60660,101 @@ aa
 aa
 "}
 (179,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -57870,101 +60917,101 @@ aa
 aa
 "}
 (180,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+ta
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -58127,101 +61174,101 @@ aa
 aa
 "}
 (181,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -58384,101 +61431,101 @@ aa
 aa
 "}
 (182,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -58641,101 +61688,101 @@ aa
 aa
 "}
 (183,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -58898,101 +61945,101 @@ aa
 aa
 "}
 (184,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -59155,102 +62202,102 @@ aa
 aa
 "}
 (185,1,1) = {"
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-FK
 aa
 aa
 aa
@@ -59412,101 +62459,101 @@ aa
 aa
 "}
 (186,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -59669,101 +62716,101 @@ aa
 aa
 "}
 (187,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -59926,101 +62973,101 @@ aa
 aa
 "}
 (188,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -60183,101 +63230,101 @@ aa
 aa
 "}
 (189,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -60440,101 +63487,101 @@ aa
 aa
 "}
 (190,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -60697,101 +63744,101 @@ aa
 aa
 "}
 (191,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -60954,101 +64001,101 @@ aa
 aa
 "}
 (192,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -61211,101 +64258,101 @@ aa
 aa
 "}
 (193,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -61468,101 +64515,101 @@ aa
 aa
 "}
 (194,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -61725,101 +64772,101 @@ aa
 aa
 "}
 (195,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+mN
+mN
+mN
+Np
+Np
+Np
+Np
+Un
+Np
+Np
+Un
+Np
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -61982,101 +65029,101 @@ aa
 aa
 "}
 (196,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+SZ
+TM
+JT
+gm
+Np
+qC
+aC
+hE
+aC
+kl
+rZ
+ra
+Oj
+uT
+Bd
+wO
+nV
+BO
+TS
+uT
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -62239,101 +65286,101 @@ aa
 aa
 "}
 (197,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+Np
+zK
+Np
+Np
+Np
+ph
+aC
+aC
+zo
+EJ
+aC
+TK
+uT
+Pc
+TQ
+Gc
+BO
+Ik
+uT
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -62496,101 +65543,101 @@ aa
 aa
 "}
 (198,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+OX
+OX
+OX
+OX
+OX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+Np
+wi
+mQ
+YY
+Np
+ph
+aC
+sP
+xS
+An
+aC
+aC
+uT
+BO
+BO
+BO
+BO
+NS
+uT
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -62753,101 +65800,101 @@ aa
 aa
 "}
 (199,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+Np
+yV
+SP
+VG
+Np
+cY
+aC
+GR
+Rp
+Jk
+An
+CK
+uT
+hV
+OJ
+Xb
+tl
+Po
+yA
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -63010,101 +66057,101 @@ aa
 aa
 "}
 (200,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+Np
+DN
+tV
+Vn
+WI
+ow
+qt
+XS
+Jl
+QL
+LJ
+Za
+uT
+YH
+tl
+gS
+Vd
+Am
+yA
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -63267,101 +66314,101 @@ aa
 aa
 "}
 (201,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+Np
+Dg
+hU
+DR
+Np
+aC
+aC
+vJ
+ug
+Qn
+ZT
+LW
+uT
+os
+uM
+lT
+tl
+BO
+yA
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -63524,101 +66571,101 @@ aa
 aa
 "}
 (202,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+Np
+Hv
+Yp
+Nv
+Np
+NM
+Yj
+aC
+vJ
+RE
+cz
+aC
+uT
+DY
+tl
+NF
+tl
+BO
+uT
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -63781,101 +66828,101 @@ aa
 aa
 "}
 (203,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+Np
+KK
+KK
+Np
+Np
+MJ
+RW
+ME
+if
+KL
+cJ
+Sv
+uT
+XB
+Pt
+QF
+rg
+QA
+uT
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -64038,101 +67085,101 @@ aa
 aa
 "}
 (204,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+Np
+Np
+Np
+Np
+Np
+Np
+xU
+Np
+Np
+uT
+uT
+uT
+qn
+uT
+uT
+uT
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -64295,101 +67342,101 @@ aa
 aa
 "}
 (205,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+sB
+AI
+sM
+ig
+Mo
+RD
+RD
+KG
+RD
+RD
+jY
+RD
+RD
+sB
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -64552,101 +67599,101 @@ aa
 aa
 "}
 (206,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+sB
+RD
+SK
+ky
+tU
+Pb
+Zv
+Zv
+Zv
+Pe
+fO
+ZW
+RD
+sB
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -64809,101 +67856,101 @@ aa
 aa
 "}
 (207,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+sB
+RD
+WQ
+ZW
+ZW
+FY
+ZW
+ZW
+ZW
+vI
+RD
+Ho
+RD
+sB
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -65066,101 +68113,101 @@ aa
 aa
 "}
 (208,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+Ky
+sT
+qa
+sT
+sT
+kc
+Ru
+ZW
+RY
+xx
+xx
+xx
+xx
+xx
+xx
+ZX
+ZX
+ZX
+ZX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -65323,101 +68370,101 @@ aa
 aa
 "}
 (209,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+sT
+FL
+pi
+xh
+sT
+RD
+WQ
+ZW
+fe
+vV
+vV
+vV
+vV
+vV
+vV
+ZX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -65580,101 +68627,101 @@ aa
 aa
 "}
 (210,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+sT
+Kn
+sS
+Gy
+sT
+BN
+nv
+ZW
+fe
+vV
+vV
+vV
+vV
+vV
+vV
+sB
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -65837,101 +68884,101 @@ aa
 aa
 "}
 (211,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+sT
+zU
+DP
+DP
+sT
+AH
+CJ
+CG
+CG
+Ok
+vV
+vV
+vV
+vV
+vV
+sB
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -66094,101 +69141,101 @@ aa
 aa
 "}
 (212,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+sT
+sT
+Dh
+zt
+sT
+RD
+CJ
+IA
+IA
+Bm
+su
+vV
+vV
+vV
+vV
+sB
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -66351,101 +69398,101 @@ aa
 aa
 "}
 (213,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+sT
+Jc
+UV
+XI
+JS
+RD
+NK
+ZW
+ZW
+vV
+vV
+vV
+vV
+vV
+vV
+sB
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -66608,101 +69655,101 @@ aa
 aa
 "}
 (214,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+sT
+Xq
+XK
+Ra
+Ri
+YP
+oV
+ZW
+ZW
+vV
+vV
+vV
+vV
+vV
+vV
+sB
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -66865,101 +69912,101 @@ aa
 aa
 "}
 (215,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+sT
+HW
+mc
+fN
+sT
+RD
+CJ
+WP
+WP
+og
+wb
+vV
+vV
+vV
+vV
+sB
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -67122,101 +70169,101 @@ aa
 aa
 "}
 (216,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+sT
+VM
+mc
+ZB
+sT
+AH
+CJ
+Tr
+Tr
+Ok
+vV
+vV
+vV
+vV
+vV
+sB
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -67379,101 +70426,101 @@ aa
 aa
 "}
 (217,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+sT
+wo
+mc
+AV
+sT
+RD
+we
+ZW
+fe
+vV
+vV
+vV
+vV
+vV
+vV
+sB
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -67636,101 +70683,101 @@ aa
 aa
 "}
 (218,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+sT
+sT
+AU
+vO
+XI
+sT
+RD
+WQ
+ZW
+fe
+vV
+vV
+vV
+vV
+vV
+vV
+ZX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -67893,101 +70940,101 @@ aa
 aa
 "}
 (219,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+WZ
+WZ
+fS
+ic
+XI
+oE
+sT
+RD
+WQ
+ZW
+Sl
+TO
+TO
+TO
+TO
+TO
+TO
+ZX
+ZX
+ZX
+ZX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -68150,101 +71197,101 @@ aa
 aa
 "}
 (220,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+WZ
+ZZ
+xh
+xh
+JR
+sT
+sT
+xt
+gA
+ZW
+ZW
+uV
+ZW
+ZW
+ZW
+PU
+RD
+ig
+RD
+sB
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -68407,101 +71454,101 @@ aa
 aa
 "}
 (221,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+WZ
+zX
+xh
+xh
+NC
+sT
+GG
+Qg
+Mj
+ky
+ky
+vj
+HZ
+ky
+ky
+ZH
+ky
+VE
+RD
+sB
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -68664,101 +71711,101 @@ aa
 aa
 "}
 (222,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+WZ
+VD
+xh
+xh
+ZC
+sT
+td
+Mo
+RD
+HQ
+tA
+RD
+Mo
+Qe
+St
+RD
+RD
+Mo
+RD
+sB
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -68921,101 +71968,101 @@ aa
 aa
 "}
 (223,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+WZ
+WZ
+UX
+Rz
+oL
+oL
+oL
+wP
+oL
+oL
+Do
+Do
+XD
+Do
+Up
+Up
+Up
+OH
+Up
+Up
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -69178,101 +72225,101 @@ aa
 aa
 "}
 (224,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+sT
+sT
+sT
+oL
+xX
+OK
+OT
+DB
+oL
+Tm
+xV
+mW
+oN
+Up
+HS
+qh
+xn
+QV
+Up
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -69435,101 +72482,101 @@ aa
 aa
 "}
 (225,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+oL
+jX
+oZ
+Xz
+sw
+oL
+ZL
+xL
+RC
+LU
+Up
+LS
+mu
+Bk
+pU
+Up
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -69692,101 +72739,101 @@ aa
 aa
 "}
 (226,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+FC
+UJ
+oZ
+Xz
+Ps
+oL
+yt
+xL
+Fb
+Pk
+Up
+ka
+mu
+Cv
+cm
+gB
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -69949,101 +72996,101 @@ aa
 aa
 "}
 (227,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+FC
+IN
+Mg
+jZ
+NL
+oL
+EA
+xL
+FG
+pX
+Up
+LL
+mu
+cn
+zP
+gB
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -70206,101 +73253,101 @@ aa
 aa
 "}
 (228,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+FC
+sj
+oZ
+sG
+bW
+oL
+AC
+AA
+Ol
+tv
+Up
+Qk
+Sn
+Lm
+Fq
+gB
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -70463,101 +73510,101 @@ aa
 aa
 "}
 (229,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+FC
+Gp
+Zt
+zr
+cx
+oL
+VS
+Yl
+wu
+Yl
+Up
+oh
+zP
+TV
+zP
+gB
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -70720,101 +73767,101 @@ aa
 aa
 "}
 (230,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+oL
+ro
+Zt
+SB
+Ct
+oL
+ps
+Yl
+Ds
+Rg
+Up
+OI
+zP
+ws
+MF
+Up
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -70977,101 +74024,101 @@ aa
 aa
 "}
 (231,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+oL
+mE
+SO
+nC
+rT
+oL
+TI
+Ut
+xo
+SD
+Up
+DE
+nf
+vp
+FM
+Up
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -71234,101 +74281,101 @@ aa
 aa
 "}
 (232,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+oL
+oL
+oL
+oL
+oL
+oL
+vz
+Do
+Do
+vz
+Up
+Up
+Up
+Up
+Up
+Up
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -71491,101 +74538,101 @@ aa
 aa
 "}
 (233,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -71748,101 +74795,101 @@ aa
 aa
 "}
 (234,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -72005,101 +75052,101 @@ aa
 aa
 "}
 (235,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -72262,101 +75309,101 @@ aa
 aa
 "}
 (236,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -72519,101 +75566,101 @@ aa
 aa
 "}
 (237,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -72776,101 +75823,101 @@ aa
 aa
 "}
 (238,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -73033,101 +76080,101 @@ aa
 aa
 "}
 (239,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -73290,101 +76337,101 @@ aa
 aa
 "}
 (240,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -73547,101 +76594,101 @@ aa
 aa
 "}
 (241,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -73804,101 +76851,101 @@ aa
 aa
 "}
 (242,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -74061,101 +77108,101 @@ aa
 aa
 "}
 (243,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -74318,101 +77365,101 @@ aa
 aa
 "}
 (244,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -74575,101 +77622,101 @@ aa
 aa
 "}
 (245,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -74832,101 +77879,101 @@ aa
 aa
 "}
 (246,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -75089,101 +78136,101 @@ aa
 aa
 "}
 (247,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -75346,101 +78393,101 @@ aa
 aa
 "}
 (248,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -75603,101 +78650,101 @@ aa
 aa
 "}
 (249,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -75860,101 +78907,101 @@ aa
 aa
 "}
 (250,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -76117,101 +79164,101 @@ aa
 aa
 "}
 (251,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -76374,101 +79421,101 @@ aa
 aa
 "}
 (252,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -76631,101 +79678,101 @@ aa
 aa
 "}
 (253,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -76888,101 +79935,101 @@ aa
 aa
 "}
 (254,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+qe
+cX
 aa
 aa
 aa
@@ -77145,101 +80192,101 @@ aa
 aa
 "}
 (255,1,1) = {"
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
+cX
 aa
 aa
 aa
