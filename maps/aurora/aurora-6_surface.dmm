@@ -67,6 +67,7 @@
 /obj/structure/flora/pottedplant/random{
 	pixel_y = 4
 	},
+/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/wood,
 /area/crew_quarters/sleep_female{
 	name = "Second Floor - Guest Room 3"
@@ -269,6 +270,34 @@
 /turf/simulated/floor/carpet,
 /area/crew_quarters/sleep_female{
 	name = "Second Floor - Guest Room 3"
+	})
+"bPz" = (
+/obj/structure/closet,
+/obj/item/towel/random,
+/obj/item/towel/random,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/effect/decal/cleanable/cobweb,
+/turf/simulated/floor/marble/dark,
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
 	})
 "bQp" = (
 /obj/structure/railing/mapped,
@@ -685,6 +714,7 @@
 	},
 /obj/item/screwdriver,
 /obj/item/cell/hyper,
+/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/wood,
 /area/crew_quarters/sleep_female{
 	name = "Second Floor - Guest Room 3"
@@ -802,6 +832,16 @@
 /area/crew_quarters/sleep_male{
 	name = "Second Floor - Guest Room 4"
 	})
+"gdt" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/marble/dark,
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
+	})
 "ghl" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -819,6 +859,11 @@
 /obj/machinery/light{
 	dir = 1;
 	icon_state = "tube1"
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/marble/dark,
 /area/hallway/secondary/entry/stairs{
@@ -1072,6 +1117,20 @@
 /area/tcommsat/chamber)
 "hCE" = (
 /obj/structure/table/reinforced/wood,
+/turf/simulated/floor/wood,
+/area/hallway/secondary/entry/central{
+	name = "Second Floor - Main Hallway"
+	})
+"hFH" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "north bump";
+	pixel_y = 24
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
 /turf/simulated/floor/wood,
 /area/hallway/secondary/entry/central{
 	name = "Second Floor - Main Hallway"
@@ -1387,6 +1446,7 @@
 /obj/structure/bed/chair/comfy/brown{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/carpet,
 /area/hallway/secondary/entry/central{
 	name = "Second Floor - Main Hallway"
@@ -1416,6 +1476,7 @@
 /obj/structure/flora/pottedplant/random{
 	pixel_y = 4
 	},
+/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/wood,
 /area/crew_quarters/sleep_male{
 	name = "Second Floor - Guest Room 4"
@@ -1605,6 +1666,7 @@
 	name = "reinforced glass table";
 	table_reinf = "glass"
 	},
+/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/wood,
 /area/crew_quarters/sleep_male{
 	name = "Second Floor - Guest Room 4"
@@ -1973,14 +2035,6 @@
 /area/crew_quarters/sleep_female{
 	name = "Second Floor - Guest Room 3"
 	})
-"mVk" = (
-/obj/structure/railing/mapped{
-	icon_state = "mcorneroverlay1"
-	},
-/turf/simulated/open,
-/area/hydroponics/garden{
-	name = "Outdoors"
-	})
 "mWz" = (
 /turf/simulated/floor/carpet,
 /area/crew_quarters/sleep_female{
@@ -1991,6 +2045,17 @@
 /turf/simulated/open,
 /area/hydroponics/garden{
 	name = "Outdoors"
+	})
+"nhg" = (
+/obj/structure/curtain/open/shower/engineering,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/marble/dark,
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
 	})
 "nhr" = (
 /obj/structure/railing/mapped,
@@ -2022,6 +2087,7 @@
 /obj/structure/bed/chair/comfy/brown{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/carpet,
 /area/hallway/secondary/entry/central{
 	name = "Second Floor - Main Hallway"
@@ -2159,6 +2225,30 @@
 /area/hallway/secondary/entry/stairs{
 	name = "Second Floor - Roof"
 	})
+"obe" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/carpet,
+/area/hallway/secondary/entry/central{
+	name = "Second Floor - Main Hallway"
+	})
 "obu" = (
 /obj/structure/closet,
 /obj/item/towel/random,
@@ -2178,6 +2268,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
+/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/marble/dark,
 /area/hallway/secondary/entry/stairs{
 	name = "Second Floor - Roof"
@@ -2342,17 +2433,14 @@
 /area/crew_quarters/sleep_female{
 	name = "Second Floor - Guest Room 3"
 	})
-"oZI" = (
-/obj/structure/railing/mapped{
-	dir = 8;
-	icon_state = "mcorneroverlay1"
-	},
-/turf/simulated/floor/wood,
+"oZM" = (
+/turf/simulated/wall,
 /area/hallway/secondary/entry/central{
 	name = "Second Floor - Main Hallway"
 	})
-"oZM" = (
-/turf/simulated/wall,
+"pdt" = (
+/obj/effect/decal/cleanable/cobweb,
+/turf/simulated/open,
 /area/hallway/secondary/entry/central{
 	name = "Second Floor - Main Hallway"
 	})
@@ -2459,6 +2547,7 @@
 	})
 "pQc" = (
 /obj/structure/bookcase/libraryspawn/nonfiction,
+/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/wood,
 /area/hallway/secondary/entry/central{
 	name = "Second Floor - Main Hallway"
@@ -2685,6 +2774,7 @@
 	dir = 1;
 	icon_state = "tube1"
 	},
+/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/marble/dark,
 /area/hallway/secondary/entry/stairs{
 	name = "Second Floor - Roof"
@@ -2722,9 +2812,17 @@
 	},
 /obj/item/screwdriver,
 /obj/item/cell/hyper,
+/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/wood,
 /area/crew_quarters/sleep/security{
 	name = "Second Floor - Guest Room 2"
+	})
+"rxg" = (
+/obj/structure/table/reinforced/wood,
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/wood,
+/area/hallway/secondary/entry/central{
+	name = "Second Floor - Main Hallway"
 	})
 "rxF" = (
 /obj/structure/table/glass{
@@ -2884,6 +2982,7 @@
 /obj/structure/flora/pottedplant/random{
 	pixel_y = 4
 	},
+/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/wood,
 /area/crew_quarters/sleep/security{
 	name = "Second Floor - Guest Room 2"
@@ -3005,6 +3104,20 @@
 /turf/simulated/floor/wood,
 /area/crew_quarters/theatre{
 	name = "Second Floor - Common Room"
+	})
+"tPF" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "north bump";
+	pixel_y = 24
+	},
+/obj/structure/cable/green{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/marble/dark,
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
 	})
 "tUa" = (
 /obj/effect/floor_decal/spline/plain{
@@ -3240,6 +3353,7 @@
 	name = "Second Floor - Roof"
 	})
 "vcR" = (
+/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/wood,
 /area/hallway/secondary/entry/stairs{
 	name = "Second Floor - Roof"
@@ -3460,7 +3574,9 @@
 	name = "Second Floor - Guest Room 2"
 	})
 "wNL" = (
-/obj/machinery/media/jukebox,
+/obj/machinery/media/jukebox{
+	anchored = 1
+	},
 /obj/machinery/light{
 	dir = 4;
 	icon_state = "tube1"
@@ -3469,6 +3585,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
+/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/marble/dark,
 /area/hallway/secondary/entry/stairs{
 	name = "Second Floor - Roof"
@@ -3481,6 +3598,7 @@
 	})
 "wWB" = (
 /obj/structure/bookcase/libraryspawn/fiction,
+/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/wood,
 /area/crew_quarters/theatre{
 	name = "Second Floor - Common Room"
@@ -3538,6 +3656,7 @@
 /obj/machinery/chemical_dispenser/coffeemaster/full{
 	pixel_y = 7
 	},
+/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/wood,
 /area/crew_quarters/theatre{
 	name = "Second Floor - Common Room"
@@ -10208,7 +10327,7 @@ yiE
 yiE
 yiE
 yiE
-mVk
+yiE
 nyY
 nyY
 upa
@@ -10469,7 +10588,7 @@ ncg
 nBH
 ooI
 upa
-oBm
+tPF
 oBm
 oBm
 oBm
@@ -10980,10 +11099,10 @@ yiE
 yiE
 yiE
 upa
-nXQ
-oBm
-pwh
-oBm
+bPz
+vJB
+nhg
+gdt
 tKb
 vlp
 vlp
@@ -13808,7 +13927,7 @@ yiE
 yiE
 yiE
 oZM
-vXj
+pdt
 lXy
 vXj
 upa
@@ -14579,7 +14698,7 @@ yiE
 yiE
 yiE
 oZM
-oZI
+lpY
 pGP
 pGP
 enq
@@ -15864,8 +15983,8 @@ yiE
 yiE
 yiE
 oZM
-lpY
-qcf
+hFH
+obe
 nBA
 enq
 wYW
@@ -17405,7 +17524,7 @@ yiE
 yiE
 kdz
 kdz
-hCE
+rxg
 hCE
 uAW
 uAW

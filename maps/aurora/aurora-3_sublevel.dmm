@@ -1509,7 +1509,9 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/turf/simulated/open,
+/turf/simulated/floor/tiled/ramp/bottom{
+	dir = 1
+	},
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -1934,7 +1936,9 @@
 /turf/simulated/wall,
 /area/turret_protected/ai)
 "hDr" = (
-/obj/machinery/light/colored/blue,
+/obj/machinery/light{
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
@@ -2131,11 +2135,13 @@
 	name = "Electrical"
 	})
 "iVR" = (
-/obj/structure/stairs,
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/turf/simulated/open,
+/obj/structure/stairs/south,
+/turf/simulated/floor/tiled/ramp{
+	dir = 1
+	},
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -3776,8 +3782,9 @@
 /area/janitor)
 "oqH" = (
 /obj/effect/floor_decal/corner/pink/diagonal,
-/obj/machinery/light/colored/blue{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
@@ -4343,14 +4350,14 @@
 /turf/simulated/floor/tiled/dark,
 /area/maintenance/disposal)
 "qPL" = (
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
 /obj/structure/cable/green{
 	d2 = 8;
 	icon_state = "0-8"
+	},
+/obj/machinery/power/apc/high{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
 	},
 /turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
@@ -5758,8 +5765,9 @@
 /obj/effect/floor_decal/corner/lime{
 	dir = 5
 	},
-/obj/machinery/light/colored/blue{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
@@ -6197,7 +6205,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/super{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24

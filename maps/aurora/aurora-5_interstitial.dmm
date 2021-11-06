@@ -16,6 +16,10 @@
 "az" = (
 /turf/simulated/floor/wood,
 /area/library)
+"aW" = (
+/obj/effect/decal/cleanable/cobweb,
+/turf/simulated/floor/carpet,
+/area/library)
 "bn" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/wood,
@@ -52,14 +56,6 @@
 /turf/simulated/floor/carpet,
 /area/crew_quarters/sleep/medical{
 	name = "First Floor - Ruby's Room"
-	})
-"cv" = (
-/obj/structure/railing/mapped{
-	icon_state = "mcorneroverlay1"
-	},
-/turf/simulated/open,
-/area/hydroponics/garden{
-	name = "Outdoors"
 	})
 "cy" = (
 /obj/machinery/alarm{
@@ -271,6 +267,7 @@
 	})
 "jw" = (
 /obj/structure/table/reinforced/wood,
+/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/carpet,
 /area/library)
 "jS" = (
@@ -357,6 +354,21 @@
 /area/hallway/primary/central_one{
 	name = "First Floor - Main Hallway"
 	})
+"kX" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "north bump";
+	pixel_y = 24
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/effect/decal/cleanable/cobweb,
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "ll" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -391,6 +403,7 @@
 	})
 "lK" = (
 /obj/structure/toilet,
+/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/captain{
 	name = "First Floor - Pearl's Bedroom"
@@ -423,6 +436,7 @@
 	id = "pearldoorbell";
 	pixel_x = 28
 	},
+/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/carpet,
 /area/library)
 "me" = (
@@ -597,6 +611,11 @@
 /area/hallway/primary/central_one{
 	name = "First Floor - Main Hallway"
 	})
+"oc" = (
+/obj/structure/bed/chair/comfy/brown,
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/carpet,
+/area/library)
 "oe" = (
 /obj/structure/railing/mapped,
 /obj/structure/stairs/east,
@@ -614,6 +633,7 @@
 	})
 "oi" = (
 /obj/structure/bookcase/libraryspawn/fiction,
+/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/wood,
 /area/library)
 "op" = (
@@ -625,6 +645,7 @@
 	pixel_y = 4
 	},
 /obj/machinery/firealarm/north,
+/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/wood,
 /area/library)
 "oO" = (
@@ -735,6 +756,15 @@
 /area/crew_quarters/captain{
 	name = "First Floor - Pearl's Bedroom"
 	})
+"qk" = (
+/obj/structure/flora/pottedplant/random{
+	pixel_y = 4
+	},
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "qt" = (
 /obj/machinery/light_switch{
 	pixel_x = 4;
@@ -800,13 +830,7 @@
 /turf/simulated/floor/plating,
 /area/library)
 "ri" = (
-/obj/structure/railing/mapped{
-	pixel_x = 4
-	},
-/obj/structure/railing/mapped{
-	icon_state = "mcorneroverlay1";
-	pixel_x = -24
-	},
+/obj/structure/railing/mapped,
 /turf/simulated/floor/wood,
 /area/library)
 "rj" = (
@@ -823,6 +847,7 @@
 /obj/structure/flora/pottedplant/random{
 	pixel_y = 4
 	},
+/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/wood,
 /area/crew_quarters/sleep/research{
 	name = "First Floor - Esmerelda's Room"
@@ -871,6 +896,8 @@
 	})
 "rU" = (
 /obj/machinery/disposal,
+/obj/effect/decal/cleanable/cobweb,
+/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/wood,
 /area/crew_quarters/captain{
 	name = "First Floor - Pearl's Bedroom"
@@ -897,6 +924,7 @@
 /area/library)
 "se" = (
 /obj/effect/decal/cleanable/blood/gibs/robot,
+/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/wood,
 /area/crew_quarters/sleep/engineering{
 	name = "First Floor - Sapphire's Room"
@@ -1124,6 +1152,7 @@
 "wQ" = (
 /obj/structure/table/reinforced/wood,
 /obj/machinery/media/jukebox/phonograph,
+/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/wood,
 /area/crew_quarters/captain{
 	name = "First Floor - Pearl's Bedroom"
@@ -1613,6 +1642,12 @@
 /area/crew_quarters/sleep/bedrooms{
 	name = "First Floor - Guest Room 1"
 	})
+"Fs" = (
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "FS" = (
 /obj/machinery/space_heater,
 /turf/simulated/floor/wood,
@@ -1691,6 +1726,7 @@
 /obj/structure/flora/pottedplant/random{
 	pixel_y = 4
 	},
+/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/wood,
 /area/crew_quarters/sleep/medical{
 	name = "First Floor - Ruby's Room"
@@ -1797,6 +1833,12 @@
 /turf/simulated/floor/tiled/ramp/bottom{
 	dir = 8
 	},
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
+"Kn" = (
+/obj/effect/decal/cleanable/cobweb,
+/turf/simulated/floor/wood,
 /area/hallway/primary/central_one{
 	name = "First Floor - Main Hallway"
 	})
@@ -1930,6 +1972,7 @@
 /obj/structure/flora/pottedplant/random{
 	pixel_y = 4
 	},
+/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/wood,
 /area/crew_quarters/sleep/engineering{
 	name = "First Floor - Sapphire's Room"
@@ -2098,12 +2141,10 @@
 	})
 "Ov" = (
 /obj/structure/bed/chair/comfy/brown,
+/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/carpet,
 /area/library)
 "Ow" = (
-/obj/structure/railing/mapped{
-	icon_state = "mcorneroverlay1"
-	},
 /obj/effect/floor_decal/spline/plain/corner,
 /turf/simulated/floor/carpet,
 /area/hallway/primary/central_one{
@@ -2117,10 +2158,6 @@
 	name = "First Floor - Main Hallway"
 	})
 "OF" = (
-/obj/structure/railing/mapped{
-	dir = 8;
-	icon_state = "mcorneroverlay1"
-	},
 /obj/effect/floor_decal/spline/plain/corner{
 	dir = 8
 	},
@@ -2171,6 +2208,7 @@
 	desc_fluff = "Sometimes it rattles, and monkey sounds can be heard from within."
 	},
 /obj/effect/decal/cleanable/blood/gibs,
+/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/marble,
 /area/crew_quarters/sleep/medical{
 	name = "First Floor - Ruby's Room"
@@ -2563,6 +2601,27 @@
 /area/crew_quarters/sleep/research{
 	name = "First Floor - Esmerelda's Room"
 	})
+"US" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/wood,
+/area/hallway/primary/central_one{
+	name = "First Floor - Main Hallway"
+	})
 "UT" = (
 /obj/structure/railing/mapped,
 /obj/effect/floor_decal/spline/plain,
@@ -2848,6 +2907,12 @@
 /area/hallway/primary/central_one{
 	name = "First Floor - Main Hallway"
 	})
+"Yy" = (
+/obj/effect/decal/cleanable/cobweb,
+/turf/simulated/floor/wood,
+/area/crew_quarters/sleep/bedrooms{
+	name = "First Floor - Guest Room 1"
+	})
 "YD" = (
 /obj/machinery/door/airlock/diamond{
 	color = "#2dff86";
@@ -2914,6 +2979,13 @@
 	},
 /turf/simulated/floor/wood,
 /area/library)
+"YY" = (
+/obj/item/flame/candle,
+/obj/effect/decal/cleanable/cobweb,
+/turf/simulated/floor/silver,
+/area/crew_quarters/sleep/research{
+	name = "First Floor - Esmerelda's Room"
+	})
 "YZ" = (
 /obj/structure/table/reinforced/wood,
 /obj/item/screwdriver,
@@ -9464,7 +9536,7 @@ Nj
 Nj
 Nj
 Nj
-cv
+Nj
 er
 er
 er
@@ -9735,7 +9807,7 @@ LJ
 uL
 TX
 Ia
-Xb
+Yy
 Xl
 YL
 Xb
@@ -9978,7 +10050,7 @@ Nj
 Nj
 Nj
 Nj
-qQ
+Nj
 Xc
 im
 Xc
@@ -11534,7 +11606,7 @@ rt
 Sy
 Vj
 Ia
-Zv
+qk
 tz
 uC
 PO
@@ -12041,7 +12113,7 @@ Nj
 Nj
 Nj
 nn
-YN
+Kn
 RF
 QC
 Pz
@@ -13065,7 +13137,7 @@ Nj
 Nj
 Nj
 lS
-ZK
+aW
 ll
 ZK
 lS
@@ -16152,8 +16224,8 @@ ZK
 ZK
 rG
 lS
-YN
-Ui
+kX
+US
 ds
 Ku
 Ku
@@ -16404,12 +16476,12 @@ Nj
 Nj
 Nj
 Vr
-Ov
+oc
 ZK
 ZK
 cY
 lS
-YN
+Fs
 Pz
 YN
 rN
@@ -16932,7 +17004,7 @@ nh
 Lu
 WE
 IE
-XD
+YY
 vw
 zp
 wv
