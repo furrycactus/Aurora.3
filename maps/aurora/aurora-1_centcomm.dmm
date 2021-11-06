@@ -4171,6 +4171,10 @@
 	icon_state = "dark2"
 	},
 /area/centcom/specops)
+"aBL" = (
+/obj/machinery/megavendor,
+/turf/unsimulated/floor,
+/area/centcom/spawning)
 "aBO" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	name = "CCIA Bodyguard Sidearm";
@@ -6453,12 +6457,7 @@
 /area/antag/mercenary)
 "aPM" = (
 /obj/machinery/door/airlock/centcom{
-	name = "OOC Event Changerooms"
-	},
-/obj/item/tape/engineering{
-	icon_state = "engineering_door";
-	layer = 4;
-	name = "OOC tape"
+	name = "Unisex Restroom"
 	},
 /turf/unsimulated/floor,
 /area/centcom/spawning)
@@ -28792,16 +28791,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/merchant)
-"onX" = (
-/obj/effect/floor_decal/corner/white/diagonal,
-/obj/machinery/acting/changer,
-/obj/machinery/light/small{
-	dir = 8;
-	name = "adjusted light fixture";
-	pixel_y = 10
-	},
-/turf/unsimulated/floor,
-/area/centcom/spawning)
 "ool" = (
 /turf/simulated/wall/shuttle/unique/hapt{
 	desc = "A scary armed military corvette. Carries no branding or emblem of any sort. This thing looks mean.";
@@ -36274,35 +36263,6 @@
 	icon_state = "new_white"
 	},
 /area/centcom/legion)
-"tFG" = (
-/obj/effect/floor_decal/corner/white/diagonal,
-/obj/structure/closet/crate/trashcart{
-	name = "costume bin"
-	},
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/obj/item/storage/box/syndie_kit/chameleon,
-/turf/unsimulated/floor,
-/area/centcom/spawning)
 "tFU" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced,
@@ -76599,7 +76559,7 @@ aKK
 urj
 gdU
 aBl
-aMW
+aBL
 aBl
 weB
 aOa
@@ -77380,9 +77340,9 @@ vWo
 vWo
 rme
 nfY
-nfY
-nfY
-nfY
+aaM
+aaM
+aaM
 aaM
 aaM
 aaM
@@ -77637,8 +77597,8 @@ tjM
 tjM
 sxq
 nfY
-onX
-tFG
+nfY
+nfY
 nfY
 nfY
 nfY
@@ -78141,7 +78101,7 @@ aKK
 uVh
 gdU
 aBl
-aMW
+aBL
 aBl
 weB
 aOa
