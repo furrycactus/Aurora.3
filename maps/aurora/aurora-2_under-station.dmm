@@ -1,7 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ZZ" = (
 /turf/unsimulated/mineral,
-/area/space)
+/area/mine/explored)
 
 (1,1,1) = {"
 ZZ

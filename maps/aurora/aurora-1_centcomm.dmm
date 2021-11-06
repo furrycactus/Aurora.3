@@ -28795,6 +28795,11 @@
 "onX" = (
 /obj/effect/floor_decal/corner/white/diagonal,
 /obj/machinery/acting/changer,
+/obj/machinery/light/small{
+	dir = 8;
+	name = "adjusted light fixture";
+	pixel_y = 10
+	},
 /turf/unsimulated/floor,
 /area/centcom/spawning)
 "ool" = (

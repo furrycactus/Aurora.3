@@ -34,7 +34,7 @@
 /obj/machinery/light/colored/blue{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -48,7 +48,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -57,16 +57,10 @@
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/machinery/optable,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
-"awG" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/reinforced,
-/area/engineering/gravity_gen)
 "axL" = (
 /obj/machinery/door/airlock/lift{
 	icon_state = "door_locked";
@@ -76,6 +70,15 @@
 /turf/simulated/floor/holofloor/reinforced,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
+	})
+"ayG" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/light/small/emergency,
+/turf/simulated/floor/tiled/dark,
+/area/maintenance/interstitial_construction_site{
+	name = "Subway Tunnel"
 	})
 "aBf" = (
 /obj/effect/floor_decal/corner/lime/diagonal,
@@ -97,10 +100,16 @@
 /obj/item/reagent_containers/hypospray{
 	pixel_y = -2
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
+"aFV" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/gravity_gen)
 "aGU" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -114,7 +123,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -124,9 +133,21 @@
 	name = "dispensary";
 	req_one_access = null
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
+	})
+"aNh" = (
+/obj/structure/bed/chair/comfy/beige{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/lino,
+/area/bridge/aibunker{
+	name = "Entertainment Bunker"
 	})
 "aOj" = (
 /obj/effect/floor_decal/corner/lime/diagonal,
@@ -148,7 +169,7 @@
 /obj/item/reagent_containers/glass/bottle/saline,
 /obj/item/reagent_containers/glass/bottle/saline,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -163,7 +184,7 @@
 "aTc" = (
 /obj/machinery/recharge_station,
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -197,7 +218,7 @@
 /area/turret_protected/ai)
 "baY" = (
 /obj/machinery/computer/station_alert/engineering,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -216,7 +237,7 @@
 	pixel_x = 32;
 	pixel_y = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -232,7 +253,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -259,25 +280,19 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
-"bnw" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+"bpx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/outpost/engineering/hallway{
-	name = "Basement"
+/obj/machinery/light/small/emergency,
+/turf/simulated/floor/tiled/dark,
+/area/maintenance/interstitial_construction_site{
+	name = "Subway Tunnel"
 	})
 "bpF" = (
 /obj/effect/decal/cleanable/dirt,
@@ -330,7 +345,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -347,7 +362,7 @@
 	name = "Waste to Filtering";
 	use_power = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -360,7 +375,7 @@
 /obj/item/bikehorn/rubberducky{
 	pixel_y = 5
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -368,20 +383,20 @@
 /obj/structure/table/reinforced/steel,
 /obj/item/reagent_containers/glass/bucket,
 /obj/item/reagent_containers/glass/bucket,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
 "bAD" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
 "bBb" = (
 /obj/machinery/atmospherics/unary/cryo_cell,
 /obj/effect/floor_decal/corner/lime/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -390,13 +405,13 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
 "bFU" = (
 /mob/living/silicon/robot/shell,
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -414,14 +429,16 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
 "bHo" = (
-/obj/machinery/door/airlock/hatch,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/holofloor/tiled/dark,
+/obj/machinery/door/airlock/hatch{
+	id_tag = "pearlbunkerdoors1"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -442,7 +459,7 @@
 /obj/item/storage/box/bodybags{
 	pixel_x = -6
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -454,21 +471,29 @@
 	},
 /obj/machinery/door/airlock/hatch,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
 "bJk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb2,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
+	})
+"bKa" = (
+/obj/machinery/light/small/emergency{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/outpost/engineering/hallway{
+	name = "Basement"
 	})
 "bLa" = (
 /obj/machinery/disposal/small/east,
 /obj/structure/disposalpipe/trunk,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -487,7 +512,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -495,15 +520,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/plating,
-/area/maintenance/interstitial_construction_site{
-	name = "Subway Tunnel"
-	})
-"bTg" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/light/small/emergency,
-/turf/simulated/floor/holofloor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -522,19 +538,18 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
 "bWa" = (
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
 /area/turret_protected/ai)
 "bWR" = (
-/obj/machinery/atmospherics/omni/filter,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/light/small/emergency{
 	dir = 8
@@ -544,19 +559,22 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/obj/machinery/atmospherics/omni/filter{
+	name = "N2 Filter";
+	tag_east = 1;
+	tag_north = 2;
+	tag_south = 4
+	},
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
-"bYb" = (
-/turf/simulated/floor/reinforced,
-/area/engineering/gravity_gen)
 "bYt" = (
 /obj/structure/disposalpipe/segment{
 	dir = 1;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -583,7 +601,7 @@
 /obj/item/reagent_containers/glass/bottle/bicaridine{
 	pixel_x = -8
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -608,7 +626,7 @@
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/structure/table/standard,
 /obj/item/storage/box/monkeycubes,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -617,7 +635,7 @@
 	dir = 1;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -638,7 +656,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -646,17 +664,12 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
 /area/turret_protected/ai)
 "cmk" = (
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /obj/structure/cable/cyan{
 	d1 = 2;
 	d2 = 4;
@@ -671,7 +684,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -687,7 +700,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -698,7 +711,7 @@
 /obj/machinery/meter{
 	name = "Scrubbers"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -707,7 +720,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -716,9 +729,19 @@
 /obj/machinery/atmospherics/unary/vent_pump{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
+	})
+"cCR" = (
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/engineering/atmos{
+	name = "Atmospherics"
 	})
 "cFa" = (
 /obj/structure/closet,
@@ -735,23 +758,6 @@
 /turf/simulated/floor/lino,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
-	})
-"cFF" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
-/area/outpost/engineering/hallway{
-	name = "Basement"
 	})
 "cGv" = (
 /obj/effect/decal/cleanable/blood,
@@ -775,7 +781,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -791,7 +797,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -800,14 +806,14 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
 "cPi" = (
 /obj/machinery/computer/aiupload,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -820,9 +826,19 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
+	})
+"cVz" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/outpost/engineering/hallway{
+	name = "Basement"
 	})
 "cWx" = (
 /obj/machinery/atmospherics/binary/pump{
@@ -830,7 +846,7 @@
 	name = "N2 to Air Mix";
 	use_power = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -846,6 +862,9 @@
 	},
 /obj/structure/cable/green,
 /obj/machinery/light/small/emergency,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
+	},
 /turf/simulated/floor/plating,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
@@ -863,7 +882,7 @@
 /obj/machinery/light/small/emergency{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -875,7 +894,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -887,6 +906,9 @@
 /obj/machinery/power/terminal{
 	dir = 8
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
 /turf/simulated/floor/plating,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
@@ -896,16 +918,10 @@
 	dir = 5
 	},
 /obj/structure/curtain/open/medical,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
-"dgT" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/turf/simulated/floor/reinforced,
-/area/engineering/gravity_gen)
 "diQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -913,7 +929,7 @@
 	dir = 2;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -922,7 +938,7 @@
 	dir = 4
 	},
 /obj/machinery/portable_atmospherics/canister/air,
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -935,7 +951,7 @@
 	dir = 8
 	},
 /obj/machinery/disposal/small/west,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -964,14 +980,14 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
 "dtq" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -979,7 +995,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -988,20 +1004,20 @@
 /obj/structure/janitorialcart/full{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
 "dvd" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
 "dvW" = (
 /obj/effect/floor_decal/corner/lime/diagonal,
 /obj/structure/bed/roller/hover,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -1016,7 +1032,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -1040,7 +1056,7 @@
 /obj/machinery/light/small/emergency{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
 "dFw" = (
 /obj/structure/cable/green{
@@ -1065,7 +1081,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -1079,7 +1095,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -1106,7 +1122,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -1117,7 +1133,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -1131,7 +1147,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -1145,7 +1161,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -1157,15 +1173,10 @@
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
-"dPw" = (
-/turf/simulated/wall,
-/area/outpost/engineering/hallway{
-	name = "Basement"
-	})
 "dSS" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/chem_master,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -1176,7 +1187,7 @@
 /obj/item/ladder_mobile,
 /obj/item/storage/bag/inflatable,
 /obj/item/storage/toolbox/mechanical,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
 "dWQ" = (
 /obj/machinery/atmospherics/pipe/tank/air{
@@ -1184,17 +1195,7 @@
 	layer = 3.5
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/engineering/atmos{
-	name = "Atmospherics"
-	})
-"dYR" = (
-/obj/structure/cable/green{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/obj/machinery/power/terminal,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -1210,7 +1211,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -1219,7 +1220,7 @@
 /obj/machinery/chemical_dispenser/bar_soft/full{
 	pixel_y = 7
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -1236,15 +1237,6 @@
 	},
 /turf/simulated/wall,
 /area/maintenance/disposal)
-"end" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small/emergency{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/maintenance/interstitial_construction_site{
-	name = "Subway Tunnel"
-	})
 "eqi" = (
 /obj/effect/decal/cleanable/blood/drip{
 	pixel_x = 5
@@ -1265,15 +1257,6 @@
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
-"eqY" = (
-/obj/machinery/light/colored/blue{
-	dir = 8
-	},
-/turf/simulated/floor/holofloor/tiled/dark{
-	name = "cooled dark floor";
-	temperature = 278
-	},
-/area/turret_protected/ai)
 "ewH" = (
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -1281,7 +1264,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -1298,7 +1281,7 @@
 /obj/machinery/light/colored/blue{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -1311,7 +1294,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -1326,22 +1309,14 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/disposal)
-"eJS" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/outpost/engineering/hallway{
-	name = "Basement"
-	})
 "eOW" = (
 /obj/structure/closet/secure_closet/hydroponics{
 	req_access = null
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -1355,7 +1330,7 @@
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/floodlight,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -1389,34 +1364,16 @@
 	dir = 8;
 	name = "O2 to Connector"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
-"fac" = (
-/obj/effect/floor_decal/corner/lime{
-	dir = 5
-	},
-/obj/machinery/light/colored/blue{
-	dir = 4
-	},
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/medical/gen_treatment{
-	name = "Clinic"
-	})
-"faK" = (
-/obj/machinery/light{
-	dir = 8;
-	icon_state = "tube1"
-	},
-/turf/simulated/floor/reinforced,
-/area/engineering/gravity_gen)
 "ffU" = (
 /obj/effect/floor_decal/corner/pink/diagonal,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -1430,15 +1387,9 @@
 /obj/structure/window/reinforced/crescent{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
-	})
-"fhL" = (
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/plating,
-/area/outpost/engineering/hallway{
-	name = "Basement"
 	})
 "fiy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1456,7 +1407,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -1467,7 +1418,7 @@
 	})
 "fow" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -1480,7 +1431,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -1500,15 +1451,15 @@
 	temperature = 278
 	},
 /area/turret_protected/ai)
-"fzZ" = (
+"fCf" = (
 /obj/structure/cable/green{
-	d1 = 1;
+	d1 = 4;
 	d2 = 8;
-	icon_state = "1-8"
+	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
-/area/engineering/atmos{
-	name = "Atmospherics"
+/turf/simulated/floor/tiled/dark,
+/area/engineering/backup_SMES{
+	name = "Electrical"
 	})
 "fCZ" = (
 /obj/machinery/embedded_controller/radio/airlock/access_controller{
@@ -1527,7 +1478,7 @@
 /obj/machinery/light/colored/blue{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -1541,7 +1492,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -1550,7 +1501,7 @@
 	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -1568,7 +1519,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -1579,24 +1530,7 @@
 	temperature = 278
 	},
 /area/turret_protected/ai)
-"fSG" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 9
-	},
-/turf/simulated/floor/reinforced,
-/area/engineering/gravity_gen)
-"fUH" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/plating,
-/area/outpost/engineering/hallway{
-	name = "Basement"
-	})
 "gaz" = (
-/obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
@@ -1615,6 +1549,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/outpost/engineering/hallway{
 	name = "Basement"
@@ -1632,7 +1567,7 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -1648,7 +1583,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -1675,7 +1610,7 @@
 	req_access = null
 	},
 /obj/structure/table/reinforced/steel,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -1684,7 +1619,7 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -1696,7 +1631,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -1710,55 +1645,21 @@
 	id = "pearlsurgery";
 	pixel_y = 26
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
-"gxW" = (
-/obj/machinery/power/smes/buildable{
-	RCon_tag = "Substation - Atmospherics";
-	charge = 2e+006;
-	input_attempt = 1;
-	output_attempt = 1
-	},
-/obj/structure/cable/cyan{
-	d2 = 2;
-	icon_state = "0-2"
-	},
+"gzL" = (
+/obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/plating,
-/area/engineering/atmos{
-	name = "Atmospherics"
+/area/outpost/engineering/hallway{
+	name = "Basement"
 	})
-"gzp" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/turf/simulated/floor/reinforced,
-/area/engineering/gravity_gen)
-"gGC" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/bluegrid{
-	name = "cooled mainframe floor";
-	temperature = 278
-	},
-/area/turret_protected/ai)
 "gKc" = (
 /obj/structure/bed/chair/comfy/teal{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -1819,7 +1720,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -1832,13 +1733,13 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
 "gQZ" = (
 /obj/item/stool/padded,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -1850,6 +1751,9 @@
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
+"gWR" = (
+/turf/simulated/floor/reinforced,
+/area/engineering/gravity_gen)
 "hbP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -1902,7 +1806,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -1914,19 +1818,11 @@
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
-"hqJ" = (
-/obj/structure/cable/blue{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/reinforced,
-/area/engineering/gravity_gen)
 "hrt" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 9
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -1938,8 +1834,24 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
+"hup" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/outpost/engineering/hallway{
+	name = "Basement"
+	})
 "hvs" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/disposalpipe/segment{
@@ -1953,7 +1865,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -1966,7 +1878,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -1984,12 +1896,9 @@
 /obj/machinery/door/airlock/maintenance_hatch{
 	id_tag = "crusher";
 	name = "Compactor Access";
-	req_access = list(12)
+	req_access = null
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/disposal)
 "hBX" = (
 /obj/structure/flora/pottedplant/random,
@@ -2017,18 +1926,24 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
 "hCY" = (
 /turf/simulated/wall,
 /area/turret_protected/ai)
+"hDr" = (
+/obj/machinery/light/colored/blue,
+/turf/simulated/floor/tiled/dark,
+/area/medical/gen_treatment{
+	name = "Clinic"
+	})
 "hIG" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 10
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -2043,13 +1958,29 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/disposal)
+"hMk" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/outpost/engineering/hallway{
+	name = "Basement"
+	})
+"hNX" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/maintenance/interstitial_construction_site{
+	name = "Subway Tunnel"
+	})
 "hOS" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
 "hVp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -2069,7 +2000,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -2083,7 +2014,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -2097,13 +2028,13 @@
 /obj/machinery/body_scanconsole{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
 "idL" = (
 /obj/machinery/computer/atmoscontrol,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -2118,9 +2049,15 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
+	})
+"ijV" = (
+/obj/effect/floor_decal/industrial/warning/corner,
+/turf/simulated/floor/plating,
+/area/outpost/engineering/hallway{
+	name = "Basement"
 	})
 "imc" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -2129,26 +2066,19 @@
 	id = "pearlspussy";
 	name = "Pussy Wagon Deployment Shutters"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
-"iBX" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
+"izC" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/outpost/engineering/hallway{
-	name = "Basement"
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/lino,
+/area/bridge/aibunker{
+	name = "Entertainment Bunker"
 	})
-"iDi" = (
-/obj/structure/cable/cyan,
-/obj/effect/landmark{
-	name = "tripai"
-	},
-/turf/simulated/floor/bluegrid{
-	name = "cooled mainframe floor";
-	temperature = 278
-	},
-/area/turret_protected/ai)
 "iEL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/oil,
@@ -2160,7 +2090,12 @@
 /obj/machinery/door/airlock/glass_centcom,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/holofloor/tiled/dark,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -2170,7 +2105,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -2178,7 +2113,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -2217,7 +2152,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -2230,7 +2165,7 @@
 	name = "Entertainment Bunker Requests Console";
 	pixel_y = 33
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -2241,7 +2176,7 @@
 /obj/item/modular_computer/telescreen/preset/trashcompactor{
 	pixel_y = 28
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/disposal)
 "jjE" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -2253,9 +2188,18 @@
 	name = "Entertainment Bunker"
 	})
 "jls" = (
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
+	})
+"jnn" = (
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/outpost/engineering/hallway{
+	name = "Basement"
 	})
 "jnO" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
@@ -2264,7 +2208,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -2290,7 +2234,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -2313,13 +2257,23 @@
 	})
 "jpG" = (
 /obj/structure/closet/jcloset,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
 "jrw" = (
 /obj/machinery/appliance/cooker/stove,
 /turf/simulated/floor/lino,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
+	})
+"juc" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/outpost/engineering/hallway{
+	name = "Basement"
 	})
 "jwl" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2333,9 +2287,23 @@
 	})
 "jxg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/holofloor/tiled/dark,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
+	})
+"jxQ" = (
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/bridge/aibunker{
+	name = "Entertainment Bunker"
 	})
 "jyH" = (
 /obj/effect/floor_decal/corner/lime/diagonal,
@@ -2360,20 +2328,20 @@
 /obj/item/storage/belt/medical/first_responder{
 	pixel_y = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
 "jEB" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
 "jED" = (
 /obj/machinery/cryopod/robot,
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -2389,7 +2357,7 @@
 /obj/structure/window/reinforced/crescent{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -2399,7 +2367,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -2408,22 +2376,39 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
 "jLd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
 /area/turret_protected/ai)
+"jLQ" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/outpost/engineering/hallway{
+	name = "Basement"
+	})
 "jOj" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/empty/carbon_dioxide,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -2433,15 +2418,6 @@
 	icon_state = "pipe-c"
 	},
 /turf/simulated/wall,
-/area/outpost/engineering/hallway{
-	name = "Basement"
-	})
-"jRM" = (
-/obj/structure/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c"
-	},
-/turf/simulated/floor/holofloor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -2461,7 +2437,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -2473,7 +2449,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -2501,10 +2477,14 @@
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
-"kck" = (
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/outpost/engineering/hallway{
-	name = "Basement"
+"kef" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/emergency{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/interstitial_construction_site{
+	name = "Subway Tunnel"
 	})
 "kgV" = (
 /obj/structure/grille,
@@ -2513,26 +2493,27 @@
 /area/engineering/backup_SMES{
 	name = "Electrical"
 	})
-"kjs" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/maintenance/interstitial_construction_site{
-	name = "Subway Tunnel"
-	})
 "kki" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/reinforced,
-/area/maintenance/disposal)
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/engineering/backup_SMES{
+	name = "Electrical"
+	})
 "klZ" = (
 /obj/structure/table/reinforced/steel,
 /obj/machinery/cell_charger{
 	pixel_y = 3
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
 "kmw" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -2540,7 +2521,7 @@
 	},
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -2556,7 +2537,7 @@
 "krH" = (
 /obj/machinery/iv_drip,
 /obj/effect/floor_decal/industrial/outline/red,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -2573,14 +2554,6 @@
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
-"kvf" = (
-/obj/machinery/light/small/emergency{
-	dir = 4
-	},
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/outpost/engineering/hallway{
-	name = "Basement"
-	})
 "kvo" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -2591,7 +2564,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -2601,7 +2574,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -2629,7 +2602,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -2642,7 +2615,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -2670,7 +2643,7 @@
 /obj/machinery/light_switch{
 	pixel_y = 31
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -2736,6 +2709,12 @@
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
+"kQY" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/gravity_gen)
 "kTD" = (
 /obj/machinery/alarm/cold{
 	dir = 4;
@@ -2744,7 +2723,7 @@
 /obj/machinery/light/colored/blue{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -2758,7 +2737,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -2778,7 +2757,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -2786,7 +2765,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 9
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -2812,7 +2791,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -2826,8 +2805,13 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
+"lfv" = (
+/turf/simulated/wall,
+/area/maintenance/interstitial_construction_site{
+	name = "Subway Tunnel"
+	})
 "lfy" = (
 /obj/machinery/power/terminal{
 	dir = 4
@@ -2836,7 +2820,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -2846,7 +2830,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -2855,10 +2839,18 @@
 	dir = 8;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/backup_SMES{
 	name = "Electrical"
 	})
+"llh" = (
+/obj/structure/cable/blue{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/gravity_gen)
 "llw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -2866,7 +2858,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -2880,36 +2872,32 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/pink/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
-	})
-"lpj" = (
-/obj/machinery/light/small/emergency{
-	dir = 8
-	},
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/outpost/engineering/hallway{
-	name = "Basement"
 	})
 "lpE" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
-"luK" = (
-/obj/structure/cable/cyan{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+"lqH" = (
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
 	},
-/turf/simulated/floor/plating,
-/area/engineering/atmos{
-	name = "Atmospherics"
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/engineering/backup_SMES{
+	name = "Electrical"
 	})
 "lvh" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2932,11 +2920,11 @@
 /obj/machinery/light/small/emergency{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/disposal)
 "lxr" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -2951,14 +2939,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
 "lzY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/floor_decal/industrial/warning/corner,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -2967,13 +2955,13 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/disposal)
 "lBe" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -2996,7 +2984,7 @@
 	dir = 4
 	},
 /obj/machinery/meter,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -3021,7 +3009,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -3032,7 +3020,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -3044,7 +3032,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -3053,7 +3041,7 @@
 /obj/structure/bed/chair/office/light{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -3062,7 +3050,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/pink/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -3077,7 +3065,7 @@
 "lOT" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/vehicle/train/cargo/engine/pussywagon,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
 "lPF" = (
 /obj/structure/track,
@@ -3120,6 +3108,11 @@
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
+"lXV" = (
+/turf/simulated/floor/tiled/dark,
+/area/outpost/engineering/hallway{
+	name = "Basement"
+	})
 "mat" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance_hatch,
@@ -3135,6 +3128,12 @@
 /obj/structure/grille,
 /turf/simulated/floor/plating,
 /area/maintenance/disposal)
+"meA" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/turf/simulated/floor/plating,
+/area/engineering/atmos{
+	name = "Atmospherics"
+	})
 "mft" = (
 /obj/structure/window/full,
 /obj/machinery/door/firedoor,
@@ -3163,17 +3162,8 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
-	name = "cooled dark floor";
-	temperature = 278
-	},
+/turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai)
-"mjC" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 6
-	},
-/turf/simulated/floor/reinforced,
-/area/engineering/gravity_gen)
 "mkK" = (
 /turf/simulated/wall,
 /area/maintenance/disposal)
@@ -3186,7 +3176,7 @@
 /obj/effect/floor_decal/corner/lime{
 	dir = 5
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -3199,11 +3189,6 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/obj/structure/cable/cyan{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
 /turf/simulated/floor/bluegrid{
 	name = "cooled mainframe floor";
 	temperature = 278
@@ -3215,7 +3200,7 @@
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -3236,6 +3221,13 @@
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
+"mwu" = (
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/gravity_gen)
 "mwL" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -3244,20 +3236,23 @@
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
+"mxf" = (
+/obj/machinery/light/small/emergency,
+/turf/simulated/floor/tiled/dark,
+/area/outpost/engineering/hallway{
+	name = "Basement"
+	})
 "mye" = (
 /obj/structure/table/standard,
 /obj/effect/floor_decal/corner/lime/diagonal,
 /obj/item/newspaper,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
-"mAk" = (
-/turf/simulated/wall/r_wall,
-/area/engineering/gravity_gen)
 "mAZ" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -3270,13 +3265,13 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
 "mGe" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -3305,10 +3300,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
-	name = "cooled dark floor";
-	temperature = 278
-	},
+/turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai)
 "mQf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3325,7 +3317,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -3341,7 +3333,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -3349,10 +3341,16 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/reinforced,
+/turf/simulated/floor/reinforced,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
+"mUu" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/gravity_gen)
 "mUD" = (
 /obj/structure/track,
 /obj/effect/decal/cleanable/dirt,
@@ -3393,7 +3391,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -3406,7 +3404,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -3434,12 +3432,6 @@
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
-"nfQ" = (
-/obj/effect/floor_decal/corner/pink/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/medical/gen_treatment{
-	name = "Clinic"
-	})
 "njv" = (
 /obj/structure/curtain/open/bed{
 	name = "curtain"
@@ -3450,17 +3442,7 @@
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
-"nle" = (
-/turf/simulated/wall,
-/area/janitor)
-"nnF" = (
-/obj/structure/table/reinforced/steel,
-/obj/item/newspaper,
-/turf/simulated/floor/lino,
-/area/bridge/aibunker{
-	name = "Entertainment Bunker"
-	})
-"nok" = (
+"nkP" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/structure/cable/green{
 	d1 = 1;
@@ -3471,12 +3453,13 @@
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
-"nqd" = (
-/obj/machinery/light{
-	dir = 4;
-	icon_state = "tube1"
-	},
-/turf/simulated/floor/holofloor/tiled/dark,
+"nle" = (
+/turf/simulated/wall,
+/area/janitor)
+"nnF" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/newspaper,
+/turf/simulated/floor/lino,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -3492,7 +3475,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -3506,7 +3489,12 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/engineering/backup_SMES{
 	name = "Electrical"
 	})
@@ -3514,18 +3502,10 @@
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/machinery/iv_drip,
 /obj/effect/floor_decal/industrial/outline/red,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
-"nwm" = (
-/obj/machinery/power/fractal_reactor,
-/obj/structure/cable/blue{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/turf/simulated/floor/reinforced,
-/area/engineering/gravity_gen)
 "nzL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -3536,7 +3516,7 @@
 "nBv" = (
 /obj/machinery/acting/changer,
 /obj/effect/floor_decal/corner/lime/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -3546,7 +3526,7 @@
 	},
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/floor_decal/corner/lime/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -3554,7 +3534,7 @@
 /obj/machinery/light/small/emergency{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/backup_SMES{
 	name = "Electrical"
 	})
@@ -3562,7 +3542,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -3590,7 +3570,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -3601,7 +3581,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -3644,7 +3624,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -3662,7 +3642,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -3680,7 +3660,7 @@
 	pixel_x = -32;
 	specialfunctions = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -3699,7 +3679,7 @@
 	name = "sink";
 	pixel_y = 26
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -3738,7 +3718,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -3748,10 +3728,19 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
+"oib" = (
+/obj/machinery/light/colored/blue{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark{
+	name = "cooled dark floor";
+	temperature = 278
+	},
+/area/turret_protected/ai)
 "okt" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
@@ -3760,7 +3749,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -3774,7 +3763,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -3783,14 +3772,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
 "oqH" = (
 /obj/effect/floor_decal/corner/pink/diagonal,
 /obj/machinery/light/colored/blue{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -3827,24 +3816,20 @@
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
+"oBn" = (
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/reinforced,
+/area/engineering/gravity_gen)
 "oBH" = (
 /obj/machinery/portable_atmospherics/hydroponics,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
-	})
-"oIo" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 5
-	},
-/turf/simulated/floor/reinforced,
-/area/engineering/gravity_gen{
-	name = "Gravity Generator"
 	})
 "oKn" = (
 /obj/structure/cable{
@@ -3852,7 +3837,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/backup_SMES{
 	name = "Electrical"
 	})
@@ -3868,16 +3853,20 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
 "oPb" = (
-/obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/structure/disposalpipe/junction{
 	dir = 8
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /obj/structure/cable/green{
 	d1 = 1;
@@ -3889,13 +3878,14 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
+/obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
 "oPX" = (
 /obj/effect/floor_decal/corner/lime/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -3904,7 +3894,7 @@
 	dir = 4;
 	name = "N2 to Connector"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -3915,7 +3905,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -3932,7 +3922,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -3952,12 +3942,12 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/backup_SMES{
 	name = "Electrical"
 	})
 "phu" = (
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -3977,7 +3967,7 @@
 /obj/item/auto_cpr,
 /obj/item/reagent_containers/hypospray/autoinjector/coagzolug,
 /obj/item/reagent_containers/hypospray/autoinjector/coagzolug,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -3994,7 +3984,7 @@
 /obj/machinery/portable_atmospherics/canister/empty,
 /obj/machinery/atmospherics/portables_connector,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -4010,7 +4000,7 @@
 /obj/machinery/light/colored/blue{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -4022,7 +4012,7 @@
 	id = "pearlbunker1";
 	name = "Primary Bunker Blast Doors"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -4037,7 +4027,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -4047,7 +4037,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/backup_SMES{
 	name = "Electrical"
 	})
@@ -4061,11 +4051,17 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/disposal)
+"pGO" = (
+/obj/machinery/light/small/emergency,
+/turf/simulated/floor/tiled/dark,
+/area/engineering/backup_SMES{
+	name = "Electrical"
+	})
 "pHe" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -4084,7 +4080,7 @@
 	prices = null
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -4100,7 +4096,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -4110,7 +4106,7 @@
 	name = "O2 to Air Mix";
 	use_power = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -4127,9 +4123,28 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
+	})
+"qdX" = (
+/obj/machinery/light/small/emergency,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/engineering/backup_SMES{
+	name = "Electrical"
+	})
+"qeo" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/outpost/engineering/hallway{
+	name = "Basement"
 	})
 "qfJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -4146,7 +4161,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -4160,7 +4175,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -4174,7 +4189,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/backup_SMES{
 	name = "Electrical"
 	})
@@ -4184,19 +4199,13 @@
 	name = "sink";
 	pixel_y = 26
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
-"qsi" = (
-/obj/structure/bed/chair/comfy/beige{
-	dir = 8
-	},
-/obj/machinery/light{
-	dir = 4;
-	icon_state = "tube1"
-	},
-/turf/simulated/floor/lino,
-/area/bridge/aibunker{
-	name = "Entertainment Bunker"
+"qoA" = (
+/obj/effect/floor_decal/corner/pink/diagonal,
+/turf/simulated/floor/tiled/dark,
+/area/medical/gen_treatment{
+	name = "Clinic"
 	})
 "qtR" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4206,17 +4215,12 @@
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
-"qve" = (
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/engineering/backup_SMES{
-	name = "Electrical"
-	})
 "qxb" = (
 /obj/structure/trash_pile,
 /obj/effect/decal/cleanable/cobweb2{
 	icon_state = "cobweb1"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -4227,18 +4231,8 @@
 	name = "Pussy Wagon Deployment Shutters";
 	pixel_y = -28
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
-"qyV" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/light/small/emergency,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/maintenance/interstitial_construction_site{
-	name = "Subway Tunnel"
-	})
 "qAN" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
@@ -4247,7 +4241,7 @@
 	dir = 1;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -4258,31 +4252,34 @@
 	name = "Basement"
 	})
 "qCr" = (
-/obj/machinery/power/terminal,
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/obj/machinery/power/breakerbox{
+	RCon_tag = "Engineering Supermatter Grid Bypass"
+	},
+/turf/simulated/floor/plating,
 /area/engineering/backup_SMES{
 	name = "Electrical"
 	})
-"qEG" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 10
+"qEw" = (
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/reinforced,
 /area/engineering/gravity_gen)
 "qFC" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/cyan,
 /obj/machinery/meter,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
 "qGt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -4295,15 +4292,34 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
+	})
+"qIj" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/light{
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/bridge/aibunker{
+	name = "Entertainment Bunker"
 	})
 "qJJ" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -4314,7 +4330,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/backup_SMES{
 	name = "Electrical"
 	})
@@ -4323,24 +4339,20 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4
-	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/disposal)
-"qOB" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
+"qPL" = (
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
 	},
 /obj/structure/cable/green{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
+	d2 = 8;
+	icon_state = "0-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -4358,12 +4370,30 @@
 /area/engineering/backup_SMES{
 	name = "Electrical"
 	})
+"qSg" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating,
+/area/engineering/atmos{
+	name = "Atmospherics"
+	})
+"qSm" = (
+/obj/structure/cable/blue{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/gravity_gen)
 "qTq" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 1;
 	name = "Air Mix to Connector"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -4380,13 +4410,13 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/disposal)
 "rbY" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 6
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -4401,6 +4431,14 @@
 /area/engineering/backup_SMES{
 	name = "Electrical"
 	})
+"rfm" = (
+/obj/machinery/power/fractal_reactor,
+/obj/structure/cable/blue{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/gravity_gen)
 "rgf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -4410,15 +4448,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
-	})
-"rjh" = (
-/obj/machinery/light/colored/blue,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/medical/gen_treatment{
-	name = "Clinic"
 	})
 "rjO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4436,7 +4468,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -4452,25 +4484,18 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
 "rnM" = (
 /turf/simulated/floor/lino,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
-"roy" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/maintenance_hatch,
-/turf/simulated/floor/plating,
-/area/maintenance/interstitial_construction_site{
-	name = "Subway Tunnel"
-	})
 "rqM" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -4480,14 +4505,14 @@
 /obj/structure/disposalpipe/junction{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
 "rtD" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/vehicle/train/cargo/trolley/pussywagon,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
 "rzA" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -4522,6 +4547,19 @@
 	temperature = 278
 	},
 /area/turret_protected/ai)
+"rDC" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/outpost/engineering/hallway{
+	name = "Basement"
+	})
 "rEb" = (
 /obj/machinery/vending/dinnerware,
 /obj/effect/floor_decal/spline/plain{
@@ -4533,7 +4571,7 @@
 	})
 "rEF" = (
 /obj/machinery/biogenerator/small/east,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -4564,7 +4602,7 @@
 	dir = 1;
 	pixel_y = 24
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -4575,9 +4613,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
+	})
+"rKS" = (
+/turf/simulated/wall,
+/area/outpost/engineering/hallway{
+	name = "Basement"
 	})
 "rOo" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -4602,7 +4645,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -4611,7 +4654,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -4620,7 +4663,7 @@
 /obj/structure/bed/chair/comfy/teal{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -4631,7 +4674,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -4639,7 +4682,7 @@
 /obj/machinery/door/airlock/glass_centcom,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -4650,20 +4693,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
-	})
-"sai" = (
-/obj/effect/floor_decal/industrial/warning/corner,
-/turf/simulated/floor/plating,
-/area/outpost/engineering/hallway{
-	name = "Basement"
 	})
 "seF" = (
 /obj/machinery/computer/borgupload,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -4680,17 +4717,6 @@
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
-"siQ" = (
-/obj/machinery/power/apc/critical{
-	dir = 1;
-	pixel_y = 24
-	},
-/obj/structure/cable/blue{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/turf/simulated/floor/reinforced,
-/area/engineering/gravity_gen)
 "sjH" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -4710,7 +4736,7 @@
 	},
 /obj/machinery/disposal/small/south,
 /obj/structure/disposalpipe/trunk,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/backup_SMES{
 	name = "Electrical"
 	})
@@ -4724,7 +4750,7 @@
 /obj/structure/plasticflaps/airtight{
 	layer = 2.5
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -4742,57 +4768,19 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
-"sof" = (
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/reinforced,
-/area/engineering/gravity_gen)
-"stf" = (
-/obj/structure/cable/blue{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/reinforced,
-/area/engineering/gravity_gen)
 "svf" = (
 /obj/structure/table/reinforced/steel,
 /obj/machinery/chemical_dispenser/coffeemaster/full{
 	pixel_y = 7
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
-"svp" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/light{
-	icon_state = "tube1"
-	},
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/bridge/aibunker{
-	name = "Entertainment Bunker"
-	})
-"syk" = (
-/obj/machinery/light{
-	dir = 4;
-	icon_state = "tube1"
-	},
-/turf/simulated/floor/reinforced,
-/area/engineering/gravity_gen)
 "sAV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -4823,9 +4811,17 @@
 	tag_south = 1
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
+	})
+"sDO" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/gravity_gen{
+	name = "Gravity Generator"
 	})
 "sEN" = (
 /obj/effect/floor_decal/corner/lime/diagonal,
@@ -4838,7 +4834,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -4858,7 +4854,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -4873,7 +4869,7 @@
 "sQL" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/red,
 /obj/machinery/meter,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -4889,14 +4885,10 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
-"taf" = (
-/obj/machinery/gravity_generator/main/station,
-/turf/simulated/floor/reinforced,
-/area/engineering/gravity_gen)
 "tfj" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4934,10 +4926,16 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
+"tnG" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/gravity_gen)
 "tpB" = (
 /obj/structure/table/reinforced/steel,
 /obj/machinery/ringer{
@@ -4955,22 +4953,18 @@
 "tqw" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/recharge_station,
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
 /area/turret_protected/ai)
-"tsy" = (
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/bluegrid{
-	name = "cooled mainframe floor";
-	temperature = 278
-	},
-/area/turret_protected/ai)
+"ttr" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/maintenance_hatch,
+/turf/simulated/floor/plating,
+/area/maintenance/interstitial_construction_site{
+	name = "Subway Tunnel"
+	})
 "twW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -4984,13 +4978,13 @@
 /obj/machinery/light/small/emergency{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
 "tzk" = (
 /turf/simulated/floor/holofloor/reinforced,
 /area/maintenance/disposal)
 "tCc" = (
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
 "tCK" = (
 /obj/structure/table/reinforced/steel,
@@ -5009,7 +5003,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -5025,7 +5019,7 @@
 	},
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -5040,7 +5034,7 @@
 /obj/item/aiModule/reset,
 /obj/item/aiModule/freeform,
 /obj/item/aiModule/asimov,
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -5049,7 +5043,7 @@
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/empty/sleeping_agent,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -5094,7 +5088,7 @@
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/light/small/emergency,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -5105,15 +5099,9 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
-	})
-"ufo" = (
-/obj/machinery/door/airlock/maintenance_hatch,
-/turf/simulated/floor/plating,
-/area/engineering/backup_SMES{
-	name = "Electrical"
 	})
 "ugr" = (
 /obj/machinery/button/remote/blast_door{
@@ -5129,7 +5117,7 @@
 	pixel_y = -25;
 	specialfunctions = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -5146,7 +5134,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -5164,9 +5152,15 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
+	})
+"unq" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/turf/simulated/floor/plating,
+/area/engineering/backup_SMES{
+	name = "Electrical"
 	})
 "unL" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red,
@@ -5176,7 +5170,7 @@
 	pixel_x = -24
 	},
 /obj/structure/cable/cyan,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -5201,7 +5195,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -5210,7 +5204,7 @@
 /obj/machinery/chemical_dispenser/ert{
 	pixel_x = -3
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -5248,7 +5242,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
 "uJK" = (
 /obj/structure/disposalpipe/segment{
@@ -5258,11 +5252,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
 "uJW" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
 /obj/machinery/power/smes/buildable{
 	RCon_tag = "Mansion Power Supply";
 	charge = 1e+007;
@@ -5272,10 +5270,7 @@
 	output_attempt = 1;
 	output_level = 500000
 	},
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/effect/floor_decal/industrial/warning{
-	dir = 5
-	},
+/obj/structure/cable,
 /obj/structure/cable/green{
 	d2 = 2;
 	icon_state = "0-2"
@@ -5293,6 +5288,10 @@
 	temperature = 278
 	},
 /area/turret_protected/ai)
+"uMf" = (
+/obj/machinery/gravity_generator/main/station,
+/turf/simulated/floor/reinforced,
+/area/engineering/gravity_gen)
 "uNh" = (
 /obj/machinery/atmospherics/omni/filter{
 	name = "H2 Filter";
@@ -5301,7 +5300,7 @@
 	tag_west = 1
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -5316,7 +5315,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -5359,15 +5358,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
-	})
-"vad" = (
-/obj/machinery/light/small/emergency,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/outpost/engineering/hallway{
-	name = "Basement"
 	})
 "vdN" = (
 /obj/item/tape/engineering{
@@ -5386,7 +5379,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -5417,6 +5410,12 @@
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
+"vuj" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/gravity_gen)
 "vuB" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -5427,19 +5426,29 @@
 	pixel_x = -31;
 	pixel_y = 4
 	},
-/turf/simulated/floor/holofloor/reinforced,
+/turf/simulated/floor/reinforced,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
+"vxD" = (
+/obj/structure/cable/green{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/terminal,
+/turf/simulated/floor/plating,
+/area/engineering/atmos{
+	name = "Atmospherics"
+	})
 "vxW" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/backup_SMES{
 	name = "Electrical"
 	})
 "vAz" = (
 /obj/machinery/atmospherics/pipe/manifold/visible,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -5449,7 +5458,7 @@
 	req_access = null
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/janitor)
 "vCu" = (
 /obj/structure/bed,
@@ -5472,33 +5481,48 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
-"vGf" = (
-/obj/machinery/atmospherics/omni/filter{
-	name = "O2 Filter";
-	tag_east = 1;
-	tag_south = 3;
-	tag_west = 2
+"vFY" = (
+/obj/machinery/power/smes/buildable{
+	RCon_tag = "Substation - Atmospherics";
+	charge = 2e+006;
+	input_attempt = 1;
+	output_attempt = 1
 	},
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/engineering/atmos{
-	name = "Atmospherics"
-	})
-"vMN" = (
-/obj/machinery/door/airlock/maintenance_hatch,
+/obj/structure/cable/cyan{
+	d2 = 4;
+	icon_state = "0-4"
+	},
 /turf/simulated/floor/plating,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
+"vGf" = (
+/obj/machinery/atmospherics/omni/filter{
+	name = "O2 Filter";
+	tag_east = 3;
+	tag_north = 1;
+	tag_west = 2
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark,
+/area/engineering/atmos{
+	name = "Atmospherics"
+	})
+"vNY" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/gravity_gen)
 "vPp" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 6
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -5506,7 +5530,7 @@
 /obj/effect/floor_decal/corner/lime{
 	dir = 9
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -5519,6 +5543,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/outpost/engineering/hallway{
 	name = "Basement"
@@ -5528,9 +5553,17 @@
 	emagged = 1
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
+	})
+"vTY" = (
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/outpost/engineering/hallway{
+	name = "Basement"
 	})
 "vWm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -5576,14 +5609,9 @@
 	})
 "vYT" = (
 /obj/structure/cable/green,
-/turf/simulated/floor/holofloor/reinforced,
+/turf/simulated/floor/reinforced,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
-	})
-"wbr" = (
-/turf/simulated/wall,
-/area/maintenance/interstitial_construction_site{
-	name = "Subway Tunnel"
 	})
 "wcO" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -5600,7 +5628,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -5608,13 +5636,13 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
 "wdy" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/backup_SMES{
 	name = "Electrical"
 	})
@@ -5622,7 +5650,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 5
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -5633,7 +5661,7 @@
 /obj/machinery/meter{
 	name = "Air supply"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -5645,12 +5673,12 @@
 	tag_west = 1
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
 "wlu" = (
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -5670,7 +5698,7 @@
 	tag_exterior_door = "pearl_ai_exterior";
 	tag_interior_door = "pearl_ai_interior"
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
+/turf/simulated/floor/tiled/dark{
 	name = "cooled dark floor";
 	temperature = 278
 	},
@@ -5686,6 +5714,14 @@
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
+"wpN" = (
+/obj/machinery/light/small/emergency{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/outpost/engineering/hallway{
+	name = "Basement"
+	})
 "wrn" = (
 /turf/simulated/wall,
 /area/medical/gen_treatment{
@@ -5695,7 +5731,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -5709,25 +5745,6 @@
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
-"wvh" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4;
-	external_pressure_bound = 102;
-	external_pressure_bound_default = 102;
-	icon_state = "map_vent_in";
-	pump_direction = 0
-	},
-/obj/machinery/light/small/emergency{
-	dir = 8
-	},
-/turf/simulated/floor/holofloor/reinforced,
-/area/maintenance/disposal)
-"wvS" = (
-/obj/machinery/light/small/emergency,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/engineering/backup_SMES{
-	name = "Electrical"
-	})
 "wwC" = (
 /obj/structure/barricade,
 /obj/structure/track,
@@ -5737,33 +5754,46 @@
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
-"wAj" = (
-/obj/machinery/light/small/emergency{
-	dir = 1
+"wyG" = (
+/obj/effect/floor_decal/corner/lime{
+	dir = 5
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/outpost/engineering/hallway{
-	name = "Basement"
+/obj/machinery/light/colored/blue{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/medical/gen_treatment{
+	name = "Clinic"
 	})
-"wBa" = (
-/obj/machinery/power/breakerbox{
-	RCon_tag = "Engineering Supermatter Grid Bypass"
+"wAY" = (
+/obj/machinery/power/terminal{
+	dir = 8
 	},
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/effect/floor_decal/industrial/warning{
-	dir = 6
-	},
-/turf/simulated/floor/plating,
+/obj/structure/cable,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/backup_SMES{
 	name = "Electrical"
 	})
+"wBa" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/engineering/backup_SMES{
+	name = "Electrical"
+	})
+"wBY" = (
+/turf/simulated/wall/r_wall,
+/area/engineering/gravity_gen)
 "wFu" = (
 /obj/structure/sink/kitchen{
 	layer = 3.5;
 	name = "sink";
 	pixel_y = 26
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
@@ -5788,23 +5818,10 @@
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/trash/tuna,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
-"wPj" = (
-/obj/structure/cable/cyan{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/obj/effect/landmark{
-	name = "tripai"
-	},
-/turf/simulated/floor/bluegrid{
-	name = "cooled mainframe floor";
-	temperature = 278
-	},
-/area/turret_protected/ai)
 "wTO" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 4
@@ -5813,7 +5830,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -5829,13 +5846,13 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
 "wVK" = (
 /obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -5846,7 +5863,7 @@
 	icon_state = "1-4"
 	},
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/backup_SMES{
 	name = "Electrical"
 	})
@@ -5858,20 +5875,25 @@
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
 	})
+"xfH" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/outpost/engineering/hallway{
+	name = "Basement"
+	})
 "xhG" = (
 /obj/effect/floor_decal/spline/plain,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/lino,
-/area/bridge/aibunker{
-	name = "Entertainment Bunker"
-	})
-"xjG" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 8
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
 /turf/simulated/floor/lino,
 /area/bridge/aibunker{
 	name = "Entertainment Bunker"
@@ -5880,7 +5902,7 @@
 /obj/effect/floor_decal/corner/orange/diagonal,
 /obj/structure/table/standard,
 /obj/item/reagent_containers/dropper,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -5891,7 +5913,7 @@
 	dir = 8;
 	icon_state = "pipe-j2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -5912,7 +5934,7 @@
 	name = "Backup Generator Shutters";
 	pixel_y = -32
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/backup_SMES{
 	name = "Electrical"
 	})
@@ -5926,7 +5948,7 @@
 	name = "Subway Tunnel"
 	})
 "xxF" = (
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -5934,7 +5956,7 @@
 /obj/effect/floor_decal/corner/lime{
 	dir = 10
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -5950,7 +5972,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -5970,7 +5992,7 @@
 	pixel_x = -4;
 	pixel_y = -4
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -6007,7 +6029,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai)
 "xOA" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -6047,7 +6069,10 @@
 /obj/item/storage/firstaid/fire{
 	layer = 3.01
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/obj/machinery/light/colored/blue{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -6065,11 +6090,22 @@
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
+"xVt" = (
+/obj/machinery/power/apc/critical{
+	dir = 1;
+	pixel_y = 24
+	},
+/obj/structure/cable/blue{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/gravity_gen)
 "xVW" = (
 /obj/machinery/portable_atmospherics/canister/empty/hydrogen,
 /obj/machinery/atmospherics/portables_connector,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/atmos{
 	name = "Atmospherics"
 	})
@@ -6089,7 +6125,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
@@ -6106,7 +6142,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
 	})
@@ -6117,10 +6153,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/holofloor/tiled/dark{
-	name = "cooled dark floor";
-	temperature = 278
-	},
+/turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai)
 "xZo" = (
 /obj/structure/track,
@@ -6129,21 +6162,6 @@
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
-"ybx" = (
-/obj/machinery/alarm/cold{
-	dir = 8;
-	pixel_x = 32
-	},
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/bluegrid{
-	name = "cooled mainframe floor";
-	temperature = 278
-	},
-/area/turret_protected/ai)
 "yel" = (
 /obj/item/tape/engineering{
 	icon_state = "engineering_door";
@@ -6160,7 +6178,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/maintenance/interstitial_construction_site{
 	name = "Subway Tunnel"
 	})
@@ -6184,13 +6202,18 @@
 	name = "north bump";
 	pixel_y = 24
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/medical/gen_treatment{
 	name = "Clinic"
 	})
 "yfN" = (
 /turf/unsimulated/mineral,
 /area/mine/explored)
+"ygD" = (
+/turf/simulated/floor/tiled/dark,
+/area/engineering/backup_SMES{
+	name = "Electrical"
+	})
 "ygO" = (
 /obj/structure/window/full,
 /obj/structure/grille,
@@ -6201,13 +6224,6 @@
 /turf/simulated/floor/plating,
 /area/outpost/engineering/hallway{
 	name = "Basement"
-	})
-"yjL" = (
-/obj/machinery/atmospherics/pipe/manifold/visible,
-/obj/machinery/light/small/emergency,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/engineering/atmos{
-	name = "Atmospherics"
 	})
 "ykd" = (
 /obj/structure/disposalpipe/segment{
@@ -6230,9 +6246,16 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/outpost/engineering/hallway{
 	name = "Basement"
+	})
+"ylD" = (
+/obj/machinery/atmospherics/pipe/manifold/visible,
+/obj/machinery/light/small/emergency,
+/turf/simulated/floor/tiled/dark,
+/area/engineering/atmos{
+	name = "Atmospherics"
 	})
 "ylO" = (
 /obj/structure/closet/crate/radiation{
@@ -6241,7 +6264,7 @@
 /obj/item/stack/material/tritium/full,
 /obj/item/stack/material/tritium/full,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/holofloor/tiled/dark,
+/turf/simulated/floor/tiled/dark,
 /area/engineering/backup_SMES{
 	name = "Electrical"
 	})
@@ -12446,16 +12469,16 @@ yfN
 yfN
 yfN
 yfN
-dPw
-dPw
-dPw
-dPw
-dPw
-dPw
-dPw
-dPw
-dPw
-dPw
+rKS
+rKS
+rKS
+rKS
+rKS
+rKS
+rKS
+rKS
+rKS
+rKS
 uoF
 uoF
 uoF
@@ -12703,9 +12726,9 @@ yfN
 yfN
 yfN
 yfN
-dPw
+rKS
 ovq
-sai
+ijV
 uPL
 seJ
 cGv
@@ -12714,15 +12737,15 @@ ovq
 ovq
 ovq
 uoF
-dYR
-gxW
+vxD
+vFY
 uoF
-dPw
-dPw
-dPw
-dPw
-dPw
-dPw
+rKS
+rKS
+rKS
+rKS
+rKS
+rKS
 yfN
 yfN
 yfN
@@ -12958,28 +12981,28 @@ yfN
 yfN
 yfN
 yfN
-dPw
-dPw
-dPw
+rKS
+rKS
+rKS
 ovq
-fhL
+gzL
 new
 kYM
 mVp
 eqi
 kLw
-fUH
-fUH
-nok
-fzZ
-luK
-vMN
+juc
+juc
+nkP
+qSg
+cCR
+meA
 ovq
 ovq
 ovq
 ovq
 ovq
-dPw
+rKS
 yfN
 yfN
 yfN
@@ -13215,17 +13238,17 @@ yfN
 yfN
 yfN
 yfN
-dPw
+rKS
 ovq
 ovq
 ovq
-dPw
+rKS
 dDh
 jPn
-dPw
-dPw
+rKS
+rKS
 kbq
-dPw
+rKS
 uoF
 uoF
 uoF
@@ -13236,7 +13259,7 @@ uoF
 uoF
 ovq
 ovq
-dPw
+rKS
 yfN
 yfN
 yfN
@@ -13472,7 +13495,7 @@ yfN
 yfN
 yfN
 yfN
-dPw
+rKS
 ovq
 mkK
 mkK
@@ -13480,9 +13503,9 @@ mkK
 pGC
 mkK
 mkK
-kck
+lXV
 cJh
-kck
+lXV
 uoF
 jOj
 sDG
@@ -13493,7 +13516,7 @@ wdO
 uoF
 uoF
 ovq
-dPw
+rKS
 yfN
 yfN
 yfN
@@ -13729,17 +13752,17 @@ yfN
 yfN
 yfN
 yfN
-dPw
+rKS
 ovq
 mkK
 jES
 tzk
-kki
-wvh
+tzk
+tzk
 emN
-kck
+lXV
 kKN
-vad
+mxf
 uoF
 tRH
 wkx
@@ -13750,17 +13773,17 @@ sQL
 bDD
 uoF
 ovq
-dPw
+rKS
 yfN
 yfN
 yfN
-wbr
+lfv
 lmS
 lmS
 lmS
 lmS
 lmS
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -13986,7 +14009,7 @@ yfN
 yfN
 yfN
 yfN
-dPw
+rKS
 ovq
 mkK
 mkK
@@ -13994,9 +14017,9 @@ ygO
 hBk
 mcj
 mkK
-kck
+lXV
 kKN
-kck
+lXV
 uoF
 xVW
 uNh
@@ -14007,17 +14030,17 @@ oXO
 uoF
 uoF
 ovq
-dPw
+rKS
 yfN
 yfN
 yfN
-wbr
+lfv
 lmS
 lPF
 lmS
 lmS
 bpF
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -14243,7 +14266,7 @@ yfN
 yfN
 yfN
 yfN
-dPw
+rKS
 ovq
 ovq
 mkK
@@ -14253,7 +14276,7 @@ hKS
 eGR
 joz
 ubz
-kck
+lXV
 uoF
 ptG
 hrt
@@ -14264,17 +14287,17 @@ tFp
 uoF
 ovq
 ovq
-dPw
+rKS
 yfN
 yfN
 yfN
-wbr
+lfv
 lmS
 gLO
 nzL
 hpK
 pLk
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -14500,7 +14523,7 @@ yfN
 yfN
 yfN
 yfN
-dPw
+rKS
 ovq
 ovq
 mkK
@@ -14521,17 +14544,17 @@ uoF
 uoF
 ovq
 ovq
-dPw
-dPw
+rKS
+rKS
 yfN
 yfN
-wbr
+lfv
 vXS
 ubw
 vXS
 ubw
 vXS
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -14757,7 +14780,7 @@ yfN
 yfN
 yfN
 yfN
-dPw
+rKS
 ovq
 nle
 nle
@@ -14765,7 +14788,7 @@ nle
 nle
 nle
 nle
-wAj
+wpN
 vtg
 lzY
 hiL
@@ -14779,16 +14802,16 @@ uoF
 ovq
 ovq
 ovq
-dPw
+rKS
 yfN
 yfN
-wbr
+lfv
 kLM
 xZo
 nzL
 hpK
 ejR
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -15014,7 +15037,7 @@ yfN
 yfN
 yfN
 yfN
-dPw
+rKS
 ovq
 nle
 duB
@@ -15022,7 +15045,7 @@ dEo
 dTV
 vBB
 nle
-kck
+lXV
 lQI
 cOZ
 jHY
@@ -15036,16 +15059,16 @@ uoF
 uoF
 ovq
 ovq
-dPw
+rKS
 yfN
 yfN
-wbr
+lfv
 owq
 uCe
 nzL
 hpK
 ewL
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -15271,7 +15294,7 @@ fny
 yfN
 yfN
 yfN
-dPw
+rKS
 ovq
 nle
 qof
@@ -15279,7 +15302,7 @@ tCc
 hOS
 tCc
 imc
-kck
+lXV
 bsC
 gqz
 hgg
@@ -15293,16 +15316,16 @@ sWF
 uoF
 ovq
 ovq
-dPw
-dPw
-dPw
-wbr
+rKS
+rKS
+rKS
+lfv
 owq
 uCe
 hbP
 joZ
 nzL
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -15528,7 +15551,7 @@ fny
 yfN
 yfN
 yfN
-dPw
+rKS
 ovq
 nle
 rtD
@@ -15553,13 +15576,13 @@ ovq
 ovq
 ovq
 ovq
-wbr
+lfv
 owq
 uCe
 nzL
 xZo
 nzL
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -15785,7 +15808,7 @@ fny
 yfN
 yfN
 yfN
-dPw
+rKS
 ovq
 nle
 lOT
@@ -15793,13 +15816,13 @@ tCc
 omN
 qxv
 nle
-kck
+lXV
 kKN
-vad
+mxf
 uoF
 rqM
 qTq
-yjL
+ylD
 uoF
 uoF
 dsA
@@ -15807,16 +15830,16 @@ uoF
 ovq
 ovq
 ovq
-wbr
-wbr
-roy
-wbr
-end
+lfv
+lfv
+ttr
+lfv
+kef
 uCe
 fvs
 uCe
 owq
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -16042,7 +16065,7 @@ fny
 yfN
 yfN
 yfN
-dPw
+rKS
 ovq
 nle
 rmz
@@ -16052,7 +16075,7 @@ hrO
 bFX
 ykn
 xOA
-kck
+lXV
 uoF
 uoF
 uoF
@@ -16060,11 +16083,11 @@ dWQ
 uoF
 ovq
 ovq
-dPw
+rKS
 ovq
 ovq
 ovq
-wbr
+lfv
 qxb
 ofs
 pXF
@@ -16073,7 +16096,7 @@ hpK
 wmL
 xZo
 nzL
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -16299,7 +16322,7 @@ fny
 yfN
 yfN
 yfN
-dPw
+rKS
 ovq
 nle
 bwg
@@ -16307,10 +16330,10 @@ klZ
 txW
 jpG
 nle
-kck
+lXV
 kKN
-kck
-dPw
+lXV
+rKS
 ovq
 uoF
 uoF
@@ -16321,7 +16344,7 @@ mat
 ovq
 ovq
 ovq
-wbr
+lfv
 mVA
 gQW
 dtq
@@ -16330,7 +16353,7 @@ hpK
 owq
 uCe
 twW
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -16555,8 +16578,8 @@ drB
 yfN
 yfN
 yfN
-dPw
-dPw
+rKS
+rKS
 ovq
 nle
 nle
@@ -16564,30 +16587,30 @@ nle
 nle
 nle
 nle
-kck
+lXV
 mQf
-kck
-dPw
-dPw
-dPw
-dPw
-dPw
+lXV
+rKS
+rKS
+rKS
+rKS
+rKS
 ovq
 ovq
-dPw
+rKS
 ovq
 ovq
 ovq
-wbr
+lfv
 rOT
-kjs
+hNX
 wVK
 owq
 hpK
 pLk
 xZo
 hbP
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -16812,30 +16835,30 @@ dFw
 dGC
 yfN
 yfN
-dPw
+rKS
 ovq
 ovq
 ovq
-dPw
-kck
-kck
-kck
-lpj
-kck
+rKS
+lXV
+lXV
+lXV
+bKa
+lXV
 mQf
-kck
-lpj
-kck
-kck
-kck
-dPw
+lXV
+bKa
+lXV
+lXV
+lXV
+rKS
 ovq
 ovq
-dPw
-dPw
+rKS
+rKS
 mat
-dPw
-wbr
+rKS
+lfv
 tmu
 iaS
 dtq
@@ -16844,7 +16867,7 @@ hpK
 owq
 hpK
 owq
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -17069,12 +17092,12 @@ fny
 drB
 yfN
 yfN
-dPw
+rKS
 ovq
 ovq
 ovq
 yjt
-kck
+lXV
 fiy
 qkO
 xUQ
@@ -17083,16 +17106,16 @@ nNY
 krY
 krY
 tDy
-qOB
-kck
+xfH
+lXV
 mat
 ovq
 ovq
-dPw
+rKS
 ovq
 ovq
 ovq
-wbr
+lfv
 kUp
 rsh
 fJw
@@ -17101,7 +17124,7 @@ hpK
 nzL
 xZo
 owq
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -17326,39 +17349,39 @@ fny
 drB
 yfN
 yfN
-dPw
+rKS
 ovq
 ovq
 ovq
-dPw
-kck
+rKS
+lXV
 mQf
-kck
-kck
-jRM
+lXV
+lXV
+jnn
 lfN
-kck
-kck
-kck
-bnw
-kck
-dPw
+lXV
+lXV
+lXV
+hup
+lXV
+rKS
 ovq
 ovq
-dPw
+rKS
 ovq
 ovq
 ovq
-wbr
+lfv
 cPY
-bTg
-wbr
-end
+ayG
+lfv
+kef
 hpK
 owq
 xZo
 owq
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -17577,36 +17600,36 @@ gQZ
 gQZ
 gQZ
 cuo
-svp
+qIj
 fny
 fny
 drB
-dPw
-dPw
-dPw
-dPw
-dPw
-dPw
-dPw
-wAj
+rKS
+rKS
+rKS
+rKS
+rKS
+rKS
+rKS
+wpN
 kKN
-kck
-dPw
-dPw
-dPw
-dPw
-dPw
-kck
-cFF
-vad
-dPw
-dPw
-dPw
-dPw
-dPw
-dPw
-dPw
-wbr
+lXV
+rKS
+rKS
+rKS
+rKS
+rKS
+lXV
+jLQ
+mxf
+rKS
+rKS
+rKS
+rKS
+rKS
+rKS
+rKS
+lfv
 kHY
 nKz
 pMp
@@ -17615,7 +17638,7 @@ xud
 owq
 xZo
 owq
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -17829,7 +17852,7 @@ jls
 jls
 jls
 jls
-nqd
+jxQ
 jls
 jls
 jls
@@ -17838,30 +17861,30 @@ nPT
 bHo
 uJK
 efo
-kck
-lpj
-kck
-eJS
-kck
-kck
-kck
-kck
+lXV
+bKa
+lXV
+hMk
+lXV
+lXV
+lXV
+lXV
 kKN
-kck
-dPw
-kck
+lXV
+rKS
+lXV
 fGw
 iVR
-dPw
-kck
-cFF
-kck
-kck
-kck
-kck
+rKS
+lXV
+jLQ
+lXV
+lXV
+lXV
+lXV
 dcz
-kck
-lpj
+lXV
+bKa
 okt
 uOv
 qGQ
@@ -17872,7 +17895,7 @@ xZo
 owq
 hpK
 nzL
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -18106,8 +18129,8 @@ rgf
 oPb
 jxg
 iJV
-wdf
-kck
+rDC
+cVz
 jEB
 rXn
 mGe
@@ -18120,7 +18143,7 @@ vdN
 vRI
 vRI
 bUZ
-wbr
+lfv
 rFU
 iNI
 cAz
@@ -18129,7 +18152,7 @@ hpK
 nzL
 xZo
 nzL
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -18352,30 +18375,30 @@ vCH
 ggt
 eEd
 pwR
-kck
-kvf
-kck
-iBX
-kck
-kck
-kck
-kck
+lXV
+vTY
+lXV
+qeo
+lXV
+lXV
+lXV
+lXV
 kKN
-kck
-dPw
-kck
-kvf
-kck
-dPw
-kck
+lXV
+rKS
+wpN
+qPL
+mxf
+rKS
+lXV
 kKN
-kck
-kck
-kck
-kck
+lXV
+lXV
+lXV
+lXV
 dth
-kck
-kvf
+lXV
+vTY
 smW
 yel
 aGU
@@ -18386,7 +18409,7 @@ xZo
 qtR
 xZo
 nzL
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -18605,36 +18628,36 @@ hfi
 ugr
 abJ
 czy
-svp
+qIj
 fny
 fny
 fny
-dPw
-dPw
-dPw
-dPw
-dPw
-dPw
-dPw
-wAj
+rKS
+rKS
+rKS
+rKS
+rKS
+rKS
+rKS
+wpN
 kKN
-kck
-dPw
-dPw
-dPw
-dPw
-dPw
-kck
+lXV
+rKS
+rKS
+rKS
+rKS
+rKS
+lXV
 kKN
-vad
-dPw
-dPw
-dPw
-dPw
-dPw
-dPw
-dPw
-wbr
+mxf
+rKS
+rKS
+rKS
+rKS
+rKS
+rKS
+rKS
+lfv
 kHY
 pDm
 fJw
@@ -18643,7 +18666,7 @@ hpK
 owq
 hpK
 owq
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -18868,39 +18891,39 @@ yfN
 yfN
 yfN
 yfN
-dPw
+rKS
 ovq
 ovq
 ovq
-dPw
-kck
+rKS
+lXV
 mQf
-kck
-kck
-kck
+lXV
+lXV
+lXV
 bLa
 bYt
-kck
-kck
+lXV
+lXV
 mQf
-kck
-dPw
+lXV
+rKS
 ovq
 ovq
 ovq
 ovq
 ovq
 ovq
-wbr
+lfv
 cPY
-qyV
-wbr
-end
+bpx
+lfv
+kef
 hpK
 twW
 xud
 owq
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -19130,7 +19153,7 @@ fny
 ovq
 ovq
 yjt
-kck
+lXV
 jSr
 odK
 xUQ
@@ -19140,7 +19163,7 @@ wGD
 xUQ
 qkO
 cjO
-kck
+lXV
 mat
 ovq
 ovq
@@ -19148,7 +19171,7 @@ ovq
 ovq
 ovq
 ovq
-wbr
+lfv
 cPY
 xpk
 pMp
@@ -19157,7 +19180,7 @@ hpK
 nzL
 hpK
 owq
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -19386,26 +19409,26 @@ lOf
 fny
 ovq
 ovq
-dPw
-kck
-kck
-kck
-kvf
-kck
+rKS
+lXV
+lXV
+lXV
+vTY
+lXV
 mQf
-kck
-kvf
-kck
-kck
-kck
-dPw
+lXV
+vTY
+lXV
+lXV
+lXV
+rKS
 ovq
 ovq
 ovq
 ovq
 ovq
 ovq
-wbr
+lfv
 rHX
 mEc
 eSB
@@ -19414,7 +19437,7 @@ xZo
 twW
 hpK
 owq
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -19628,7 +19651,7 @@ yfN
 yfN
 fny
 sQy
-qsi
+aNh
 bjJ
 eRI
 rnM
@@ -19643,14 +19666,14 @@ rnM
 fny
 ovq
 ovq
-dPw
-dPw
-dPw
-dPw
-dPw
-kck
+rKS
+rKS
+rKS
+rKS
+rKS
+lXV
 mQf
-kck
+lXV
 wrn
 wrn
 wrn
@@ -19662,7 +19685,7 @@ wrn
 wrn
 ovq
 ovq
-wbr
+lfv
 hke
 pDm
 dtq
@@ -19671,7 +19694,7 @@ xZo
 nzL
 uCe
 ewL
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -19894,7 +19917,7 @@ cFa
 abJ
 iQG
 kzm
-xjG
+izC
 xeX
 vCu
 fny
@@ -19904,10 +19927,10 @@ ovq
 ovq
 ovq
 ovq
-dPw
-kck
+rKS
+lXV
 uUe
-kck
+lXV
 wrn
 xEh
 xSU
@@ -19919,7 +19942,7 @@ dvW
 wrn
 ovq
 ovq
-wbr
+lfv
 xCQ
 nay
 wJQ
@@ -19928,7 +19951,7 @@ hpK
 owq
 hpK
 owq
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -20160,11 +20183,11 @@ iRn
 iRn
 iRn
 iRn
-ufo
+unq
 iRn
-kck
+lXV
 uUe
-kck
+lXV
 aSB
 oPX
 oPX
@@ -20176,7 +20199,7 @@ dvW
 wrn
 ovq
 ovq
-wbr
+lfv
 bJk
 diQ
 fJw
@@ -20185,7 +20208,7 @@ hpK
 nzL
 hpK
 owq
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -20417,9 +20440,9 @@ iRn
 qCr
 uJW
 wBa
-qve
+ygD
 iRn
-wAj
+wpN
 nXo
 rgf
 ijc
@@ -20433,16 +20456,16 @@ vPV
 wrn
 ovq
 ovq
-wbr
-wbr
-roy
-wbr
-end
+lfv
+lfv
+ttr
+lfv
+kef
 xZo
 nzL
 hpK
 kIF
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -20671,10 +20694,10 @@ gfZ
 gfZ
 gfZ
 nEn
-qKb
-qve
+kki
+wAY
 sjH
-qve
+ygD
 kgV
 lxr
 ulR
@@ -20685,7 +20708,7 @@ rbY
 rbY
 xxF
 kCO
-nfQ
+qoA
 xxF
 pAj
 ovq
@@ -20693,13 +20716,13 @@ ovq
 ovq
 ovq
 ovq
-wbr
+lfv
 owq
 hpK
 nzL
 xZo
 nzL
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -20931,32 +20954,32 @@ oKn
 rff
 vxW
 qRw
-wvS
+pGO
 iRn
-kck
+lXV
 uUe
-kck
+lXV
 aSB
 oPX
 oPX
 oPX
-fac
+wyG
 xWd
 ffU
-xxF
+hDr
 wrn
 wrn
 wrn
 ovq
 ovq
 ovq
-wbr
+lfv
 nzL
 hpK
 owq
 hpK
 hbP
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -21186,20 +21209,20 @@ heK
 kEw
 pdn
 rFA
-qve
+ygD
 vYh
 nsJ
 qlR
 joz
 gPg
-kck
+lXV
 wrn
 jyH
 pif
 aBf
 wrn
 lHP
-nfQ
+qoA
 oPX
 fgS
 uyx
@@ -21207,13 +21230,13 @@ wrn
 ovq
 ovq
 ovq
-wbr
+lfv
 nzL
 xZo
 nzL
 hpK
 nzL
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -21445,32 +21468,32 @@ pEf
 rff
 wdy
 ykd
-wvS
+qdX
 iRn
-kck
+lXV
 uUe
-vad
+mxf
 wrn
 wrn
 wrn
 wrn
 wrn
 yfp
-nfQ
+qoA
 xxF
 aIp
 lMj
 wrn
-dPw
+rKS
 yjt
-dPw
-wbr
+rKS
+lfv
 bOw
 xZo
 owq
 xZo
 nzL
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -21700,9 +21723,9 @@ gfZ
 gfZ
 nEn
 qKb
-qve
+ygD
 hvs
-qve
+fCf
 kgV
 jEB
 oYu
@@ -21713,7 +21736,7 @@ oqH
 lMG
 wrn
 dBR
-nfQ
+qoA
 oPX
 jFq
 xoR
@@ -21721,13 +21744,13 @@ wrn
 ovq
 ovq
 ovq
-wbr
+lfv
 jpx
 wwC
 jpx
 wwC
 jpx
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -21959,32 +21982,32 @@ iRn
 sjJ
 wZw
 lhY
-qve
+lqH
 iRn
-kck
+lXV
 uUe
-kck
+lXV
 lUp
 idk
 udC
 udC
 wrn
 aOj
-nfQ
-rjh
+qoA
+hDr
 wrn
 wrn
 wrn
 ovq
 ovq
 ovq
-wbr
+lfv
 sAV
 hpK
 xFV
 lmS
 jwl
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -22218,9 +22241,9 @@ xri
 iRn
 iRn
 iRn
-kck
+lXV
 uUe
-kck
+lXV
 lUp
 nua
 mAZ
@@ -22235,13 +22258,13 @@ wrn
 ovq
 ovq
 ovq
-wbr
+lfv
 lmS
 mUD
 lmS
 lmS
 lvh
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -22475,9 +22498,9 @@ pEf
 iRn
 mng
 iRn
-wAj
+wpN
 uUe
-kck
+lXV
 lUp
 aoE
 mAZ
@@ -22490,15 +22513,15 @@ xxF
 xxF
 wrn
 dJy
-dPw
-dPw
-wbr
+rKS
+rKS
+lfv
 lmS
 lmS
 lmS
 lmS
 lmS
-wbr
+lfv
 yfN
 yfN
 yfN
@@ -22732,9 +22755,9 @@ ylO
 iRn
 mng
 iRn
-kck
+lXV
 mQf
-kck
+lXV
 wrn
 gwm
 cgq
@@ -22747,7 +22770,7 @@ krH
 gKc
 wrn
 qAS
-dPw
+rKS
 yfN
 yfN
 yfN
@@ -23004,7 +23027,7 @@ wrn
 wrn
 wrn
 qAS
-dPw
+rKS
 yfN
 yfN
 yfN
@@ -23249,7 +23272,7 @@ kTD
 phu
 qfJ
 phu
-eqY
+oib
 phu
 hCY
 wrn
@@ -23261,7 +23284,7 @@ wrn
 qAS
 qAS
 qAS
-dPw
+rKS
 yfN
 yfN
 yfN
@@ -23516,9 +23539,9 @@ oPX
 jKX
 pAj
 qAS
-dPw
-dPw
-dPw
+rKS
+rKS
+rKS
 yfN
 yfN
 yfN
@@ -23772,8 +23795,8 @@ jnO
 rSy
 dHO
 wrn
-dPw
-dPw
+rKS
+rKS
 yfN
 yfN
 yfN
@@ -25041,7 +25064,7 @@ yfN
 yfN
 yfN
 yfN
-hCY
+yfN
 hCY
 buv
 hxS
@@ -25051,7 +25074,7 @@ pMm
 pHe
 fwb
 hCY
-hCY
+yfN
 yfN
 yfN
 yfN
@@ -25298,17 +25321,17 @@ yfN
 yfN
 yfN
 yfN
+yfN
 hCY
-wPj
-tsy
-gGC
-ybx
+pMm
+lEo
+nFN
 cmk
 aZF
 mpF
-tsy
-iDi
+pMm
 hCY
+yfN
 yfN
 yfN
 yfN
@@ -25555,7 +25578,7 @@ yfN
 yfN
 yfN
 yfN
-hCY
+yfN
 hCY
 fNJ
 lEo
@@ -25565,7 +25588,7 @@ hCY
 rAp
 xAH
 hCY
-hCY
+yfN
 yfN
 yfN
 yfN
@@ -31967,13 +31990,13 @@ yfN
 yfN
 yfN
 yfN
-mAk
-mAk
-mAk
-mAk
-mAk
-mAk
-mAk
+wBY
+wBY
+wBY
+wBY
+wBY
+wBY
+wBY
 yfN
 yfN
 yfN
@@ -32224,13 +32247,13 @@ yfN
 yfN
 yfN
 yfN
-mAk
-bYb
-bYb
-faK
-bYb
-bYb
-mAk
+wBY
+gWR
+gWR
+mwu
+gWR
+gWR
+wBY
 yfN
 yfN
 yfN
@@ -32481,13 +32504,13 @@ yfN
 yfN
 yfN
 yfN
-mAk
-bYb
-bYb
-bYb
-bYb
-bYb
-mAk
+wBY
+gWR
+gWR
+gWR
+gWR
+gWR
+wBY
 yfN
 yfN
 yfN
@@ -32738,13 +32761,13 @@ yfN
 yfN
 yfN
 yfN
-mAk
-bYb
-fSG
-dgT
-dgT
-qEG
-mAk
+wBY
+gWR
+tnG
+kQY
+kQY
+vuj
+wBY
 yfN
 yfN
 yfN
@@ -32994,14 +33017,14 @@ yfN
 yfN
 yfN
 yfN
-mAk
-mAk
-bYb
-awG
-bYb
-bYb
-sof
-mAk
+wBY
+wBY
+gWR
+mUu
+gWR
+gWR
+oBn
+wBY
 yfN
 yfN
 yfN
@@ -33251,14 +33274,14 @@ yfN
 yfN
 yfN
 yfN
-mAk
-nwm
-stf
-awG
-bYb
-taf
-sof
-mAk
+wBY
+rfm
+llh
+mUu
+gWR
+uMf
+oBn
+wBY
 yfN
 yfN
 yfN
@@ -33508,14 +33531,14 @@ yfN
 yfN
 yfN
 yfN
-mAk
-mAk
-hqJ
-awG
-bYb
-bYb
-sof
-mAk
+wBY
+wBY
+qSm
+mUu
+gWR
+gWR
+oBn
+wBY
 yfN
 yfN
 yfN
@@ -33766,13 +33789,13 @@ yfN
 yfN
 yfN
 yfN
-mAk
-hqJ
-oIo
-gzp
-gzp
-mjC
-mAk
+wBY
+qSm
+sDO
+aFV
+aFV
+vNY
+wBY
 yfN
 yfN
 yfN
@@ -34023,13 +34046,13 @@ yfN
 yfN
 yfN
 yfN
-mAk
-siQ
-bYb
-bYb
-bYb
-bYb
-mAk
+wBY
+xVt
+gWR
+gWR
+gWR
+gWR
+wBY
 yfN
 yfN
 yfN
@@ -34280,13 +34303,13 @@ yfN
 yfN
 yfN
 yfN
-mAk
-bYb
-bYb
-syk
-bYb
-bYb
-mAk
+wBY
+gWR
+gWR
+qEw
+gWR
+gWR
+wBY
 yfN
 yfN
 yfN
@@ -34537,13 +34560,13 @@ yfN
 yfN
 yfN
 yfN
-mAk
-mAk
-mAk
-mAk
-mAk
-mAk
-mAk
+wBY
+wBY
+wBY
+wBY
+wBY
+wBY
+wBY
 yfN
 yfN
 yfN
