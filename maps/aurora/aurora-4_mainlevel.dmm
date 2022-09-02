@@ -58494,6 +58494,13 @@
 	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/bar)
+"cjO" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden,
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/tiled/dark,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "ckM" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -59004,13 +59011,10 @@
 /turf/simulated/floor/plating,
 /area/maintenance/research_port)
 "cKx" = (
-/obj/effect/decal/cleanable/blood/splatter{
-	dryname = "dried fake blood";
-	name = "fake blood"
-	},
-/turf/simulated/floor/grass/alt,
-/area/hydroponics/garden{
-	name = "Outdoors"
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/lino/grey,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
 	})
 "cLj" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -59332,7 +59336,6 @@
 /area/rnd/lab)
 "dgt" = (
 /obj/machinery/smartfridge/foodheater,
-/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/tiled/white,
 /area/hallway/primary/port{
 	name = "Ground Floor - West Wing"
@@ -59391,6 +59394,19 @@
 /obj/structure/table/reinforced/wood,
 /turf/simulated/floor/wood,
 /area/crew_quarters/bar)
+"dmz" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced,
+/turf/simulated/floor/plating,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "dmG" = (
 /obj/effect/map_effect/wingrille_spawn/reinforced,
 /obj/machinery/door/blast/regular/open{
@@ -59404,18 +59420,18 @@
 	name = "Ground Floor - East Wing"
 	})
 "dnf" = (
-/obj/effect/decal/cleanable/cobweb2{
-	icon_state = "cobweb1"
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/obj/effect/decal/cleanable/cobweb2,
-/obj/effect/decal/cleanable/cobweb2{
-	icon_state = "spiderling";
-	layer = 9.1;
-	name = "dead greimorian"
-	},
-/turf/simulated/floor/grass/alt,
-/area/hydroponics/garden{
-	name = "Outdoors"
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/carpet,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
 	})
 "dnl" = (
 /mob/living/simple_animal/rat/hooded,
@@ -59471,11 +59487,11 @@
 	name = "Outdoors"
 	})
 "dpK" = (
-/obj/effect/decal/cleanable/cobweb,
-/obj/structure/bed/chair/wood,
-/turf/simulated/floor/wood,
-/area/hydroponics/garden{
-	name = "Outdoors"
+/obj/item/stool/bar/padded,
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/carpet,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
 	})
 "dqb" = (
 /obj/structure/cable{
@@ -59677,17 +59693,10 @@
 /turf/simulated/floor/plating,
 /area/maintenance/research_port)
 "dBK" = (
-/obj/effect/spider/cocoon{
-	icon_state = "cocoon3"
-	},
-/obj/effect/decal/cleanable/cobweb2{
-	icon_state = "spiderling";
-	layer = 9.1;
-	name = "dead greimorian"
-	},
-/turf/simulated/floor/grass/alt,
-/area/hydroponics/garden{
-	name = "Outdoors"
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/wood,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
 	})
 "dBV" = (
 /obj/structure/window/reinforced{
@@ -59810,6 +59819,7 @@
 /area/maintenance/security_starboard)
 "dGY" = (
 /obj/item/stool/bar/padded,
+/obj/effect/decal/cleanable/confetti,
 /turf/simulated/floor/carpet,
 /area/hallway/primary/port{
 	name = "Ground Floor - West Wing"
@@ -59822,6 +59832,15 @@
 /turf/simulated/floor/lino/grey,
 /area/hallway/primary/port{
 	name = "Ground Floor - West Wing"
+	})
+"dHs" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/tiled/dark,
+/area/hydroponics/garden{
+	name = "Outdoors"
 	})
 "dIx" = (
 /obj/structure/disposalpipe/segment{
@@ -59861,19 +59880,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/research_port)
-"dLg" = (
-/obj/effect/decal/cleanable/cobweb2{
-	icon_state = "cobweb1"
-	},
-/obj/effect/decal/cleanable/cobweb2,
-/turf/simulated/floor/grass/alt,
-/area/hydroponics/garden{
-	name = "Outdoors"
-	})
 "dLj" = (
 /obj/machinery/light_switch{
 	pixel_x = 24
 	},
+/obj/item/toy/balloon/color,
 /turf/simulated/floor/wood,
 /area/hallway/primary/port{
 	name = "Ground Floor - West Wing"
@@ -60028,6 +60039,19 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/medbay)
+"eae" = (
+/obj/machinery/power/rtg/advanced,
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/crew_quarters/fitness/changing{
+	name = "Costume Shed"
+	})
 "eaC" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/vehicle/bike/speeder{
@@ -60128,7 +60152,6 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/tiled/white,
 /area/hallway/primary/port{
 	name = "Ground Floor - West Wing"
@@ -60556,19 +60579,9 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/reinforced,
 /area/engineering/storage_sublevel{
 	name = "Ground Floor - Garage"
-	})
-"eLQ" = (
-/obj/effect/decal/cleanable/cobweb2,
-/obj/effect/decal/cleanable/cobweb2{
-	icon_state = "cobweb1"
-	},
-/turf/simulated/floor/grass/alt,
-/area/hydroponics/garden{
-	name = "Outdoors"
 	})
 "eLR" = (
 /obj/item/device/radio/intercom{
@@ -60776,12 +60789,6 @@
 /area/hallway/primary/starboard{
 	name = "Ground Floor - East Wing"
 	})
-"eWg" = (
-/obj/effect/decal/remains/xeno,
-/turf/simulated/floor/grass/alt,
-/area/hydroponics/garden{
-	name = "Outdoors"
-	})
 "eXU" = (
 /obj/machinery/camera/network/security{
 	c_tag = "Security - Interrogation";
@@ -60793,6 +60800,18 @@
 	},
 /turf/simulated/floor/tiled,
 /area/security/brig)
+"eYa" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "eZE" = (
 /obj/machinery/alarm{
 	dir = 4;
@@ -60880,6 +60899,7 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/item/toy/balloon/color,
 /turf/simulated/floor/carpet,
 /area/hallway/primary/starboard{
 	name = "Ground Floor - East Wing"
@@ -61006,7 +61026,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/engineering)
 "fgI" = (
-/obj/effect/decal/cleanable/cobweb2,
 /obj/structure/bookcase/manuals/engineering,
 /turf/simulated/floor/carpet,
 /area/hallway/primary/starboard{
@@ -61126,6 +61145,11 @@
 	name = "reinforced glass table";
 	table_reinf = "glass"
 	},
+/obj/item/storage/box/partypopper{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/storage/box/partypopper,
 /turf/simulated/floor/wood,
 /area/hallway/primary/starboard{
 	name = "Ground Floor - East Wing"
@@ -61499,15 +61523,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
 	},
-/obj/item/clothing/head/pumpkin/lantern{
-	anchored = 1
-	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	light_color = "#C48A18";
-	light_power = 2;
-	light_range = 3;
-	name = "fire light"
-	},
+/obj/effect/decal/cleanable/confetti,
 /turf/simulated/floor/tiled/dark,
 /area/hydroponics/garden{
 	name = "Outdoors"
@@ -61760,12 +61776,10 @@
 /turf/simulated/floor/plating,
 /area/maintenance/maintcentral)
 "fZY" = (
-/obj/effect/spider/cocoon{
-	icon_state = "cocoon2"
-	},
-/turf/simulated/floor/grass/alt,
-/area/hydroponics/garden{
-	name = "Outdoors"
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/wood,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
 	})
 "fZZ" = (
 /obj/machinery/newscaster,
@@ -62014,12 +62028,10 @@
 	name = "Ground Floor - Garage"
 	})
 "gtY" = (
-/obj/effect/spider/cocoon{
-	icon_state = "cocoon_large2"
-	},
-/turf/simulated/floor/grass/alt,
-/area/hydroponics/garden{
-	name = "Outdoors"
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/lino/grey,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
 	})
 "guf" = (
 /obj/structure/closet/crate/freezer{
@@ -62452,11 +62464,24 @@
 /turf/simulated/floor/plating,
 /area/maintenance/vault)
 "gZa" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/item/stack/flag/red/planted,
-/turf/simulated/floor/plating,
-/area/hydroponics/garden{
-	name = "Outdoors"
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/carpet,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
 	})
 "gZD" = (
 /obj/effect/floor_decal/corner/white/diagonal,
@@ -62639,6 +62664,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
+/obj/effect/decal/cleanable/confetti,
 /turf/simulated/floor/carpet,
 /area/hallway/primary/port{
 	name = "Ground Floor - West Wing"
@@ -62829,6 +62855,21 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/research_port)
+"hvt" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "hwc" = (
 /obj/item/chess_piece/knight/black,
 /turf/simulated/floor/marble/dark,
@@ -63703,7 +63744,7 @@
 /turf/simulated/floor/tiled,
 /area/security/brig/processing)
 "iye" = (
-/obj/effect/decal/cleanable/cobweb,
+/obj/effect/decal/cleanable/confetti,
 /turf/simulated/floor/wood,
 /area/hallway/primary/starboard{
 	name = "Ground Floor - East Wing"
@@ -64394,12 +64435,10 @@
 /turf/simulated/floor/plating,
 /area/maintenance/cargo)
 "jKe" = (
-/obj/effect/spider/cocoon{
-	icon_state = "cocoon3"
-	},
-/turf/simulated/floor/grass/alt,
-/area/hydroponics/garden{
-	name = "Outdoors"
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/wood,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
 	})
 "jKN" = (
 /obj/structure/disposalpipe/segment,
@@ -64521,15 +64560,6 @@
 "jUs" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
-	},
-/obj/item/clothing/head/pumpkin/lantern{
-	anchored = 1
-	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	light_color = "#C48A18";
-	light_power = 2;
-	light_range = 3;
-	name = "fire light"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/hydroponics/garden{
@@ -64815,11 +64845,10 @@
 	name = "Ground Floor - Entry Foyer"
 	})
 "krU" = (
-/obj/effect/decal/cleanable/cobweb,
-/obj/structure/bookcase/manuals/medical,
-/turf/simulated/floor/wood,
-/area/hallway/primary/starboard{
-	name = "Ground Floor - East Wing"
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/carpet,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
 	})
 "kuR" = (
 /obj/structure/closet/crate,
@@ -65117,10 +65146,10 @@
 /turf/simulated/floor/plating,
 /area/maintenance/medbay)
 "kPh" = (
-/obj/effect/decal/remains/lizard,
-/turf/simulated/floor/grass/alt,
-/area/hydroponics/garden{
-	name = "Outdoors"
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/carpet,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
 	})
 "kQn" = (
 /obj/effect/landmark/costume/commie,
@@ -65187,6 +65216,16 @@
 /mob/living/simple_animal/rat/gray,
 /turf/simulated/floor/plating,
 /area/maintenance/vault)
+"kWx" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/fitness/changing{
+	name = "Costume Shed"
+	})
 "kWH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -65267,6 +65306,16 @@
 /obj/random/junk,
 /turf/simulated/floor/tiled/old_white,
 /area/maintenance/research_port)
+"lbG" = (
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "lbN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/alarm{
@@ -65326,14 +65375,10 @@
 /turf/simulated/floor/plating,
 /area/maintenance/vault)
 "lgF" = (
-/obj/effect/decal/cleanable/blood/splatter{
-	dryname = "dried fake blood";
-	name = "fake blood"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/holofloor/desert,
-/area/hydroponics/garden{
-	name = "Outdoors"
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/carpet,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
 	})
 "lhs" = (
 /obj/machinery/door/airlock/maintenance{
@@ -65484,13 +65529,6 @@
 /obj/item/stool/padded,
 /turf/simulated/floor/tiled/white,
 /area/security/forensics_laboratory)
-"lsK" = (
-/obj/structure/flora/pottedplant/random,
-/obj/effect/decal/cleanable/cobweb2,
-/turf/simulated/floor/wood,
-/area/hallway/primary/starboard{
-	name = "Ground Floor - East Wing"
-	})
 "ltW" = (
 /obj/machinery/firealarm/west,
 /obj/structure/cable/green{
@@ -65899,6 +65937,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
 	},
+/obj/effect/decal/cleanable/confetti,
 /turf/simulated/floor/tiled/dark,
 /area/hydroponics/garden{
 	name = "Outdoors"
@@ -66293,7 +66332,6 @@
 /area/maintenance/medbay)
 "mAj" = (
 /obj/effect/floor_decal/industrial/hatch/red,
-/obj/effect/decal/cleanable/cobweb,
 /obj/effect/decal/cleanable/blood/gibs,
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -66338,25 +66376,6 @@
 "mBz" = (
 /obj/effect/decal/cleanable/cobweb2{
 	icon_state = "cobweb1"
-	},
-/obj/effect/decal/cleanable/cobweb2{
-	icon_state = "spiderling";
-	layer = 9.1;
-	name = "dead greimorian"
-	},
-/turf/simulated/floor/grass/alt,
-/area/hydroponics/garden{
-	name = "Outdoors"
-	})
-"mBJ" = (
-/obj/item/clothing/head/pumpkin/lantern{
-	anchored = 1
-	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	light_color = "#C48A18";
-	light_power = 2;
-	light_range = 3;
-	name = "fire light"
 	},
 /turf/simulated/floor/grass/alt,
 /area/hydroponics/garden{
@@ -66543,17 +66562,24 @@
 /turf/simulated/floor/plating,
 /area/maintenance/research_port)
 "mKO" = (
-/obj/effect/spider/cocoon{
-	icon_state = "cocoon_large3"
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
-/obj/effect/decal/cleanable/cobweb2{
-	icon_state = "spiderling";
-	layer = 9.1;
-	name = "dead greimorian"
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/turf/simulated/floor/grass/alt,
-/area/hydroponics/garden{
-	name = "Outdoors"
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/carpet,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
 	})
 "mLV" = (
 /obj/machinery/embedded_controller/radio/docking_port_multi{
@@ -66619,17 +66645,6 @@
 	id = "pearldoorbell";
 	pixel_x = 1;
 	pixel_y = 26
-	},
-/obj/item/clothing/head/pumpkin/lantern{
-	anchored = 1;
-	pixel_x = 6;
-	pixel_y = 10
-	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	light_color = "#C48A18";
-	light_power = 2;
-	light_range = 3;
-	name = "fire light"
 	},
 /turf/simulated/floor/wood,
 /area/hydroponics/garden{
@@ -66780,7 +66795,6 @@
 /turf/simulated/floor/carpet,
 /area/lawoffice/consular)
 "mVZ" = (
-/obj/effect/decal/cleanable/cobweb2,
 /obj/structure/table/reinforced/steel,
 /obj/item/reagent_containers/spray/cleaner{
 	pixel_x = 8;
@@ -66922,6 +66936,7 @@
 	})
 "ngZ" = (
 /obj/machinery/firealarm/east,
+/obj/effect/decal/cleanable/confetti,
 /turf/simulated/floor/wood,
 /area/hallway/primary/port{
 	name = "Ground Floor - West Wing"
@@ -68142,6 +68157,18 @@
 /area/hallway/primary/port{
 	name = "Ground Floor - West Wing"
 	})
+"oMH" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "oNS" = (
 /turf/simulated/wall/r_wall,
 /area/lawoffice/consular)
@@ -68166,7 +68193,7 @@
 /turf/simulated/floor/tiled/white,
 /area/security/forensics_laboratory)
 "oOz" = (
-/obj/effect/decal/remains/human,
+/obj/item/toy/balloon/color,
 /turf/simulated/floor/grass/alt,
 /area/hydroponics/garden{
 	name = "Outdoors"
@@ -68859,7 +68886,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/rnd/telesci)
 "pCN" = (
-/obj/effect/decal/cleanable/cobweb2,
 /obj/structure/bed/chair/wood{
 	dir = 8
 	},
@@ -68868,19 +68894,12 @@
 	name = "Outdoors"
 	})
 "pCV" = (
-/obj/structure/cable/green,
-/obj/machinery/power/rtg/advanced,
-/obj/structure/window/phoronreinforced{
-	dir = 4
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/obj/structure/window/phoronreinforced{
-	dir = 8
-	},
-/obj/structure/window/phoronreinforced{
-	dir = 1
-	},
-/obj/structure/window/phoronreinforced,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/wood,
 /area/crew_quarters/fitness/changing{
 	name = "Costume Shed"
 	})
@@ -68941,6 +68960,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/item/toy/balloon/color,
 /turf/simulated/floor/carpet,
 /area/hallway/primary/port{
 	name = "Ground Floor - West Wing"
@@ -69317,15 +69337,10 @@
 /turf/simulated/floor/tiled,
 /area/bridge)
 "qec" = (
-/obj/effect/decal/cleanable/cobweb2{
-	icon_state = "spiderling";
-	layer = 9.1;
-	name = "dead greimorian"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/holofloor/desert,
-/area/hydroponics/garden{
-	name = "Outdoors"
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/wood,
+/area/hallway/secondary/entry/aft{
+	name = "Ground Floor - Entry Foyer"
 	})
 "qeh" = (
 /turf/simulated/floor/wood,
@@ -69361,6 +69376,11 @@
 	pixel_x = 15;
 	pixel_y = 33
 	},
+/obj/item/storage/box/partypopper{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/storage/box/partypopper,
 /turf/simulated/floor/lino/grey,
 /area/hallway/primary/port{
 	name = "Ground Floor - West Wing"
@@ -69725,7 +69745,6 @@
 	name = "Outdoors"
 	})
 "qDw" = (
-/obj/effect/decal/cleanable/cobweb,
 /obj/structure/table/reinforced/wood,
 /obj/item/storage/box/goldstar{
 	pixel_x = 4;
@@ -69842,6 +69861,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/effect/decal/cleanable/confetti,
 /turf/simulated/floor/carpet,
 /area/hallway/secondary/entry/aft{
 	name = "Ground Floor - Entry Foyer"
@@ -69914,7 +69934,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/medbay)
 "qNb" = (
-/obj/effect/decal/cleanable/cobweb,
 /obj/structure/bookcase/manuals/research_and_development,
 /turf/simulated/floor/carpet,
 /area/hallway/primary/starboard{
@@ -70025,7 +70044,6 @@
 	name = "Garage Requests Console";
 	pixel_y = 33
 	},
-/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/reinforced,
 /area/engineering/storage_sublevel{
 	name = "Ground Floor - Garage"
@@ -70042,7 +70060,6 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/tiled/white,
 /area/hallway/primary/port{
 	name = "Ground Floor - West Wing"
@@ -70079,14 +70096,10 @@
 	name = "Ground Floor - Entry Foyer"
 	})
 "qTg" = (
-/obj/effect/decal/cleanable/cobweb2{
-	icon_state = "spiderling";
-	layer = 9.1;
-	name = "dead greimorian"
-	},
-/turf/simulated/floor/grass/alt,
-/area/hydroponics/garden{
-	name = "Outdoors"
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/carpet/art,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
 	})
 "qTq" = (
 /obj/machinery/firealarm/west,
@@ -70521,7 +70534,6 @@
 "ruT" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/vehicle/train/cargo/trolley,
-/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/reinforced,
 /area/engineering/storage_sublevel{
 	name = "Ground Floor - Garage"
@@ -70715,7 +70727,6 @@
 /area/security/nuke_storage)
 "rIW" = (
 /obj/machinery/media/jukebox,
-/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/wood,
 /area/hallway/primary/port{
 	name = "Ground Floor - West Wing"
@@ -70802,20 +70813,10 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/aft)
 "rNm" = (
-/obj/item/clothing/head/pumpkin/lantern{
-	anchored = 1;
-	pixel_x = -6;
-	pixel_y = 10
-	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	light_color = "#C48A18";
-	light_power = 2;
-	light_range = 3;
-	name = "fire light"
-	},
-/turf/simulated/floor/wood,
-/area/hydroponics/garden{
-	name = "Outdoors"
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/tiled/white,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
 	})
 "rOC" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
@@ -70910,6 +70911,16 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/aft)
+"rWS" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "rXO" = (
 /obj/random/loot,
 /obj/structure/table/steel,
@@ -71115,9 +71126,6 @@
 	icon_state = "plant-20";
 	pixel_y = 12
 	},
-/obj/effect/decal/cleanable/cobweb2{
-	icon_state = "cobweb1"
-	},
 /turf/simulated/floor/lino/grey,
 /area/hallway/primary/port{
 	name = "Ground Floor - West Wing"
@@ -71253,7 +71261,6 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/wood,
 /area/hallway/primary/starboard{
 	name = "Ground Floor - East Wing"
@@ -71317,12 +71324,13 @@
 	name = "Ground Floor - East Wing"
 	})
 "svD" = (
-/obj/effect/decal/cleanable/cobweb2{
-	icon_state = "cobweb1"
+/obj/machinery/light/small{
+	dir = 8
 	},
-/turf/simulated/floor/grass/alt,
-/area/hydroponics/garden{
-	name = "Outdoors"
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/wood,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
 	})
 "swo" = (
 /obj/effect/floor_decal/spline/plain{
@@ -71401,17 +71409,10 @@
 /turf/simulated/floor/carpet,
 /area/lawoffice/consular)
 "sEp" = (
-/obj/effect/spider/cocoon{
-	icon_state = "cocoon2"
-	},
-/obj/effect/decal/cleanable/cobweb2{
-	icon_state = "spiderling";
-	layer = 9.1;
-	name = "dead greimorian"
-	},
-/turf/simulated/floor/grass/alt,
-/area/hydroponics/garden{
-	name = "Outdoors"
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/carpet,
+/area/hallway/primary/port{
+	name = "Ground Floor - West Wing"
 	})
 "sEV" = (
 /obj/structure/bed/chair/wood{
@@ -71467,10 +71468,13 @@
 	name = "Ground Floor - East Wing"
 	})
 "sIa" = (
-/obj/effect/decal/cleanable/cobweb,
-/turf/simulated/open,
-/area/hallway/secondary/entry/aft{
-	name = "Ground Floor - Entry Foyer"
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/wood,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
 	})
 "sJc" = (
 /obj/structure/disposalpipe/junction/yjunction{
@@ -72073,10 +72077,13 @@
 /turf/simulated/floor/plating,
 /area/maintenance/security_starboard)
 "tsG" = (
-/obj/effect/decal/cleanable/cobweb,
-/turf/simulated/floor/wood,
-/area/hallway/secondary/entry/aft{
-	name = "Ground Floor - Entry Foyer"
+/obj/effect/floor_decal/spline/plain{
+	dir = 4
+	},
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/carpet/art,
+/area/hallway/primary/starboard{
+	name = "Ground Floor - East Wing"
 	})
 "tsX" = (
 /obj/machinery/light/small/emergency{
@@ -72300,10 +72307,10 @@
 /turf/simulated/floor/wood,
 /area/lawoffice)
 "tDf" = (
-/obj/effect/decal/cleanable/cobweb2,
+/obj/item/toy/balloon/color,
 /turf/simulated/floor/wood,
-/area/hallway/secondary/entry/aft{
-	name = "Ground Floor - Entry Foyer"
+/area/hydroponics/garden{
+	name = "Outdoors"
 	})
 "tEq" = (
 /obj/structure/cable{
@@ -72505,9 +72512,8 @@
 	name = "Ground Floor - West Wing"
 	})
 "tOJ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/drip,
-/turf/simulated/floor/holofloor/desert,
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/wood,
 /area/hydroponics/garden{
 	name = "Outdoors"
 	})
@@ -72835,15 +72841,10 @@
 	name = "Greenhouse"
 	})
 "ufz" = (
-/obj/effect/spider/cocoon{
-	icon_state = "cocoon_large2"
-	},
-/obj/effect/decal/cleanable/cobweb2{
-	icon_state = "spiderling";
-	layer = 9.1;
-	name = "dead greimorian"
-	},
-/turf/simulated/floor/grass/alt,
+/obj/structure/railing/mapped,
+/obj/effect/floor_decal/spline/plain,
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/wood,
 /area/hydroponics/garden{
 	name = "Outdoors"
 	})
@@ -72976,6 +72977,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/item/toy/balloon/color,
 /turf/simulated/floor/carpet,
 /area/hallway/primary/port{
 	name = "Ground Floor - West Wing"
@@ -72988,10 +72990,9 @@
 /turf/simulated/floor/plating,
 /area/maintenance/medbay)
 "uoh" = (
-/obj/effect/spider/cocoon{
-	icon_state = "cocoon_large1"
-	},
-/turf/simulated/floor/grass/alt,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/holofloor/desert,
 /area/hydroponics/garden{
 	name = "Outdoors"
 	})
@@ -73860,12 +73861,9 @@
 /turf/simulated/floor/reinforced,
 /area/rnd/telesci)
 "vzO" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/splatter{
-	dryname = "dried fake blood";
-	name = "fake blood"
-	},
-/turf/simulated/floor/holofloor/desert,
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/item/stack/flag/red/planted,
+/turf/simulated/floor/plating,
 /area/hydroponics/garden{
 	name = "Outdoors"
 	})
@@ -73981,6 +73979,19 @@
 	},
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
+"vHJ" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced,
+/turf/simulated/floor/plating,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "vHY" = (
 /obj/structure/cable/green{
 	d2 = 8;
@@ -74035,17 +74046,15 @@
 /turf/simulated/floor/carpet,
 /area/maintenance/bar)
 "vJe" = (
-/obj/item/clothing/head/pumpkin/lantern{
-	anchored = 1
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 1
 	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	light_color = "#C48A18";
-	light_power = 2;
-	light_range = 3;
-	name = "fire light"
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/holofloor/desert,
+/turf/simulated/floor/plating,
 /area/hydroponics/garden{
 	name = "Outdoors"
 	})
@@ -74435,7 +74444,6 @@
 /area/maintenance/medbay)
 "wbm" = (
 /obj/structure/flora/pottedplant/random,
-/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/wood,
 /area/hallway/primary/starboard{
 	name = "Ground Floor - East Wing"
@@ -74467,6 +74475,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/confetti,
 /turf/simulated/floor/lino/grey,
 /area/hallway/primary/port{
 	name = "Ground Floor - West Wing"
@@ -74504,7 +74513,6 @@
 /area/maintenance/bridge_elevator)
 "wff" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/effect/decal/cleanable/cobweb2,
 /obj/structure/closet/secure_closet/freezer/meat{
 	pixel_y = 20
 	},
@@ -74838,9 +74846,11 @@
 /area/maintenance/cargo)
 "wvs" = (
 /obj/structure/table/stone/marble,
-/obj/effect/decal/cleanable/cobweb2{
-	icon_state = "cobweb1"
+/obj/item/storage/box/partypopper{
+	pixel_x = 4;
+	pixel_y = 4
 	},
+/obj/item/storage/box/partypopper,
 /turf/simulated/floor/tiled/white,
 /area/hallway/primary/port{
 	name = "Ground Floor - West Wing"
@@ -74870,6 +74880,7 @@
 /area/maintenance/medbay)
 "wxr" = (
 /obj/machinery/light/small,
+/obj/item/toy/balloon/color,
 /turf/simulated/floor/wood,
 /area/hallway/primary/port{
 	name = "Ground Floor - West Wing"
@@ -74964,6 +74975,16 @@
 /area/hallway/primary/starboard{
 	name = "Ground Floor - East Wing"
 	})
+"wHa" = (
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "wHH" = (
 /turf/simulated/floor/tiled,
 /area/security/forensics_laboratory)
@@ -74972,6 +74993,7 @@
 	dir = 8;
 	icon_state = "pipe-c"
 	},
+/obj/effect/decal/cleanable/confetti,
 /turf/simulated/floor/wood,
 /area/hallway/primary/port{
 	name = "Ground Floor - West Wing"
@@ -75004,12 +75026,26 @@
 	},
 /turf/simulated/wall,
 /area/medical/surgerywing)
+"wLs" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/tiled/dark,
+/area/hydroponics/garden{
+	name = "Outdoors"
+	})
 "wLt" = (
 /turf/simulated/wall/r_wall,
 /area/security/brig/processing)
 "wMx" = (
-/obj/effect/decal/remains/robot,
-/turf/simulated/floor/grass/alt,
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
 /area/hydroponics/garden{
 	name = "Outdoors"
 	})
@@ -75027,13 +75063,17 @@
 	name = "Outdoors"
 	})
 "wOR" = (
-/obj/effect/decal/cleanable/cobweb2,
-/obj/effect/decal/cleanable/cobweb2{
-	icon_state = "spiderling";
-	layer = 9.1;
-	name = "dead greimorian"
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 8
 	},
-/turf/simulated/floor/grass/alt,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
 /area/hydroponics/garden{
 	name = "Outdoors"
 	})
@@ -121162,8 +121202,8 @@ avd
 avd
 avd
 avd
-avd
-avd
+gLz
+gLz
 gLz
 gLz
 gLz
@@ -121397,6 +121437,7 @@ avd
 avd
 avd
 avd
+vzO
 avd
 avd
 avd
@@ -121406,8 +121447,7 @@ avd
 avd
 avd
 avd
-avd
-avd
+vzO
 avd
 avd
 avd
@@ -121420,7 +121460,7 @@ avd
 gLz
 gLz
 gLz
-gLz
+eae
 gLz
 oPr
 oPr
@@ -121653,31 +121693,31 @@ avd
 avd
 avd
 avd
-avd
-gZa
-hYv
-hYv
-hYv
-hYv
-hYv
-hYv
-hYv
-hYv
-hYv
-gZa
-avd
-avd
-avd
+vzO
+aBB
+wOR
+oMH
+oMH
+oMH
+oMH
+oMH
+oMH
+oMH
+dmz
+aBB
+vzO
 avd
 avd
 avd
-mBJ
+avd
+avd
+avd
 avd
 aUw
 gLz
 nXd
 pCV
-gDR
+kWx
 jHm
 gDR
 gDR
@@ -121911,7 +121951,7 @@ avd
 avd
 avd
 avd
-hYv
+vJe
 oOk
 qOP
 qOP
@@ -121921,7 +121961,7 @@ qOP
 qOP
 qOP
 hLv
-hYv
+rWS
 avd
 avd
 avd
@@ -122168,7 +122208,7 @@ avd
 avd
 avd
 avd
-hYv
+jjC
 pvg
 tcY
 tcY
@@ -122178,7 +122218,7 @@ tcY
 tcY
 tcY
 nVm
-hYv
+rWS
 avd
 avd
 avd
@@ -122425,7 +122465,7 @@ avd
 avd
 avd
 avd
-hYv
+jjC
 pvg
 tcY
 tcY
@@ -122435,7 +122475,7 @@ tcY
 tcY
 tcY
 nVm
-hYv
+rWS
 avd
 avd
 avd
@@ -122682,7 +122722,7 @@ avd
 avd
 avd
 avd
-hYv
+jjC
 pvg
 tcY
 tcY
@@ -122692,7 +122732,7 @@ tcY
 tcY
 tcY
 nVm
-hYv
+rWS
 avd
 aBB
 mLV
@@ -122939,7 +122979,7 @@ avd
 avd
 avd
 avd
-hYv
+jjC
 pvg
 tcY
 tcY
@@ -122949,11 +122989,11 @@ tcY
 tcY
 tcY
 lqA
-wNL
+wHa
 jqa
 ioS
 hYv
-pKG
+wLs
 vKf
 aUw
 aUw
@@ -123196,7 +123236,7 @@ avd
 avd
 avd
 avd
-hYv
+jjC
 pvg
 tcY
 tcY
@@ -123453,7 +123493,7 @@ avd
 avd
 avd
 avd
-hYv
+jjC
 pvg
 tcY
 tcY
@@ -123466,13 +123506,13 @@ rew
 wNL
 pmL
 flF
-nJM
+dHs
 pKG
 vKf
-tOJ
 aUw
 aUw
-mBJ
+aUw
+oOz
 avd
 avd
 avd
@@ -123710,7 +123750,7 @@ avd
 avd
 avd
 avd
-hYv
+jjC
 pvg
 tcY
 tcY
@@ -123729,12 +123769,12 @@ avd
 aUw
 aUw
 aUw
-vzO
+aUw
 avd
 avd
-qTg
-rjv
-fZY
+avd
+avd
+avd
 avd
 avd
 avd
@@ -123967,7 +124007,7 @@ avd
 avd
 avd
 avd
-hYv
+jjC
 pvg
 tcY
 tcY
@@ -123982,15 +124022,15 @@ jjC
 kDJ
 qDo
 pKG
-mBJ
+avd
 aUw
 aUw
 aUw
 aUw
-eWg
-qTg
-rjv
-dLg
+avd
+avd
+avd
+avd
 aZs
 avd
 avd
@@ -124224,7 +124264,7 @@ avd
 avd
 avd
 avd
-hYv
+jjC
 pvg
 tcY
 tcY
@@ -124237,18 +124277,18 @@ tcY
 tcY
 jjC
 kDJ
-qDo
+cjO
 pKG
 avd
-vzO
 aUw
-tOJ
+aUw
+aUw
 aUw
 aUw
 avd
-svD
-mBz
-ufz
+avd
+avd
+avd
 avd
 avd
 avd
@@ -124481,7 +124521,7 @@ avd
 avd
 avd
 avd
-hYv
+jjC
 pvg
 tcY
 tcY
@@ -124495,7 +124535,7 @@ wNL
 pVg
 ioS
 nJM
-pKG
+wLs
 vKf
 aUw
 aUw
@@ -124738,7 +124778,7 @@ avd
 avd
 avd
 avd
-hYv
+jjC
 pvg
 tcY
 tcY
@@ -124755,7 +124795,7 @@ lVj
 pKG
 vKf
 aUw
-tOJ
+aUw
 aUw
 aUw
 aUw
@@ -124995,7 +125035,7 @@ avd
 avd
 avd
 avd
-hYv
+jjC
 pvg
 tcY
 tcY
@@ -125005,18 +125045,18 @@ tcY
 tcY
 tcY
 epa
-wNL
+lbG
 rnj
 flF
 hYv
 pKG
 vKf
+uoh
 aUw
 aUw
 aUw
 aUw
-aUw
-avd
+oOz
 avd
 avd
 avd
@@ -125252,7 +125292,7 @@ avd
 avd
 avd
 avd
-hYv
+jjC
 pvg
 tcY
 tcY
@@ -125262,7 +125302,7 @@ tcY
 tcY
 tcY
 nVm
-hYv
+rWS
 aVq
 aBB
 cow
@@ -125272,7 +125312,7 @@ avd
 aUw
 aUw
 aUw
-vzO
+aUw
 avd
 avd
 avd
@@ -125509,7 +125549,7 @@ avd
 avd
 avd
 avd
-hYv
+jjC
 pvg
 tcY
 tcY
@@ -125519,16 +125559,16 @@ tcY
 tcY
 tcY
 nVm
-hYv
+rWS
 avd
 avd
 avd
 avd
 avd
-oOz
+avd
 aUw
 aUw
-tOJ
+aUw
 aUw
 avd
 avd
@@ -125766,7 +125806,7 @@ avd
 avd
 avd
 avd
-hYv
+wMx
 dVd
 rzj
 rzj
@@ -125776,7 +125816,7 @@ rzj
 rzj
 rzj
 oTy
-hYv
+rWS
 avd
 avd
 avd
@@ -125787,7 +125827,7 @@ aUw
 aUw
 aUw
 aUw
-mBJ
+avd
 avd
 avd
 avd
@@ -126022,30 +126062,30 @@ avd
 avd
 avd
 avd
-avd
-gZa
-hYv
-hYv
-hYv
-hYv
-hYv
-hYv
-hYv
-hYv
-hYv
-gZa
-avd
-avd
-avd
+vzO
+aBB
+hvt
+eYa
+eYa
+eYa
+eYa
+eYa
+eYa
+eYa
+vHJ
+aBB
+vzO
 avd
 avd
+avd
+oOz
 aUw
 aUw
 aUw
 aUw
-wOR
 rjv
-uoh
+avd
+avd
 avd
 avd
 avd
@@ -126280,6 +126320,7 @@ avd
 avd
 avd
 avd
+vzO
 avd
 avd
 avd
@@ -126289,19 +126330,18 @@ avd
 avd
 avd
 avd
+vzO
 avd
 avd
 avd
 avd
 avd
-avd
-avd
-tOJ
 aUw
 aUw
-qec
-dLg
-dnf
+aUw
+aUw
+mBz
+avd
 aZs
 avd
 avd
@@ -126551,15 +126591,15 @@ avd
 avd
 avd
 avd
-awK
-mBJ
+avd
+avd
 aUw
 aUw
 aUw
 aUw
-mBz
-svD
-mKO
+avd
+avd
+avd
 avd
 avd
 avd
@@ -126770,9 +126810,9 @@ oDL
 jhj
 jhj
 dHf
+cKx
 ffr
-ffr
-ffr
+gtY
 ffr
 wYb
 hED
@@ -126781,7 +126821,7 @@ wTz
 wTz
 wTz
 xlo
-ddF
+rNm
 jMX
 nwj
 jSL
@@ -126803,7 +126843,7 @@ avd
 avd
 avd
 avd
-qTg
+avd
 rjv
 rjv
 avd
@@ -127030,7 +127070,7 @@ ykQ
 ffr
 vqS
 oMB
-ffr
+cKx
 wYb
 qln
 wTz
@@ -127062,12 +127102,12 @@ avd
 avd
 avd
 avd
-dnf
+rjv
 aWW
 avd
 avd
 aUw
-lgF
+aUw
 aUw
 aUw
 avd
@@ -127319,7 +127359,7 @@ avd
 avd
 avd
 mBz
-svD
+avd
 avd
 avd
 avd
@@ -127542,7 +127582,7 @@ sxA
 jhj
 ohT
 dGY
-dGY
+dpK
 ikl
 fuT
 nDc
@@ -127582,10 +127622,10 @@ avd
 avd
 aUw
 aUw
-tOJ
+aUw
 aUw
 aVq
-avd
+oOz
 avd
 avd
 avd
@@ -127798,7 +127838,7 @@ kbR
 hNr
 kfm
 uwM
-uwM
+dnf
 nyO
 iUj
 dEt
@@ -127840,7 +127880,7 @@ aUw
 aUw
 aUw
 aUw
-oOz
+avd
 avd
 avd
 avd
@@ -128066,7 +128106,7 @@ lvu
 fbn
 fBu
 ikw
-ddF
+rNm
 ddF
 nwj
 jSL
@@ -128094,7 +128134,7 @@ avd
 avd
 avd
 aUw
-tOJ
+aUw
 aUw
 aUw
 aUw
@@ -128339,9 +128379,6 @@ avd
 avd
 avd
 avd
-qTg
-rjv
-sEp
 avd
 avd
 avd
@@ -128349,7 +128386,10 @@ avd
 avd
 avd
 avd
-aUw
+avd
+avd
+avd
+uoh
 aUw
 aUw
 aUw
@@ -128595,9 +128635,9 @@ avd
 avd
 avd
 avd
-qTg
-rjv
-rjv
+avd
+avd
+avd
 aWA
 avd
 avd
@@ -128832,12 +128872,12 @@ sJc
 rov
 uuH
 hlD
-pYs
+jKe
 naF
 kHh
 pYs
 pYs
-hlD
+svD
 pYs
 pxE
 jSL
@@ -128853,9 +128893,9 @@ avd
 avd
 avd
 avd
-svD
-mBz
-uoh
+avd
+avd
+avd
 avd
 avd
 avd
@@ -128865,7 +128905,7 @@ avd
 avd
 aUw
 aUw
-vzO
+aUw
 aUw
 aUw
 avd
@@ -129094,16 +129134,16 @@ pHH
 xuB
 vVl
 hHC
-hHC
+sEp
 pYs
 pxE
 jSL
 avd
 avd
 avd
-wOR
-rjv
-ufz
+avd
+avd
+avd
 avd
 avd
 avd
@@ -129124,7 +129164,7 @@ aUw
 aUw
 aUw
 aUw
-mBJ
+avd
 avd
 avd
 avd
@@ -129342,7 +129382,7 @@ dTs
 dsw
 nwj
 pYs
-pSQ
+gZa
 pYs
 bGV
 fxT
@@ -129358,8 +129398,8 @@ jSL
 avd
 avd
 avd
-dLg
-dLg
+mBz
+avd
 aWA
 avd
 avd
@@ -129376,11 +129416,11 @@ avd
 avd
 avd
 aUw
+uoh
 aUw
 aUw
-tOJ
 aUw
-wMx
+avd
 avd
 avd
 avd
@@ -129614,10 +129654,6 @@ dza
 dza
 avd
 avd
-qTg
-svD
-mBz
-jKe
 avd
 avd
 avd
@@ -129629,19 +129665,23 @@ avd
 avd
 avd
 avd
-kPh
+avd
+avd
+avd
+avd
+avd
 avd
 aUw
-lgF
 aUw
 aUw
+aUw
 avd
 avd
 avd
 avd
-mBz
 avd
-mKO
+avd
+avd
 avd
 avd
 avd
@@ -129859,14 +129899,14 @@ tNM
 pSQ
 pYs
 dza
-tsG
+qeh
 qeh
 qeh
 pDy
 dIx
 qeh
 dza
-dpK
+iAV
 myY
 qUW
 jSL
@@ -129887,14 +129927,14 @@ avd
 avd
 avd
 avd
-vJe
+aUw
 aUw
 aUw
 aUw
 aUw
 avd
 avd
-avd
+oOz
 avd
 avd
 rjv
@@ -130120,7 +130160,7 @@ qeh
 gWo
 gWo
 gWo
-cSX
+mKO
 qeh
 hTj
 qgO
@@ -130152,10 +130192,10 @@ aUw
 avd
 avd
 avd
-qTg
-eLQ
+avd
 mBz
-fZY
+avd
+avd
 avd
 avd
 avd
@@ -130369,26 +130409,21 @@ qRw
 xGj
 wpE
 nwj
-pYs
+dBK
 vwE
 nlO
 dza
 mFJ
-gWo
+krU
 gWo
 uTC
 ihO
 qeh
 hTj
 iAV
-dTs
+tDf
 qUW
 jSL
-avd
-avd
-avd
-avd
-avd
 oOz
 avd
 avd
@@ -130397,12 +130432,17 @@ avd
 avd
 avd
 avd
+avd
+avd
+avd
+oOz
+avd
 aUw
 bGr
 aUw
 aUw
 aUw
-tOJ
+aUw
 aUw
 aUw
 avd
@@ -130638,24 +130678,24 @@ cSX
 jiS
 dza
 mOw
-dTs
+tOJ
 uSb
 jSL
 avd
 avd
 bGr
-vzO
+aUw
 avd
 aUw
 aUw
 aUw
-mBJ
 avd
 avd
-vzO
+avd
 aUw
 aUw
-tOJ
+aUw
+aUw
 aUw
 aUw
 aUw
@@ -130885,7 +130925,7 @@ foW
 nwj
 nLP
 ozl
-pYs
+jKe
 dza
 puH
 qeh
@@ -130899,13 +130939,13 @@ dTs
 dTs
 vKf
 aUw
-tOJ
 aUw
 aUw
 aUw
+uoh
 aUw
 aUw
-tOJ
+aUw
 aUw
 aUw
 aUw
@@ -130920,7 +130960,7 @@ avd
 avd
 avd
 avd
-mKO
+avd
 avd
 avd
 avd
@@ -131158,20 +131198,20 @@ vKf
 aUw
 aUw
 aUw
-tOJ
 aUw
 aUw
 aUw
 aUw
 aUw
 aUw
-tOJ
+aUw
+aUw
 aUw
 aUw
 avd
-mBJ
-eWg
-cKx
+avd
+oOz
+avd
 avd
 avd
 avd
@@ -131397,7 +131437,7 @@ wpZ
 gwO
 pRO
 dza
-sIa
+mpu
 mpu
 cGz
 dza
@@ -131408,24 +131448,21 @@ gWo
 cSX
 lMp
 dza
-rNm
+dTs
 dTs
 xSK
 jSL
 avd
 avd
 avd
-mBJ
-aUw
-aUw
-cKx
-avd
 avd
 aUw
 aUw
 avd
 avd
 avd
+aUw
+aUw
 avd
 avd
 avd
@@ -131434,7 +131471,10 @@ avd
 avd
 avd
 avd
-gtY
+avd
+avd
+avd
+avd
 avd
 avd
 avd
@@ -131659,7 +131699,7 @@ xZL
 tlZ
 dza
 cug
-gWo
+kPh
 gWo
 nwk
 qIH
@@ -131667,20 +131707,20 @@ qeh
 hTj
 pUV
 dTs
-qUW
+ufz
 jSL
 avd
 avd
+oOz
 avd
 avd
 avd
 avd
 avd
-avd
-avd
+oOz
 bGr
 avd
-kPh
+avd
 avd
 avd
 avd
@@ -131920,7 +131960,7 @@ gUe
 gUe
 gUe
 sGz
-qeh
+qec
 hTj
 qgO
 dTs
@@ -132172,7 +132212,7 @@ dza
 dza
 dza
 dza
-tDf
+qeh
 qeh
 qeh
 knC
@@ -132196,9 +132236,9 @@ avd
 avd
 avd
 avd
-wOR
-rjv
-gtY
+avd
+avd
+avd
 avd
 avd
 avd
@@ -132453,8 +132493,8 @@ avd
 avd
 avd
 avd
-rjv
-dnf
+avd
+avd
 aWA
 avd
 avd
@@ -132682,8 +132722,8 @@ stR
 eVI
 tsh
 rMO
-qGp
-qGp
+fZY
+iye
 qGp
 lCd
 xJC
@@ -132693,7 +132733,7 @@ qGp
 vWj
 qGp
 rPm
-qGp
+iye
 dmG
 jSL
 avd
@@ -132701,18 +132741,18 @@ avd
 avd
 avd
 avd
-wOR
-rjv
-mKO
 avd
 avd
 avd
 avd
 avd
-qTg
-svD
-svD
-dBK
+avd
+avd
+avd
+avd
+avd
+avd
+avd
 avd
 avd
 avd
@@ -132957,9 +132997,9 @@ avd
 avd
 avd
 avd
-qTg
-dLg
-dLg
+avd
+rjv
+avd
 aWB
 avd
 avd
@@ -133190,7 +133230,7 @@ avd
 avd
 avd
 dmG
-lsK
+wbm
 dxv
 eoO
 riZ
@@ -133198,15 +133238,15 @@ tsh
 qGp
 wEK
 qGp
-qGp
+fZY
 iVw
 lOD
 qGp
 eNu
-qGp
+iye
 qGp
 vHY
-fIB
+sIa
 qGp
 dmG
 jSL
@@ -133215,9 +133255,9 @@ avd
 avd
 avd
 avd
-svD
-mBz
-uoh
+avd
+avd
+avd
 avd
 avd
 avd
@@ -133714,7 +133754,7 @@ cmj
 eSe
 vNe
 tsh
-krU
+jxr
 qTq
 eNu
 rPm
@@ -133976,7 +134016,7 @@ oOR
 mSk
 qGp
 mMX
-jZk
+qTg
 jZk
 jZk
 dmG
@@ -134229,7 +134269,7 @@ cDB
 jFz
 tsh
 kYp
-oOR
+lgF
 nXv
 vle
 vFc
@@ -134491,7 +134531,7 @@ uAd
 qGp
 xeY
 sHN
-sHN
+tsG
 sHN
 dmG
 jSL
@@ -134742,7 +134782,7 @@ gsX
 gsX
 oAq
 tsh
-iye
+qGp
 oOR
 qxV
 gQd
@@ -135258,7 +135298,7 @@ tKX
 tsh
 flX
 vSj
-oOR
+lgF
 bor
 tsh
 qDw

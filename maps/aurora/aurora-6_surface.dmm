@@ -39,6 +39,7 @@
 /area/hallway/secondary/entry/dock)
 "abQ" = (
 /obj/effect/floor_decal/spline/plain/corner,
+/obj/item/toy/balloon/color,
 /turf/simulated/floor/marble/dark,
 /area/hallway/secondary/entry/stairs{
 	name = "Second Floor - Roof"
@@ -1193,7 +1194,11 @@
 /obj/machinery/light_switch{
 	pixel_y = 26
 	},
-/turf/simulated/floor/marble/dark,
+/obj/item/device/flashlight/lamp/stage,
+/obj/effect/floor_decal/spline/plain{
+	dir = 6
+	},
+/turf/simulated/floor/wood,
 /area/hallway/secondary/entry/stairs{
 	name = "Second Floor - Roof"
 	})
@@ -1346,6 +1351,12 @@
 /turf/simulated/floor/wood,
 /area/crew_quarters/sleep/security{
 	name = "Second Floor - Guest Room 2"
+	})
+"aVZ" = (
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/wood,
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
 	})
 "aWj" = (
 /obj/machinery/light_switch{
@@ -2058,6 +2069,12 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/crew_quarters/toilet)
+"bFd" = (
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/marble/dark,
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
+	})
 "bFh" = (
 /turf/simulated/floor/tiled,
 /area/bridge/levela)
@@ -3552,6 +3569,13 @@
 	temperature = 278
 	},
 /area/tcommsat/chamber)
+"cLW" = (
+/turf/simulated/floor/tiled/ramp/bottom{
+	dir = 4
+	},
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
+	})
 "cMh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
@@ -3618,6 +3642,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/hallway/secondary/entry/dock)
+"cOj" = (
+/obj/effect/floor_decal/spline/plain,
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/wood,
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
+	})
 "cOq" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced,
@@ -3821,7 +3852,11 @@
 	name = "Rooftop Requests Console";
 	pixel_y = 33
 	},
-/turf/simulated/floor/marble/dark,
+/obj/item/device/flashlight/lamp/stage,
+/obj/effect/floor_decal/spline/plain{
+	dir = 10
+	},
+/turf/simulated/floor/wood,
 /area/hallway/secondary/entry/stairs{
 	name = "Second Floor - Roof"
 	})
@@ -3985,6 +4020,7 @@
 	pixel_x = -25;
 	pixel_y = -4
 	},
+/obj/effect/decal/cleanable/confetti,
 /turf/simulated/floor/wood,
 /area/hallway/secondary/entry/central{
 	name = "Second Floor - Main Hallway"
@@ -4401,6 +4437,7 @@
 /obj/machinery/light_switch{
 	pixel_y = -26
 	},
+/obj/item/toy/balloon/color,
 /turf/simulated/floor/wood,
 /area/hallway/secondary/entry/central{
 	name = "Second Floor - Main Hallway"
@@ -5964,6 +6001,26 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/secondary/entry/fore)
+"eUa" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/carpet,
+/area/hallway/secondary/entry/central{
+	name = "Second Floor - Main Hallway"
+	})
 "eUp" = (
 /obj/machinery/door/firedoor,
 /obj/structure/window/reinforced{
@@ -6023,7 +6080,6 @@
 /obj/structure/bed/chair/comfy/brown{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/carpet,
 /area/hallway/secondary/entry/central{
 	name = "Second Floor - Main Hallway"
@@ -6632,6 +6688,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/turret_protected/tcomsat)
+"fyO" = (
+/obj/machinery/firealarm/east,
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/wood,
+/area/hallway/secondary/entry/central{
+	name = "Second Floor - Main Hallway"
+	})
 "fyY" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -7199,7 +7262,6 @@
 /obj/structure/bed/chair/comfy/brown{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/carpet,
 /area/hallway/secondary/entry/central{
 	name = "Second Floor - Main Hallway"
@@ -7358,6 +7420,12 @@
 	icon_state = "solarpanel"
 	},
 /area/solar/fore)
+"ghN" = (
+/obj/effect/floor_decal/spline/plain,
+/turf/simulated/floor/wood,
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
+	})
 "giv" = (
 /obj/machinery/status_display{
 	layer = 4;
@@ -8068,6 +8136,13 @@
 /area/hallway/secondary/entry/stairs{
 	name = "Second Floor - Roof"
 	})
+"gLC" = (
+/obj/machinery/floor_light/dance,
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/marble/dark,
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
+	})
 "gLG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -8144,6 +8219,7 @@
 /area/maintenance/cargo/surface)
 "gNO" = (
 /obj/machinery/light/small,
+/obj/item/toy/balloon/color,
 /turf/simulated/floor/wood,
 /area/crew_quarters/theatre{
 	name = "Second Floor - Common Room"
@@ -8682,6 +8758,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/turret_protected/tcomfoyer)
+"hiv" = (
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/wood,
+/area/hallway/secondary/entry/central{
+	name = "Second Floor - Main Hallway"
+	})
 "hjj" = (
 /obj/effect/floor_decal/corner/paleblue/full,
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -8775,6 +8857,7 @@
 /area/maintenance/cargo/surface)
 "hmr" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/item/toy/balloon/color,
 /turf/simulated/floor/wood,
 /area/crew_quarters/theatre{
 	name = "Second Floor - Common Room"
@@ -9220,7 +9303,6 @@
 /obj/machinery/chemical_dispenser/coffeemaster/full{
 	pixel_y = 7
 	},
-/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/wood,
 /area/crew_quarters/theatre{
 	name = "Second Floor - Common Room"
@@ -9343,7 +9425,6 @@
 /obj/structure/flora/pottedplant/random{
 	pixel_y = 4
 	},
-/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/wood,
 /area/crew_quarters/sleep_male{
 	name = "Second Floor - Guest Room 4"
@@ -9602,6 +9683,12 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/simulated/floor/grass/alt,
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
+	})
+"hUx" = (
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/wood,
 /area/hallway/secondary/entry/stairs{
 	name = "Second Floor - Roof"
 	})
@@ -10483,7 +10570,6 @@
 	name = "reinforced glass table";
 	table_reinf = "glass"
 	},
-/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/wood,
 /area/crew_quarters/sleep_male{
 	name = "Second Floor - Guest Room 4"
@@ -10773,6 +10859,12 @@
 /turf/simulated/open,
 /area/hydroponics/garden{
 	name = "Outdoors"
+	})
+"iRe" = (
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/carpet,
+/area/hallway/secondary/entry/central{
+	name = "Second Floor - Main Hallway"
 	})
 "iRJ" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
@@ -11412,6 +11504,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
+	},
 /turf/simulated/floor/plating,
 /area/hydroponics/garden{
 	name = "Outdoors"
@@ -11616,7 +11711,6 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/marble/dark,
 /area/hallway/secondary/entry/stairs{
 	name = "Second Floor - Roof"
@@ -13846,6 +13940,12 @@
 	},
 /turf/simulated/floor/airless,
 /area/turret_protected/tcomsat)
+"ltT" = (
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/carpet,
+/area/crew_quarters/theatre{
+	name = "Second Floor - Common Room"
+	})
 "luj" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular{
@@ -13940,6 +14040,26 @@
 	},
 /turf/simulated/floor/wood,
 /area/store)
+"lvU" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/marble/dark,
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
+	})
 "lwH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -14170,6 +14290,20 @@
 /turf/simulated/floor/carpet,
 /area/crew_quarters/sleep_male{
 	name = "Second Floor - Guest Room 4"
+	})
+"lDX" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/marble/dark,
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
 	})
 "lEd" = (
 /turf/simulated/wall/r_wall,
@@ -14602,7 +14736,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/marble/dark,
 /area/hallway/secondary/entry/stairs{
 	name = "Second Floor - Roof"
@@ -15027,6 +15160,7 @@
 	dir = 9
 	},
 /obj/effect/floor_decal/spline/plain/corner,
+/obj/item/toy/balloon/color,
 /turf/simulated/floor/marble,
 /area/hallway/secondary/entry/stairs{
 	name = "Second Floor - Roof"
@@ -15299,6 +15433,12 @@
 /obj/structure/closet/emcloset,
 /turf/simulated/floor/plating,
 /area/maintenance/telecoms_ladder)
+"mAb" = (
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/carpet,
+/area/crew_quarters/theatre{
+	name = "Second Floor - Common Room"
+	})
 "mAA" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -17018,7 +17158,6 @@
 	},
 /obj/item/screwdriver,
 /obj/item/cell/hyper,
-/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/wood,
 /area/crew_quarters/sleep_female{
 	name = "Second Floor - Guest Room 3"
@@ -17221,7 +17360,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/store)
 "ocX" = (
-/obj/effect/decal/cleanable/cobweb,
 /obj/structure/table/reinforced/wood,
 /turf/simulated/floor/wood,
 /area/hallway/secondary/entry/central{
@@ -17545,6 +17683,12 @@
 /obj/machinery/light/small/emergency,
 /turf/simulated/floor/tiled,
 /area/turret_protected/tcomfoyer)
+"ooN" = (
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/beach/water/pool,
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
+	})
 "ooR" = (
 /turf/simulated/floor/carpet,
 /area/hallway/secondary/entry/central{
@@ -18052,7 +18196,6 @@
 	},
 /obj/item/screwdriver,
 /obj/item/cell/hyper,
-/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/wood,
 /area/crew_quarters/sleep/security{
 	name = "Second Floor - Guest Room 2"
@@ -18978,6 +19121,13 @@
 /obj/effect/floor_decal/corner/brown,
 /turf/simulated/floor/tiled,
 /area/quartermaster/loading)
+"pxt" = (
+/obj/effect/floor_decal/spline/plain,
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/wood,
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
+	})
 "pxL" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -19052,6 +19202,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/foresolar)
+"pyW" = (
+/turf/simulated/floor/tiled/ramp/bottom{
+	dir = 8
+	},
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
+	})
 "pzp" = (
 /obj/machinery/hologram/holopad,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -19300,6 +19457,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/decal/cleanable/confetti,
 /turf/simulated/floor/wood,
 /area/crew_quarters/theatre{
 	name = "Second Floor - Common Room"
@@ -20226,7 +20384,6 @@
 /turf/simulated/floor/plating,
 /area/sconference_room)
 "qnH" = (
-/obj/effect/decal/cleanable/cobweb2,
 /obj/structure/bookcase/manuals/engineering,
 /turf/simulated/floor/wood,
 /area/hallway/secondary/entry/central{
@@ -20418,6 +20575,26 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge/levela)
+"qyc" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/wood,
+/area/hallway/secondary/entry/central{
+	name = "Second Floor - Main Hallway"
+	})
 "qyh" = (
 /obj/machinery/embedded_controller/radio/airlock/docking_port_multi{
 	frequency = 1380;
@@ -20685,6 +20862,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/secondary/entry/fore)
+"qLv" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 1
+	},
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/marble/dark,
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
+	})
 "qMl" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -20698,7 +20884,6 @@
 /turf/simulated/floor/tiled,
 /area/hallway/secondary/entry/fore)
 "qMX" = (
-/obj/effect/decal/cleanable/cobweb,
 /obj/structure/bookcase/manuals/medical,
 /turf/simulated/floor/wood,
 /area/crew_quarters/theatre{
@@ -20837,7 +21022,6 @@
 /obj/structure/flora/pottedplant/random{
 	pixel_y = 4
 	},
-/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/wood,
 /area/crew_quarters/sleep/security{
 	name = "Second Floor - Guest Room 2"
@@ -21021,6 +21205,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/effect/decal/cleanable/confetti,
 /turf/simulated/floor/wood,
 /area/crew_quarters/theatre{
 	name = "Second Floor - Common Room"
@@ -22025,7 +22210,6 @@
 	name = "Second Floor - Guest Room 2"
 	})
 "rJD" = (
-/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/wood,
 /area/hallway/secondary/entry/stairs{
 	name = "Second Floor - Roof"
@@ -22085,6 +22269,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/cargo/surface)
+"rMe" = (
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/marble/dark,
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
+	})
 "rMt" = (
 /turf/simulated/wall/shuttle/unique/research{
 	desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast.";
@@ -22573,6 +22763,11 @@
 	name = "reinforced glass table";
 	table_reinf = "glass"
 	},
+/obj/item/storage/box/partypopper{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/storage/box/partypopper,
 /turf/simulated/floor/wood,
 /area/hallway/secondary/entry/stairs{
 	name = "Second Floor - Roof"
@@ -23349,6 +23544,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
+/obj/item/toy/balloon/color,
 /turf/simulated/floor/wood,
 /area/hallway/secondary/entry/central{
 	name = "Second Floor - Main Hallway"
@@ -23466,7 +23662,6 @@
 /obj/structure/flora/pottedplant/random{
 	pixel_y = 4
 	},
-/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/wood,
 /area/crew_quarters/sleep_female{
 	name = "Second Floor - Guest Room 3"
@@ -25862,8 +26057,8 @@
 /turf/simulated/floor/plating,
 /area/shuttle/research)
 "uNp" = (
-/obj/effect/decal/cleanable/cobweb,
-/turf/simulated/open,
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/wood,
 /area/hallway/secondary/entry/central{
 	name = "Second Floor - Main Hallway"
 	})
@@ -25911,6 +26106,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/bridge/levela)
+"uPM" = (
+/obj/machinery/floor_light/dance,
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/marble/dark,
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
+	})
 "uPR" = (
 /obj/item/storage/toolbox/mechanical,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -26174,6 +26376,19 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/secondary/exit)
+"vcd" = (
+/obj/item/device/megaphone/stagemicrophone,
+/obj/machinery/firealarm/partyalarm{
+	dir = 1;
+	layer = 10;
+	pixel_x = 2;
+	pixel_y = 38
+	},
+/obj/effect/decal/cleanable/confetti,
+/turf/simulated/floor/wood,
+/area/hallway/secondary/entry/stairs{
+	name = "Second Floor - Roof"
+	})
 "vdL" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
@@ -26537,6 +26752,20 @@
 /obj/structure/window/reinforced,
 /turf/simulated/floor/plating,
 /area/bridge/levela)
+"vrk" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/carpet,
+/area/hallway/secondary/entry/central{
+	name = "Second Floor - Main Hallway"
+	})
 "vsk" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -26818,6 +27047,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/item/toy/balloon/color,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/theatre{
 	name = "Second Floor - Common Room"
@@ -27378,7 +27608,6 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/marble/dark,
 /area/hallway/secondary/entry/stairs{
 	name = "Second Floor - Roof"
@@ -27703,6 +27932,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
+/obj/item/toy/balloon/color,
 /turf/simulated/floor/wood,
 /area/hallway/secondary/entry/central{
 	name = "Second Floor - Main Hallway"
@@ -28037,6 +28267,14 @@
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /turf/simulated/floor/tiled,
 /area/hallway/secondary/exit)
+"wCe" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/item/toy/balloon/color,
+/turf/simulated/floor/wood,
+/area/crew_quarters/theatre{
+	name = "Second Floor - Common Room"
+	})
 "wCp" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -28464,6 +28702,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/confetti,
 /turf/simulated/floor/wood,
 /area/hallway/secondary/entry/central{
 	name = "Second Floor - Main Hallway"
@@ -28665,6 +28904,7 @@
 	name = "Guest Room 3 Requests Console";
 	pixel_y = 33
 	},
+/obj/item/toy/balloon/color,
 /turf/simulated/floor/wood,
 /area/crew_quarters/theatre{
 	name = "Second Floor - Common Room"
@@ -29750,7 +29990,6 @@
 	dir = 1;
 	icon_state = "tube1"
 	},
-/obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/marble/dark,
 /area/hallway/secondary/entry/stairs{
 	name = "Second Floor - Roof"
@@ -80382,13 +80621,13 @@ vTp
 vTp
 vTp
 vTp
+bFd
 vTp
 vTp
 vTp
 vTp
 vTp
-vTp
-vTp
+bFd
 vTp
 vTp
 pvb
@@ -81148,11 +81387,11 @@ clO
 kvz
 vTp
 xrq
-vTp
+bFd
 oHw
 eTA
 eTA
-eTA
+ooN
 eTA
 avs
 vTp
@@ -81415,7 +81654,7 @@ avs
 vTp
 dqY
 pfi
-pfi
+gLC
 pfi
 pfi
 eEh
@@ -81674,7 +81913,7 @@ dqY
 pfi
 pfi
 pfi
-pfi
+gLC
 eEh
 lnV
 asm
@@ -81921,15 +82160,15 @@ xIR
 dNr
 oWL
 xIR
-xIR
+lDX
 xIR
 pKD
 vTp
 vTp
-vTp
+bFd
 dqY
 pfi
-pfi
+uPM
 pfi
 pfi
 eEh
@@ -82180,16 +82419,16 @@ xQV
 vTp
 vTp
 vTp
-wkC
+lvU
 vTp
 vTp
 vTp
 dqY
 pfi
 pfi
+gLC
 pfi
-pfi
-eEh
+qLv
 uol
 asm
 asm
@@ -82436,7 +82675,7 @@ clO
 clO
 clO
 cXH
-vTp
+pyW
 wkC
 vTp
 vTp
@@ -82444,7 +82683,7 @@ vTp
 dqY
 pfi
 pfi
-pfi
+gLC
 pfi
 eEh
 tEr
@@ -82692,11 +82931,11 @@ asm
 asm
 bNJ
 lNh
-vTp
-vTp
+aVZ
+pxt
 wkC
 vTp
-vTp
+rMe
 vTp
 dqY
 pfi
@@ -82949,11 +83188,11 @@ asm
 asm
 bNJ
 jHL
-vTp
-vTp
+vcd
+ghN
 wkC
 vTp
-vTp
+bFd
 vTp
 fQI
 skv
@@ -83206,15 +83445,15 @@ asm
 asm
 bNJ
 hUm
-vTp
-vTp
+hUx
+cOj
 wkC
 vTp
 vTp
 vTp
 vTp
 vTp
-vTp
+bFd
 vTp
 vTp
 vTp
@@ -83464,14 +83703,14 @@ obq
 eSK
 clO
 aOz
-vTp
+cLW
 wkC
 vTp
 vTp
 vTp
+bFd
 vTp
-vTp
-vTp
+rMe
 vTp
 nSZ
 eeP
@@ -83716,7 +83955,7 @@ asm
 asm
 asm
 eSK
-uNp
+foq
 cIl
 foq
 clO
@@ -84745,7 +84984,7 @@ asm
 asm
 eSK
 mCH
-ooR
+iRe
 dBq
 axu
 thi
@@ -85515,8 +85754,8 @@ asm
 asm
 asm
 eSK
-rFr
-oqs
+uNp
+eUa
 rFr
 axu
 slf
@@ -85525,7 +85764,7 @@ qIW
 alF
 ffc
 alF
-alF
+mAb
 alF
 wFR
 dzl
@@ -85780,7 +86019,7 @@ wWb
 ffc
 hHw
 fra
-fra
+wCe
 wsM
 wnI
 ovt
@@ -86029,7 +86268,7 @@ asm
 asm
 eSK
 eSK
-rFr
+hiv
 oqs
 rFr
 axu
@@ -86038,8 +86277,8 @@ rof
 nKd
 ffc
 aWj
-alF
-alF
+mAb
+ltT
 xPz
 jGS
 odR
@@ -86288,7 +86527,7 @@ bLU
 ocX
 rFr
 oqs
-rFr
+uNp
 axu
 axu
 axu
@@ -86802,7 +87041,7 @@ fEq
 ooR
 rFr
 iFg
-dIv
+vrk
 siu
 gKY
 cFz
@@ -86815,7 +87054,7 @@ dIv
 irf
 siu
 lFQ
-rFr
+uNp
 bLU
 asm
 asm
@@ -87065,13 +87304,13 @@ yie
 wPF
 agy
 rFr
-rFr
+hiv
 yie
 rFr
-bsn
+fyO
 lUA
 rFr
-yie
+qyc
 rFr
 bLU
 asm
