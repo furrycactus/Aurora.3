@@ -2515,7 +2515,8 @@
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 4;
 	layer = 2.8;
-	name = "Phoron to Burn Mix"
+	name = "Phoron to Burn Mix";
+	req_access = list(24)
 	},
 /turf/simulated/floor/tiled/dark,
 /area/engineering/atmos/propulsion)
@@ -5011,7 +5012,8 @@
 /obj/machinery/button/ignition{
 	id = "starboard_prop_igni";
 	pixel_y = 26;
-	name = "Combustion Chamber Ignition"
+	name = "Combustion Chamber Ignition";
+	req_access = list(24)
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/purple{
 	dir = 4
@@ -8667,7 +8669,8 @@
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 8;
 	layer = 2.8;
-	name = "Oxidizer to Burn Mix"
+	name = "Oxidizer to Burn Mix";
+	req_access = list(24)
 	},
 /obj/effect/floor_decal/corner_wide/black{
 	dir = 10
@@ -12202,7 +12205,8 @@
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 4;
 	layer = 2.8;
-	name = "Oxidizer to Burn Mix"
+	name = "Oxidizer to Burn Mix";
+	req_access = list(24)
 	},
 /obj/effect/floor_decal/corner_wide/black{
 	dir = 10
@@ -12750,7 +12754,8 @@
 	output_tag = "port_prop_out";
 	frequency = 1442;
 	name = "Port Propulsion Control Console";
-	input_tag = "port_prop_in"
+	input_tag = "port_prop_in";
+	req_access = list(24)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/purple{
 	dir = 6
@@ -13092,7 +13097,8 @@
 	output_tag = "starboard_prop_out";
 	frequency = 1442;
 	name = "Starboard Propulsion Control Console";
-	input_tag = "starboard_prop_in"
+	input_tag = "starboard_prop_in";
+	req_access = list(24)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/purple{
 	dir = 10
@@ -13588,7 +13594,8 @@
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 4;
 	layer = 2.8;
-	name = "Hydrogen to Burn Mix"
+	name = "Hydrogen to Burn Mix";
+	req_access = list(24)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 8
@@ -19524,7 +19531,8 @@
 /obj/machinery/button/ignition{
 	id = "port_prop_igni";
 	pixel_y = 26;
-	name = "Combustion Chamber Ignition"
+	name = "Combustion Chamber Ignition";
+	req_access = list(24)
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/purple{
 	dir = 4
@@ -23163,7 +23171,8 @@
 /obj/machinery/computer/general_air_control/large_tank_control/terminal{
 	name = "Hydrogen Supply Monitor";
 	output_tag = "H2_out_portthruster";
-	sensors = list("h_sensor"="Tank")
+	sensors = list("h_sensor"="Tank");
+	req_access = list(24)
 	},
 /obj/effect/floor_decal/industrial/outline/firefighting_closet,
 /turf/simulated/floor/tiled/dark,
@@ -32464,7 +32473,8 @@
 /obj/machinery/computer/general_air_control/large_tank_control/terminal{
 	name = "Hydrogen Supply Monitor";
 	output_tag = "H2_out_starboardthruster";
-	sensors = list("h_sensor"="Tank")
+	sensors = list("h_sensor"="Tank");
+	req_access = list(24)
 	},
 /obj/effect/floor_decal/industrial/outline/firefighting_closet,
 /turf/simulated/floor/tiled/dark,
@@ -32762,7 +32772,8 @@
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 8;
 	layer = 2.8;
-	name = "Phoron to Burn Mix"
+	name = "Phoron to Burn Mix";
+	req_access = list(24)
 	},
 /turf/simulated/floor/tiled/dark,
 /area/engineering/atmos/propulsion/starboard)
@@ -33224,7 +33235,8 @@
 	tag_south = 1;
 	tag_south_con = 0.5;
 	tag_west = 1;
-	tag_west_con = 0
+	tag_west_con = 0;
+	req_access = list(24)
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -34164,7 +34176,8 @@
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 8;
 	layer = 2.8;
-	name = "Hydrogen to Burn Mix"
+	name = "Hydrogen to Burn Mix";
+	req_access = list(24)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -34617,7 +34630,8 @@
 	tag_north_con = 0.5;
 	tag_south = 1;
 	tag_south_con = 0.5;
-	tag_west = 2
+	tag_west = 2;
+	req_access = list(24)
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
