@@ -848,3 +848,18 @@
 /datum/access/nuclear_missile_silo_access_high
 	id = ACCESS_NUCLEAR_MISSILE_SILO_HIGH
 	desc = "Nuclear Missile Silo Access High Security"
+
+#define ACCESS_PORTSVILLE_STADIUM_STAFF 900
+/datum/access/stadium_staff
+	id = ACCESS_PORTSVILLE_STADIUM_STAFF
+	desc = "Ports-Ville Stadium Staff"
+
+#define ACCESS_LIBRARYCAFE 901
+/datum/access/librarycafe
+	id = ACCESS_LIBRARYCAFE
+	desc = "Ports-Ville Library-Cafe"
+
+#define ACCESS_LESOLEILROYAL 902
+/datum/access/lesoleilroyal
+	id = ACCESS_LESOLEILROYAL
+	desc = "Ports-Ville Le Soleil Royal"

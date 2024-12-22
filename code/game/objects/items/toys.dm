@@ -1533,3 +1533,57 @@
 			volume = 50
 	if(volume)
 		playsound(src.loc, squeeze_sound, volume, TRUE)
+
+/obj/item/toy/football
+	name = "football"
+	desc = "A classic, white-black football for kicking. Also known as a soccerball on Biesel and some parts of Earth."
+	w_class = WEIGHT_CLASS_NORMAL
+	icon = 'icons/misc/beach.dmi'
+	icon_state = "ball"
+	item_state = "beachball"
+	drop_sound = 'sound/items/drop/plushie.ogg'
+	pickup_sound = 'sound/items/pickup/plushie.ogg'
+
+/obj/item/toy/football/attack_hand(var/mob/user)
+	if(use_check(user))
+		return
+
+	if(!isturf(loc))
+		to_chat(user, SPAN_NOTICE("\The [src] has to be on the floor to kick it!"))
+		return
+
+	if(!(user?.a_intent == I_HELP))
+		src.ShiftClick(user)
+
+	user.visible_message(SPAN_NOTICE("[user] kicks \the [src]."))
+	throw_at(get_edge_target_turf(user, get_dir(user, src)), 2, 1)
+
+/obj/item/toy/football/ShiftClick(var/mob/user)
+	if(use_check(user))
+		return
+
+	if(!isturf(loc))
+		to_chat(user, SPAN_NOTICE("\The [src] has to be on the floor to kick it!"))
+		return
+
+	user.visible_message(SPAN_WARNING("[user] forcefully kicks \the [src]!"))
+	throw_at(get_edge_target_turf(user, get_dir(user, src)), 6, 1)
+
+/obj/item/toy/football/MouseDrop(mob/user as mob) // stolen from surgery tray code
+	if((user && (!use_check(user))) && (user.contents.Find(src) || in_range(src, user)))
+		if(ishuman(user) && !user.get_active_hand())
+			var/mob/living/carbon/human/H = user
+			var/obj/item/organ/external/temp = H.organs_by_name[BP_R_HAND]
+
+			if (H.hand)
+				temp = H.organs_by_name[BP_L_HAND]
+			if(temp && !temp.is_usable())
+				to_chat(user, SPAN_NOTICE("You try to move your [temp.name], but cannot!"))
+				return
+
+			to_chat(user, SPAN_NOTICE("You pick up the [src]."))
+			pixel_x = 0
+			pixel_y = 0
+			forceMove(get_turf(user))
+			user.put_in_hands(src)
+	return
