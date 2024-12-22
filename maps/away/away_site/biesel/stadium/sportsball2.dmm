@@ -364,6 +364,12 @@
 	},
 /turf/simulated/floor/wood,
 /area/sportsball2/quickeburger)
+"bJ" = (
+/obj/machinery/door/blast/shutters/open{
+	dir = 4
+	},
+/turf/simulated/floor/asphalt,
+/area/sportsball2/ox_storage_lot)
 "bK" = (
 /obj/effect/decal/road_marking/center{
 	dir = 8
@@ -77963,8 +77969,8 @@ RR
 TJ
 TJ
 RR
-JG
-JG
+bJ
+bJ
 RR
 TJ
 TJ
