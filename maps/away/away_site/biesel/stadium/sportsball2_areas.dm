@@ -82,6 +82,10 @@
 	name = "Ports-Ville Stadium - Hotdog Stand"
 	icon_state = "kitchen"
 
+/area/sportsball2/maintenance
+	name = "Ports-Ville Stadium - Maintenance"
+	icon_state = "maintenance"
+
 // Quick-E-Burger
 /area/sportsball2/quickeburger
 	name = "Ports-Ville Stadium - Quick-E-Burger Restaurant"
@@ -129,5 +133,10 @@
 	name = "Orion Express Storage Lots - Lot #B4"
 	icon_state = "maintenance"
 
+/area/sportsball2/street
+	name = "Street"
+	icon_state = "exterior"
 
-
+/area/sportsball2/waterfront
+	name = "Waterfront"
+	icon_state = "exterior"
