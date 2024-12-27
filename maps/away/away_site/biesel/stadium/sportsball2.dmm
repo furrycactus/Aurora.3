@@ -79,6 +79,13 @@
 /obj/random/pottedplant,
 /turf/simulated/floor/wood,
 /area/sportsball2/lobby)
+"at" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/space)
 "av" = (
 /obj/structure/ledge/roof,
 /turf/simulated/floor/roofing_tiles,
@@ -158,6 +165,12 @@
 	temperature = 253.15
 	},
 /area/sportsball2/quickeburger_freezer)
+"aK" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/ticket_booth)
 "aP" = (
 /turf/simulated/wall,
 /area/sportsball2/lobby)
@@ -266,6 +279,9 @@
 /obj/structure/plasticflaps/airtight{
 	dir = 4
 	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/freezer{
 	name = "cooled tiles";
 	temperature = 253.15
@@ -313,6 +329,17 @@
 	},
 /turf/simulated/floor/sidewalk/detail,
 /area/space)
+"bx" = (
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/obj/machinery/camera/network/news{
+	dir = 4;
+	name = "stadium camera";
+	c_tag = "Stadium - West 1"
+	},
+/turf/simulated/floor/exoplanet/konyang,
+/area/sportsball2/playing_field)
 "by" = (
 /obj/machinery/vending/dinnerware/plastic,
 /obj/structure/sign/christmas/lights{
@@ -342,7 +369,13 @@
 /obj/effect/floor_decal/corner/orange{
 	dir = 5
 	},
-/obj/structure/extinguisher_cabinet/north,
+/obj/machinery/button/remote/blast_door{
+	id = "stadium_cargo";
+	name = "Equipment Shutters";
+	req_one_access = list(35,25,26,28);
+	dir = 1;
+	pixel_y = 24
+	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/warehouse_misc)
 "bE" = (
@@ -364,6 +397,13 @@
 	},
 /turf/simulated/floor/wood,
 /area/sportsball2/quickeburger)
+"bG" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/white,
+/area/sportsball2/quickeburger_kitchen)
 "bJ" = (
 /obj/machinery/door/blast/shutters/open{
 	dir = 4
@@ -413,6 +453,14 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sportsball2/stadium_park)
+"bR" = (
+/obj/machinery/power/fractal_reactor{
+	desc = "A connection point to the city's power grid.";
+	name = "Electrical Transformer"
+	},
+/obj/structure/cable/yellow,
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "bT" = (
 /obj/random/pottedplant,
 /obj/structure/sign/christmas/lights{
@@ -457,6 +505,11 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
 	},
+/obj/machinery/computer/security/telescreen{
+	name = "Observation Screen";
+	network = list("Interrogation");
+	pixel_y = -32
+	},
 /turf/simulated/floor/wood,
 /area/sportsball2/quickeburger)
 "ce" = (
@@ -478,12 +531,28 @@
 /obj/item/reagent_containers/hypospray,
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/sports_clinic)
+"cn" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 5
+	},
+/obj/machinery/atm{
+	dir = 1;
+	pixel_y = 28
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/quickeburger)
 "cp" = (
 /obj/structure/table/standard,
 /obj/item/clothing/head/festive/santa,
 /obj/item/clothing/head/festive/santa,
 /obj/item/clothing/head/festive/santa,
 /obj/item/clothing/head/festive/santa,
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 5
+	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/ticket_booth)
 "cq" = (
@@ -521,6 +590,12 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sportsball2/stadium_park)
+"cx" = (
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "cy" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -544,6 +619,15 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sportsball2/stadium_park)
+"cB" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/ticket_line)
 "cD" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Staff Only";
@@ -578,6 +662,9 @@
 	},
 /turf/simulated/open,
 /area/sportsball2/library_cafe)
+"cK" = (
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
 "cM" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/white,
@@ -612,6 +699,15 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/space)
+"cU" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/dark_blue/full{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "cV" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 7
@@ -619,6 +715,12 @@
 /obj/machinery/disposal/small/south,
 /turf/simulated/floor/wood,
 /area/sportsball2/quickeburger)
+"cW" = (
+/obj/structure/ledge/roof{
+	dir = 4
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "cX" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 4
@@ -655,11 +757,20 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/space)
+"dd" = (
+/obj/structure/ledge/roof{
+	dir = 1
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/arcade)
 "dh" = (
 /obj/effect/floor_decal/corner/green/diagonal,
 /obj/machinery/door/airlock{
 	dir = 4;
 	name = "Restrooms"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/athlete_showers)
@@ -667,6 +778,9 @@
 /obj/effect/floor_decal/corner/yellow/full,
 /turf/simulated/floor/tiled,
 /area/sportsball2/warehouse_equipment)
+"dj" = (
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/metro)
 "dk" = (
 /obj/machinery/door/airlock,
 /obj/effect/map_effect/door_helper/lock,
@@ -855,6 +969,13 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sportsball2/stadium_park)
+"dV" = (
+/obj/effect/floor_decal/corner/green/diagonal,
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/white,
+/area/sportsball2/bathrooms)
 "dW" = (
 /obj/machinery/disposal/small/east,
 /turf/simulated/floor/wood,
@@ -870,12 +991,6 @@
 	},
 /turf/simulated/floor/sidewalk/blocks,
 /area/space)
-"dY" = (
-/obj/structure/ledge/quarter{
-	dir = 9
-	},
-/turf/simulated/open,
-/area/sportsball2/library_cafe)
 "eb" = (
 /turf/simulated/wall,
 /area/sportsball2/quickeburger_kitchen)
@@ -888,6 +1003,15 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sportsball2/stadium_park)
+"ed" = (
+/obj/structure/platform/ledge{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "ee" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/random/med_stack,
@@ -915,12 +1039,28 @@
 	},
 /turf/simulated/floor/wood,
 /area/sportsball2/stadium_park)
+"ej" = (
+/turf/simulated/floor/concrete,
+/area/sportsball2/ox_storage_lot)
+"ek" = (
+/obj/structure/ledge/roof,
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "el" = (
 /obj/effect/decal/road_marking/thin{
 	dir = 8
 	},
 /turf/simulated/floor/asphalt,
 /area/space)
+"em" = (
+/obj/structure/ledge/roof{
+	dir = 4
+	},
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/arcade)
 "en" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 9
@@ -966,8 +1106,22 @@
 /obj/machinery/ringer/north{
 	id = "quick_e_burger_stadium"
 	},
+/obj/machinery/power/apc/hyper/west,
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/quickeburger_kitchen)
+"eu" = (
+/obj/machinery/power/fractal_reactor{
+	desc = "A connection point to the city's power grid.";
+	name = "Electrical Transformer"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/plating,
+/area/space)
 "ev" = (
 /obj/structure/stairs/north,
 /obj/structure/railing/fence{
@@ -1049,6 +1203,9 @@
 /obj/effect/floor_decal/corner/yellow{
 	dir = 8
 	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/warehouse_equipment)
 "eF" = (
@@ -1083,6 +1240,16 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sportsball2/stadium_park)
+"eL" = (
+/obj/effect/floor_decal/corner/paleblue/full{
+	dir = 8
+	},
+/obj/machinery/power/apc/hyper/north,
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/ticket_booth)
 "eN" = (
 /obj/structure/closet/crate/bin/urban/compact{
 	pixel_y = 13
@@ -1197,12 +1364,46 @@
 	},
 /turf/simulated/floor/exoplanet/water/shallow,
 /area/space)
+"fn" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/white,
+/area/sportsball2/quickeburger_kitchen)
+"fq" = (
+/obj/structure/ledge/roof{
+	dir = 6
+	},
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/arcade)
 "fr" = (
 /obj/structure/konyang_cliff{
 	icon_state = "cliff2-bottom"
 	},
 /turf/simulated/open,
 /area/space)
+"fs" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/machinery/atm{
+	pixel_y = -8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_lounge)
+"ft" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "fu" = (
 /obj/structure/rope_post{
 	dir = 8
@@ -1253,6 +1454,12 @@
 /obj/structure/extinguisher_cabinet/south,
 /turf/simulated/floor/wood,
 /area/sportsball2/library_cafe)
+"fJ" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_lounge)
 "fK" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/item/gun/energy/lasertag/red,
@@ -1263,6 +1470,24 @@
 /obj/item/gun/energy/lasertag/red,
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/warehouse_equipment)
+"fM" = (
+/obj/structure/ledge/roof{
+	dir = 1
+	},
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/metro)
+"fN" = (
+/obj/effect/floor_decal/corner/dark_green/full{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/quickeburger)
 "fP" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -1275,6 +1500,12 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/quickeburger)
+"fR" = (
+/obj/structure/ledge/roof{
+	dir = 9
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
 "fS" = (
 /obj/structure/foamedmetal,
 /turf/simulated/floor/plating,
@@ -1287,12 +1518,6 @@
 /obj/machinery/door/airlock/security,
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/security_office_carpark)
-"fV" = (
-/obj/structure/ledge/quarter/corner{
-	dir = 1
-	},
-/turf/simulated/open,
-/area/sportsball2/library_cafe)
 "fW" = (
 /obj/structure/sign/christmas/lights{
 	dir = 4
@@ -1305,6 +1530,9 @@
 /area/sportsball2/library_cafe)
 "fZ" = (
 /obj/structure/extinguisher_cabinet/north,
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 5
+	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/ticket_booth)
 "ga" = (
@@ -1331,6 +1559,18 @@
 	},
 /turf/simulated/floor/sidewalk/paved,
 /area/space)
+"ge" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Staff Only";
+	req_one_access = list(35,25,26,28);
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/sportsball2/vip_lounge)
 "gg" = (
 /obj/structure/lattice/catwalk/indoor/planks/stairs{
 	dir = 4
@@ -1345,6 +1585,15 @@
 /obj/machinery/door/window/desk/northleft,
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/ticket_booth)
+"gj" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/structure/rod_railing{
+	name = "imposing rod railing"
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "gn" = (
 /obj/structure/konyang_cliff{
 	icon_state = "innercorner5"
@@ -1369,8 +1618,20 @@
 	dir = 10
 	},
 /obj/structure/extinguisher_cabinet/south,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/audience_lounge)
+"gs" = (
+/obj/structure/platform/ledge{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 6
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "gu" = (
 /obj/structure/flora/tree/jungle/random,
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -1380,6 +1641,9 @@
 /obj/effect/ghostspawpoint{
 	identifier = "sportsball2_game_official";
 	name = "game official spawn point"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/east_hall)
@@ -1413,6 +1677,9 @@
 	},
 /turf/simulated/floor/lino,
 /area/sportsball2/clothes_store)
+"gy" = (
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "gz" = (
 /obj/effect/floor_decal/spline/plain/white{
 	dir = 4
@@ -1422,12 +1689,26 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sportsball2/stadium_park)
+"gC" = (
+/obj/structure/ledge/roof,
+/obj/effect/decal/curb/corner,
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "gD" = (
 /obj/structure/sign/emergency/exit{
 	dir = 1
 	},
 /turf/simulated/wall,
 /area/sportsball2/warehouse_misc)
+"gF" = (
+/obj/effect/floor_decal/corner/mauve{
+	dir = 9
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/vip_lounge)
 "gG" = (
 /obj/effect/decal/road_marking/center{
 	dir = 8;
@@ -1480,6 +1761,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/east_hall)
+"gR" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_lounge)
 "gS" = (
 /turf/simulated/wall,
 /area/sportsball2/hotdog_stand)
@@ -1546,12 +1833,33 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/sports_clinic)
+"hd" = (
+/obj/structure/rod_railing{
+	dir = 1
+	},
+/obj/machinery/camera/network/news{
+	name = "stadium camera";
+	c_tag = "Stadium - North 2"
+	},
+/turf/simulated/floor/exoplanet/konyang,
+/area/sportsball2/playing_field)
 "he" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/audience_seating)
+"hf" = (
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/obj/machinery/camera/network/news{
+	dir = 8;
+	name = "stadium camera";
+	c_tag = "Stadium - East 1"
+	},
+/turf/simulated/floor/exoplanet/konyang,
+/area/sportsball2/playing_field)
 "hg" = (
 /obj/effect/decal/road_marking/thin{
 	dir = 1
@@ -1565,6 +1873,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/asphalt,
 /area/sportsball2/ox_storage_lot)
+"ho" = (
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/turf/simulated/floor/asphalt,
+/area/sportsball2/metro)
 "hp" = (
 /obj/effect/decal/curb/corner,
 /turf/simulated/floor/roofing_tiles,
@@ -1593,6 +1907,24 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/asphalt,
 /area/sportsball2/stadium_park)
+"hu" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/warehouse_equipment)
+"hw" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 5
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/east_hall)
 "hx" = (
 /obj/structure/stairs_lower/stairs_upper{
 	dir = 8
@@ -1634,6 +1966,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/audience_seating)
+"hG" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/lobby)
 "hH" = (
 /obj/structure/utility_pole/street/on{
 	pixel_y = 24;
@@ -1667,6 +2005,15 @@
 	},
 /turf/simulated/floor/roofing_tiles,
 /area/space)
+"hQ" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/structure/rod_railing{
+	name = "imposing rod railing"
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/arcade)
 "hT" = (
 /obj/structure/railing/mapped,
 /obj/machinery/computer/arcade,
@@ -1686,6 +2033,18 @@
 "hV" = (
 /turf/simulated/floor/sidewalk/detail,
 /area/space)
+"hW" = (
+/obj/effect/floor_decal/corner/mauve{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/vip_lounge)
+"hY" = (
+/obj/structure/ledge/roof{
+	dir = 6
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "hZ" = (
 /obj/structure/table/wood,
 /obj/item/device/binoculars,
@@ -1704,6 +2063,19 @@
 /obj/structure/table/wood,
 /turf/simulated/floor/wood,
 /area/sportsball2/quickeburger)
+"ic" = (
+/obj/structure/ledge/roof{
+	dir = 4
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/metro)
+"if" = (
+/obj/structure/platform{
+	dir = 1
+	},
+/obj/structure/railing/mapped,
+/turf/simulated/open,
+/area/space)
 "il" = (
 /obj/machinery/light/colored/decayed{
 	dir = 1
@@ -1743,6 +2115,13 @@
 /obj/structure/sign/christmas/lights,
 /turf/simulated/floor/wood,
 /area/sportsball2/library_cafe)
+"is" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/space)
 "iu" = (
 /obj/structure/platform{
 	dir = 4
@@ -1781,6 +2160,17 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/quickeburger)
+"iF" = (
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/obj/machinery/camera/network/news{
+	dir = 8;
+	name = "stadium camera";
+	c_tag = "Stadium - East 2"
+	},
+/turf/simulated/floor/exoplanet/konyang,
+/area/sportsball2/playing_field)
 "iG" = (
 /obj/structure/platform_deco{
 	dir = 4
@@ -1814,6 +2204,12 @@
 	},
 /turf/simulated/floor/roofing_tiles,
 /area/sportsball2/library_cafe)
+"iO" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/ticket_line)
 "iS" = (
 /obj/effect/floor_decal/spline/plain/white{
 	dir = 4
@@ -1830,6 +2226,16 @@
 "iY" = (
 /obj/structure/lattice/catwalk/indoor/planks,
 /turf/simulated/open,
+/area/space)
+"ja" = (
+/obj/machinery/power/fractal_reactor{
+	desc = "A connection point to the city's power grid.";
+	name = "Electrical Transformer"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/plating,
 /area/space)
 "jc" = (
 /obj/structure/table/wood,
@@ -1850,6 +2256,16 @@
 /obj/machinery/light/small/floor,
 /turf/simulated/floor/tiled,
 /area/sportsball2/audience_seating)
+"jf" = (
+/obj/effect/decal/fake_object{
+	density = 1;
+	desc = "A bland air conditioning unit.";
+	icon = 'icons/effects/city.dmi';
+	icon_state = "ac";
+	name = "AC unit"
+	},
+/turf/simulated/floor/asphalt,
+/area/sportsball2/ox_storage_lot)
 "jg" = (
 /obj/structure/railing/fence{
 	color = "90574b";
@@ -1866,6 +2282,18 @@
 	},
 /turf/simulated/floor/wood,
 /area/sportsball2/stadium_park)
+"jh" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 5
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/east_hall)
 "ji" = (
 /obj/structure/janitorialcart{
 	dir = 4
@@ -1879,6 +2307,16 @@
 /obj/machinery/vending/dinnerware/metal,
 /turf/simulated/floor/tiled,
 /area/sportsball2/quickeburger_hydroponics)
+"jk" = (
+/obj/machinery/power/apc/hyper/west,
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/tiled/freezer{
+	name = "cooled tiles";
+	temperature = 253.15
+	},
+/area/sportsball2/quickeburger_freezer)
 "jl" = (
 /obj/machinery/ringer/north{
 	id = "quick_e_burger_stadium";
@@ -1940,6 +2378,9 @@
 /obj/machinery/recharge_station,
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/recharging_station)
+"jD" = (
+/turf/simulated/open,
+/area/sportsball2/ox_storage_lot)
 "jE" = (
 /obj/machinery/computer/arcade/orion_trail,
 /obj/machinery/light/small{
@@ -1948,6 +2389,15 @@
 	},
 /turf/simulated/floor/lino/diamond,
 /area/sportsball2/arcade)
+"jG" = (
+/obj/effect/floor_decal/corner_wide/green{
+	dir = 10
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/sportsball2/sports_clinic)
 "jH" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -1981,6 +2431,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/vip_lounge)
+"jP" = (
+/obj/structure/bed/stool/chair/fancy{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "jT" = (
 /obj/machinery/button/remote/blast_door{
 	id = "stadium_tailor_shutters";
@@ -2019,6 +2475,8 @@
 /area/sportsball2/ox_storage_lot)
 "kb" = (
 /obj/effect/floor_decal/corner/dark_green/full,
+/obj/machinery/power/apc/hyper/south,
+/obj/structure/cable/yellow,
 /turf/simulated/floor/tiled,
 /area/sportsball2/quickeburger_hydroponics)
 "kc" = (
@@ -2110,6 +2568,15 @@
 /obj/item/clothing/accessory/pin/corporate/orion,
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/quickeburger_kitchen)
+"ks" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 9
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "ku" = (
 /obj/structure/konyang_cliff{
 	icon_state = "innercorner1"
@@ -2150,6 +2617,13 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/simulated/floor/exoplanet/konyang,
 /area/sportsball2/stadium_park)
+"kF" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/space)
 "kH" = (
 /obj/machinery/door/airlock/glass_security{
 	name = "Metro Station";
@@ -2245,12 +2719,16 @@
 /obj/item/clothing/head/helmet/riot/laser_tag/blue,
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/warehouse_equipment)
-"kZ" = (
-/obj/structure/ledge/quarter{
-	dir = 1
+"kX" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
 	},
-/turf/simulated/open,
-/area/sportsball2/library_cafe)
+/obj/machinery/power/apc/hyper/north,
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "la" = (
 /obj/effect/floor_decal/corner/green/diagonal,
 /obj/structure/mirror{
@@ -2262,6 +2740,13 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/bathrooms)
+"lb" = (
+/obj/machinery/power/apc/hyper/north,
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "ld" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/item/gun/energy/lasertag/blue,
@@ -2289,6 +2774,16 @@
 	},
 /turf/simulated/floor/wood,
 /area/sportsball2/quickeburger)
+"lh" = (
+/obj/structure/platform_stairs{
+	dir = 8
+	},
+/obj/structure/platform/ledge{
+	dir = 1
+	},
+/obj/structure/platform/ledge,
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "li" = (
 /obj/structure/table/stone/marble,
 /turf/simulated/floor/lino,
@@ -2321,6 +2816,21 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/warehouse_equipment)
+"lq" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"lr" = (
+/obj/machinery/power/fractal_reactor{
+	desc = "A connection point to the city's power grid.";
+	name = "Electrical Transformer"
+	},
+/obj/structure/cable/yellow,
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
 "lt" = (
 /obj/machinery/disposal/small/west,
 /turf/simulated/floor/wood,
@@ -2329,6 +2839,15 @@
 /obj/structure/ledge/roof/corner,
 /turf/simulated/floor/roofing_tiles,
 /area/sportsball2/library_cafe)
+"lw" = (
+/obj/structure/platform_deco/ledge{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "lx" = (
 /obj/machinery/chem_heater,
 /obj/structure/extinguisher_cabinet/south,
@@ -2409,6 +2928,12 @@
 	},
 /turf/simulated/open,
 /area/sportsball2/audience_seating)
+"lD" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
 "lF" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Staff Only";
@@ -2446,6 +2971,12 @@
 /obj/structure/sign/christmas/lights,
 /turf/simulated/floor/wood,
 /area/sportsball2/library_cafe)
+"lN" = (
+/obj/structure/ledge/roof{
+	dir = 8
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
 "lO" = (
 /turf/simulated/wall,
 /area/sportsball2/ticket_booth)
@@ -2481,6 +3012,12 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sportsball2/stadium_park)
+"mc" = (
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/arcade)
 "md" = (
 /turf/simulated/floor/lino/diamond,
 /area/sportsball2/library_cafe)
@@ -2512,6 +3049,10 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/quickeburger)
+"mi" = (
+/obj/structure/ledge/roof,
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
 "mj" = (
 /obj/structure/railing/fence{
 	color = "90574b";
@@ -2577,6 +3118,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/audience_seating)
+"mv" = (
+/obj/effect/floor_decal/corner/dark_green,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/quickeburger)
 "mx" = (
 /obj/structure/rod_railing{
 	dir = 4
@@ -2621,6 +3169,15 @@
 	},
 /turf/simulated/floor/sidewalk/paved,
 /area/space)
+"mD" = (
+/obj/structure/platform_stairs{
+	dir = 8
+	},
+/obj/structure/platform/ledge{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "mE" = (
 /turf/simulated/floor/exoplanet/asphalt,
 /area/sportsball2/stadium_park)
@@ -2633,6 +3190,16 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sportsball2/stadium_park)
+"mG" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 10
+	},
+/obj/machinery/atm{
+	dir = 1;
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/quickeburger)
 "mJ" = (
 /obj/structure/platform{
 	dir = 1
@@ -2677,6 +3244,13 @@
 /obj/structure/platform/ledge{
 	dir = 1
 	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
+"na" = (
+/obj/structure/platform_deco/ledge{
+	dir = 1
+	},
+/obj/structure/platform_deco/ledge,
 /turf/simulated/floor/tiled,
 /area/sportsball2/audience_seating)
 "nd" = (
@@ -2738,6 +3312,17 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sportsball2/ox_storage_lot)
+"nm" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 5
+	},
+/obj/machinery/computer/security/telescreen{
+	name = "Observation Screen";
+	network = list("Interrogation");
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/quickeburger)
 "nn" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -2757,6 +3342,19 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /turf/simulated/floor/wood,
 /area/sportsball2/library_cafe)
+"nr" = (
+/obj/structure/ledge/roof{
+	dir = 1
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/metro)
+"ns" = (
+/obj/structure/platform_stairs{
+	dir = 8
+	},
+/obj/structure/platform/ledge,
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "nt" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/machinery/door/airlock/glass{
@@ -2771,6 +3369,15 @@
 "nv" = (
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/sports_clinic)
+"nx" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/structure/rod_railing{
+	name = "imposing rod railing"
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
 "ny" = (
 /obj/structure/closet/secure_closet/personal,
 /obj/effect/floor_decal/corner/grey{
@@ -2778,6 +3385,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/athlete_changing)
+"nz" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/machinery/power/apc/hyper/north,
+/turf/simulated/floor/tiled,
+/area/sportsball2/quickeburger)
 "nA" = (
 /obj/structure/shipping_container{
 	icon_state = "red2"
@@ -2791,6 +3405,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/east_hall)
+"nC" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/ticket_line)
 "nD" = (
 /obj/structure/rod_railing{
 	dir = 4
@@ -2806,6 +3426,17 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sportsball2/ox_storage_lot)
+"nG" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 6
+	},
+/obj/machinery/computer/security/telescreen{
+	name = "Observation Screen";
+	network = list("Interrogation");
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/quickeburger)
 "nH" = (
 /obj/structure/closet/crate/bin/urban,
 /turf/simulated/floor/asphalt,
@@ -2822,6 +3453,15 @@
 	temperature = 250
 	},
 /area/space)
+"nJ" = (
+/obj/structure/ledge/roof{
+	dir = 9
+	},
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/metro)
 "nK" = (
 /obj/machinery/button/remote/airlock{
 	dir = 1;
@@ -2860,6 +3500,13 @@
 	},
 /turf/simulated/floor/lino/diamond,
 /area/sportsball2/arcade)
+"nQ" = (
+/obj/structure/ledge/roof,
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "nT" = (
 /obj/structure/platform_deco{
 	icon_state = "ledge_deco"
@@ -2888,6 +3535,12 @@
 	},
 /turf/simulated/floor/wood/mahogany,
 /area/sportsball2/library_cafe)
+"nY" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/east_hall)
 "oa" = (
 /obj/structure/bed/stool/chair/wood{
 	dir = 4
@@ -2900,7 +3553,13 @@
 /turf/simulated/floor/exoplanet/konyang,
 /area/sportsball2/stadium_park)
 "oc" = (
-/obj/item/reagent_containers/glass/bucket,
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/plating,
 /area/sportsball2/custodial)
 "od" = (
@@ -3083,6 +3742,16 @@
 /obj/effect/floor_decal/corner/brown{
 	dir = 6
 	},
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
 /turf/simulated/floor/tiled,
 /area/sportsball2/audience_seating)
 "oL" = (
@@ -3146,6 +3815,27 @@
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/quickeburger_kitchen)
+"oR" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/sportsball2/hotdog_stand)
+"oS" = (
+/obj/structure/bed/stool/chair/sofa/left/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/machinery/computer/security/telescreen{
+	name = "Observation Screen";
+	network = list("Interrogation");
+	pixel_x = 32
+	},
+/turf/simulated/floor/wood,
+/area/sportsball2/quickeburger)
 "oT" = (
 /obj/structure/automobile_filler,
 /obj/effect/floor_decal/corner/dark_blue{
@@ -3217,6 +3907,11 @@
 	},
 /turf/simulated/floor/exoplanet/grass/grove,
 /area/sportsball2/playing_field)
+"pj" = (
+/obj/structure/ledge/roof,
+/obj/effect/decal/curb/corner,
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/arcade)
 "pl" = (
 /obj/structure/railing/fence{
 	color = "90574b";
@@ -3320,6 +4015,15 @@
 /obj/machinery/vending/cigarette,
 /turf/simulated/floor/tiled,
 /area/sportsball2/audience_lounge)
+"pJ" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 10
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/east_hall)
 "pK" = (
 /obj/effect/floor_decal/corner/dark_green{
 	dir = 6
@@ -3384,6 +4088,15 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/sports_clinic)
+"qe" = (
+/obj/structure/ledge/roof{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/metro)
 "qg" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -3430,12 +4143,23 @@
 /obj/machinery/power/outlet{
 	pixel_y = 3
 	},
+/obj/item/device/radio/microphone,
+/obj/item/device/tvcamera,
 /turf/simulated/floor/carpet/red,
 /area/sportsball2/vip_lounge)
-"qA" = (
-/obj/structure/ledge/quarter/corner,
-/turf/simulated/open,
-/area/sportsball2/library_cafe)
+"qy" = (
+/obj/machinery/door/airlock/glass_medical{
+	dir = 1;
+	name = "Clinic"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/sports_clinic)
+"qz" = (
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_lounge)
 "qB" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -3448,6 +4172,12 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/audience_lounge)
+"qD" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/ticket_booth)
 "qE" = (
 /obj/effect/decal/road_marking/center{
 	dir = 8
@@ -3477,6 +4207,11 @@
 /obj/structure/bed/stool/chair/sofa/left/red,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
+	},
+/obj/machinery/computer/security/telescreen{
+	name = "Observation Screen";
+	network = list("Interrogation");
+	pixel_y = 32
 	},
 /turf/simulated/floor/wood,
 /area/sportsball2/quickeburger)
@@ -3520,6 +4255,13 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/sports_clinic)
+"qQ" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/space)
 "qS" = (
 /obj/structure/sign/emergency/evacuation/stairs,
 /turf/simulated/wall,
@@ -3572,6 +4314,12 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/warehouse_equipment)
+"qZ" = (
+/obj/structure/ledge/roof{
+	dir = 5
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/metro)
 "rb" = (
 /obj/effect/floor_decal/spline/plain/white{
 	dir = 5
@@ -3612,6 +4360,15 @@
 "rk" = (
 /turf/simulated/floor/exoplanet/grass/grove,
 /area/sportsball2/playing_field)
+"rl" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 5
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/quickeburger)
 "rm" = (
 /obj/structure/stairs_lower/stairs_upper{
 	dir = 4
@@ -3621,6 +4378,9 @@
 "ro" = (
 /obj/effect/floor_decal/corner/grey/full{
 	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/warehouse_equipment)
@@ -3650,6 +4410,12 @@
 	},
 /turf/simulated/floor/exoplanet/grass/grove,
 /area/sportsball2/playing_field)
+"rC" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 5
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/ticket_line)
 "rF" = (
 /obj/effect/decal/road_marking/thin,
 /obj/effect/decal/road_marking/thin{
@@ -3661,6 +4427,15 @@
 /obj/effect/decal/curb/corner,
 /turf/simulated/floor/exoplanet/konyang,
 /area/sportsball2/stadium_park)
+"rI" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "rJ" = (
 /obj/structure/platform/ledge{
 	dir = 4
@@ -3670,6 +4445,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/audience_seating)
+"rK" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/east_hall)
 "rL" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/machinery/door/airlock/glass_service{
@@ -3685,6 +4469,21 @@
 /obj/structure/platform/ledge,
 /turf/simulated/floor/tiled,
 /area/sportsball2/audience_seating)
+"rN" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 10
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/warehouse_misc)
+"rP" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/quickeburger_hydroponics)
 "rQ" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -3745,6 +4544,15 @@
 /obj/structure/platform_deco,
 /turf/simulated/floor/sidewalk/paved,
 /area/space)
+"sa" = (
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/obj/structure/rod_railing{
+	name = "imposing rod railing"
+	},
+/turf/simulated/floor/asphalt,
+/area/sportsball2/metro)
 "sb" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 9
@@ -3774,6 +4582,9 @@
 /area/sportsball2/audience_lounge)
 "si" = (
 /obj/effect/floor_decal/corner/orange/full,
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/warehouse_misc)
 "sj" = (
@@ -3785,6 +4596,19 @@
 	},
 /turf/simulated/floor/wood,
 /area/sportsball2/quickeburger)
+"sk" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/machinery/power/apc/hyper/north,
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/warehouse_equipment)
 "sl" = (
 /obj/effect/floor_decal/corner/dark_green{
 	dir = 8
@@ -3829,6 +4653,10 @@
 "su" = (
 /obj/effect/floor_decal/corner/grey{
 	dir = 6
+	},
+/obj/machinery/power/apc/hyper/east,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/athlete_changing)
@@ -3886,6 +4714,17 @@
 /obj/structure/sign/flag/zavodskoi,
 /turf/simulated/wall,
 /area/sportsball2/security_office)
+"sL" = (
+/obj/structure/ledge/roof{
+	dir = 5
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/arcade)
+"sN" = (
+/obj/structure/ledge/roof,
+/obj/effect/decal/curb/corner,
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
 "sO" = (
 /obj/structure/railing/fence{
 	color = "90574b"
@@ -3920,6 +4759,13 @@
 	},
 /turf/simulated/floor/sidewalk/blocks,
 /area/space)
+"sV" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/sportsball2/custodial)
 "sW" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 5
@@ -3942,6 +4788,13 @@
 /obj/effect/map_effect/door_helper/lock,
 /turf/simulated/floor/tiled/full,
 /area/space)
+"sZ" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/apc/hyper/north,
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
 "te" = (
 /obj/machinery/seed_extractor,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -4055,6 +4908,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/hotdog_stand)
+"tB" = (
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/sportsball2/arcade)
 "tD" = (
 /obj/effect/floor_decal/spline/plain/beige,
 /obj/effect/floor_decal/spline/plain/white{
@@ -4093,6 +4952,15 @@
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/simulated/floor/exoplanet/konyang,
 /area/sportsball2/stadium_park)
+"tI" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/freezer{
+	name = "cooled tiles";
+	temperature = 253.15
+	},
+/area/sportsball2/quickeburger_freezer)
 "tJ" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood,
@@ -4156,12 +5024,6 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/sportsball2/library_cafe)
-"tX" = (
-/obj/structure/ledge/quarter{
-	dir = 4
-	},
-/turf/simulated/open,
 /area/sportsball2/library_cafe)
 "tY" = (
 /obj/structure/closet/secure_closet/refrigerator/standard,
@@ -4287,6 +5149,35 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sportsball2/ox_storage_lot)
+"ur" = (
+/obj/effect/decal/fake_object{
+	density = 1;
+	desc = "A bland air conditioning unit.";
+	icon = 'icons/effects/city.dmi';
+	icon_state = "ac";
+	name = "AC unit"
+	},
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/sportsball2/arcade)
+"ut" = (
+/obj/structure/rod_railing,
+/obj/machinery/camera/network/news{
+	name = "stadium camera";
+	c_tag = "Stadium - South 2";
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/konyang,
+/area/sportsball2/playing_field)
+"uu" = (
+/obj/structure/ledge/roof,
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/metro)
 "uv" = (
 /obj/structure/bed/stool/chair/sofa/pew/right{
 	dir = 8;
@@ -4330,8 +5221,14 @@
 /obj/effect/floor_decal/corner/grey/full{
 	dir = 1
 	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/warehouse_equipment)
+"uF" = (
+/turf/simulated/wall,
+/area/sportsball2/clothes_store)
 "uG" = (
 /obj/structure/konyang_cliff,
 /turf/simulated/floor/exoplanet/konyang,
@@ -4371,12 +5268,6 @@
 	},
 /turf/simulated/floor/roofing_tiles,
 /area/space)
-"uN" = (
-/obj/structure/ledge/quarter/corner{
-	dir = 8
-	},
-/turf/simulated/open,
-/area/sportsball2/library_cafe)
 "uO" = (
 /obj/structure/bed/stool/chair/sofa/right/orange,
 /turf/simulated/floor/wood/mahogany,
@@ -4436,6 +5327,14 @@
 	},
 /turf/simulated/floor/wood,
 /area/sportsball2/library_cafe)
+"vl" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/table/stone/marble,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/sportsball2/quickeburger_kitchen)
 "vm" = (
 /obj/structure/railing/fence{
 	color = "90574b";
@@ -4502,6 +5401,15 @@
 /obj/item/storage/pill_bottle/perconol,
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/sports_clinic)
+"vu" = (
+/obj/structure/ledge/roof{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/arcade)
 "vv" = (
 /obj/structure/chainlink_fence{
 	dir = 1
@@ -4521,17 +5429,54 @@
 	},
 /turf/simulated/open,
 /area/space)
+"vz" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/quickeburger)
+"vA" = (
+/obj/effect/decal/fake_object{
+	density = 1;
+	desc = "A bland air conditioning unit.";
+	icon = 'icons/effects/city.dmi';
+	icon_state = "ac";
+	name = "AC unit"
+	},
+/turf/simulated/floor/asphalt,
+/area/sportsball2/clothes_store)
 "vB" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 9
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/warehouse_equipment)
+"vD" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plating,
+/area/space)
 "vF" = (
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/simulated/floor/exoplanet/konyang,
 /area/sportsball2/stadium_park)
+"vG" = (
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/obj/structure/rod_railing{
+	name = "imposing rod railing"
+	},
+/turf/simulated/floor/asphalt,
+/area/sportsball2/arcade)
 "vH" = (
 /obj/effect/decal/curb/corner{
 	dir = 8
@@ -4549,6 +5494,10 @@
 	dir = 8
 	},
 /obj/machinery/iv_drip,
+/obj/machinery/power/apc/hyper/west,
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/sports_clinic)
 "vM" = (
@@ -4603,6 +5552,18 @@
 /obj/structure/closet/crate/bin/urban,
 /turf/simulated/floor/wood,
 /area/sportsball2/library_cafe)
+"vX" = (
+/obj/structure/platform_stairs{
+	dir = 1
+	},
+/obj/structure/platform/ledge{
+	dir = 4
+	},
+/obj/structure/platform/ledge{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "vY" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 8
@@ -4640,6 +5601,15 @@
 	},
 /turf/simulated/floor/sidewalk/blocks,
 /area/sportsball2/stadium_park)
+"wf" = (
+/obj/structure/ledge/roof{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
 "wg" = (
 /obj/structure/konyang_cliff{
 	icon_state = "cliff-top1"
@@ -4652,6 +5622,18 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/sportsball2/security_office_carpark)
+"wj" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 5
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/quickeburger)
 "wk" = (
 /obj/structure/chainlink_fence{
 	dir = 1
@@ -4689,6 +5671,12 @@
 /obj/structure/sign/staff_only,
 /turf/simulated/wall,
 /area/sportsball2/quickeburger_kitchen)
+"wq" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/audience_seating)
 "wr" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
@@ -4725,6 +5713,12 @@
 	},
 /turf/simulated/floor/exoplanet/water/shallow,
 /area/space)
+"wy" = (
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/turf/simulated/floor/asphalt,
+/area/sportsball2/arcade)
 "wz" = (
 /obj/machinery/door/airlock{
 	dir = 4
@@ -4790,6 +5784,12 @@
 	},
 /turf/simulated/floor/exoplanet/asphalt,
 /area/sportsball2/stadium_park)
+"wO" = (
+/obj/structure/ledge/roof{
+	dir = 4
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/arcade)
 "wP" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 9
@@ -4801,6 +5801,7 @@
 /obj/effect/floor_decal/corner/orange/full{
 	dir = 8
 	},
+/obj/structure/extinguisher_cabinet/north,
 /turf/simulated/floor/tiled,
 /area/sportsball2/warehouse_misc)
 "wS" = (
@@ -4811,6 +5812,12 @@
 /obj/structure/closet/crate/bin/urban,
 /turf/simulated/floor/plating,
 /area/sportsball2/custodial)
+"wU" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "wX" = (
 /obj/effect/floor_decal/corner/dark_green{
 	dir = 5
@@ -4834,6 +5841,12 @@
 /obj/structure/parking_meter,
 /turf/simulated/floor/sidewalk,
 /area/space)
+"xi" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
 "xj" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/structure/closet/secure_closet/freezer,
@@ -4857,6 +5870,10 @@
 /obj/item/reagent_containers/food/snacks/chips/phoron,
 /obj/item/reagent_containers/food/snacks/chips/phoron,
 /obj/item/reagent_containers/food/snacks/chips/phoron,
+/obj/machinery/power/apc/hyper/west,
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/hotdog_stand)
 "xl" = (
@@ -4877,6 +5894,9 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/space)
+"xr" = (
+/turf/simulated/floor/asphalt,
+/area/sportsball2/clothes_store)
 "xu" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
@@ -4935,8 +5955,34 @@
 /obj/item/device/binoculars,
 /obj/item/device/binoculars,
 /obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
 /turf/simulated/floor/tiled,
 /area/sportsball2/audience_seating)
+"xE" = (
+/obj/effect/floor_decal/corner/grey/full{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/east_hall)
+"xF" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/space)
 "xG" = (
 /obj/structure/railing/fence{
 	color = "90574b"
@@ -4949,6 +5995,18 @@
 "xH" = (
 /turf/simulated/floor/exoplanet/konyang,
 /area/sportsball2/playing_field)
+"xI" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "xJ" = (
 /obj/structure/closet/secure_closet/personal,
 /obj/effect/floor_decal/corner/blue/diagonal,
@@ -4989,6 +6047,11 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/audience_lounge)
+"xP" = (
+/obj/structure/ledge/roof,
+/obj/effect/decal/curb,
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "xQ" = (
 /obj/effect/floor_decal/spline/plain/white{
 	dir = 8
@@ -5013,12 +6076,25 @@
 /obj/machinery/door/airlock/glass_security{
 	dir = 4
 	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/ticket_booth)
 "xY" = (
 /obj/effect/decal/curb/corner,
 /turf/simulated/floor/asphalt,
 /area/space)
+"xZ" = (
+/obj/effect/floor_decal/corner/mauve{
+	dir = 9
+	},
+/obj/machinery/power/apc/hyper/west,
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/vip_lounge)
 "ya" = (
 /obj/effect/floor_decal/corner/dark_blue/full{
 	dir = 4
@@ -5086,6 +6162,16 @@
 /obj/vehicle/bike/monowheel,
 /turf/simulated/floor/asphalt,
 /area/space)
+"yn" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/structure/utility_pole/street/on{
+	dir = 4;
+	pixel_x = 19
+	},
+/turf/simulated/floor/exoplanet/konyang,
+/area/space)
 "yp" = (
 /obj/structure/flora/tree/jungle,
 /turf/simulated/floor/exoplanet/konyang,
@@ -5095,6 +6181,13 @@
 /obj/structure/sign/christmas/lights,
 /turf/simulated/floor/carpet/darkblue,
 /area/sportsball2/library_cafe)
+"yt" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/paleblue,
+/turf/simulated/floor/tiled,
+/area/sportsball2/ticket_line)
 "yw" = (
 /obj/structure/table/rack/clothing{
 	dir = 4
@@ -5125,7 +6218,14 @@
 	},
 /turf/simulated/floor/lino,
 /area/sportsball2/clothes_store)
+"yx" = (
+/obj/structure/ledge/roof{
+	dir = 8
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/arcade)
 "yy" = (
+/obj/effect/floor_decal/corner/paleblue/full,
 /turf/simulated/floor/tiled,
 /area/sportsball2/ticket_booth)
 "yA" = (
@@ -5166,6 +6266,9 @@
 	dir = 5
 	},
 /obj/structure/extinguisher_cabinet/north,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/audience_seating)
 "yI" = (
@@ -5189,6 +6292,24 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sportsball2/stadium_park)
+"yL" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/warehouse_equipment)
+"yN" = (
+/obj/structure/platform/ledge{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/brown{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "yO" = (
 /obj/structure/bed/stool/chair/sofa/left/orange{
 	dir = 1
@@ -5206,11 +6327,29 @@
 /turf/simulated/floor/wood/maple,
 /area/space)
 "yU" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 5
+	},
 /obj/effect/floor_decal/industrial/loading/yellow{
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/ticket_line)
+"yV" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/sportsball2/sports_clinic)
+"yW" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_lounge)
 "yX" = (
 /obj/effect/floor_decal/corner/green/diagonal,
 /obj/machinery/door/airlock{
@@ -5251,14 +6390,28 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/space)
+"ze" = (
+/obj/structure/ledge/roof{
+	dir = 10
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
 "zf" = (
 /obj/structure/sink/kitchen{
 	name = "sink";
 	dir = 8;
 	pixel_x = 19
 	},
+/obj/item/reagent_containers/glass/bucket,
 /turf/simulated/floor/plating,
 /area/sportsball2/custodial)
+"zg" = (
+/obj/machinery/power/apc/hyper/east,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/metro)
 "zj" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 5
@@ -5280,6 +6433,14 @@
 	dir = 1
 	},
 /turf/simulated/floor/asphalt,
+/area/space)
+"zl" = (
+/obj/structure/cable/yellow{
+	icon_state = "11-2";
+	dir = 4
+	},
+/obj/structure/lattice,
+/turf/simulated/open,
 /area/space)
 "zn" = (
 /obj/structure/lattice/catwalk/indoor/planks,
@@ -5348,6 +6509,13 @@
 	},
 /turf/simulated/floor/wood,
 /area/sportsball2/stadium_park)
+"zz" = (
+/obj/machinery/power/apc/hyper/west,
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/plating,
+/area/sportsball2/custodial)
 "zA" = (
 /obj/structure/rod_railing{
 	dir = 8
@@ -5436,6 +6604,15 @@
 /obj/random/pottedplant,
 /turf/simulated/floor/wood,
 /area/sportsball2/ticket_line)
+"zM" = (
+/obj/effect/floor_decal/corner_wide/green{
+	dir = 5
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/white,
+/area/sportsball2/sports_clinic)
 "zN" = (
 /obj/effect/decal/curb,
 /turf/simulated/floor/asphalt,
@@ -5457,6 +6634,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/lobby)
+"zV" = (
+/obj/machinery/power/apc/hyper/west,
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/arcade)
 "zW" = (
 /obj/structure/table/reinforced/steel,
 /obj/machinery/door/window/desk/northleft{
@@ -5488,19 +6672,52 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/east_hall)
+"Ae" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/space)
 "Af" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /turf/simulated/floor/exoplanet/water/shallow,
 /area/space)
 "Ag" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/ticket_booth)
+"Ah" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/machinery/power/apc/hyper/south,
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_lounge)
 "Ak" = (
 /obj/structure/sign/christmas/lights{
 	dir = 1
 	},
+/obj/machinery/power/apc/hyper/north,
 /turf/simulated/floor/tiled,
 /area/sportsball2/lobby)
+"Al" = (
+/obj/structure/rod_railing,
+/obj/machinery/camera/network/news{
+	name = "stadium camera";
+	c_tag = "Stadium - South 1";
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/konyang,
+/area/sportsball2/playing_field)
 "Am" = (
 /turf/simulated/wall,
 /area/sportsball2/metro)
@@ -5514,6 +6731,9 @@
 "Ar" = (
 /obj/structure/table/standard,
 /obj/item/lore_radio,
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 5
+	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/ticket_booth)
 "As" = (
@@ -5528,6 +6748,12 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/quickeburger)
+"Av" = (
+/obj/structure/ledge/roof{
+	dir = 6
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/metro)
 "Ax" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/structure/closet/secure_closet/freezer,
@@ -5729,6 +6955,9 @@
 /obj/structure/sign/christmas/lights{
 	dir = 1
 	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/quickeburger)
 "Bg" = (
@@ -5747,6 +6976,15 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sportsball2/stadium_park)
+"Bj" = (
+/obj/machinery/door/airlock/service{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/east_hall)
 "Bl" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -5764,6 +7002,12 @@
 	},
 /turf/simulated/floor/sidewalk/blocks,
 /area/sportsball2/stadium_park)
+"Bp" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/arcade)
 "Bq" = (
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor/sidewalk,
@@ -5772,21 +7016,31 @@
 /obj/structure/railing/mapped,
 /turf/simulated/open,
 /area/sportsball2/audience_seating)
+"Bt" = (
+/turf/simulated/floor/asphalt,
+/area/sportsball2/metro)
+"Bw" = (
+/obj/structure/ledge/roof/corner{
+	dir = 1
+	},
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
+"Bx" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/space)
 "By" = (
 /obj/effect/decal/curb/corner{
 	dir = 4
 	},
 /turf/simulated/floor/asphalt,
 /area/sportsball2/stadium_park)
-"BB" = (
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/dark_blue/full{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
-/area/sportsball2/audience_seating)
 "BC" = (
 /obj/effect/floor_decal/spline/plain/white{
 	dir = 4
@@ -5794,6 +7048,12 @@
 /obj/effect/floor_decal/spline/plain/white,
 /turf/simulated/floor/asphalt,
 /area/sportsball2/stadium_park)
+"BD" = (
+/obj/structure/ledge/roof/corner{
+	dir = 4
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "BE" = (
 /obj/structure/platform_stairs,
 /obj/structure/platform/ledge{
@@ -5804,6 +7064,15 @@
 	},
 /turf/simulated/floor/lino/diamond,
 /area/sportsball2/arcade)
+"BI" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_lounge)
 "BK" = (
 /obj/machinery/light/small{
 	dir = 4;
@@ -5828,12 +7097,35 @@
 	},
 /turf/simulated/floor/wood,
 /area/sportsball2/arcade)
+"BN" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/warehouse_equipment)
+"BQ" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Staff Only";
+	req_one_access = list(35,25,26,28)
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/east_hall)
 "BU" = (
 /turf/simulated/wall,
 /area/sportsball2/audience_seating)
 "BV" = (
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/warehouse_misc)
+"BW" = (
+/obj/structure/platform/ledge,
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "BY" = (
 /obj/effect/decal/curb/corner{
 	dir = 1
@@ -5847,6 +7139,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/athlete_changing)
+"Cb" = (
+/obj/machinery/atm{
+	pixel_y = -8
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/ticket_line)
 "Cc" = (
 /obj/effect/decal/road_marking{
 	dir = 1
@@ -5936,6 +7234,12 @@
 /obj/effect/floor_decal/spline/plain/white,
 /turf/simulated/floor/asphalt,
 /area/sportsball2/stadium_park)
+"Cw" = (
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/sportsball2/metro)
 "Cx" = (
 /obj/effect/floor_decal/corner/dark_green{
 	dir = 10
@@ -5998,8 +7302,17 @@
 /obj/item/reagent_containers/food/snacks/chips/chicken,
 /obj/item/reagent_containers/food/snacks/chips/chicken,
 /obj/item/reagent_containers/food/snacks/chips/chicken,
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/hotdog_stand)
+"CG" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/metro)
 "CH" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 9
@@ -6015,6 +7328,10 @@
 	},
 /turf/simulated/floor/exoplanet/water/shallow,
 /area/sportsball2/library_cafe)
+"CJ" = (
+/obj/structure/ledge/roof,
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/arcade)
 "CK" = (
 /turf/simulated/wall,
 /area/sportsball2/warehouse_misc)
@@ -6052,6 +7369,13 @@
 /obj/effect/floor_decal/corner/yellow,
 /turf/simulated/floor/tiled,
 /area/sportsball2/warehouse_equipment)
+"CS" = (
+/obj/structure/ledge/roof{
+	dir = 10
+	},
+/obj/effect/decal/curb/corner,
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/metro)
 "CW" = (
 /obj/structure/bed/stool/chair/sofa/pew/right{
 	dir = 8;
@@ -6108,8 +7432,26 @@
 /obj/effect/floor_decal/industrial/arrow/yellow{
 	dir = 1
 	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/ticket_line)
+"Df" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/quickeburger)
+"Di" = (
+/obj/structure/platform/ledge{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "Dl" = (
 /obj/machinery/chem_master/condimaster,
 /turf/simulated/floor/lino/diamond,
@@ -6130,6 +7472,13 @@
 	},
 /turf/simulated/wall,
 /area/sportsball2/athlete_changing)
+"Dq" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/space)
 "Dr" = (
 /obj/structure/utility_pole/street/on{
 	pixel_y = 24;
@@ -6144,6 +7493,15 @@
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood,
 /area/sportsball2/quickeburger)
+"Dt" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 5
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/east_hall)
 "Du" = (
 /obj/effect/decal/road_marking/no_pass{
 	dir = 4
@@ -6186,6 +7544,15 @@
 /obj/machinery/door/window/desk,
 /turf/simulated/floor/wood,
 /area/sportsball2/clothes_store)
+"DB" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/obj/structure/utility_pole/street/on{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/konyang,
+/area/space)
 "DD" = (
 /obj/structure/bed/stool/chair/fancy{
 	dir = 4
@@ -6237,6 +7604,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/audience_seating)
+"DS" = (
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "DT" = (
 /obj/effect/decal/curb/corner{
 	dir = 4
@@ -6252,8 +7625,19 @@
 	dir = 1
 	},
 /obj/structure/bed/stool/chair/sofa/left/red,
+/obj/machinery/computer/security/telescreen{
+	name = "Observation Screen";
+	network = list("Interrogation");
+	pixel_y = 32
+	},
 /turf/simulated/floor/wood,
 /area/sportsball2/quickeburger)
+"Eb" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/warehouse_equipment)
 "Ec" = (
 /obj/structure/chainlink_fence{
 	dir = 8
@@ -6266,6 +7650,7 @@
 "Ed" = (
 /obj/effect/floor_decal/corner/dark_green/diagonal,
 /obj/structure/extinguisher_cabinet/north,
+/obj/machinery/power/apc/hyper/east,
 /turf/simulated/floor/tiled,
 /area/sportsball2/recharging_station)
 "Ee" = (
@@ -6330,6 +7715,16 @@
 /obj/item/spacecash/c20,
 /turf/simulated/floor/lino/diamond,
 /area/sportsball2/library_cafe)
+"Er" = (
+/obj/machinery/power/fractal_reactor{
+	desc = "A connection point to the city's power grid.";
+	name = "Electrical Transformer"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/metro)
 "Es" = (
 /obj/structure/platform_stairs/full,
 /obj/structure/railing/mapped{
@@ -6372,6 +7767,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/bathrooms)
+"EC" = (
+/obj/structure/platform{
+	dir = 8
+	},
+/turf/simulated/open,
+/area/space)
 "ED" = (
 /obj/structure/railing/fence{
 	color = "90574b";
@@ -6451,6 +7852,12 @@
 /obj/item/spacecash/c50,
 /turf/simulated/floor/wood,
 /area/sportsball2/arcade)
+"ES" = (
+/obj/effect/floor_decal/corner/paleblue/full{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/ticket_line)
 "ET" = (
 /obj/effect/floor_decal/corner_wide/green/full{
 	dir = 4
@@ -6524,6 +7931,16 @@
 /obj/effect/floor_decal/corner/brown{
 	dir = 9
 	},
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
 /turf/simulated/floor/tiled,
 /area/sportsball2/audience_seating)
 "Fb" = (
@@ -6575,6 +7992,10 @@
 /obj/structure/closet/crate/bin/urban/compact{
 	pixel_y = 8
 	},
+/obj/machinery/power/apc/hyper/west,
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/ticket_line)
 "Fd" = (
@@ -6601,6 +8022,19 @@
 	},
 /turf/simulated/floor/exoplanet/water/shallow,
 /area/space)
+"Fj" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 5
+	},
+/obj/machinery/power/apc/hyper/north,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/east_hall)
 "Fl" = (
 /obj/structure/railing/fence{
 	color = "90574b";
@@ -6637,6 +8071,15 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/full,
 /area/sportsball2/quickeburger_hydroponics)
+"Fw" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 5
+	},
+/obj/machinery/atm{
+	pixel_y = -8
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/quickeburger)
 "Fy" = (
 /obj/structure/railing/mapped,
 /obj/structure/bed/stool/bar/padded/purple{
@@ -6700,6 +8143,20 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sportsball2/stadium_park)
+"FJ" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
+"FK" = (
+/obj/effect/floor_decal/corner/green/diagonal,
+/obj/machinery/power/apc/hyper/north,
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/sportsball2/bathrooms)
 "FL" = (
 /turf/simulated/floor/carpet/red,
 /area/sportsball2/vip_lounge)
@@ -6707,6 +8164,9 @@
 /obj/effect/ghostspawpoint{
 	identifier = "sportsball2_referee";
 	name = "referee spawn point"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/athlete_changing)
@@ -6753,6 +8213,14 @@
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/simulated/floor/exoplanet/konyang,
 /area/sportsball2/stadium_park)
+"FY" = (
+/obj/effect/floor_decal/corner/blue/diagonal,
+/obj/machinery/power/apc/hyper/north,
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/sportsball2/athlete_showers)
 "FZ" = (
 /obj/effect/floor_decal/spline/plain/white{
 	dir = 1
@@ -6792,6 +8260,15 @@
 /obj/effect/decal/curb,
 /turf/simulated/floor/asphalt,
 /area/sportsball2/stadium_park)
+"Gi" = (
+/obj/structure/platform/ledge{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "Gj" = (
 /obj/structure/rod_railing{
 	dir = 8
@@ -6840,6 +8317,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/warehouse_misc)
+"Gt" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/ticket_line)
 "Gu" = (
 /obj/effect/decal/road_marking/thin,
 /obj/effect/decal/road_marking{
@@ -6953,6 +8439,13 @@
 /obj/structure/flora/ausbushes/grassybush,
 /turf/simulated/floor/exoplanet/konyang,
 /area/sportsball2/stadium_park)
+"GN" = (
+/obj/machinery/door/airlock/glass,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/east_hall)
 "GS" = (
 /obj/effect/floor_decal/corner/green/diagonal,
 /obj/machinery/button/remote/airlock{
@@ -6974,6 +8467,12 @@
 /obj/item/beach_ball/holoball,
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/warehouse_equipment)
+"GV" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/arcade)
 "GZ" = (
 /obj/structure/lattice/catwalk/indoor/planks,
 /obj/structure/rope_post,
@@ -6991,6 +8490,13 @@
 	},
 /turf/simulated/floor/exoplanet/water/shallow,
 /area/space)
+"Ha" = (
+/obj/effect/floor_decal/corner/blue/diagonal,
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/white,
+/area/sportsball2/athlete_showers)
 "Hb" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -7009,6 +8515,12 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/east_hall)
+"He" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/ticket_line)
 "Hg" = (
 /obj/structure/shipping_container{
 	icon_state = "grey2"
@@ -7016,6 +8528,10 @@
 /obj/effect/overlay/container_logo/zenghu,
 /turf/simulated/floor/asphalt,
 /area/sportsball2/ox_storage_lot)
+"Hh" = (
+/obj/structure/urban_grate,
+/turf/simulated/floor/sidewalk/detail,
+/area/sportsball2/stadium_park)
 "Hi" = (
 /obj/structure/shipping_container{
 	icon_state = "grey1"
@@ -7041,6 +8557,10 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sportsball2/stadium_park)
+"Hn" = (
+/obj/structure/ledge/roof/corner,
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "Hp" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/closet/secure_closet/refrigerator/standard,
@@ -7150,6 +8670,12 @@
 	},
 /turf/simulated/floor/exoplanet/asphalt,
 /area/sportsball2/stadium_park)
+"HK" = (
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/sportsball2/ox_storage_lot)
 "HL" = (
 /obj/structure/platform_deco{
 	dir = 1
@@ -7353,6 +8879,16 @@
 	},
 /turf/simulated/floor/sidewalk/flat,
 /area/space)
+"Im" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/white,
+/area/sportsball2/quickeburger_kitchen)
 "In" = (
 /obj/machinery/button/remote/airlock{
 	dir = 1;
@@ -7367,8 +8903,26 @@
 /obj/effect/floor_decal/corner/dark_green{
 	dir = 8
 	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/quickeburger_hydroponics)
+"Iq" = (
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/obj/structure/rod_railing{
+	name = "imposing rod railing"
+	},
+/turf/simulated/floor/asphalt,
+/area/sportsball2/metro)
+"Is" = (
+/obj/structure/ledge/roof{
+	dir = 5
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "It" = (
 /obj/effect/floor_decal/corner/mauve/full,
 /turf/simulated/floor/tiled,
@@ -7400,6 +8954,16 @@
 /obj/structure/platform,
 /turf/simulated/floor/sidewalk/paved,
 /area/sportsball2/stadium_park)
+"IA" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 9
+	},
+/obj/machinery/atm{
+	dir = 8;
+	pixel_x = -16
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/quickeburger)
 "IC" = (
 /obj/machinery/door/airlock{
 	id_tag = "stadium_stall_2c";
@@ -7418,6 +8982,13 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sportsball2/library_cafe)
+"IG" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/sportsball2/quickeburger_kitchen)
 "IH" = (
 /obj/structure/rod_railing{
 	name = "imposing rod railing"
@@ -7427,6 +8998,19 @@
 	},
 /turf/simulated/floor/roofing_tiles,
 /area/sportsball2/library_cafe)
+"II" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 5
+	},
+/obj/structure/extinguisher_cabinet/north,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/quickeburger)
+"IJ" = (
+/turf/simulated/wall,
+/area/sportsball2/arcade)
 "IK" = (
 /turf/simulated/open,
 /area/sportsball2/library_cafe)
@@ -7443,6 +9027,13 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/space)
+"IQ" = (
+/obj/effect/floor_decal/corner_wide/green/diagonal,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/sportsball2/sports_clinic)
 "IR" = (
 /obj/effect/floor_decal/corner/dark_blue/full,
 /turf/simulated/floor/tiled,
@@ -7468,6 +9059,19 @@
 /obj/structure/target_stake,
 /turf/simulated/floor/tiled,
 /area/sportsball2/warehouse_equipment)
+"IX" = (
+/obj/effect/floor_decal/corner/dark_green,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/quickeburger)
+"IY" = (
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/turf/simulated/floor/asphalt,
+/area/sportsball2/ox_storage_lot)
 "IZ" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/item/toy/plushie/fox{
@@ -7519,6 +9123,18 @@
 /obj/item/flag/konyang/l,
 /turf/simulated/floor/wood,
 /area/sportsball2/arcade)
+"Ja" = (
+/obj/structure/ledge/roof{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/structure/rod_railing{
+	name = "imposing rod railing"
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/metro)
 "Jb" = (
 /obj/structure/chainlink_fence{
 	dir = 8
@@ -7551,6 +9167,15 @@
 "Jh" = (
 /turf/simulated/floor/lino,
 /area/sportsball2/clothes_store)
+"Ji" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 6
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/east_hall)
 "Jl" = (
 /obj/structure/extinguisher_cabinet/north,
 /turf/simulated/floor/wood,
@@ -7655,6 +9280,24 @@
 	temperature = 250
 	},
 /area/space)
+"JD" = (
+/obj/structure/ledge/roof{
+	dir = 5
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
+"JE" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Staff Only";
+	req_one_access = list(35,25,26,28);
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/space)
 "JF" = (
 /obj/effect/floor_decal/corner_wide/dark_blue/diagonal,
 /obj/structure/table/reinforced/glass,
@@ -7679,6 +9322,16 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/space)
+"JK" = (
+/obj/machinery/power/fractal_reactor{
+	desc = "A connection point to the city's power grid.";
+	name = "Electrical Transformer"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/library_cafe)
 "JL" = (
 /obj/structure/utility_pole/street/on{
 	pixel_y = 24
@@ -7701,6 +9354,16 @@
 	},
 /turf/simulated/floor/concrete/square,
 /area/space)
+"JS" = (
+/obj/structure/rod_railing{
+	dir = 1
+	},
+/obj/machinery/camera/network/news{
+	name = "stadium camera";
+	c_tag = "Stadium - North 1"
+	},
+/turf/simulated/floor/exoplanet/konyang,
+/area/sportsball2/playing_field)
 "JT" = (
 /obj/structure/table/stone/marble,
 /obj/machinery/door/blast/shutters{
@@ -7716,6 +9379,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/audience_lounge)
+"JV" = (
+/obj/structure/ledge/roof{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/metro)
 "JW" = (
 /turf/simulated/wall,
 /area/sportsball2/stadium_park)
@@ -7741,6 +9413,12 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark,
 /area/sportsball2/security_office_carpark)
+"Kc" = (
+/obj/structure/platform_deco/ledge{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "Kd" = (
 /obj/structure/railing/fence{
 	color = "90574b"
@@ -7750,6 +9428,15 @@
 	},
 /turf/simulated/floor/wood,
 /area/sportsball2/library_cafe)
+"Ke" = (
+/obj/structure/ledge/roof{
+	dir = 6
+	},
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
 "Kg" = (
 /obj/effect/floor_decal/spline/plain/white{
 	dir = 4
@@ -7761,6 +9448,9 @@
 /obj/machinery/door/airlock/glass_service{
 	dir = 1;
 	name = "Kitchen"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/quickeburger_kitchen)
@@ -7800,6 +9490,12 @@
 	},
 /turf/simulated/floor/exoplanet/water/shallow,
 /area/space)
+"Kr" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/warehouse_equipment)
 "Ks" = (
 /obj/structure/rod_railing{
 	dir = 4
@@ -7847,6 +9543,16 @@
 	dir = 4
 	},
 /obj/structure/closet,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
 /obj/item/device/binoculars,
 /obj/item/device/binoculars,
 /obj/item/device/binoculars,
@@ -7921,6 +9627,20 @@
 /obj/structure/sign/christmas/garland,
 /turf/simulated/wall,
 /area/sportsball2/quickeburger_kitchen)
+"KS" = (
+/obj/structure/ledge/roof,
+/obj/effect/decal/curb,
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/arcade)
+"KX" = (
+/obj/structure/platform/ledge{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 6
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "KY" = (
 /obj/structure/bookcase/libraryspawn/nonfiction,
 /turf/simulated/floor/carpet/darkblue,
@@ -7941,18 +9661,18 @@
 	},
 /turf/simulated/floor/exoplanet/water/shallow,
 /area/space)
+"Lc" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 6
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/ticket_line)
 "Le" = (
 /obj/structure/ledge/roof{
 	dir = 9
 	},
 /turf/simulated/floor/roofing_tiles,
 /area/sportsball2/library_cafe)
-"Lf" = (
-/obj/machinery/ringer/north{
-	id = "quick_e_burger_stadium"
-	},
-/turf/simulated/open,
-/area/space)
 "Lg" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 7
@@ -8012,6 +9732,18 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/vip_lounge)
+"Lx" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/ticket_line)
 "Ly" = (
 /obj/structure/flora/tree/pine/xmas,
 /obj/effect/floor_decal/spline/fancy/wood/full,
@@ -8061,6 +9793,12 @@
 	},
 /turf/simulated/floor/exoplanet/water/shallow,
 /area/space)
+"LH" = (
+/obj/effect/floor_decal/corner/mauve{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/vip_lounge)
 "LI" = (
 /obj/effect/decal/road_marking/crosswalk{
 	dir = 4
@@ -8083,6 +9821,13 @@
 	},
 /turf/simulated/floor/concrete/square,
 /area/space)
+"LO" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating,
+/area/space)
 "LP" = (
 /obj/effect/floor_decal/corner/blue/diagonal,
 /turf/simulated/floor/tiled/white,
@@ -8098,6 +9843,12 @@
 	temperature = 253.15
 	},
 /area/sportsball2/quickeburger_freezer)
+"LT" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/ticket_line)
 "LV" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -8136,10 +9887,6 @@
 	},
 /turf/simulated/floor/wood,
 /area/sportsball2/audience_lounge)
-"Mh" = (
-/obj/structure/ledge/quarter,
-/turf/simulated/open,
-/area/sportsball2/library_cafe)
 "Mj" = (
 /obj/structure/chainlink_fence,
 /turf/simulated/floor/exoplanet/konyang,
@@ -8171,6 +9918,12 @@
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor/sidewalk,
 /area/sportsball2/metro)
+"Ms" = (
+/obj/structure/ledge/roof{
+	dir = 8
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "Mv" = (
 /obj/structure/table/steel,
 /obj/item/storage/toolbox/mechanical,
@@ -8237,6 +9990,15 @@
 /obj/machinery/vending/dinnerware/plastic,
 /turf/simulated/floor/wood,
 /area/sportsball2/library_cafe)
+"MJ" = (
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/obj/structure/rod_railing{
+	name = "imposing rod railing"
+	},
+/turf/simulated/floor/asphalt,
+/area/sportsball2/ox_storage_lot)
 "MK" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/railing/mapped{
@@ -8273,6 +10035,9 @@
 /obj/item/paper_bin,
 /obj/item/pen,
 /obj/item/pen,
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 5
+	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/ticket_booth)
 "MS" = (
@@ -8341,6 +10106,17 @@
 /obj/structure/chainlink_fence,
 /turf/simulated/floor/asphalt,
 /area/sportsball2/stadium_park)
+"Nb" = (
+/obj/effect/floor_decal/corner/green/diagonal,
+/obj/machinery/door/airlock{
+	dir = 4;
+	name = "Restrooms"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/white,
+/area/sportsball2/bathrooms)
 "Nc" = (
 /turf/simulated/wall,
 /area/sportsball2/quickeburger_freezer)
@@ -8390,6 +10166,9 @@
 /obj/effect/floor_decal/corner/yellow{
 	dir = 10
 	},
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/ticket_line)
 "Nr" = (
@@ -8402,6 +10181,22 @@
 "Nt" = (
 /turf/simulated/floor/sidewalk,
 /area/sportsball2/stadium_park)
+"Nw" = (
+/obj/machinery/door/airlock{
+	name = "Locker Room";
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/athlete_changing)
+"Nx" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/east_hall)
 "Nz" = (
 /obj/effect/map_effect/window_spawner/full/reinforced,
 /turf/simulated/floor/plating,
@@ -8415,6 +10210,12 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sportsball2/ox_storage_lot)
+"NC" = (
+/obj/structure/ledge/roof{
+	dir = 9
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "NE" = (
 /obj/structure/flora/grass/green,
 /turf/simulated/floor/exoplanet/konyang,
@@ -8534,6 +10335,12 @@
 /obj/machinery/door/airlock/multi_tile/glass,
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/audience_lounge)
+"Ob" = (
+/obj/structure/rod_railing{
+	name = "imposing rod railing"
+	},
+/turf/simulated/floor/asphalt,
+/area/sportsball2/clothes_store)
 "Oc" = (
 /obj/effect/floor_decal/corner/green/diagonal,
 /obj/machinery/door/airlock{
@@ -8609,6 +10416,9 @@
 	density = 0;
 	icon_state = "railing0-0"
 	},
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 5
+	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/ticket_line)
 "Ow" = (
@@ -8620,6 +10430,12 @@
 /obj/machinery/smartfridge/foodheater,
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/hotdog_stand)
+"Oy" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "OB" = (
 /obj/effect/floor_decal/corner/dark_blue/full{
 	dir = 1
@@ -8638,12 +10454,6 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sportsball2/stadium_park)
-"OE" = (
-/obj/structure/ledge/quarter{
-	dir = 8
-	},
-/turf/simulated/open,
-/area/sportsball2/library_cafe)
 "OG" = (
 /obj/structure/urban_grate,
 /turf/simulated/floor/sidewalk,
@@ -8682,6 +10492,16 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/quickeburger)
+"OS" = (
+/obj/effect/decal/fake_object{
+	density = 1;
+	desc = "A bland air conditioning unit.";
+	icon = 'icons/effects/city.dmi';
+	icon_state = "ac";
+	name = "AC unit"
+	},
+/turf/simulated/floor/asphalt,
+/area/sportsball2/metro)
 "OW" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/item/reagent_containers/food/snacks/sliceable/cheesewheel,
@@ -8769,6 +10589,22 @@
 	},
 /turf/simulated/floor/sidewalk/paved,
 /area/sportsball2/stadium_park)
+"Pk" = (
+/obj/structure/platform_deco/ledge,
+/obj/structure/platform_deco/ledge{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
+"Pm" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_lounge)
 "Pn" = (
 /obj/effect/floor_decal/big/ox_full,
 /turf/simulated/floor/asphalt,
@@ -8815,6 +10651,12 @@
 	},
 /turf/simulated/floor/exoplanet/grass/grove,
 /area/sportsball2/playing_field)
+"PG" = (
+/obj/structure/ledge/roof{
+	dir = 10
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/arcade)
 "PH" = (
 /obj/structure/table/stone/marble,
 /obj/item/reagent_containers/food/drinks/shaker{
@@ -8883,6 +10725,13 @@
 	},
 /turf/simulated/floor/sidewalk/paved,
 /area/space)
+"PX" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/sportsball2/custodial)
 "Qa" = (
 /obj/machinery/door/urban/glass_sliding/double{
 	dir = 1
@@ -8909,6 +10758,15 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/quickeburger_kitchen)
+"Qi" = (
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/obj/structure/rod_railing{
+	name = "imposing rod railing"
+	},
+/turf/simulated/floor/asphalt,
+/area/sportsball2/ox_storage_lot)
 "Qj" = (
 /obj/structure/platform/ledge{
 	dir = 4
@@ -8918,9 +10776,28 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/audience_seating)
+"Qk" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/ticket_line)
 "Ql" = (
 /obj/structure/chainlink_fence,
 /turf/simulated/floor/concrete,
+/area/sportsball2/ox_storage_lot)
+"Qm" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
 /area/space)
 "Qn" = (
 /obj/structure/table/rack/retail_shelf,
@@ -8940,6 +10817,12 @@
 	},
 /turf/simulated/floor/sidewalk/blocks,
 /area/sportsball2/stadium_park)
+"Qq" = (
+/obj/effect/floor_decal/corner/mauve{
+	dir = 5
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/vip_lounge)
 "Qr" = (
 /turf/simulated/floor/wood,
 /area/sportsball2/clothes_store)
@@ -8954,6 +10837,12 @@
 /obj/effect/floor_decal/corner/dark_blue/full,
 /turf/simulated/floor/tiled/dark,
 /area/sportsball2/security_office_carpark)
+"Qt" = (
+/obj/structure/ledge/roof/corner{
+	dir = 8
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "Qv" = (
 /obj/structure/urban_grate,
 /turf/simulated/floor/sidewalk,
@@ -8971,6 +10860,12 @@
 /obj/structure/road_sign/yield,
 /turf/simulated/floor/sidewalk,
 /area/space)
+"Qz" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/athlete_changing)
 "QF" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 6
@@ -8988,6 +10883,16 @@
 	},
 /turf/simulated/floor/sidewalk/blocks,
 /area/sportsball2/stadium_park)
+"QH" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 9
+	},
+/obj/machinery/power/apc/hyper/west,
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/warehouse_misc)
 "QI" = (
 /obj/effect/floor_decal/corner_wide/green/full,
 /obj/structure/table/reinforced/glass,
@@ -8997,17 +10902,26 @@
 /obj/item/device/healthanalyzer,
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/sports_clinic)
-"QL" = (
-/obj/structure/ledge/quarter{
+"QK" = (
+/obj/effect/floor_decal/corner/dark_green{
 	dir = 10
 	},
-/turf/simulated/open,
-/area/sportsball2/library_cafe)
+/obj/structure/sign/christmas/lights,
+/obj/machinery/computer/security/telescreen{
+	name = "Observation Screen";
+	network = list("Interrogation");
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/quickeburger)
 "QM" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/effect/ghostspawpoint{
 	identifier = "sportsball2_quickeburger";
 	name = "quickeburger spawn point"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/quickeburger_kitchen)
@@ -9060,6 +10974,12 @@
 /obj/item/melee/baton,
 /turf/simulated/floor/plating,
 /area/space)
+"QU" = (
+/obj/structure/ledge/roof{
+	dir = 10
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "QV" = (
 /obj/structure/chainlink_fence{
 	dir = 4
@@ -9137,6 +11057,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/east_hall)
+"Ri" = (
+/obj/effect/floor_decal/corner/paleblue/full{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/ticket_booth)
 "Rj" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/item/storage/box/produce{
@@ -9190,6 +11116,18 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/sportsball2/clothes_store)
+"Rl" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Staff Only";
+	req_one_access = list(35,25,26,28);
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
+/area/sportsball2/audience_seating)
 "Rm" = (
 /obj/structure/bed/stool/chair,
 /obj/structure/extinguisher_cabinet/north,
@@ -9248,8 +11186,25 @@
 /obj/item/device/binoculars,
 /obj/item/device/binoculars,
 /obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
 /turf/simulated/floor/tiled,
 /area/sportsball2/audience_seating)
+"RB" = (
+/obj/machinery/atm{
+	dir = 1;
+	pixel_y = 28
+	},
+/turf/simulated/floor/sidewalk/flat,
+/area/space)
 "RD" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/item/toy/football,
@@ -9279,6 +11234,15 @@
 	},
 /turf/simulated/floor/carpet/magenta,
 /area/sportsball2/clothes_store)
+"RL" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "RM" = (
 /obj/machinery/door/airlock{
 	dir = 4;
@@ -9307,6 +11271,15 @@
 "RR" = (
 /turf/simulated/wall,
 /area/sportsball2/ox_storage_lot)
+"RT" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 9
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/warehouse_misc)
 "RV" = (
 /obj/effect/decal/road_marking{
 	dir = 1
@@ -9374,6 +11347,24 @@
 /obj/structure/table/wood,
 /turf/simulated/floor/wood,
 /area/sportsball2/quickeburger)
+"Sh" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "12-0"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"Sk" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "Sl" = (
 /obj/structure/konyang_cliff{
 	icon_state = "cliff-east"
@@ -9455,6 +11446,12 @@
 	},
 /turf/simulated/floor/wood,
 /area/sportsball2/audience_lounge)
+"SA" = (
+/obj/effect/floor_decal/corner/paleblue/full{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/ticket_booth)
 "SD" = (
 /obj/machinery/light/small,
 /obj/structure/table/rack/retail_shelf,
@@ -9560,7 +11557,11 @@
 	dir = 1
 	},
 /turf/simulated/floor/concrete,
-/area/space)
+/area/sportsball2/ox_storage_lot)
+"SN" = (
+/obj/structure/ledge/roof,
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/metro)
 "SS" = (
 /obj/structure/sign/emergency/evacuation{
 	dir = 4
@@ -9580,6 +11581,15 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /turf/simulated/floor/lino,
 /area/sportsball2/quickeburger)
+"SW" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 6
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/ticket_line)
 "SX" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
@@ -9587,8 +11597,29 @@
 /obj/structure/bed/stool/chair/sofa/left/red{
 	dir = 1
 	},
+/obj/machinery/computer/security/telescreen{
+	name = "Observation Screen";
+	network = list("Interrogation");
+	pixel_y = -32
+	},
 /turf/simulated/floor/wood,
 /area/sportsball2/quickeburger)
+"SZ" = (
+/obj/machinery/power/fractal_reactor{
+	desc = "A connection point to the city's power grid.";
+	name = "Electrical Transformer"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"Tb" = (
+/obj/structure/ledge/roof{
+	dir = 9
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/arcade)
 "Tc" = (
 /obj/effect/floor_decal/corner/dark_green/full{
 	dir = 8
@@ -9627,11 +11658,58 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sportsball2/playing_field)
+"Tk" = (
+/obj/structure/ledge/roof{
+	dir = 6
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
+"Tl" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_lounge)
+"Tm" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Staff Only";
+	req_one_access = list(35,25,26,28)
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/warehouse_equipment)
+"Tp" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/ticket_booth)
+"Tq" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 9
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/ticket_line)
 "Tr" = (
 /obj/machinery/door/blast/shutters{
 	dir = 4
 	},
 /turf/unsimulated/mineral/konyang,
+/area/space)
+"Tt" = (
+/obj/machinery/atm{
+	dir = 1;
+	pixel_y = 28
+	},
+/turf/simulated/floor/exoplanet/konyang,
 /area/space)
 "Tu" = (
 /obj/effect/decal/curb{
@@ -9690,12 +11768,6 @@
 "TN" = (
 /turf/simulated/floor/exoplanet/dirt_konyang,
 /area/sportsball2/stadium_park)
-"TP" = (
-/obj/structure/ledge/quarter/corner{
-	dir = 4
-	},
-/turf/simulated/open,
-/area/sportsball2/library_cafe)
 "TQ" = (
 /obj/structure/utility_pole/street/on{
 	pixel_y = 24;
@@ -9729,6 +11801,9 @@
 /obj/effect/ghostspawpoint{
 	identifier = "sportsball2_janitor";
 	name = "janitor spawnpoint"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
 /area/sportsball2/custodial)
@@ -9769,12 +11844,23 @@
 	},
 /turf/simulated/wall,
 /area/sportsball2/custodial)
+"Ue" = (
+/obj/structure/ledge/roof,
+/obj/effect/decal/curb,
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/metro)
 "Uf" = (
 /obj/structure/chainlink_fence{
 	dir = 1
 	},
 /turf/simulated/floor/asphalt,
 /area/sportsball2/stadium_park)
+"Ui" = (
+/obj/effect/floor_decal/corner/paleblue/full{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/ticket_line)
 "Uk" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -9797,10 +11883,22 @@
 	},
 /turf/simulated/floor/exoplanet/water/shallow,
 /area/space)
+"Uo" = (
+/obj/structure/ledge/roof{
+	dir = 4
+	},
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
 "Up" = (
 /obj/machinery/door/airlock/glass_security{
 	dir = 4;
 	name = "Security Office"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/security_office)
@@ -9818,9 +11916,18 @@
 /obj/structure/automobile_filler,
 /turf/simulated/floor/asphalt,
 /area/sportsball2/stadium_park)
+"Uw" = (
+/turf/simulated/wall,
+/area/sportsball2/library_cafe)
 "Ux" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/machinery/disposal/small/south,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/quickeburger_kitchen)
 "UB" = (
@@ -9883,6 +11990,17 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/space)
+"UL" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 10
+	},
+/obj/machinery/computer/security/telescreen{
+	name = "Observation Screen";
+	network = list("Interrogation");
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/quickeburger)
 "UM" = (
 /obj/effect/decal/road_marking/center{
 	dir = 8;
@@ -9909,6 +12027,10 @@
 "UP" = (
 /obj/effect/floor_decal/corner_wide/red/full{
 	dir = 8
+	},
+/obj/machinery/power/apc/hyper/north,
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/security_office)
@@ -9978,6 +12100,12 @@
 	},
 /turf/simulated/floor/carpet/darkblue,
 /area/sportsball2/library_cafe)
+"Vj" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/ticket_line)
 "Vk" = (
 /obj/structure/railing/fence{
 	color = "90574b";
@@ -9997,6 +12125,9 @@
 /obj/machinery/door/airlock/glass_service{
 	dir = 1;
 	name = "Snack Stand"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/hotdog_stand)
@@ -10019,6 +12150,9 @@
 /obj/structure/bed/stool/chair{
 	dir = 8
 	},
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 6
+	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/ticket_line)
 "Vu" = (
@@ -10026,6 +12160,16 @@
 	dir = 9
 	},
 /obj/structure/closet,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
 /obj/item/device/binoculars,
 /obj/item/device/binoculars,
 /obj/item/device/binoculars,
@@ -10091,6 +12235,12 @@
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/simulated/floor/exoplanet/konyang,
 /area/sportsball2/stadium_park)
+"VI" = (
+/obj/structure/ledge/roof{
+	dir = 1
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/clothes_store)
 "VJ" = (
 /obj/structure/shipping_container{
 	icon_state = "red1"
@@ -10142,6 +12292,12 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sportsball2/stadium_park)
+"VS" = (
+/obj/structure/ledge/roof{
+	dir = 1
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
 "VU" = (
 /obj/effect/floor_decal/spline/plain/white{
 	dir = 1
@@ -10152,8 +12308,27 @@
 /turf/simulated/floor/asphalt,
 /area/sportsball2/stadium_park)
 "VW" = (
-/turf/unsimulated/wall/fakeairlock,
+/obj/machinery/door/airlock/engineering{
+	name = "Staff Only";
+	req_one_access = list(35,25,26,28);
+	dir = 4
+	},
+/turf/simulated/floor/plating,
 /area/sportsball2/vip_lounge)
+"VY" = (
+/obj/structure/bed/stool/chair/sofa/right/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/machinery/computer/security/telescreen{
+	name = "Observation Screen";
+	network = list("Interrogation");
+	pixel_x = -32
+	},
+/turf/simulated/floor/wood,
+/area/sportsball2/quickeburger)
 "VZ" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
@@ -10208,12 +12383,38 @@
 	},
 /turf/simulated/floor/wood,
 /area/sportsball2/clothes_store)
+"Wk" = (
+/obj/structure/platform_deco/ledge,
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
+"Wl" = (
+/obj/machinery/power/fractal_reactor{
+	desc = "A connection point to the city's power grid.";
+	name = "Electrical Transformer"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/arcade)
 "Wm" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 8
 	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/audience_lounge)
+"Wo" = (
+/obj/machinery/button/remote/blast_door{
+	id = "stadium_cargo";
+	name = "Equipment Shutters";
+	req_one_access = list(35,25,26,28);
+	pixel_y = -20
+	},
+/turf/simulated/floor/sidewalk/blocks,
+/area/sportsball2/stadium_park)
 "Wp" = (
 /obj/structure/table/steel,
 /obj/item/device/vending_refill/cola,
@@ -10227,6 +12428,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/warehouse_equipment)
+"Wr" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 9
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/athlete_changing)
 "Wt" = (
 /obj/structure/table/stone/marble,
 /turf/simulated/floor/carpet/red,
@@ -10281,18 +12491,6 @@
 	},
 /turf/simulated/floor/wood,
 /area/sportsball2/stadium_park)
-"WC" = (
-/obj/structure/platform_deco/ledge{
-	dir = 1
-	},
-/obj/machinery/light/colored/decayed{
-	pixel_y = -2
-	},
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 10
-	},
-/turf/simulated/floor/tiled,
-/area/sportsball2/audience_seating)
 "WE" = (
 /obj/structure/railing/fence{
 	color = "90574b";
@@ -10322,6 +12520,9 @@
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/security_office)
 "WK" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/security_office)
 "WL" = (
@@ -10349,6 +12550,12 @@
 /obj/structure/chainlink_fence,
 /turf/simulated/floor/exoplanet/konyang,
 /area/sportsball2/stadium_park)
+"WQ" = (
+/obj/structure/bed/stool/chair/fancy{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
 "WR" = (
 /turf/simulated/wall,
 /area/sportsball2/audience_lounge)
@@ -10359,6 +12566,9 @@
 /obj/machinery/door/airlock/glass_service{
 	dir = 4;
 	name = "Hydroponics"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/quickeburger_hydroponics)
@@ -10372,6 +12582,9 @@
 /obj/structure/platform,
 /turf/simulated/floor/sidewalk/paved,
 /area/space)
+"WZ" = (
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/arcade)
 "Xa" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 10
@@ -10477,6 +12690,30 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/sports_clinic)
+"Xn" = (
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/obj/machinery/camera/network/news{
+	dir = 4;
+	name = "stadium camera";
+	c_tag = "Stadium - West 2"
+	},
+/turf/simulated/floor/exoplanet/konyang,
+/area/sportsball2/playing_field)
+"Xp" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/quickeburger)
+"Xt" = (
+/obj/machinery/power/apc/hyper/east,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/library_cafe)
 "Xu" = (
 /obj/structure/table/rack/clothing{
 	dir = 4
@@ -10520,6 +12757,21 @@
 "Xx" = (
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/warehouse_equipment)
+"Xy" = (
+/obj/structure/platform/ledge{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/brown{
+	dir = 6
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/audience_seating)
+"Xz" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/audience_seating)
 "XA" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	name = "Weaponry (Practice Ammunition)";
@@ -10575,6 +12827,12 @@
 /obj/structure/boat,
 /turf/simulated/floor/exoplanet/water/shallow,
 /area/space)
+"XE" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/east_hall)
 "XF" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -10584,8 +12842,17 @@
 /area/sportsball2/quickeburger)
 "XH" = (
 /obj/structure/extinguisher_cabinet/west,
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 9
+	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/ticket_line)
+"XJ" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/audience_seating)
 "XK" = (
 /obj/structure/table/rack/clothing{
 	dir = 4
@@ -10625,6 +12892,17 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/sports_clinic)
+"XO" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Staff Only";
+	req_one_access = list(35,25,26,28)
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/sportsball2/custodial)
 "XQ" = (
 /obj/structure/shipping_container{
 	icon_state = "red1"
@@ -10640,6 +12918,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/sportsball2/quickeburger_kitchen)
+"XS" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/ticket_line)
 "XV" = (
 /obj/structure/bed/stool/chair/folding{
 	dir = 4
@@ -10653,12 +12937,26 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/sportsball2/vip_lounge)
+"Yc" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 5
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/quickeburger)
 "Yd" = (
 /obj/structure/bed/stool/chair/sofa/right/red{
 	dir = 8
 	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
+	},
+/obj/machinery/computer/security/telescreen{
+	name = "Observation Screen";
+	network = list("Interrogation");
+	pixel_x = 32
 	},
 /turf/simulated/floor/wood,
 /area/sportsball2/quickeburger)
@@ -10701,6 +12999,15 @@
 /obj/item/device/price_scanner,
 /turf/simulated/floor/wood,
 /area/sportsball2/clothes_store)
+"Yq" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 1
+	},
+/obj/machinery/atm{
+	pixel_y = -8
+	},
+/turf/simulated/floor/wood,
+/area/sportsball2/library_cafe)
 "Yr" = (
 /obj/structure/platform_deco{
 	dir = 8
@@ -10728,6 +13035,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sportsball2/ticket_line)
+"YA" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/full,
+/area/sportsball2/audience_lounge)
 "YB" = (
 /turf/simulated/floor/asphalt,
 /area/sportsball2/library_cafe)
@@ -10824,6 +13137,18 @@
 "YP" = (
 /turf/simulated/floor/carpet/magenta,
 /area/sportsball2/clothes_store)
+"YQ" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Staff Only";
+	req_one_access = list(35,25,26,28);
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/sportsball2/custodial)
 "YR" = (
 /obj/effect/map_effect/window_spawner/full/wood,
 /turf/simulated/floor/concrete,
@@ -10838,6 +13163,13 @@
 	},
 /turf/simulated/floor/wood,
 /area/sportsball2/audience_lounge)
+"YU" = (
+/obj/effect/floor_decal/corner/blue/diagonal,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/white,
+/area/sportsball2/athlete_showers)
 "YW" = (
 /obj/structure/trash_pile,
 /turf/simulated/floor/exoplanet/asphalt,
@@ -10856,6 +13188,12 @@
 	},
 /turf/simulated/floor/exoplanet/water/shallow,
 /area/space)
+"Zd" = (
+/obj/structure/ledge/roof{
+	dir = 4
+	},
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
 "Ze" = (
 /obj/effect/decal/road_marking{
 	dir = 4
@@ -10950,12 +13288,39 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/space)
+"Zu" = (
+/obj/structure/ledge/roof,
+/obj/effect/decal/curb,
+/turf/simulated/floor/roofing_tiles,
+/area/sportsball2/ox_storage_lot)
+"Zv" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/structure/utility_pole/street/on{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/konyang,
+/area/space)
 "Zw" = (
 /obj/effect/decal/curb/corner{
 	dir = 4
 	},
 /turf/simulated/floor/roofing_tiles,
 /area/sportsball2/library_cafe)
+"Zy" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/sportsball2/lobby)
+"Zz" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/plating,
+/area/sportsball2/custodial)
 "ZB" = (
 /obj/effect/floor_decal/industrial/outline_straight/yellow{
 	dir = 4
@@ -11050,6 +13415,10 @@
 	},
 /turf/simulated/floor/sidewalk/paved,
 /area/sportsball2/stadium_park)
+"ZV" = (
+/obj/structure/crane,
+/turf/simulated/floor/concrete,
+/area/sportsball2/ox_storage_lot)
 "ZW" = (
 /obj/effect/decal/road_marking/thin{
 	dir = 8
@@ -42635,7 +45004,7 @@ fA
 fA
 Lb
 ac
-GK
+Yq
 xL
 Ep
 JT
@@ -61075,7 +63444,7 @@ CP
 zW
 TS
 qu
-vh
+RB
 oO
 aY
 ne
@@ -62232,11 +64601,11 @@ QN
 WR
 WR
 WR
+Ow
+Ow
 WR
-WR
-WR
-WR
-WR
+Ow
+Ow
 WR
 WR
 WR
@@ -62628,14 +64997,14 @@ Xx
 aG
 Xx
 aG
-Pa
-QR
+yL
+Tm
 uE
 ro
-QR
-cQ
-NS
-vo
+Tm
+yW
+YA
+BI
 gL
 MM
 dW
@@ -62830,14 +65199,14 @@ Xx
 aG
 Xx
 aG
-Pa
+BN
 QN
 WR
 WR
 WR
 pI
 NS
-vo
+Pm
 xu
 ki
 aa
@@ -63217,44 +65586,44 @@ en
 en
 en
 en
-en
-en
-en
-en
-en
+QH
+RT
+RT
+RT
+RT
 si
 QN
-VA
-Xx
-Xx
-Xx
-Xx
-Xx
-Xx
-Xx
-Xx
-Xx
-Xx
+sk
+Eb
+Eb
+Eb
+Eb
+Eb
+Eb
+Eb
+Eb
+Eb
+Kr
 up
 WR
 NS
 sf
 vR
 NJ
-aI
-NS
-NS
-NS
-NS
-NS
-NS
-vo
+Tl
+YA
+YA
+YA
+YA
+YA
+YA
+Ah
 WR
 Ed
 ZR
 eY
-dI
-dI
+FK
+dV
 la
 la
 la
@@ -63412,7 +65781,7 @@ qs
 qs
 qs
 kK
-kK
+Wo
 CK
 bC
 CM
@@ -63424,9 +65793,9 @@ BV
 CM
 BV
 CM
-Gr
-QR
-VA
+rN
+Tm
+hu
 Xx
 Xx
 Xx
@@ -63450,13 +65819,13 @@ NS
 NS
 NS
 NS
-vo
+fs
 WR
 OK
 RM
 eY
 eY
-yX
+Nb
 eY
 eY
 eY
@@ -63656,12 +66025,12 @@ gr
 lZ
 zK
 sp
-sp
-sp
-sp
-sp
+Tq
+Tq
+iO
+Tq
 XH
-sp
+Tq
 sp
 Np
 Fc
@@ -63854,22 +66223,22 @@ NS
 NS
 NS
 NS
-vo
+Pm
 Ow
-sp
+rC
 ti
 ti
 ti
-ti
+nC
 ti
 ti
 ti
 ti
 Sp
+cB
 Yy
 Yy
-Yy
-Yy
+yt
 Nz
 qs
 qs
@@ -64056,22 +66425,22 @@ JU
 JU
 JU
 aI
-vo
+gR
 Oa
 sp
 ti
 ti
 ti
+nC
 ti
 ti
 ti
 ti
 ti
+nC
 ti
 ti
-ti
-ti
-sp
+LT
 Nz
 qs
 qs
@@ -64258,22 +66627,22 @@ sn
 uc
 Sq
 cQ
-vo
-NS
-sp
+fJ
+YA
+XS
+He
+He
+He
+Lx
+He
+He
+He
+He
+He
+Gt
+Qk
 ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-ti
-sp
+LT
 Nz
 qs
 qs
@@ -64422,9 +66791,9 @@ qs
 qs
 kK
 kK
-kK
-gD
-sW
+Wo
+CK
+bC
 Qn
 BV
 US
@@ -64462,18 +66831,18 @@ Lg
 cQ
 vo
 Ow
-sp
+rC
+ti
+ti
+ti
+nC
 ti
 ti
 ti
 ti
 ti
 ti
-ti
-ti
-ti
-ti
-ti
+nC
 ti
 zC
 bt
@@ -64625,7 +66994,7 @@ qs
 kK
 kK
 cf
-CK
+gD
 dm
 RN
 RN
@@ -64651,8 +67020,8 @@ Pe
 lo
 WR
 OB
-JU
-JU
+qz
+qz
 JU
 JU
 ya
@@ -64665,18 +67034,18 @@ OB
 ya
 WR
 me
-sp
+Lc
 Vt
 Vt
-sp
-sp
-sp
-sp
+SW
+Lc
+Lc
+Vj
 ti
 ti
 ti
-bt
-bt
+nC
+Cb
 bt
 bt
 lj
@@ -64858,11 +67227,11 @@ Rv
 KK
 WR
 WR
+Ow
+Ow
 WR
-WR
-WR
-WR
-WR
+Ow
+Ow
 WR
 WR
 WR
@@ -64873,13 +67242,13 @@ aH
 xW
 lO
 SS
-sp
+rC
 ti
 ti
 ti
+nC
 ti
-ti
-sp
+LT
 Jc
 Nz
 qs
@@ -65029,19 +67398,19 @@ qs
 kK
 kK
 oG
-WS
-WS
-WS
-WS
-WS
-WS
-oG
 If
 If
 If
 If
 If
-oG
+If
+If
+If
+If
+If
+If
+If
+If
 fS
 gK
 gK
@@ -65071,8 +67440,8 @@ lO
 lO
 nO
 lO
-yy
-yy
+eL
+Tp
 yy
 RZ
 Ot
@@ -65081,7 +67450,7 @@ kl
 uy
 De
 ti
-sp
+LT
 Hk
 Nz
 qs
@@ -65231,19 +67600,19 @@ qs
 kK
 kK
 oG
-WS
-WS
-WS
-WS
-WS
-WS
-oG
+If
 If
 If
 If
 If
 If
 oG
+oG
+oG
+If
+If
+If
+If
 gK
 gK
 xH
@@ -65275,15 +67644,15 @@ lO
 CX
 MR
 Ag
-yy
+qD
 gi
 yU
 ZB
 QZ
 Fp
+nC
 ti
-ti
-sp
+LT
 Hk
 Nz
 qs
@@ -65433,18 +67802,18 @@ qs
 kK
 kK
 oG
-WS
-WS
-WS
-WS
-WS
-WS
+If
+If
+If
+If
+If
+If
 oG
+Sh
 oG
-oG
-oG
-oG
-oG
+If
+If
+If
 oG
 gK
 xH
@@ -65456,6 +67825,7 @@ xH
 xH
 xH
 PP
+bx
 PP
 PP
 PP
@@ -65463,8 +67833,7 @@ PP
 PP
 PP
 PP
-PP
-PP
+Xn
 PP
 xH
 xH
@@ -65477,15 +67846,15 @@ lO
 zP
 Ar
 Ag
-yy
+qD
 RZ
-sp
+rC
 ti
 ti
 ti
+nC
 ti
-ti
-sp
+LT
 Hk
 bt
 qs
@@ -65635,18 +68004,18 @@ qs
 kK
 kK
 oG
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+If
+If
+If
+If
+If
+If
+oG
+xF
+oG
+If
+If
+If
 oG
 xH
 xH
@@ -65679,15 +68048,15 @@ xH
 As
 cp
 Ag
-yy
+qD
 gi
 yU
 qw
 Ye
 Dx
+nC
 ti
-ti
-sp
+LT
 ti
 Nz
 qs
@@ -65837,18 +68206,18 @@ qs
 kK
 kK
 oG
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+If
+If
+If
+If
+oG
+oG
+oG
+xF
+oG
+oG
+oG
+If
 oG
 xH
 xH
@@ -65881,7 +68250,7 @@ ZH
 zP
 fZ
 Ag
-yy
+qD
 RZ
 Ot
 Zg
@@ -65889,7 +68258,7 @@ MK
 Zg
 De
 ti
-sp
+LT
 Hk
 Nz
 qs
@@ -66039,18 +68408,18 @@ qs
 kK
 kK
 oG
+If
+If
+oG
+oG
+oG
+lq
+Ae
+LO
 WS
 WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+oG
+If
 oG
 ZH
 xH
@@ -66081,17 +68450,17 @@ xH
 xH
 ZH
 zP
-yy
-yy
-yy
+SA
+aK
+Ri
 RZ
+ES
+Lc
+Lc
+Lc
+iO
 sp
-sp
-sp
-sp
-sp
-sp
-sp
+Ui
 zC
 Nz
 qs
@@ -66241,12 +68610,12 @@ Ng
 kK
 kK
 oG
-WS
-WS
-WS
-WS
-WS
-WS
+If
+If
+oG
+lq
+Ae
+LO
 uK
 uK
 uK
@@ -66291,7 +68660,7 @@ AW
 aP
 aP
 aP
-oN
+hG
 rt
 aP
 aP
@@ -66443,10 +68812,10 @@ Ng
 kK
 kK
 oG
-WS
-WS
-WS
-WS
+If
+If
+oG
+is
 uK
 uK
 uK
@@ -66459,7 +68828,7 @@ uK
 xH
 ZH
 xH
-pU
+JS
 xH
 js
 rk
@@ -66480,7 +68849,7 @@ rk
 rk
 yd
 xH
-HX
+ut
 xH
 xH
 xH
@@ -66493,13 +68862,13 @@ aE
 aP
 Ln
 vn
-vn
+Zy
 vn
 vn
 ar
 Ce
 mM
-mM
+Hh
 kK
 kK
 qs
@@ -66645,10 +69014,10 @@ Ng
 kK
 kK
 oG
-WS
-WS
-WS
-WS
+If
+If
+oG
+is
 hx
 dy
 Lw
@@ -66695,7 +69064,7 @@ yF
 aP
 zT
 vn
-oN
+hG
 oN
 vn
 vn
@@ -66847,16 +69216,16 @@ Ng
 kK
 kK
 oG
-WS
-WS
-WS
-WS
+If
+If
+oG
+is
 uK
 Lk
 az
 EU
 ST
-Lk
+hW
 Lk
 zF
 iJ
@@ -66897,7 +69266,7 @@ Xa
 aP
 Ak
 oN
-oN
+hG
 oN
 oN
 vn
@@ -67049,16 +69418,16 @@ Ng
 kK
 kK
 oG
-WS
-WS
-WS
-WS
+If
+If
+oG
+is
 uK
 Jy
 It
 Es
 Es
-Lk
+Qq
 Lk
 zF
 yZ
@@ -67099,13 +69468,13 @@ Xa
 aP
 Rm
 oN
-oN
+hG
 oN
 oN
 CA
 Ce
 mM
-mM
+Hh
 kK
 kK
 kK
@@ -67251,16 +69620,16 @@ Ng
 kK
 kK
 oG
-WS
-WS
-WS
-WS
+If
+If
+oG
+is
 uK
 Ok
 Ch
 ln
 ln
-Lk
+Qq
 Lk
 zF
 Lk
@@ -67301,7 +69670,7 @@ Xa
 aP
 zT
 oN
-oN
+hG
 oN
 oN
 vn
@@ -67453,16 +69822,16 @@ Ng
 kK
 kK
 oG
-WS
-WS
-WS
-WS
+If
+If
+oG
+is
 Mz
 Lk
 az
 bN
 UG
-Lk
+LH
 Lk
 zF
 iJ
@@ -67503,7 +69872,7 @@ nN
 aP
 zT
 vn
-oN
+hG
 oN
 vn
 vn
@@ -67655,10 +70024,10 @@ Ng
 kK
 kK
 oG
-WS
-WS
-WS
-WS
+If
+If
+oG
+is
 uK
 do
 jq
@@ -67671,7 +70040,7 @@ iJ
 ZH
 xH
 xH
-pU
+hd
 xH
 PE
 EX
@@ -67705,13 +70074,13 @@ AW
 aP
 EV
 vn
-vn
+Zy
 vn
 vn
 eo
 Ce
 mM
-mM
+Hh
 kK
 kK
 qs
@@ -67857,10 +70226,10 @@ Ng
 kK
 kK
 oG
-WS
-WS
-WS
-WS
+If
+If
+oG
+is
 uK
 uK
 uK
@@ -67894,20 +70263,20 @@ rk
 rk
 yd
 xH
-HX
+Al
 xH
 xH
 xH
 Nc
 LS
-JY
+jk
 oB
 Nc
 hL
 aP
 aP
 aP
-oN
+hG
 rt
 aP
 aP
@@ -68059,10 +70428,10 @@ Ng
 kK
 kK
 oG
-WS
-WS
-WS
-WS
+If
+oG
+oG
+is
 WS
 WS
 uK
@@ -68102,17 +70471,17 @@ xH
 ZH
 Nc
 Kj
-JY
+tI
 Hp
 Nc
 im
 jj
 qg
 qh
-So
+Yc
 Ee
 Sf
-sj
+VY
 HT
 qs
 qs
@@ -68261,18 +70630,18 @@ qs
 kK
 kK
 oG
+If
+oG
+WS
+is
 WS
 WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+oG
+If
+If
+If
+If
+If
 oG
 xH
 xH
@@ -68304,14 +70673,14 @@ xH
 ZH
 Nc
 ni
-JY
+tI
 JY
 ah
 jK
 OQ
 qg
 ha
-So
+Yc
 Ee
 hU
 ep
@@ -68463,18 +70832,18 @@ qs
 kK
 kK
 oG
+If
+oG
+WS
+is
 WS
 WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+oG
+If
+If
+If
+If
+If
 oG
 xH
 xH
@@ -68506,17 +70875,17 @@ ZH
 ZH
 Nc
 aV
-JY
+tI
 aJ
 Nc
 wo
 Io
 kb
 qh
-So
+Yc
 Ee
 Yd
-pQ
+oS
 HT
 qs
 Zl
@@ -68668,7 +71037,7 @@ Dw
 Dw
 Ud
 Dw
-Dw
+YQ
 Dw
 Dw
 Dw
@@ -68708,14 +71077,14 @@ ZH
 ZH
 Nc
 OW
-JY
+tI
 kh
 Nc
 MT
-jK
+rP
 OQ
 qh
-So
+Yc
 Ee
 qh
 qh
@@ -68869,7 +71238,7 @@ kK
 Dw
 Eo
 MY
-Eo
+zz
 oc
 Ww
 ji
@@ -68890,6 +71259,7 @@ xH
 xH
 nD
 al
+hf
 al
 al
 al
@@ -68897,8 +71267,7 @@ al
 al
 al
 al
-al
-al
+iF
 al
 al
 xH
@@ -68917,7 +71286,7 @@ hL
 WU
 hL
 qh
-wX
+II
 Ee
 Sf
 sj
@@ -69072,16 +71441,16 @@ lF
 WF
 WF
 WF
-WF
-WF
-WF
-lF
-WF
-WF
+Zz
+sV
+sV
+XO
+sV
+sV
 TV
 TV
-WF
-WF
+sV
+PX
 Dw
 Dw
 xH
@@ -69112,14 +71481,14 @@ eb
 eb
 qL
 Xc
-uw
+bG
 tY
 Yg
 Qe
-uw
+bG
 wI
 eb
-So
+cn
 Ee
 hU
 ep
@@ -69283,8 +71652,8 @@ MS
 Wp
 SG
 Eo
-WF
-WF
+Zz
+PX
 Dw
 gK
 xH
@@ -69314,14 +71683,14 @@ eb
 et
 uw
 uw
+bG
 uw
 uw
 uw
-uw
-uw
+bG
 uw
 wp
-So
+Yc
 Ee
 Yd
 pQ
@@ -69513,17 +71882,17 @@ HT
 qh
 eb
 WH
-uw
-uw
-NI
+fn
+IG
+vl
 Ux
-uw
-uw
+IG
+IG
 QM
-uw
-uw
+Im
+IG
 Kh
-So
+wj
 Ee
 qh
 qh
@@ -69688,7 +72057,7 @@ Cz
 Cz
 QI
 DF
-Gc
+xE
 fj
 oY
 du
@@ -69883,23 +72252,23 @@ hc
 JF
 XN
 fT
-Pc
-nv
-Os
-Os
-nv
-ci
-We
-nB
-Hc
-YE
-iv
-nB
-Hc
-Hc
-Hc
-Hc
-Hc
+zM
+yV
+IQ
+IQ
+yV
+jG
+qy
+jh
+rK
+pJ
+GN
+hw
+Nx
+rK
+Nx
+Nx
+XE
 YE
 kd
 mh
@@ -69907,9 +72276,9 @@ lS
 XF
 Sg
 YF
-So
+nm
 qh
-Ee
+UL
 XF
 Sg
 YF
@@ -70098,10 +72467,10 @@ YE
 HP
 nB
 Hc
+nY
 Hc
 Hc
-Hc
-Hc
+nY
 YE
 kd
 OR
@@ -70129,7 +72498,7 @@ AK
 AK
 AK
 Ty
-So
+Yc
 Ee
 tp
 HT
@@ -70295,15 +72664,15 @@ nv
 ci
 We
 nB
-Hc
+nY
 YE
 iv
 nB
 Hc
+nY
 Hc
 Hc
-Hc
-Hc
+nY
 YE
 kd
 Au
@@ -70311,9 +72680,9 @@ lS
 XF
 Sg
 YF
-So
+Fw
 qh
-Ee
+mG
 XF
 Sg
 YF
@@ -70331,7 +72700,7 @@ SV
 Bl
 Bl
 UZ
-So
+Yc
 Ee
 aF
 HT
@@ -70497,15 +72866,15 @@ HC
 ET
 DF
 dJ
-Rh
+Ji
 Nm
 kd
 dJ
 Rh
+Ji
 Rh
 Rh
-Rh
-Rh
+Ji
 Nm
 kd
 yA
@@ -70533,8 +72902,8 @@ gp
 Tc
 TD
 TD
-hs
-Cx
+Df
+QK
 qh
 qh
 qs
@@ -70704,10 +73073,10 @@ Vz
 KF
 KF
 pw
-pw
+Nw
 KF
 Dn
-Hd
+Bj
 Hd
 kd
 wt
@@ -70715,9 +73084,9 @@ lS
 XF
 Sg
 YF
-So
+nm
 qh
-Ee
+UL
 XF
 Sg
 YF
@@ -70735,7 +73104,7 @@ gp
 So
 cS
 cS
-cS
+vz
 Ee
 Sa
 HT
@@ -70901,18 +73270,18 @@ LP
 Lp
 Vz
 Ra
-LP
+YU
 zR
 KF
 BZ
 th
-th
+Wr
 YK
 KF
-Gc
+xE
 oY
 kd
-Zh
+nz
 wu
 Ib
 Uk
@@ -70937,7 +73306,7 @@ UZ
 So
 cS
 cS
-cS
+vz
 Ee
 tp
 HT
@@ -71103,7 +73472,7 @@ LP
 Lp
 Vz
 Ra
-LP
+YU
 LP
 KF
 Cp
@@ -71111,7 +73480,7 @@ Gg
 FP
 qM
 KF
-nB
+Dt
 YE
 du
 Tc
@@ -71128,7 +73497,7 @@ TD
 TD
 TD
 TD
-TD
+IA
 TD
 TD
 TD
@@ -71139,7 +73508,7 @@ TD
 hs
 cS
 cS
-Gk
+IX
 iD
 RP
 HT
@@ -71305,7 +73674,7 @@ LP
 LP
 HA
 LP
-LP
+YU
 LP
 KF
 Cp
@@ -71313,35 +73682,35 @@ Gg
 FP
 ny
 KF
-nB
-YE
-Ab
-So
-cS
-cS
-cS
-cS
-cS
-cS
-cS
-cS
-cS
-cS
-cS
-cS
-cS
-cS
-cS
-cS
-cS
-cS
-cS
-cS
-cS
-cS
-cS
-Gk
-iD
+Fj
+pJ
+BQ
+rl
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+mv
+fN
 Th
 qh
 qh
@@ -71506,13 +73875,13 @@ xJ
 LP
 Lp
 Vz
-LP
-LP
+FY
+Ha
 LP
 KF
 Cp
 Gg
-Gg
+Qz
 ny
 KF
 nB
@@ -71539,7 +73908,7 @@ AQ
 pK
 pK
 pK
-pK
+nG
 pK
 pK
 iD
@@ -71714,7 +74083,7 @@ oy
 KF
 Cp
 Gg
-Gg
+Qz
 ny
 KF
 nB
@@ -78223,7 +80592,7 @@ ga
 ga
 ga
 Jp
-ce
+Tt
 oO
 oO
 ce
@@ -78425,7 +80794,7 @@ TU
 TU
 TU
 TU
-TU
+yn
 oO
 oO
 TU
@@ -78437,7 +80806,7 @@ TU
 oO
 oO
 oO
-TU
+yn
 TU
 TU
 TU
@@ -79205,7 +81574,7 @@ mQ
 yS
 yS
 yS
-oM
+DB
 PI
 PI
 PI
@@ -79217,7 +81586,7 @@ PI
 PI
 PI
 PI
-PI
+Zv
 PI
 PI
 PI
@@ -79565,10 +81934,10 @@ qH
 wm
 ce
 SM
-tm
-nu
-nu
-tm
+ZV
+ej
+ej
+ZV
 Ql
 ce
 ce
@@ -81435,7 +83804,7 @@ sO
 ty
 YM
 YM
-Lf
+YM
 YM
 YM
 YM
@@ -96233,6 +98602,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -96243,19 +98625,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -96435,6 +98804,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -96445,19 +98827,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -96637,6 +99006,19 @@ YM
 YM
 YM
 YM
+my
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+uL
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -96647,19 +99029,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -96851,17 +99220,17 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -97053,17 +99422,17 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -97243,6 +99612,19 @@ YM
 YM
 YM
 YM
+hO
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+hb
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -97253,19 +99635,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -97445,6 +99814,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -97455,19 +99837,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -97647,6 +100016,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -97657,19 +100039,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -97849,6 +100218,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -97859,19 +100241,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -98051,6 +100420,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -98061,19 +100443,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -98253,6 +100622,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -98263,19 +100645,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -98455,6 +100824,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -98465,19 +100847,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -98657,6 +101026,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -98667,19 +101049,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -98859,6 +101228,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -98869,19 +101251,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -99061,6 +101430,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -99071,19 +101453,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -99263,6 +101632,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -99273,19 +101655,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -99465,6 +101834,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -99475,19 +101857,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -99667,6 +102036,19 @@ YM
 YM
 YM
 YM
+my
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+uL
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -99677,19 +102059,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -99881,17 +102250,17 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -100083,17 +102452,17 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -100168,6 +102537,11 @@ YM
 YM
 YM
 YM
+hO
+Bg
+Bg
+Bg
+hb
 YM
 YM
 YM
@@ -100268,11 +102642,19 @@ YM
 YM
 YM
 YM
+hO
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+hb
 YM
 YM
-YM
-YM
-YM
+FW
 Wv
 Wv
 Wv
@@ -100283,19 +102665,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -100370,6 +102739,11 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+DE
 YM
 YM
 YM
@@ -100470,11 +102844,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
 YM
 YM
-YM
-YM
-YM
+FW
 Wv
 Wv
 Wv
@@ -100485,19 +102867,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -100572,6 +102941,11 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+DE
 YM
 YM
 YM
@@ -100672,11 +103046,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
 YM
 YM
-YM
-YM
-YM
+FW
 Wv
 Wv
 Wv
@@ -100687,19 +103069,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -100774,6 +103143,11 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+DE
 YM
 YM
 YM
@@ -100874,11 +103248,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
 YM
 YM
-YM
-YM
-YM
+FW
 Wv
 Wv
 Wv
@@ -100889,19 +103271,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -100976,6 +103345,11 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+DE
 YM
 YM
 YM
@@ -101076,11 +103450,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
 YM
 YM
-YM
-YM
-YM
+FW
 Wv
 Wv
 Wv
@@ -101091,19 +103473,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -101178,6 +103547,11 @@ YM
 YM
 YM
 YM
+my
+AU
+AU
+AU
+uL
 YM
 YM
 YM
@@ -101278,11 +103652,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
 YM
 YM
-YM
-YM
-YM
+FW
 Wv
 Wv
 Wv
@@ -101293,19 +103675,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -101485,6 +103854,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -101495,19 +103877,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -101687,6 +104056,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -101697,19 +104079,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -101889,6 +104258,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -101899,19 +104281,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -102091,6 +104460,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -102101,19 +104483,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -102293,6 +104662,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -102303,19 +104685,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -102495,6 +104864,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -102505,19 +104887,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -102697,6 +105066,19 @@ YM
 YM
 YM
 YM
+my
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+uL
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -102707,19 +105089,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -102911,17 +105280,17 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -103023,10 +105392,10 @@ WS
 WS
 gS
 CE
-cM
-cM
+oR
+oR
 Vn
-kO
+Sk
 hB
 hB
 hB
@@ -103113,17 +105482,17 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -103228,7 +105597,7 @@ NF
 cM
 cM
 zZ
-kO
+rI
 hB
 hB
 hB
@@ -103303,19 +105672,19 @@ YM
 YM
 YM
 YM
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
+hO
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+hb
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -103430,7 +105799,7 @@ Ax
 cM
 cM
 zZ
-kO
+rI
 hB
 hB
 hB
@@ -103505,6 +105874,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -103513,11 +105883,10 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -103632,7 +106001,7 @@ Ax
 cM
 yj
 Ox
-kO
+rI
 hB
 hB
 hB
@@ -103707,6 +106076,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -103715,11 +106085,10 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -103909,6 +106278,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -103917,11 +106287,10 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -104036,7 +106405,7 @@ Ey
 KA
 KA
 KA
-AG
+RL
 hB
 hB
 hB
@@ -104111,6 +106480,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -104119,11 +106489,10 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -104231,14 +106600,14 @@ WS
 WS
 WS
 WS
-WS
-WS
+oG
+oG
 BU
-kO
+kX
 hB
 hB
 hB
-hB
+wq
 hB
 hB
 hB
@@ -104313,6 +106682,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -104321,11 +106691,10 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -104433,14 +106802,14 @@ WS
 WS
 WS
 WS
-WS
-WS
-BU
-kO
-hB
-hB
-hB
-hB
+oG
+qQ
+Rl
+xI
+XJ
+XJ
+XJ
+Xz
 hB
 hB
 hB
@@ -104515,6 +106884,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -104523,11 +106893,10 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -104635,8 +107004,8 @@ WS
 WS
 WS
 WS
-WS
-WS
+oG
+xF
 BU
 kO
 hB
@@ -104717,6 +107086,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -104725,11 +107095,10 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -104837,8 +107206,8 @@ WS
 WS
 WS
 WS
-WS
-WS
+oG
+xF
 BU
 sB
 HQ
@@ -104919,6 +107288,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -104927,11 +107297,10 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -105039,8 +107408,8 @@ WS
 WS
 WS
 WS
-WS
-WS
+oG
+xF
 BU
 rM
 VE
@@ -105121,6 +107490,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -105129,11 +107499,10 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -105241,8 +107610,8 @@ WS
 WS
 WS
 WS
-WS
-WS
+oG
+xF
 BU
 nU
 Iu
@@ -105323,6 +107692,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -105331,11 +107701,10 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -105443,8 +107812,8 @@ WS
 WS
 WS
 WS
-WS
-WS
+oG
+xF
 BU
 rM
 VE
@@ -105525,6 +107894,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -105533,11 +107903,10 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -105636,17 +108005,17 @@ WS
 WS
 WS
 WS
+oG
+oG
+oG
+oG
+oG
 WS
 WS
 WS
 WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+oG
+xF
 BU
 nU
 Iu
@@ -105727,6 +108096,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -105735,11 +108105,10 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -105837,18 +108206,18 @@ oG
 WS
 WS
 WS
+oG
+oG
+eu
+oG
+zl
+oG
+oG
+oG
 WS
 WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+oG
+xF
 BU
 rM
 VE
@@ -105873,9 +108242,9 @@ DD
 rM
 VE
 BU
-WS
-WS
-WS
+BU
+BU
+BU
 WS
 WS
 WS
@@ -105929,6 +108298,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -105937,11 +108307,10 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -106039,18 +108408,18 @@ oG
 WS
 WS
 WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+oG
+ja
+vD
+JE
+Qm
+Bx
+Dq
+oG
+oG
+oG
+oG
+xF
 BU
 zt
 Iu
@@ -106073,11 +108442,11 @@ wb
 wb
 wb
 EO
-WC
+Iu
+EO
+HQ
+HQ
 BU
-WS
-WS
-WS
 WS
 WS
 WS
@@ -106131,6 +108500,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -106139,11 +108509,10 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -106241,18 +108610,18 @@ oG
 WS
 WS
 WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+oG
+oG
+SZ
+oG
+xF
+oG
+kF
+Bx
+Bx
+Bx
+Bx
+at
 BU
 mu
 hD
@@ -106275,11 +108644,11 @@ hD
 hD
 hD
 hD
-BB
+hD
+YI
+Oy
+HQ
 BU
-WS
-WS
-WS
 WS
 WS
 WS
@@ -106333,6 +108702,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -106341,11 +108711,10 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -106447,7 +108816,7 @@ WS
 uK
 uK
 uK
-uK
+ge
 uK
 uK
 uK
@@ -106479,22 +108848,22 @@ iu
 iu
 iu
 oG
+kO
+Wk
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+WS
+WS
+WS
+WS
 oG
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-oG
 YM
 YM
 YM
@@ -106535,29 +108904,29 @@ YM
 YM
 YM
 YM
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
+my
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+uL
 YM
 YM
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
+my
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
 YM
 YM
 YM
@@ -106648,8 +109017,8 @@ WS
 WS
 uK
 FD
-FD
-FD
+xZ
+gF
 FD
 FD
 FD
@@ -106680,18 +109049,18 @@ YM
 YM
 YM
 YM
-YM
-oG
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+if
+kO
+Gi
+WQ
+yN
+WQ
+ed
+WQ
+Ey
+KA
+IR
+BU
 WS
 WS
 WS
@@ -106882,18 +109251,18 @@ YM
 YM
 YM
 YM
-YM
-oG
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+if
+kO
+Gi
+WQ
+yN
+WQ
+ed
+WQ
+kO
+hB
+he
+BU
 WS
 WS
 WS
@@ -107084,18 +109453,18 @@ YM
 YM
 YM
 YM
-YM
-oG
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+if
+kO
+na
+vX
+na
+vX
+na
+vX
+HQ
+hB
+he
+BU
 WS
 WS
 WS
@@ -107286,18 +109655,18 @@ YM
 YM
 YM
 YM
-YM
-oG
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+if
+kO
+Gi
+WQ
+yN
+WQ
+ed
+WQ
+kO
+hB
+he
+BU
 WS
 WS
 WS
@@ -107488,18 +109857,18 @@ YM
 YM
 YM
 YM
-YM
-oG
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+if
+kO
+Gi
+WQ
+yN
+WQ
+ed
+WQ
+kO
+hB
+he
+BU
 WS
 WS
 WS
@@ -107690,18 +110059,18 @@ YM
 YM
 YM
 YM
-YM
-oG
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+if
+kO
+Gi
+WQ
+yN
+WQ
+ed
+WQ
+kO
+hB
+he
+BU
 WS
 WS
 WS
@@ -107892,18 +110261,18 @@ YM
 YM
 YM
 YM
-YM
-oG
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+if
+kO
+Gi
+WQ
+yN
+WQ
+ed
+WQ
+kO
+hB
+he
+BU
 WS
 WS
 WS
@@ -108094,18 +110463,18 @@ YM
 YM
 YM
 YM
-YM
-oG
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+if
+kO
+na
+vX
+na
+vX
+na
+vX
+HQ
+hB
+he
+BU
 WS
 WS
 WS
@@ -108296,18 +110665,18 @@ YM
 YM
 YM
 YM
-YM
-oG
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+if
+kO
+Gi
+WQ
+yN
+WQ
+ed
+WQ
+kO
+hB
+he
+BU
 WS
 WS
 WS
@@ -108498,23 +110867,23 @@ YM
 YM
 YM
 YM
-YM
+if
+kO
+Gi
+WQ
+yN
+WQ
+ed
+WQ
+ex
+YI
+FV
+BU
+WS
+WS
+WS
+WS
 oG
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-oG
 YM
 YM
 YM
@@ -108555,29 +110924,29 @@ YM
 YM
 YM
 YM
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
+hO
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+hb
 YM
 YM
-Wv
-Wv
-Wv
-Wv
-Wv
+nJ
+JV
+JV
+JV
+CS
 YM
 YM
-Wv
-Wv
-Wv
-Wv
+hO
+Bg
+Bg
+Bg
 YM
 YM
 YM
@@ -108678,45 +111047,45 @@ uK
 uK
 uK
 oG
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+EC
+EC
+EC
+EC
+EC
+EC
+EC
+EC
+EC
+EC
+EC
+EC
+EC
+EC
+EC
+EC
+EC
+EC
+EC
+EC
+EC
+EC
 oG
+kO
+Iu
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+WS
+WS
+WS
+WS
 oG
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-oG
 YM
 YM
 YM
@@ -108757,6 +111126,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -108765,18 +111135,17 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
-Wv
-Wv
-Wv
-Wv
+Ja
+Cw
+Cw
+sa
+Ue
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -108879,30 +111248,33 @@ WS
 WS
 WS
 WS
-oG
-oG
-oG
-oG
-oG
-oG
-oG
-oG
-oG
-oG
-oG
-oG
-oG
-oG
-oG
-oG
-oG
-oG
-oG
-oG
-oG
-oG
-oG
-oG
+BU
+cU
+ks
+ks
+ks
+ks
+ks
+ks
+ks
+ks
+ks
+ks
+ks
+ks
+ks
+ks
+ks
+ks
+ks
+ks
+ks
+ks
+ks
+KA
+AG
+HQ
+BU
 WS
 WS
 WS
@@ -108915,9 +111287,6 @@ WS
 WS
 WS
 WS
-WS
-WS
-WS
 oG
 YM
 YM
@@ -108959,6 +111328,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -108967,18 +111337,17 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
-Wv
-Wv
-Wv
-Wv
+qe
+Bt
+OS
+Bt
+Ue
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -109081,33 +111450,33 @@ WS
 WS
 WS
 WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+BU
+lw
+Wk
+KX
+KX
+KX
+KX
+KX
+Pk
+KX
+KX
+KX
+KX
+KX
+KX
+Pk
+KX
+KX
+KX
+KX
+KX
+Kc
+Wk
+Kc
+HQ
+HQ
+BU
 WS
 WS
 WS
@@ -109161,6 +111530,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -109169,18 +111539,17 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
-Wv
-Wv
-Wv
-Wv
+Ja
+ho
+ho
+Iq
+Ue
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -109283,33 +111652,33 @@ WS
 WS
 WS
 WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+BU
+ns
+mD
+jP
+jP
+jP
+jP
+jP
+lh
+jP
+jP
+jP
+jP
+jP
+jP
+lh
+jP
+jP
+jP
+jP
+jP
+ns
+mD
+BU
+BU
+BU
+BU
 WS
 WS
 WS
@@ -109363,6 +111732,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -109371,18 +111741,17 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
-Wv
-Wv
-Wv
-Wv
+fM
+CG
+CG
+CG
+uu
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -109485,30 +111854,30 @@ WS
 WS
 WS
 WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+BU
+BW
+Wk
+Xy
+Xy
+Xy
+Xy
+Xy
+Pk
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Pk
+Xy
+Xy
+Xy
+Xy
+Xy
+Kc
+Di
+BU
 WS
 WS
 WS
@@ -109565,6 +111934,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -109573,18 +111943,17 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
-Wv
-Wv
-Wv
-Wv
+nr
+dj
+dj
+dj
+SN
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -109687,30 +112056,30 @@ WS
 WS
 WS
 WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+BU
+ns
+mD
+jP
+jP
+jP
+jP
+jP
+lh
+jP
+jP
+jP
+jP
+jP
+jP
+lh
+jP
+jP
+jP
+jP
+jP
+ns
+mD
+BU
 WS
 WS
 WS
@@ -109767,6 +112136,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -109775,18 +112145,17 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
-Wv
-Wv
-Wv
-Wv
+nr
+dj
+Er
+dj
+SN
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -109889,30 +112258,30 @@ WS
 WS
 WS
 WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+BU
+BW
+Wk
+gs
+gs
+gs
+gs
+gs
+Pk
+gs
+gs
+gs
+gs
+gs
+gs
+Pk
+gs
+gs
+gs
+gs
+gs
+Kc
+Di
+BU
 WS
 WS
 WS
@@ -109969,6 +112338,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -109977,18 +112347,17 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
-Wv
-Wv
-Wv
-Wv
+nr
+dj
+zg
+dj
+SN
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -110091,30 +112460,30 @@ WS
 WS
 WS
 WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+BU
+ns
+mD
+jP
+jP
+jP
+jP
+jP
+lh
+jP
+jP
+jP
+jP
+jP
+jP
+lh
+jP
+jP
+jP
+jP
+jP
+ns
+mD
+BU
 WS
 WS
 WS
@@ -110171,6 +112540,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -110179,18 +112549,17 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
-Wv
-Wv
-Wv
-Wv
+nr
+dj
+Am
+dj
+SN
 YM
 YM
-Wv
+FW
 Wv
 Wv
 Wv
@@ -110293,30 +112662,30 @@ WS
 WS
 WS
 WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+BU
+kO
+HQ
+KA
+KA
+KA
+KA
+KA
+HQ
+KA
+KA
+KA
+KA
+KA
+KA
+HQ
+KA
+KA
+KA
+KA
+KA
+HQ
+he
+BU
 WS
 WS
 WS
@@ -110373,6 +112742,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -110381,21 +112751,20 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
-Wv
-Wv
-Wv
-Wv
-Wv
+qZ
+ic
+ic
+ic
+Av
 YM
 YM
-Wv
-Wv
-Wv
-Wv
+my
+AU
+AU
+AU
 YM
 YM
 YM
@@ -110495,30 +112864,30 @@ WS
 WS
 WS
 WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+BU
+kO
+hB
+hB
+hB
+hB
+hB
+hB
+hB
+hB
+hB
+hB
+hB
+hB
+hB
+hB
+hB
+hB
+hB
+hB
+hB
+hB
+he
+BU
 WS
 WS
 WS
@@ -110575,6 +112944,7 @@ YM
 YM
 YM
 YM
+FW
 Wv
 Wv
 Wv
@@ -110583,8 +112953,7 @@ Wv
 Wv
 Wv
 Wv
-Wv
-Wv
+DE
 YM
 YM
 YM
@@ -110697,30 +113066,30 @@ WS
 WS
 WS
 WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+BU
+ex
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+FV
+BU
 WS
 WS
 WS
@@ -110777,16 +113146,16 @@ YM
 YM
 YM
 YM
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
+my
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+uL
 YM
 YM
 YM
@@ -110899,30 +113268,30 @@ WS
 WS
 WS
 WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
+BU
 WS
 WS
 WS
@@ -110991,17 +113360,17 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+hO
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
 YM
 YM
 YM
@@ -111193,17 +113562,17 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -111383,6 +113752,19 @@ YM
 YM
 YM
 YM
+hO
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+hb
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -111393,19 +113775,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -111585,6 +113954,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -111595,19 +113977,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -111787,6 +114156,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -111797,19 +114179,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -111989,6 +114358,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -111999,19 +114381,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -112191,6 +114560,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -112201,19 +114583,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -112393,6 +114762,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -112403,19 +114785,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -112595,6 +114964,19 @@ YM
 YM
 YM
 YM
+my
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+uL
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -112605,19 +114987,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -112809,17 +115178,17 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -113011,17 +115380,17 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -113201,6 +115570,19 @@ YM
 YM
 YM
 YM
+hO
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+hb
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -113211,19 +115593,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -113403,6 +115772,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -113413,19 +115795,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -113605,6 +115974,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -113615,19 +115997,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -113807,6 +116176,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -113817,19 +116199,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -114009,6 +116378,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -114019,19 +116401,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -114211,6 +116580,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -114221,19 +116603,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -114413,6 +116782,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -114423,19 +116805,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -114615,6 +116984,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -114625,19 +117007,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -114817,6 +117186,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -114827,19 +117209,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -115019,6 +117388,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -115029,19 +117411,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -115221,6 +117590,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -115231,19 +117613,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -115423,6 +117792,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -115433,19 +117815,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -115625,6 +117994,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -115635,19 +118017,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -115827,6 +118196,19 @@ YM
 YM
 YM
 YM
+my
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+uL
+YM
+YM
+FW
 Wv
 Wv
 Wv
@@ -115837,19 +118219,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -115925,6 +118294,46 @@ YM
 YM
 YM
 YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
 YM
 YM
 YM
@@ -116001,57 +118410,17 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -116127,6 +118496,46 @@ YM
 YM
 YM
 YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
 YM
 YM
 YM
@@ -116203,57 +118612,17 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -116329,6 +118698,46 @@ YM
 YM
 YM
 YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+fR
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+ze
+jD
+jD
+fR
+lN
+lN
+lN
+lN
+ze
+jD
+jD
 YM
 YM
 YM
@@ -116355,6 +118764,13 @@ YM
 YM
 YM
 YM
+NC
+Ms
+Ms
+Ms
+Ms
+Ms
+QU
 YM
 YM
 YM
@@ -116386,53 +118802,19 @@ YM
 YM
 YM
 YM
+hO
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
+hb
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
 Wv
 Wv
 Wv
@@ -116443,19 +118825,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -116531,6 +118900,46 @@ YM
 YM
 YM
 YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+VS
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+mi
+jD
+jD
+VS
+RR
+sZ
+xi
+lr
+mi
+jD
+jD
 YM
 YM
 YM
@@ -116557,6 +118966,16 @@ YM
 YM
 YM
 YM
+VI
+gy
+gy
+gy
+gy
+gy
+BD
+Ms
+Ms
+QU
 YM
 YM
 YM
@@ -116585,56 +119004,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
 Wv
 Wv
 Wv
@@ -116645,19 +119027,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -116733,6 +119102,46 @@ YM
 YM
 YM
 YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+VS
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+mi
+jD
+jD
+VS
+cK
+cK
+cK
+cK
+mi
+jD
+jD
 YM
 YM
 YM
@@ -116759,9 +119168,28 @@ YM
 YM
 YM
 YM
+VI
+gy
+gy
+gy
+gy
+gy
+cx
+ft
+ft
+gC
 YM
 YM
 YM
+Tb
+yx
+yx
+yx
+yx
+yx
+yx
+yx
+PG
 YM
 YM
 YM
@@ -116778,65 +119206,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
 Wv
 Wv
 Wv
@@ -116847,19 +119229,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -116935,6 +119304,46 @@ YM
 YM
 YM
 YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+VS
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+mi
+jD
+jD
+VS
+cK
+cK
+cK
+cK
+mi
+jD
+jD
 YM
 YM
 YM
@@ -116961,9 +119370,28 @@ YM
 YM
 YM
 YM
+VI
+uF
+lb
+bR
+gy
+gy
+gj
+xr
+Ob
+xP
 YM
 YM
 YM
+dd
+IJ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+CJ
 YM
 YM
 YM
@@ -116980,65 +119408,19 @@ YM
 YM
 YM
 YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
 Wv
 Wv
 Wv
@@ -117049,19 +119431,6 @@ Wv
 Wv
 Wv
 Wv
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
 YM
 YM
 YM
@@ -117137,6 +119506,46 @@ YM
 YM
 YM
 YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+VS
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+mi
+jD
+jD
+VS
+cK
+cK
+cK
+cK
+mi
+jD
+jD
 YM
 YM
 YM
@@ -117163,9 +119572,28 @@ YM
 YM
 YM
 YM
+VI
+gy
+gy
+gy
+gy
+gy
+gj
+vA
+Ob
+xP
 YM
 YM
 YM
+dd
+zV
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+CJ
 YM
 YM
 YM
@@ -117182,88 +119610,29 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -117339,6 +119708,46 @@ YM
 YM
 YM
 YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+JD
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Tk
+jD
+jD
+VS
+cK
+cK
+cK
+cK
+mi
+jD
+jD
 YM
 YM
 YM
@@ -117365,9 +119774,28 @@ YM
 YM
 YM
 YM
+VI
+gy
+gy
+gy
+gy
+gy
+gj
+xr
+Ob
+xP
 YM
 YM
 YM
+dd
+Wl
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+CJ
 YM
 YM
 YM
@@ -117384,88 +119812,29 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -117541,6 +119910,46 @@ YM
 YM
 YM
 YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+VS
+cK
+cK
+cK
+cK
+mi
+jD
+jD
 YM
 YM
 YM
@@ -117567,9 +119976,28 @@ YM
 YM
 YM
 YM
+Is
+Hn
+gy
+gy
+gy
+gy
+DS
+wU
+wU
+nQ
 YM
 YM
 YM
+dd
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+CJ
 YM
 YM
 YM
@@ -117586,88 +120014,29 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -117743,6 +120112,46 @@ YM
 YM
 YM
 YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+VS
+cK
+cK
+cK
+cK
+mi
+jD
+jD
 YM
 YM
 YM
@@ -117770,9 +120179,27 @@ YM
 YM
 YM
 YM
+VI
+gy
+gy
+gy
+gy
+Qt
+cW
+cW
+hY
 YM
 YM
 YM
+dd
+WZ
+WZ
+WZ
+mc
+Bp
+Bp
+Bp
+pj
 YM
 YM
 YM
@@ -117789,87 +120216,29 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -117945,6 +120314,46 @@ YM
 YM
 YM
 YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+VS
+cK
+cK
+cK
+cK
+mi
+jD
+jD
 YM
 YM
 YM
@@ -117972,12 +120381,27 @@ YM
 YM
 YM
 YM
+VI
+gy
+gy
+gy
+gy
+ek
 YM
 YM
 YM
 YM
 YM
 YM
+dd
+WZ
+WZ
+WZ
+hQ
+tB
+ur
+vG
+KS
 YM
 YM
 YM
@@ -117994,84 +120418,29 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -118147,6 +120516,46 @@ YM
 YM
 YM
 YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+VS
+cK
+cK
+cK
+cK
+mi
+jD
+jD
 YM
 YM
 YM
@@ -118174,12 +120583,27 @@ YM
 YM
 YM
 YM
+VI
+gy
+gy
+gy
+gy
+ek
 YM
 YM
 YM
 YM
 YM
 YM
+dd
+WZ
+WZ
+WZ
+GV
+wy
+wy
+wy
+KS
 YM
 YM
 YM
@@ -118196,84 +120620,29 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -118349,6 +120718,46 @@ YM
 YM
 YM
 YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+fR
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+lN
+Bw
+FJ
+FJ
+FJ
+FJ
+sN
+jD
+jD
 YM
 YM
 YM
@@ -118376,12 +120785,27 @@ YM
 YM
 YM
 YM
+VI
+gy
+gy
+gy
+gy
+ek
 YM
 YM
 YM
 YM
 YM
 YM
+sL
+wO
+wO
+wO
+em
+vu
+vu
+vu
+fq
 YM
 YM
 YM
@@ -118398,84 +120822,29 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -118551,6 +120920,46 @@ YM
 YM
 YM
 YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+VS
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+nx
+HK
+JG
+JG
+Qi
+Zu
+jD
+jD
 YM
 YM
 YM
@@ -118578,6 +120987,12 @@ YM
 YM
 YM
 YM
+Is
+cW
+cW
+cW
+cW
+hY
 YM
 YM
 YM
@@ -118609,75 +121024,29 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -118753,6 +121122,46 @@ YM
 YM
 YM
 YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+VS
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+lD
+JG
+JG
+jf
+JG
+Zu
+jD
+jD
 YM
 YM
 YM
@@ -118817,69 +121226,29 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -118955,6 +121324,46 @@ YM
 YM
 YM
 YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+VS
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+lD
+JG
+jf
+JG
+JG
+Zu
+jD
+jD
 YM
 YM
 YM
@@ -119019,69 +121428,29 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -119157,6 +121526,46 @@ YM
 YM
 YM
 YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+VS
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+nx
+IY
+IY
+IY
+MJ
+Zu
+jD
+jD
 YM
 YM
 YM
@@ -119221,69 +121630,29 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+DE
+YM
+YM
+FW
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
 YM
 YM
 YM
@@ -119359,6 +121728,46 @@ YM
 YM
 YM
 YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+JD
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Uo
+wf
+wf
+wf
+wf
+Ke
+jD
+jD
 YM
 YM
 YM
@@ -119423,69 +121832,29 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+my
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+uL
+YM
+YM
+my
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
+AU
 YM
 YM
 YM
@@ -119561,46 +121930,46 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
 YM
 YM
 YM
@@ -119763,46 +122132,46 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-YM
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
 YM
 YM
 YM
@@ -119965,12 +122334,12 @@ YM
 YM
 YM
 YM
-YM
-YM
-YM
-YM
-YM
-YM
+jD
+jD
+jD
+jD
+jD
+jD
 YM
 YM
 YM
@@ -121417,17 +123786,17 @@ YM
 YM
 YM
 IK
-fV
-tX
-tX
-tX
-tX
-tX
-tX
-tX
-tX
-tX
-uN
+IK
+IK
+IK
+IK
+IK
+IK
+IK
+IK
+IK
+IK
+IK
 IK
 YM
 YM
@@ -121619,7 +123988,7 @@ YM
 YM
 YM
 IK
-Mh
+IK
 Le
 ZM
 ZM
@@ -121629,7 +123998,7 @@ ZM
 ZM
 ZM
 vf
-kZ
+IK
 IK
 YM
 YM
@@ -121821,7 +124190,7 @@ YM
 YM
 YM
 IK
-Mh
+IK
 Rf
 mf
 cz
@@ -121831,7 +124200,7 @@ LV
 hp
 mf
 av
-kZ
+IK
 IK
 YM
 YM
@@ -122023,7 +124392,7 @@ YM
 YM
 YM
 IK
-Mh
+IK
 Rf
 mf
 IH
@@ -122033,7 +124402,7 @@ zA
 FG
 mf
 av
-kZ
+IK
 IK
 YM
 YM
@@ -122225,17 +124594,17 @@ YM
 YM
 YM
 IK
-Mh
+IK
 Rf
 mf
 IH
 YB
-YB
+Pf
 YB
 FG
 mf
 av
-kZ
+IK
 IK
 YM
 YM
@@ -122427,17 +124796,17 @@ YM
 YM
 YM
 IK
-Mh
+IK
 Rf
 mf
 IH
 YB
-Pf
+YB
 YB
 FG
 mf
 av
-kZ
+IK
 IK
 YM
 YM
@@ -122629,17 +124998,17 @@ YM
 YM
 YM
 IK
-Mh
+IK
 Rf
 mf
 IH
 YB
-YB
+Pf
 YB
 FG
 mf
 av
-kZ
+IK
 IK
 YM
 YM
@@ -122831,7 +125200,7 @@ YM
 YM
 YM
 IK
-Mh
+IK
 Rf
 mf
 IH
@@ -122841,7 +125210,7 @@ Dd
 FG
 mf
 av
-kZ
+IK
 IK
 YM
 YM
@@ -123033,7 +125402,7 @@ YM
 YM
 YM
 IK
-Mh
+IK
 Rf
 mf
 Zw
@@ -123043,7 +125412,7 @@ Gq
 eF
 mf
 av
-kZ
+IK
 IK
 YM
 YM
@@ -123235,7 +125604,7 @@ YM
 YM
 YM
 IK
-Mh
+IK
 iN
 OM
 lv
@@ -123245,7 +125614,7 @@ mf
 oL
 OM
 Db
-kZ
+IK
 IK
 YM
 YM
@@ -123437,17 +125806,17 @@ YM
 YM
 YM
 IK
-qA
-OE
-QL
+IK
+IK
+IK
 Rf
 mf
-mf
+JK
 mf
 av
-dY
-OE
-TP
+IK
+IK
+IK
 IK
 YM
 YM
@@ -123641,13 +126010,13 @@ YM
 IK
 IK
 IK
-Mh
+IK
 Rf
 mf
-mf
+Xt
 mf
 av
-kZ
+IK
 IK
 IK
 IK
@@ -123843,13 +126212,13 @@ YM
 IK
 IK
 IK
-Mh
+IK
 Rf
 mf
-mf
+Uw
 mf
 av
-kZ
+IK
 IK
 IK
 IK
@@ -124045,13 +126414,13 @@ YM
 IK
 IK
 IK
-Mh
+IK
 iN
 OM
 OM
 OM
 Db
-kZ
+IK
 IK
 IK
 IK
@@ -124247,13 +126616,13 @@ YM
 IK
 IK
 IK
-qA
-OE
-OE
-OE
-OE
-OE
-TP
+IK
+IK
+IK
+IK
+IK
+IK
+IK
 IK
 IK
 IK
